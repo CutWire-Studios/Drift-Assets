@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "callout-circle-scribble",
+  "name": "Circle Scribble",
+  "type": "lottie",
+  "category": "callouts",
+  "file": "callout-circle-scribble.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Red marker circle scribbled around a subject, with the classic overshooting end.",
+  "tags": [
+    "circle",
+    "scribble",
+    "highlight",
+    "thumbnail",
+    "marker",
+    "hand-drawn"
+  ],
+  "width": 640,
+  "height": 440,
+  "fps": 30,
+  "duration": 1.2,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FF2D2D"
+  },
+  "textArea": null
+}

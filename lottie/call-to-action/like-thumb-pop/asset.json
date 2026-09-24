@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "like-thumb-pop",
+  "name": "Like Thumb Pop",
+  "type": "lottie",
+  "category": "call-to-action",
+  "file": "like-thumb-pop.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Outlined thumbs-up that pops in, fills with colour and bounces with a particle burst.",
+  "tags": [
+    "like",
+    "thumbs up",
+    "youtube",
+    "reaction"
+  ],
+  "width": 440,
+  "height": 440,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#3EA6FF",
+    "outline": "#FFFFFF",
+    "accent": "#9AD2FF"
+  },
+  "textArea": null
+}

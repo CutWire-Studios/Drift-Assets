@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "underline-scribble",
+  "name": "Underline Scribble",
+  "type": "lottie",
+  "category": "callouts",
+  "file": "underline-scribble.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Quick hand-drawn double underline: a long marker stroke and a shorter return stroke.",
+  "tags": [
+    "underline",
+    "scribble",
+    "marker",
+    "emphasis",
+    "hand-drawn",
+    "text"
+  ],
+  "width": 800,
+  "height": 160,
+  "fps": 30,
+  "duration": 1.0,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FF2D2D"
+  },
+  "textArea": null
+}

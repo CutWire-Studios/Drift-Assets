@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "id": "crown-gold",
+  "name": "Gold Crown",
+  "type": "face-prop",
+  "model": "crown-gold.glb",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Polished gold five-point royal crown set with red and blue cabochon gems, worn at a slight tilt.",
+  "tags": [
+    "crown",
+    "king",
+    "queen",
+    "royal",
+    "gold",
+    "hat",
+    "jewel"
+  ],
+  "anchor": "eyes",
+  "params": {
+    "scale": 0.8572,
+    "offsetX": -0.0434,
+    "offsetY": 0.8242,
+    "offsetZ": -0.5022,
+    "rotX": 0,
+    "rotY": 0,
+    "rotZ": 0,
+    "occlusion": true
+  }
+}

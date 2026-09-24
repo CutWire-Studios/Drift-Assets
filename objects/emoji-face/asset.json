@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "emoji-face",
+  "name": "Emoji Face",
+  "type": "object",
+  "file": "emoji-face.glb",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Glossy yellow smiley face with 3D eyes and smile, looking around.",
+  "tags": [
+    "emoji",
+    "smile",
+    "happy",
+    "face",
+    "reaction",
+    "social"
+  ],
+  "animation": {
+    "name": "LookAround",
+    "duration": 4.0,
+    "loop": true
+  }
+}

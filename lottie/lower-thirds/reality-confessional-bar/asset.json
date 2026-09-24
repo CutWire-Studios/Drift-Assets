@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "id": "reality-confessional-bar",
+  "name": "Reality Confessional Bar",
+  "type": "lottie",
+  "category": "lower-thirds",
+  "file": "reality-confessional-bar.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Reality-TV confessional lower third: a soft semi-transparent white name bar with a coral accent line and pink subtitle plate.",
+  "tags": [
+    "lower third",
+    "reality tv",
+    "confessional",
+    "name",
+    "interview",
+    "soft",
+    "pink"
+  ],
+  "width": 900,
+  "height": 200,
+  "fps": 30,
+  "duration": 5.0,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "accent": "#FF6F61",
+    "primary": "#FFFFFF",
+    "secondary": "#FF8FA3"
+  },
+  "textArea": [
+    62,
+    50,
+    752,
+    58
+  ],
+  "textAreas": {
+    "name": [
+      62,
+      50,
+      752,
+      58
+    ],
+    "subtitle": [
+      62,
+      123,
+      422,
+      32
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "id": "level-up-burst",
+  "name": "Level Up Burst",
+  "type": "lottie",
+  "category": "gaming",
+  "file": "level-up-burst.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Gold level-up burst: light rays, a shockwave ring and rising sparkles around an upward arrow. One-shot (1.5 s) that ends empty.",
+  "tags": [
+    "level up",
+    "levelup",
+    "burst",
+    "arrow",
+    "upgrade",
+    "gaming",
+    "reward"
+  ],
+  "width": 500,
+  "height": 500,
+  "fps": 30,
+  "duration": 1.5,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FFC21A",
+    "accent": "#FFF1A8",
+    "outline": "#8A4B00"
+  },
+  "textArea": null
+}

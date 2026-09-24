@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "id": "heart-burst",
+  "name": "Heart Burst",
+  "type": "lottie",
+  "category": "reactions",
+  "file": "heart-burst.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Hearts float up with a gentle wobble, pop in and fade out; staggered so it is never empty. Seamless loop.",
+  "tags": [
+    "heart",
+    "love",
+    "like",
+    "hearts",
+    "reaction",
+    "valentine"
+  ],
+  "width": 400,
+  "height": 560,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FF3B6B",
+    "secondary": "#FF8FB1"
+  },
+  "textArea": null
+}

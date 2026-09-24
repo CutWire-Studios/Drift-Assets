@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "id": "pixel-hearts-lives",
+  "name": "Pixel Hearts Lives",
+  "type": "lottie",
+  "category": "gaming",
+  "file": "pixel-hearts-lives.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Three pixel-art hearts; the last one shakes, flashes and shatters, leaving an empty heart (losing a life).",
+  "tags": [
+    "hearts",
+    "lives",
+    "life",
+    "pixel",
+    "retro",
+    "8-bit",
+    "gaming",
+    "damage"
+  ],
+  "width": 430,
+  "height": 180,
+  "fps": 30,
+  "duration": 1.5,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#E8283C",
+    "outline": "#1B0B12",
+    "background": "#4E4356"
+  },
+  "textArea": null
+}

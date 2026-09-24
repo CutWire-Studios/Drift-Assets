@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "id": "question-marks-pop",
+  "name": "Question Marks Pop",
+  "type": "lottie",
+  "category": "callouts",
+  "file": "question-marks-pop.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Three chunky question marks pop in one after another and wobble in confusion, then pop away; loops seamlessly.",
+  "tags": [
+    "question",
+    "confused",
+    "huh",
+    "reaction",
+    "thinking",
+    "cartoon"
+  ],
+  "width": 460,
+  "height": 380,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FF2D2D",
+    "outline": "#141414"
+  },
+  "textArea": null
+}

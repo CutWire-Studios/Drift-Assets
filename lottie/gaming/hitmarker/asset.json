@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "id": "hitmarker",
+  "name": "Hitmarker",
+  "type": "lottie",
+  "category": "gaming",
+  "file": "hitmarker.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "FPS-style hitmarker: four white diagonal ticks snap in with a scale punch and fade out. One-shot (0.4 s) that ends empty; stack copies on each hit.",
+  "tags": [
+    "hitmarker",
+    "hit",
+    "fps",
+    "shooter",
+    "crosshair",
+    "gaming",
+    "sfx"
+  ],
+  "width": 200,
+  "height": 200,
+  "fps": 30,
+  "duration": 0.4,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FFFFFF"
+  },
+  "textArea": null
+}

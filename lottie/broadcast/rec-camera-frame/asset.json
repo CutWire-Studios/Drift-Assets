@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "id": "rec-camera-frame",
+  "name": "REC Camera Frame",
+  "type": "lottie",
+  "category": "broadcast",
+  "file": "rec-camera-frame.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Camcorder viewfinder overlay: corner brackets, blinking red REC dot, battery and crosshair. Add REC next to the dot with the text tool.",
+  "tags": [
+    "rec",
+    "camera",
+    "camcorder",
+    "viewfinder",
+    "recording",
+    "overlay"
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 1.0,
+  "playback": "loop",
+  "slots": {
+    "icon": "#FFFFFF",
+    "primary": "#F0201B"
+  },
+  "textArea": [
+    240,
+    138,
+    260,
+    64
+  ]
+}

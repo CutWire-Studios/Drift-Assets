@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "id": "pixel-deal-with-it-glasses",
+  "name": "Pixel Deal With It Glasses",
+  "type": "face-prop",
+  "model": "pixel-deal-with-it-glasses.glb",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "8-bit 'deal with it' meme sunglasses built from black voxel blocks with white highlight pixels.",
+  "tags": [
+    "glasses",
+    "sunglasses",
+    "meme",
+    "pixel",
+    "8-bit",
+    "deal with it",
+    "funny"
+  ],
+  "anchor": "eyes",
+  "params": {
+    "scale": 1.04,
+    "offsetX": 0.0,
+    "offsetY": -0.01,
+    "offsetZ": -0.135,
+    "rotX": 0,
+    "rotY": 0,
+    "rotZ": 0,
+    "occlusion": true
+  }
+}

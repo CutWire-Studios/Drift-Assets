@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "id": "mystery-block",
+  "name": "Mystery Block",
+  "type": "object",
+  "file": "mystery-block.glb",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Golden riveted block with a raised question mark on every side; it bobs, then bumps up with a squash and stretch.",
+  "tags": [
+    "mystery",
+    "question",
+    "block",
+    "game",
+    "retro",
+    "pickup",
+    "gaming"
+  ],
+  "animation": {
+    "name": "BumpHop",
+    "duration": 3.0,
+    "loop": true
+  }
+}

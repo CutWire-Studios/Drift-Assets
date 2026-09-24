@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "callout-arrow-handdrawn",
+  "name": "Hand-Drawn Arrow",
+  "type": "lottie",
+  "category": "callouts",
+  "file": "callout-arrow-handdrawn.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Marker-style curved arrow drawn on: the shaft sweeps up, then the head is flicked on.",
+  "tags": [
+    "arrow",
+    "pointer",
+    "marker",
+    "hand-drawn",
+    "thumbnail",
+    "callout"
+  ],
+  "width": 520,
+  "height": 400,
+  "fps": 30,
+  "duration": 1.2,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FF2D2D"
+  },
+  "textArea": null
+}

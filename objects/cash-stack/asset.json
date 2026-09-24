@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "id": "cash-stack",
+  "name": "Cash Stack",
+  "type": "object",
+  "file": "cash-stack.glb",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Pile of four banded bundles of green banknotes, slowly spinning and bobbing like a game money pickup.",
+  "tags": [
+    "cash",
+    "money",
+    "banknotes",
+    "stack",
+    "pickup",
+    "gaming",
+    "spin"
+  ],
+  "animation": {
+    "name": "SpinBob",
+    "duration": 4.0,
+    "loop": true
+  }
+}

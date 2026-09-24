@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "gift-box",
+  "name": "Gift Box",
+  "type": "object",
+  "file": "gift-box.glb",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Red gift box with a gold ribbon and bow; the lid hops up and settles while the box wiggles.",
+  "tags": [
+    "gift",
+    "present",
+    "box",
+    "birthday",
+    "surprise",
+    "giveaway"
+  ],
+  "animation": {
+    "name": "Hop",
+    "duration": 3.0,
+    "loop": true
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "id": "confetti-burst",
+  "name": "Confetti Burst",
+  "type": "lottie",
+  "category": "reactions",
+  "file": "confetti-burst.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "One-shot confetti cannon: rectangles, dots and strips burst upward, tumble over with gravity and flutter down while fading out; ends empty.",
+  "tags": [
+    "confetti",
+    "party",
+    "celebration",
+    "burst",
+    "congrats",
+    "reaction"
+  ],
+  "width": 800,
+  "height": 700,
+  "fps": 30,
+  "duration": 2.5,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FF4D6D",
+    "secondary": "#FFC93C",
+    "accent": "#2EC4B6"
+  },
+  "textArea": null
+}

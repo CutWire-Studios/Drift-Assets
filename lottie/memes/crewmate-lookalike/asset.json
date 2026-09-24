@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "id": "crewmate-lookalike",
+  "name": "Space Crewmate",
+  "type": "lottie",
+  "category": "memes",
+  "file": "crewmate-lookalike.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Bean-shaped space crewmate with a visor and backpack waddling in place. Seamless loop.",
+  "tags": [
+    "crewmate",
+    "space",
+    "impostor",
+    "sus",
+    "character",
+    "meme",
+    "walk"
+  ],
+  "width": 400,
+  "height": 460,
+  "fps": 30,
+  "duration": 1.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#E03A3E",
+    "accent": "#A8DDF0"
+  },
+  "textArea": null
+}

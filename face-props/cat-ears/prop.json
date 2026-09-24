@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "cat-ears",
+  "name": "Cat Ears",
+  "type": "face-prop",
+  "model": "cat-ears.glb",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Cat ears with pink inners on a thin headband.",
+  "tags": [
+    "cat",
+    "ears",
+    "kitty",
+    "cute",
+    "headband"
+  ],
+  "anchor": "eyes",
+  "params": {
+    "scale": 1.006,
+    "offsetX": 0.0,
+    "offsetY": 0.3685,
+    "offsetZ": -0.3517,
+    "rotX": 0,
+    "rotY": 0,
+    "rotZ": 0,
+    "occlusion": true
+  }
+}

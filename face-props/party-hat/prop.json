@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "id": "party-hat",
+  "name": "Party Hat",
+  "type": "face-prop",
+  "model": "party-hat.glb",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Striped pink, teal and yellow cone party hat with a fluffy pom-pom, perched on top of the head at a jaunty angle.",
+  "tags": [
+    "party",
+    "hat",
+    "birthday",
+    "celebration",
+    "cone",
+    "fun"
+  ],
+  "anchor": "eyes",
+  "params": {
+    "scale": 0.5634,
+    "offsetX": 0.1785,
+    "offsetY": 1.0883,
+    "offsetZ": -0.4417,
+    "rotX": 0,
+    "rotY": 0,
+    "rotZ": 0,
+    "occlusion": true
+  }
+}

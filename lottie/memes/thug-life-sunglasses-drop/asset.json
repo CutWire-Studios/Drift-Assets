@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "id": "thug-life-sunglasses-drop",
+  "name": "Deal With It Sunglasses",
+  "type": "lottie",
+  "category": "memes",
+  "file": "thug-life-sunglasses-drop.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Black pixel-art sunglasses drop from the top and snap into place with a tiny bounce, then hold. Place over a face.",
+  "tags": [
+    "sunglasses",
+    "deal with it",
+    "thug life",
+    "pixel",
+    "meme",
+    "cool",
+    "glasses"
+  ],
+  "width": 600,
+  "height": 200,
+  "fps": 30,
+  "duration": 1.5,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#000000",
+    "secondary": "#FFFFFF"
+  },
+  "textArea": null
+}

@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "devil-horns",
+  "name": "Devil Horns",
+  "type": "face-prop",
+  "model": "devil-horns.glb",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Glossy red curved devil horns rising from the top of the forehead.",
+  "tags": [
+    "devil",
+    "horns",
+    "halloween",
+    "demon",
+    "red"
+  ],
+  "anchor": "eyes",
+  "params": {
+    "scale": 0.7176,
+    "offsetX": -0.0,
+    "offsetY": 0.8062,
+    "offsetZ": -0.1603,
+    "rotX": 0,
+    "rotY": 0,
+    "rotZ": 0,
+    "occlusion": true
+  }
+}

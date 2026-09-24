@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "like-thumb",
+  "name": "Like Thumb",
+  "type": "object",
+  "file": "like-thumb.glb",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Chunky glossy blue thumbs-up icon that tilts and pops.",
+  "tags": [
+    "like",
+    "thumbs-up",
+    "youtube",
+    "social",
+    "approve",
+    "call-to-action"
+  ],
+  "animation": {
+    "name": "Pop",
+    "duration": 2.0,
+    "loop": true
+  }
+}

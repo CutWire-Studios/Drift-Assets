@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "id": "exclamation-alert",
+  "name": "Exclamation Alert",
+  "type": "lottie",
+  "category": "callouts",
+  "file": "exclamation-alert.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Red exclamation mark that pops up and shakes with alert lines, stealth-game style.",
+  "tags": [
+    "exclamation",
+    "alert",
+    "surprise",
+    "warning",
+    "attention",
+    "reaction"
+  ],
+  "width": 380,
+  "height": 480,
+  "fps": 30,
+  "duration": 1.0,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FF2D2D",
+    "outline": "#141414"
+  },
+  "textArea": null
+}

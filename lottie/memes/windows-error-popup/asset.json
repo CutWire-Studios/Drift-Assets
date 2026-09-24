@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "id": "windows-error-popup",
+  "name": "Retro Error Popup",
+  "type": "lottie",
+  "category": "memes",
+  "file": "windows-error-popup.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Retro late-90s desktop error dialog with a gradient title bar, red error icon and an OK button that pops in with a small bounce. Put your message beside the icon.",
+  "tags": [
+    "error",
+    "popup",
+    "dialog",
+    "retro",
+    "windows",
+    "90s",
+    "meme",
+    "computer"
+  ],
+  "width": 700,
+  "height": 330,
+  "fps": 30,
+  "duration": 1.0,
+  "playback": "intro-hold",
+  "slots": {
+    "background": "#C0C0C0",
+    "primary": "#E2231A"
+  },
+  "textArea": [
+    158,
+    100,
+    490,
+    104
+  ]
+}

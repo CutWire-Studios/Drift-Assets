@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "id": "live-badge",
+  "name": "Live Badge",
+  "type": "lottie",
+  "category": "broadcast",
+  "file": "live-badge.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Red broadcast LIVE badge with a pulsing white dot; add the word LIVE with the text tool.",
+  "tags": [
+    "live",
+    "badge",
+    "broadcast",
+    "stream",
+    "news"
+  ],
+  "width": 340,
+  "height": 140,
+  "fps": 30,
+  "duration": 1.5,
+  "playback": "loop",
+  "slots": {
+    "primary": "#E91916",
+    "icon": "#FFFFFF"
+  },
+  "textArea": [
+    100,
+    30,
+    206,
+    80
+  ]
+}

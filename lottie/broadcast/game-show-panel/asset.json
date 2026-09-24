@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "id": "game-show-panel",
+  "name": "Game Show Panel",
+  "type": "lottie",
+  "category": "broadcast",
+  "file": "game-show-panel.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Big quiz-show question plate: deep blue face with a bevelled gold frame that opens out and catches a light sweep.",
+  "tags": [
+    "quiz",
+    "game show",
+    "question",
+    "trivia",
+    "panel",
+    "plate",
+    "gold"
+  ],
+  "width": 1400,
+  "height": 420,
+  "fps": 30,
+  "duration": 2.5,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#0B2470"
+  },
+  "textArea": [
+    80,
+    70,
+    1240,
+    280
+  ]
+}

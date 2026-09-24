@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "mustache",
+  "name": "Handlebar Mustache",
+  "type": "face-prop",
+  "model": "mustache.glb",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Black handlebar mustache with curled tips, sitting on the upper lip.",
+  "tags": [
+    "mustache",
+    "moustache",
+    "handlebar",
+    "gentleman",
+    "funny"
+  ],
+  "anchor": "eyes",
+  "params": {
+    "scale": 0.4,
+    "offsetX": 0.0,
+    "offsetY": -0.31,
+    "offsetZ": 0.1,
+    "rotX": 0,
+    "rotY": 0,
+    "rotZ": 0,
+    "occlusion": true
+  }
+}

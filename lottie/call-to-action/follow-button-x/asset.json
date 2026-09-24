@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "id": "follow-button-x",
+  "name": "Follow Button X",
+  "type": "lottie",
+  "category": "call-to-action",
+  "file": "follow-button-x.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Black follow pill with a white outline and the X logo; a pointer clicks it and the outline pulses. Put your own \"Follow\" text inside the pill.",
+  "tags": [
+    "follow",
+    "x",
+    "twitter",
+    "button",
+    "click",
+    "cursor",
+    "social"
+  ],
+  "width": 640,
+  "height": 300,
+  "fps": 30,
+  "duration": 4.0,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "primary": "#000000",
+    "outline": "#FFFFFF"
+  },
+  "textArea": [
+    196,
+    88,
+    334,
+    84
+  ]
+}

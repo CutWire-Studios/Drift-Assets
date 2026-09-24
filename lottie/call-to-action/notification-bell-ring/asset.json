@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "notification-bell-ring",
+  "name": "Notification Bell Ring",
+  "type": "lottie",
+  "category": "call-to-action",
+  "file": "notification-bell-ring.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Bell swinging with a lagging clapper, sound waves and a notification badge that pops in. Seamless loop.",
+  "tags": [
+    "bell",
+    "notification",
+    "subscribe",
+    "youtube",
+    "alert"
+  ],
+  "width": 440,
+  "height": 440,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FFC83D",
+    "accent": "#FF3B30"
+  },
+  "textArea": null
+}

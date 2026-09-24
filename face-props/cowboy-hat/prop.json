@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "id": "cowboy-hat",
+  "name": "Cowboy Hat",
+  "type": "face-prop",
+  "model": "cowboy-hat.glb",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Brown felt cowboy hat with curled brim sides, a pinched cattleman crown, leather band and silver concho.",
+  "tags": [
+    "cowboy",
+    "hat",
+    "western",
+    "rodeo",
+    "country",
+    "felt"
+  ],
+  "anchor": "eyes",
+  "params": {
+    "scale": 1.491,
+    "offsetX": -0.0155,
+    "offsetY": 0.6802,
+    "offsetZ": -0.5238,
+    "rotX": 0,
+    "rotY": 0,
+    "rotZ": 0,
+    "occlusion": true
+  }
+}

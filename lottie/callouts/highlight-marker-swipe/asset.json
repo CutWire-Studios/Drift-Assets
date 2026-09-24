@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "highlight-marker-swipe",
+  "name": "Highlighter Swipe",
+  "type": "lottie",
+  "category": "callouts",
+  "file": "highlight-marker-swipe.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Translucent yellow highlighter stroke swiped left to right behind a word or line.",
+  "tags": [
+    "highlight",
+    "highlighter",
+    "marker",
+    "emphasis",
+    "hand-drawn",
+    "text"
+  ],
+  "width": 800,
+  "height": 140,
+  "fps": 30,
+  "duration": 1.0,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FFD60A"
+  },
+  "textArea": null
+}

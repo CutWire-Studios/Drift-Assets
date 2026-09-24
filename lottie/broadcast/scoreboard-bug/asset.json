@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "id": "scoreboard-bug",
+  "name": "Scoreboard Bug",
+  "type": "lottie",
+  "category": "broadcast",
+  "file": "scoreboard-bug.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Sports score bug with two team colour chips, empty team-name, score and clock boxes. Text area covers the whole bar; place names, scores and clock inside their boxes.",
+  "tags": [
+    "scoreboard",
+    "score",
+    "sports",
+    "broadcast",
+    "bug",
+    "football",
+    "soccer"
+  ],
+  "width": 846,
+  "height": 140,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "intro-hold",
+  "slots": {
+    "background": "#111111",
+    "primary": "#D7263D",
+    "secondary": "#1C6FE0",
+    "accent": "#F5B700",
+    "icon": "#34343D"
+  },
+  "textArea": [
+    30,
+    30,
+    786,
+    80
+  ]
+}

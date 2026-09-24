@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "id": "emoji-skull",
+  "name": "Emoji Skull",
+  "type": "lottie",
+  "category": "reactions",
+  "file": "emoji-skull.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Cartoon skull that pops with a squash and stretch, then rattles with a chattering jaw. Seamless loop.",
+  "tags": [
+    "emoji",
+    "skull",
+    "dead",
+    "im dead",
+    "funny",
+    "reaction",
+    "spooky"
+  ],
+  "width": 460,
+  "height": 460,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#F4F1E8",
+    "secondary": "#2A2233"
+  },
+  "textArea": null
+}

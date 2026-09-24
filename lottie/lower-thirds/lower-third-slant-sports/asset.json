@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "id": "lower-third-slant-sports",
+  "name": "Slant Sports Lower Third",
+  "type": "lottie",
+  "category": "lower-thirds",
+  "file": "lower-third-slant-sports.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Energetic sports lower third: slanted bars slam in with a staggered diagonal wipe and a glint.",
+  "tags": [
+    "lower third",
+    "sports",
+    "slant",
+    "name",
+    "player",
+    "dynamic",
+    "broadcast"
+  ],
+  "width": 1080,
+  "height": 220,
+  "fps": 30,
+  "duration": 5.0,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "accent": "#FFD100",
+    "primary": "#12161F",
+    "secondary": "#E4002B"
+  },
+  "textArea": [
+    217.0,
+    50,
+    750,
+    72
+  ],
+  "textAreas": {
+    "name": [
+      217.0,
+      50,
+      750,
+      72
+    ],
+    "subtitle": [
+      190.0,
+      148,
+      490,
+      32
+    ],
+    "badge": [
+      62,
+      66,
+      84,
+      90
+    ]
+  }
+}

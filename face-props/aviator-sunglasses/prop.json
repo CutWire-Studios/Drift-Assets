@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "id": "aviator-sunglasses",
+  "name": "Aviator Sunglasses",
+  "type": "face-prop",
+  "model": "aviator-sunglasses.glb",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Classic gold wire-frame aviator sunglasses with dark mirrored teardrop lenses, nose pads and temples.",
+  "tags": [
+    "glasses",
+    "sunglasses",
+    "aviator",
+    "gold",
+    "cool",
+    "pilot"
+  ],
+  "anchor": "eyes",
+  "params": {
+    "scale": 1.0747,
+    "offsetX": 0.0,
+    "offsetY": -0.0373,
+    "offsetZ": -0.1958,
+    "rotX": 0,
+    "rotY": 0,
+    "rotZ": 0,
+    "occlusion": true
+  }
+}

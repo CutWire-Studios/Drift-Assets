@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "id": "follow-button-instagram",
+  "name": "Follow Button Instagram",
+  "type": "lottie",
+  "category": "call-to-action",
+  "file": "follow-button-instagram.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Instagram app icon with a blue follow pill that slides out; a pointer clicks it and it turns grey. Put your own \"Follow\" text inside the pill.",
+  "tags": [
+    "follow",
+    "instagram",
+    "button",
+    "click",
+    "cursor",
+    "social"
+  ],
+  "width": 680,
+  "height": 290,
+  "fps": 30,
+  "duration": 4.0,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "primary": "#0095F6",
+    "secondary": "#363636"
+  },
+  "textArea": [
+    210,
+    88,
+    398,
+    72
+  ]
+}

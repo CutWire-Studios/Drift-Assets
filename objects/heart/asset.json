@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "heart",
+  "name": "Heart",
+  "type": "object",
+  "file": "heart.glb",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Glossy puffy red heart with a double-pulse heartbeat and a gentle sway.",
+  "tags": [
+    "heart",
+    "love",
+    "like",
+    "valentine",
+    "heartbeat",
+    "red"
+  ],
+  "animation": {
+    "name": "Heartbeat",
+    "duration": 1.6,
+    "loop": true
+  }
+}

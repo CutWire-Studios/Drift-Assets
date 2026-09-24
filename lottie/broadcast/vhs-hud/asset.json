@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "id": "vhs-hud",
+  "name": "VHS HUD",
+  "type": "lottie",
+  "category": "broadcast",
+  "file": "vhs-hud.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Retro VHS on-screen display: RGB-split play triangle, drifting scanlines and a rolling tracking band. Add PLAY next to the triangle and a timestamp bottom-left.",
+  "tags": [
+    "vhs",
+    "retro",
+    "80s",
+    "90s",
+    "tape",
+    "play",
+    "camcorder",
+    "overlay"
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 3.0,
+  "playback": "loop",
+  "slots": {
+    "icon": "#FFFFFF"
+  },
+  "textArea": [
+    262,
+    100,
+    440,
+    120
+  ]
+}

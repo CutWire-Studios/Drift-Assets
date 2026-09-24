@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "id": "dollar-sign",
+  "name": "Dollar Sign",
+  "type": "object",
+  "file": "dollar-sign.glb",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Chunky bevelled green dollar sign with a soft glow, spinning and bobbing like a game money pickup.",
+  "tags": [
+    "dollar",
+    "money",
+    "cash",
+    "pickup",
+    "gaming",
+    "green",
+    "spin"
+  ],
+  "animation": {
+    "name": "SpinBob",
+    "duration": 2.0,
+    "loop": true
+  }
+}

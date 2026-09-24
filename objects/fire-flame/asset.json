@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "fire-flame",
+  "name": "Fire Flame",
+  "type": "object",
+  "file": "fire-flame.glb",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Stylised layered flame (orange, yellow and a hot core) that wobbles and flickers.",
+  "tags": [
+    "fire",
+    "flame",
+    "hot",
+    "lit",
+    "burn",
+    "trending"
+  ],
+  "animation": {
+    "name": "Flicker",
+    "duration": 2.0,
+    "loop": true
+  }
+}

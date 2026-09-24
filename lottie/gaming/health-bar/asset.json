@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "id": "health-bar",
+  "name": "Health Bar",
+  "type": "lottie",
+  "category": "gaming",
+  "file": "health-bar.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Game HP bar with a medical-cross icon cap: fills up, takes two hits that flash white and drain with a delayed damage trail, turning from green to yellow to red.",
+  "tags": [
+    "health",
+    "hp",
+    "bar",
+    "damage",
+    "life",
+    "gaming",
+    "hud"
+  ],
+  "width": 700,
+  "height": 90,
+  "fps": 30,
+  "duration": 2.5,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#3BD45B",
+    "secondary": "#F5C518",
+    "accent": "#E8322E",
+    "outline": "#0B0B10",
+    "background": "#23232B",
+    "icon": "#FFFFFF"
+  },
+  "textArea": null
+}

@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "id": "game-show-answer-lozenge",
+  "name": "Game Show Answer Lozenge",
+  "type": "lottie",
+  "category": "broadcast",
+  "file": "game-show-answer-lozenge.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Quiz-show answer bar with hexagon ends, metallic border and connector lines. Animates in, lights up orange when selected, then flashes green for the correct answer.",
+  "tags": [
+    "quiz",
+    "game show",
+    "answer",
+    "trivia",
+    "millionaire",
+    "lozenge"
+  ],
+  "width": 1400,
+  "height": 180,
+  "fps": 30,
+  "duration": 4.0,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#0A1F5C",
+    "secondary": "#F28C00",
+    "accent": "#1FA23A"
+  },
+  "textArea": [
+    240,
+    44,
+    920,
+    92
+  ]
+}

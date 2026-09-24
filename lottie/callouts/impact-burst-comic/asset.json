@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "id": "impact-burst-comic",
+  "name": "Comic Impact Burst",
+  "type": "lottie",
+  "category": "callouts",
+  "file": "impact-burst-comic.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Spiky comic-book starburst in red and yellow with a black outline that slams in with a shake; room in the middle for your own word.",
+  "tags": [
+    "comic",
+    "burst",
+    "pow",
+    "impact",
+    "boom",
+    "explosion",
+    "pop-art"
+  ],
+  "width": 600,
+  "height": 600,
+  "fps": 30,
+  "duration": 1.2,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "primary": "#FF2D2D",
+    "secondary": "#FFD21F",
+    "outline": "#141414"
+  },
+  "textArea": [
+    205,
+    240,
+    190,
+    120
+  ]
+}

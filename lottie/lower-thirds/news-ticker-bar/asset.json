@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "id": "news-ticker-bar",
+  "name": "News Ticker Bar",
+  "type": "lottie",
+  "category": "lower-thirds",
+  "file": "news-ticker-bar.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Full-width news ticker bar with a red tag block, a pulsing live dot and a looping shine; add scrolling text on top.",
+  "tags": [
+    "news",
+    "ticker",
+    "crawl",
+    "breaking news",
+    "live",
+    "bar",
+    "broadcast"
+  ],
+  "width": 1920,
+  "height": 90,
+  "fps": 30,
+  "duration": 4.0,
+  "playback": "loop",
+  "slots": {
+    "accent": "#CC0000",
+    "background": "#101318",
+    "primary": "#FFFFFF"
+  },
+  "textArea": [
+    316,
+    15,
+    1584,
+    63
+  ],
+  "textAreas": {
+    "ticker": [
+      316,
+      15,
+      1584,
+      63
+    ],
+    "tag": [
+      58,
+      17,
+      200,
+      59
+    ]
+  }
+}

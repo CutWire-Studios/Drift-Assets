@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "bell",
+  "name": "Notification Bell",
+  "type": "object",
+  "file": "bell.glb",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Gold notification bell with clapper, swinging as it rings.",
+  "tags": [
+    "bell",
+    "notification",
+    "subscribe",
+    "youtube",
+    "alert",
+    "gold"
+  ],
+  "animation": {
+    "name": "Ring",
+    "duration": 2.0,
+    "loop": true
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "id": "treasure-chest",
+  "name": "Treasure Chest",
+  "type": "object",
+  "file": "treasure-chest.glb",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Wooden treasure chest with brass bands and a lock plate, overflowing with gold coins and glowing gems; the ajar lid lifts and settles as a sparkle glints.",
+  "tags": [
+    "treasure",
+    "chest",
+    "gold",
+    "loot",
+    "reward",
+    "game",
+    "gaming"
+  ],
+  "animation": {
+    "name": "LidGlint",
+    "duration": 3.0,
+    "loop": true
+  }
+}

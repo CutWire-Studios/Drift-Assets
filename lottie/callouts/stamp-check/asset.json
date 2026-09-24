@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "stamp-check",
+  "name": "Check Stamp",
+  "type": "lottie",
+  "category": "callouts",
+  "file": "stamp-check.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Green rubber-stamp check mark that slams down with a little bounce and ink texture.",
+  "tags": [
+    "stamp",
+    "check",
+    "approved",
+    "correct",
+    "yes",
+    "tick"
+  ],
+  "width": 500,
+  "height": 500,
+  "fps": 30,
+  "duration": 1.2,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#1FAE4B"
+  },
+  "textArea": null
+}

@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "loot-gem",
+  "name": "Loot Gem",
+  "type": "object",
+  "file": "loot-gem.glb",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Faceted purple epic-rarity crystal with a glowing core inside a translucent shell, spinning and floating like a loot drop.",
+  "tags": [
+    "gem",
+    "crystal",
+    "loot",
+    "epic",
+    "rarity",
+    "game",
+    "gaming",
+    "pickup"
+  ],
+  "animation": {
+    "name": "SpinFloat",
+    "duration": 4.0,
+    "loop": true
+  }
+}

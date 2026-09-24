@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "id": "loot-crate",
+  "name": "Loot Crate",
+  "type": "object",
+  "file": "loot-crate.glb",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Olive military supply-drop crate with steel edges, stencil stripes and a glowing cyan strip, gently swaying and bobbing.",
+  "tags": [
+    "loot",
+    "crate",
+    "supply-drop",
+    "military",
+    "box",
+    "game",
+    "gaming"
+  ],
+  "animation": {
+    "name": "Sway",
+    "duration": 4.0,
+    "loop": true
+  }
+}

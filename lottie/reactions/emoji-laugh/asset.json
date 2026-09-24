@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "id": "emoji-laugh",
+  "name": "Emoji Laugh",
+  "type": "lottie",
+  "category": "reactions",
+  "file": "emoji-laugh.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Crying-laughing face that hops and shakes on every laugh while tears fly from both eyes. Seamless loop.",
+  "tags": [
+    "emoji",
+    "laugh",
+    "lol",
+    "crying laughing",
+    "funny",
+    "reaction",
+    "tears"
+  ],
+  "width": 600,
+  "height": 500,
+  "fps": 30,
+  "duration": 1.5,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FFC83D",
+    "accent": "#4FC3F7"
+  },
+  "textArea": null
+}

@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "id": "breaking-news-lower-third",
+  "name": "Breaking News Lower Third",
+  "type": "lottie",
+  "category": "lower-thirds",
+  "file": "breaking-news-lower-third.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "TV news lower third: red tag block for the label, white headline bar and a dark strip, with a glint sweep.",
+  "tags": [
+    "breaking news",
+    "news",
+    "lower third",
+    "headline",
+    "tv",
+    "broadcast",
+    "live"
+  ],
+  "width": 1400,
+  "height": 246,
+  "fps": 30,
+  "duration": 5.0,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "accent": "#CC0000",
+    "primary": "#FFFFFF",
+    "secondary": "#0A1A3A"
+  },
+  "textArea": [
+    56,
+    106,
+    1288,
+    66
+  ],
+  "textAreas": {
+    "headline": [
+      56,
+      106,
+      1288,
+      66
+    ],
+    "subtitle": [
+      56,
+      187,
+      1288,
+      28
+    ],
+    "tag": [
+      50,
+      40,
+      300,
+      42
+    ]
+  }
+}

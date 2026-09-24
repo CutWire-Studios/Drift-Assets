@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "clown-nose",
+  "name": "Clown Nose",
+  "type": "face-prop",
+  "model": "clown-nose.glb",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Glossy red clown nose that sits over the tip of the nose.",
+  "tags": [
+    "clown",
+    "nose",
+    "funny",
+    "circus",
+    "red"
+  ],
+  "anchor": "eyes",
+  "params": {
+    "scale": 0.2,
+    "offsetX": 0.0,
+    "offsetY": -0.3,
+    "offsetZ": 0.2,
+    "rotX": 0,
+    "rotY": 0,
+    "rotZ": 0,
+    "occlusion": true
+  }
+}

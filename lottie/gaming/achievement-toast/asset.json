@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "id": "achievement-toast",
+  "name": "Achievement Toast",
+  "type": "lottie",
+  "category": "gaming",
+  "file": "achievement-toast.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Console-style achievement-unlocked toast: a trophy medallion pops in, a dark pill slides out from behind it and a glint sweeps across. Room for a title and a description in the pill.",
+  "tags": [
+    "achievement",
+    "trophy",
+    "unlocked",
+    "toast",
+    "notification",
+    "gaming",
+    "console"
+  ],
+  "width": 760,
+  "height": 160,
+  "fps": 30,
+  "duration": 4.0,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "background": "#17171E",
+    "secondary": "#26262F",
+    "accent": "#F2C230",
+    "icon": "#F2C230"
+  },
+  "textArea": [
+    156,
+    40,
+    548,
+    80
+  ],
+  "textAreas": {
+    "title": [
+      156,
+      40,
+      548,
+      38
+    ],
+    "description": [
+      156,
+      84,
+      548,
+      30
+    ]
+  }
+}

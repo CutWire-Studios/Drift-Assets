@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "id": "to-be-continued-arrow",
+  "name": "To Be Continued Arrow",
+  "type": "lottie",
+  "category": "memes",
+  "file": "to-be-continued-arrow.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Olive 'to be continued' meme arrow with a black outline that slides in from the left and settles; type your caption inside it.",
+  "tags": [
+    "to be continued",
+    "jojo",
+    "meme",
+    "arrow",
+    "ending",
+    "cliffhanger"
+  ],
+  "width": 920,
+  "height": 250,
+  "fps": 30,
+  "duration": 1.5,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#6B5A2E",
+    "outline": "#000000"
+  },
+  "textArea": [
+    206,
+    83,
+    656,
+    84
+  ]
+}

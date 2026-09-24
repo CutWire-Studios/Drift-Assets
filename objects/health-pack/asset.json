@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "health-pack",
+  "name": "Health Pack",
+  "type": "object",
+  "file": "health-pack.glb",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Game-style first-aid kit with red crosses, a carry handle and steel latches, slowly spinning and bobbing like a pickup.",
+  "tags": [
+    "health",
+    "medkit",
+    "first-aid",
+    "game",
+    "pickup",
+    "gaming"
+  ],
+  "animation": {
+    "name": "SpinBob",
+    "duration": 4.0,
+    "loop": true
+  }
+}

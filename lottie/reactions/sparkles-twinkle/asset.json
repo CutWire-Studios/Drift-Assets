@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "id": "sparkles-twinkle",
+  "name": "Sparkles Twinkle",
+  "type": "lottie",
+  "category": "reactions",
+  "file": "sparkles-twinkle.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Cluster of four-point sparkles that twinkle with a scale and twist on staggered beats. Seamless loop.",
+  "tags": [
+    "sparkle",
+    "sparkles",
+    "twinkle",
+    "stars",
+    "shine",
+    "magic",
+    "reaction"
+  ],
+  "width": 400,
+  "height": 400,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FFF1B8"
+  },
+  "textArea": null
+}

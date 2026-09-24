@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "id": "lower-third-modern-bar",
+  "name": "Modern Bar Lower Third",
+  "type": "lottie",
+  "category": "lower-thirds",
+  "file": "lower-third-modern-bar.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Clean corporate lower third: an accent block wipes in and a name bar and subtitle bar extend from it.",
+  "tags": [
+    "lower third",
+    "name",
+    "title",
+    "corporate",
+    "youtube",
+    "clean",
+    "bar"
+  ],
+  "width": 1000,
+  "height": 212,
+  "fps": 30,
+  "duration": 5.0,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "accent": "#2E7CF6",
+    "primary": "#FFFFFF",
+    "secondary": "#14213D"
+  },
+  "textArea": [
+    64,
+    48,
+    872,
+    72
+  ],
+  "textAreas": {
+    "name": [
+      64,
+      48,
+      872,
+      72
+    ],
+    "subtitle": [
+      64,
+      136,
+      552,
+      32
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "stamp-cross",
+  "name": "Cross Stamp",
+  "type": "lottie",
+  "category": "callouts",
+  "file": "stamp-cross.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Red rubber-stamp cross that slams down with a little bounce and ink texture.",
+  "tags": [
+    "stamp",
+    "cross",
+    "rejected",
+    "wrong",
+    "no",
+    "denied"
+  ],
+  "width": 500,
+  "height": 500,
+  "fps": 30,
+  "duration": 1.2,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FF2D2D"
+  },
+  "textArea": null
+}

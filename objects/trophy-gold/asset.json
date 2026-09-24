@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "trophy-gold",
+  "name": "Gold Trophy",
+  "type": "object",
+  "file": "trophy-gold.glb",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Gold trophy cup with handles on a dark stepped base with a plaque, slowly spinning.",
+  "tags": [
+    "trophy",
+    "award",
+    "winner",
+    "gold",
+    "cup",
+    "prize"
+  ],
+  "animation": {
+    "name": "Spin",
+    "duration": 4.0,
+    "loop": true
+  }
+}

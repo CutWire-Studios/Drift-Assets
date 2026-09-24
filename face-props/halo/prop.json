@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "halo",
+  "name": "Halo",
+  "type": "face-prop",
+  "model": "halo.glb",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Glowing golden halo floating above the head.",
+  "tags": [
+    "halo",
+    "angel",
+    "glow",
+    "gold",
+    "heaven"
+  ],
+  "anchor": "eyes",
+  "params": {
+    "scale": 0.6575,
+    "offsetX": 0.0,
+    "offsetY": 1.05,
+    "offsetZ": -0.45,
+    "rotX": 0,
+    "rotY": 0,
+    "rotZ": 0,
+    "occlusion": true
+  }
+}
