@@ -9,6 +9,8 @@
 
 #include <png.h>
 
+#include <algorithm>
+#include <cmath>
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
@@ -62,11 +64,13 @@ void usage()
     std::fprintf(stderr,
                  "usage: skottie-render IN.json OUT.png [--size N] [--t FRACTION] [--sheet N]\n"
                  "                      [--bg none|checker|RRGGBB] [--pad FRACTION] [--region X,Y,W,H]\n"
-                 "                      [--strict]\n"
+                 "                      [--strict] [--frames DIR --height H --fps N]\n"
                  "  --t      normalized time of the frame to render (default 0.5)\n"
                  "  --sheet  render an N x N grid of evenly spaced frames instead of one frame\n"
                  "  --region fit this canvas rectangle instead of the whole canvas (close-up thumbnails)\n"
-                 "  --strict exit 2 if Skottie logged any warning\n");
+                 "  --strict exit 2 if Skottie logged any warning\n"
+                 "  --frames write DIR/0000.png... at the canvas aspect (clamped to 1:1..4:1), H px tall,\n"
+                 "           N fps over the whole animation; OUT.png is the poster frame at --t\n");
     std::exit(1);
 }
 
@@ -116,7 +120,9 @@ int main(int argc, char **argv)
         usage();
     const char *in = argv[1];
     const char *out = argv[2];
-    int size = 512, sheet = 0;
+    int size = 512, sheet = 0, height = 0;
+    double fps = 20;
+    std::string framesDir;
     double t = 0.5;
     float pad = 0.06f;
     bool strict = false;
@@ -131,6 +137,9 @@ int main(int argc, char **argv)
         else if (a == "--bg") bg = next();
         else if (a == "--pad") pad = float(std::atof(next()));
         else if (a == "--strict") strict = true;
+        else if (a == "--frames") framesDir = next();
+        else if (a == "--height") height = std::atoi(next());
+        else if (a == "--fps") fps = std::atof(next());
         else if (a == "--region") {
             float x, y, w, h;
             if (std::sscanf(next(), "%f,%f,%f,%f", &x, &y, &w, &h) != 4)
@@ -165,6 +174,35 @@ int main(int argc, char **argv)
         for (const SkString &id : info.fTextSlotIDs) std::printf(" %s(text)", id.c_str());
         for (const SkString &id : info.fImageSlotIDs) std::printf(" %s(image)", id.c_str());
         std::printf("\n");
+    }
+
+    if (!framesDir.empty()) {
+        // Drift shows previews at the asset's own shape, so a lower third is a strip and a button a
+        // pill. Portrait canvases are pillarboxed to square; very wide ones are clamped to 4:1.
+        const SkSize s = region.isEmpty() ? anim->size() : SkSize::Make(region.width(), region.height());
+        const int h = height > 0 ? height : 180;
+        const double aspect = std::clamp(double(s.width()) / s.height(), 1.0, 4.0);
+        const int w = int(std::lround(h * aspect / 2)) * 2;
+        sk_sp<SkSurface> frame = SkSurfaces::Raster(SkImageInfo::MakeN32Premul(w, h));
+        const int count = std::max(1, int(std::lround(anim->duration() * fps)));
+        for (int i = 0; i < count; ++i) {
+            frame->getCanvas()->clear(SK_ColorTRANSPARENT);
+            drawFrame(frame->getCanvas(), anim.get(), double(i) / count, SkRect::MakeWH(w, h), pad, bg, region);
+            char name[32];
+            std::snprintf(name, sizeof name, "/%04d.png", i);
+            if (!writePng((framesDir + name).c_str(), frame->makeImageSnapshot().get())) {
+                std::fprintf(stderr, "cannot write %s%s\n", framesDir.c_str(), name);
+                return 1;
+            }
+        }
+        frame->getCanvas()->clear(SK_ColorTRANSPARENT);
+        drawFrame(frame->getCanvas(), anim.get(), t, SkRect::MakeWH(w, h), pad, bg, region);
+        if (!writePng(out, frame->makeImageSnapshot().get())) {
+            std::fprintf(stderr, "cannot write %s\n", out);
+            return 1;
+        }
+        std::printf("frames %d at %dx%d\n", count, w, h);
+        return strict && logger->warnings ? 2 : 0;
     }
 
     sk_sp<SkSurface> surface = SkSurfaces::Raster(SkImageInfo::MakeN32Premul(size, size));

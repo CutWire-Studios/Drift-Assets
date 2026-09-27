@@ -239,11 +239,12 @@ def write_asset_json(dir_path, asset_id, name, kind, file, description="", tags=
 # ---------------------------------------------------------------- thumbnails
 
 def render_thumbnail(path, targets, frame=None, view=(0.0, -1.0, 0.25), margin=1.25, lens=50,
-                     transparent=False):
-    """Render a square THUMB_SIZE PNG framing `targets` (mesh objects) with a 3-point light rig.
+                     transparent=False, shots=None, size=THUMB_SIZE):
+    """Render a square `size` PNG framing `targets` (mesh objects) with a 3-point light rig.
 
     view: direction from the subject toward the camera (Blender axes). Adds and later removes
-    its own camera and lights.
+    its own camera and lights. shots: optional list of (path, frame, view) rendered with the
+    same framing and lights instead of the single still, for animated previews.
     """
     scene = bpy.context.scene
     if frame is not None:
@@ -258,9 +259,13 @@ def render_thumbnail(path, targets, frame=None, view=(0.0, -1.0, 0.25), margin=1
     scene.collection.objects.link(cam)
     fov = 2 * math.atan(cam_data.sensor_width / (2 * lens))
     dist = radius * margin / math.sin(fov / 2)
-    d = Vector(view).normalized()
-    cam.location = centre + d * dist
-    cam.rotation_euler = (-d).to_track_quat("-Z", "Y").to_euler()
+
+    def aim(v):
+        d = Vector(v).normalized()
+        cam.location = centre + d * dist
+        cam.rotation_euler = (-d).to_track_quat("-Z", "Y").to_euler()
+
+    aim(view)
     cam_data.clip_start = dist / 100
     cam_data.clip_end = dist * 10
     scene.camera = cam
@@ -285,7 +290,7 @@ def render_thumbnail(path, targets, frame=None, view=(0.0, -1.0, 0.25), margin=1
     bg.inputs["Strength"].default_value = 0.6
 
     r = scene.render
-    r.resolution_x = r.resolution_y = THUMB_SIZE
+    r.resolution_x = r.resolution_y = size
     r.resolution_percentage = 100
     r.film_transparent = transparent
     r.image_settings.file_format = "PNG"
@@ -296,19 +301,27 @@ def render_thumbnail(path, targets, frame=None, view=(0.0, -1.0, 0.25), margin=1
             break
         except TypeError:
             continue
+    if shots:
+        # 256 px previews are downscaled again in Drift; the still thumbnail keeps full quality.
+        scene.eevee.taa_render_samples = 8
     try:
         scene.view_settings.view_transform = "Standard"
     except TypeError:
         pass
-    r.filepath = path
-    bpy.ops.render.render(write_still=True)
-    print("wrote", path)
+    for shot_path, shot_frame, shot_view in shots or [(path, None, view)]:
+        if shot_frame is not None:
+            scene.frame_set(shot_frame)
+        aim(shot_view)
+        r.filepath = shot_path
+        bpy.ops.render.render(write_still=True)
+    print("wrote", path if shots is None else f"{len(shots)} frames")
 
     for o in added:
         bpy.data.objects.remove(o, do_unlink=True)
 
 
-def render_prop_thumbnail(path, props, head, region="head", view=(-0.45, -1.0, 0.15)):
+def render_prop_thumbnail(path, props, head, region="head", view=(-0.45, -1.0, 0.15), shots=None,
+                          size=THUMB_SIZE):
     """Standard face-prop thumbnail: the prop on the mannequin, front three-quarter view.
 
     Eyes and a mouth are added only for the render (the fitting head stays featureless so
@@ -343,7 +356,8 @@ def render_prop_thumbnail(path, props, head, region="head", view=(-0.45, -1.0, 0
         targets = [box] + props
     else:
         targets = [head] + props
-    render_thumbnail(path, targets, view=view, margin=0.95 if region == "head" else 0.8)
+    render_thumbnail(path, targets, view=view, margin=0.95 if region == "head" else 0.8, shots=shots,
+                     size=size)
     for o in temp:
         bpy.data.objects.remove(o, do_unlink=True)
 

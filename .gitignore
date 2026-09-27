@@ -24,3 +24,5 @@ _check*.png
 *~
 .DS_Store
 Thumbs.db
+.preview-frames/
+dist/

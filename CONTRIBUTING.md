@@ -32,6 +32,25 @@ cmake --build tools/skottie-render/build    # links Drift's prebuilt Skia (see i
 
 Blender 5.2 (flatpak `org.blender.Blender`) builds the 3D assets headless.
 
+## Previews and release
+
+Each asset also ships the animated preview Drift's marketplace plays on hover:
+
+- `preview.webp`: a looping animated WebP. For Lottie it has the canvas's own aspect (1:1 to 4:1)
+  and is 180 px tall; 3D assets are 256 px square. Objects play their loop and face props turn
+  the head.
+- `poster.png`: Lottie only. A still at the same size as the preview.
+
+`.venv/bin/python tools/build-previews.py [--skip-3d] [ID ...]` rebuilds them. It needs ffmpeg
+with libwebp and the skottie-render build, plus the Blender flatpak for 3D. Run it after changing
+an asset and commit the results.
+
+`python3 tools/build-index.py dist` writes `dist/index.json` (categories in shelf order, plus each
+asset's metadata with the sha256 of every file) and `dist/drift-assets.tar.gz`. CI runs it on
+every push, and pushing a `v*` tag publishes both as a GitHub release, which the marketplace
+syncs from. Categories and their order live in `CATEGORIES` in that script. A new Lottie category
+must be added there.
+
 ## Lottie
 
 Build: `.venv/bin/python tools/lottie/<category>/<id>.py` writes `lottie/<category>/<id>/<id>.json`,
