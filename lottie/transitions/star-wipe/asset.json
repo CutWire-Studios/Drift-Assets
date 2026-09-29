@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "id": "star-wipe",
+  "name": "Star Wipe",
+  "type": "lottie",
+  "category": "transitions",
+  "file": "star-wipe.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Star-shaped iris transition: a spinning star zooms in to cover the shot, holds for the cut, then opens onto the next clip.",
+  "tags": [
+    "star",
+    "iris",
+    "spin",
+    "retro",
+    "transition",
+    "fun"
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 1.4,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "primary": "#FFC93C"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "spin",
+      "name": "Spinning Star",
+      "file": "star-wipe.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.4,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FFC93C"
+      },
+      "textArea": null,
+      "description": "A star spins as it zooms out of the centre to fill the frame, then a star-shaped hole spins open."
+    },
+    {
+      "id": "stacked",
+      "name": "Stacked Stars",
+      "file": "star-wipe--stacked.json",
+      "thumbnail": "thumbnail--stacked.png",
+      "preview": "preview--stacked.webp",
+      "poster": "poster--stacked.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.467,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#5B3DF5",
+        "secondary": "#FF4F8B",
+        "accent": "#FFC93C"
+      },
+      "textArea": null,
+      "description": "Three stars in accent, secondary and primary spin in one after another and open in reverse."
+    },
+    {
+      "id": "twinkle",
+      "name": "Twinkle",
+      "file": "star-wipe--twinkle.json",
+      "thumbnail": "thumbnail--twinkle.png",
+      "preview": "preview--twinkle.webp",
+      "poster": "poster--twinkle.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.2,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#5B3DF5",
+        "accent": "#FFC93C"
+      },
+      "textArea": null,
+      "description": "Sparkles twinkle round a star with an accent rim that zooms in with a little overshoot."
+    }
+  ]
+}

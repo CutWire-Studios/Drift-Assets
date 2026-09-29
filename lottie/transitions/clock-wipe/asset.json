@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "id": "clock-wipe",
+  "name": "Clock Wipe",
+  "type": "lottie",
+  "category": "transitions",
+  "file": "clock-wipe.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Radial clock wipe: a pie slice sweeps round the centre to cover the shot, holds for the cut, then sweeps on round to reveal the next clip.",
+  "tags": [
+    "clock",
+    "radial",
+    "sweep",
+    "wipe",
+    "transition",
+    "timer"
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 1.4,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "primary": "#0F5BFF"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "sweep",
+      "name": "Clock Sweep",
+      "file": "clock-wipe.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.4,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#0F5BFF"
+      },
+      "textArea": null,
+      "description": "A pie slice sweeps clockwise round the centre to cover, then sweeps on round to reveal."
+    },
+    {
+      "id": "stacked",
+      "name": "Stacked Sweep",
+      "file": "clock-wipe--stacked.json",
+      "thumbnail": "thumbnail--stacked.png",
+      "preview": "preview--stacked.webp",
+      "poster": "poster--stacked.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.467,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#0F5BFF",
+        "secondary": "#18C8E8",
+        "accent": "#B6F24A"
+      },
+      "textArea": null,
+      "description": "Accent, secondary and primary sweeps chase each other round the clock."
+    },
+    {
+      "id": "hand",
+      "name": "Clock Hand",
+      "file": "clock-wipe--hand.json",
+      "thumbnail": "thumbnail--hand.png",
+      "preview": "preview--hand.webp",
+      "poster": "poster--hand.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.267,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#0E1B33",
+        "accent": "#F7D35C"
+      },
+      "textArea": null,
+      "description": "A clock hand with a pivot dot leads a snappy sweep in and drags it back out."
+    }
+  ]
+}

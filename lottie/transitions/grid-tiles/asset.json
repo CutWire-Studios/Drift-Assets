@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "id": "grid-tiles",
+  "name": "Grid Tiles",
+  "type": "lottie",
+  "category": "transitions",
+  "file": "grid-tiles.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Tile grid transition: tiles pop in across the frame to cover the shot, hold for the cut, then pop away to reveal the next clip.",
+  "tags": [
+    "grid",
+    "tiles",
+    "squares",
+    "mosaic",
+    "transition",
+    "geometric"
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 1.467,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "primary": "#12B8A6"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "squares",
+      "name": "Square Ripple",
+      "file": "grid-tiles.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.467,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#12B8A6"
+      },
+      "textArea": null,
+      "description": "Square tiles spin and grow in a diagonal wave until the grid closes, then shrink away in the same direction."
+    },
+    {
+      "id": "flip",
+      "name": "Colour Flip",
+      "file": "grid-tiles--flip.json",
+      "thumbnail": "thumbnail--flip.png",
+      "preview": "preview--flip.webp",
+      "poster": "poster--flip.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.467,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#0E1B33",
+        "secondary": "#12B8A6",
+        "accent": "#F7D35C"
+      },
+      "textArea": null,
+      "description": "Tiles flip over in a diagonal wave, in accent, secondary then primary layers."
+    },
+    {
+      "id": "dots",
+      "name": "Dot Pop",
+      "file": "grid-tiles--dots.json",
+      "thumbnail": "thumbnail--dots.png",
+      "preview": "preview--dots.webp",
+      "poster": "poster--dots.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.133,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#12B8A6",
+        "accent": "#F7D35C"
+      },
+      "textArea": null,
+      "description": "Round dots pop out from the centre with a springy overshoot, an accent dot leading each one."
+    }
+  ]
+}

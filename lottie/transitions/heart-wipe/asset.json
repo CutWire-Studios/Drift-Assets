@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "id": "heart-wipe",
+  "name": "Heart Wipe",
+  "type": "lottie",
+  "category": "transitions",
+  "file": "heart-wipe.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Heart-shaped iris transition: a heart grows to cover the shot, holds on solid colour for the cut, then opens up onto the next clip.",
+  "tags": [
+    "heart",
+    "love",
+    "valentine",
+    "iris",
+    "transition",
+    "romantic"
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 1.4,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "primary": "#E8254F"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "flat",
+      "name": "Flat Heart",
+      "file": "heart-wipe.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.4,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#E8254F"
+      },
+      "textArea": null,
+      "description": "A heart grows out of the centre to fill the frame, then a heart-shaped hole opens to reveal."
+    },
+    {
+      "id": "stacked",
+      "name": "Stacked Hearts",
+      "file": "heart-wipe--stacked.json",
+      "thumbnail": "thumbnail--stacked.png",
+      "preview": "preview--stacked.webp",
+      "poster": "poster--stacked.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.467,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#E8254F",
+        "secondary": "#FF8FA8",
+        "accent": "#FFF1F4"
+      },
+      "textArea": null,
+      "description": "Three hearts in accent, secondary and primary grow one after another and open in reverse."
+    },
+    {
+      "id": "heartbeat",
+      "name": "Heartbeat",
+      "file": "heart-wipe--heartbeat.json",
+      "thumbnail": "thumbnail--heartbeat.png",
+      "preview": "preview--heartbeat.webp",
+      "poster": "poster--heartbeat.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.467,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#E8254F",
+        "accent": "#FFF1F4"
+      },
+      "textArea": null,
+      "description": "The heart pops in, beats at mid size, then fills the frame; an accent rim edges the heart-shaped reveal."
+    }
+  ]
+}

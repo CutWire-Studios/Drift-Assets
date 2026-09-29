@@ -1,0 +1,85 @@
+{
+  "schema": 1,
+  "id": "paper-tear",
+  "name": "Paper Tear",
+  "type": "lottie",
+  "category": "transitions",
+  "file": "paper-tear.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Torn paper transition: a paper sheet with ragged edges covers the shot, holds for the cut, then tears away to reveal the next clip.",
+  "tags": [
+    "paper",
+    "tear",
+    "rip",
+    "craft",
+    "transition",
+    "collage"
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 1.4,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "primary": "#EFE7D6"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "sheet",
+      "name": "Torn Sheet",
+      "file": "paper-tear.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.4,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#EFE7D6"
+      },
+      "textArea": null,
+      "description": "A sheet of paper with torn edges slides across, holds, then slides off the far side."
+    },
+    {
+      "id": "layered",
+      "name": "Layered Strips",
+      "file": "paper-tear--layered.json",
+      "thumbnail": "thumbnail--layered.png",
+      "preview": "preview--layered.webp",
+      "poster": "poster--layered.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.467,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#F2ECDF",
+        "secondary": "#E85D4A",
+        "accent": "#2F3A56"
+      },
+      "textArea": null,
+      "description": "Three torn paper strips in different colours slide in one after another and peel off in reverse."
+    },
+    {
+      "id": "rip",
+      "name": "Rip Apart",
+      "file": "paper-tear--rip.json",
+      "thumbnail": "thumbnail--rip.png",
+      "preview": "preview--rip.webp",
+      "poster": "poster--rip.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.4,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#EFE7D6",
+        "secondary": "#C9B391",
+        "accent": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Two paper halves snap together along a torn line, then rip apart with white fibre edges showing."
+    }
+  ]
+}
