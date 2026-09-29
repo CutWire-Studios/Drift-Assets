@@ -55,18 +55,19 @@ class Variant:
     "outro" markers). text_area: (x, y, w, h) canvas px for the user's main text, or None;
     text_areas: {"name": (x, y, w, h)} when there are several. thumb_t: normalized time of the
     thumbnail/poster frame. bg: thumbnail/preview backdrop RRGGBB (use "e8e8ee" for dark assets).
-    region: (x, y, w, h) close-up for the thumbnail of very wide/sparse canvases.
+    region: (x, y, w, h) close-up for the thumbnail of very wide/sparse canvases; pad: thumbnail
+    margin as a fraction (default 0.06; use 0 with a tight region).
     description/tags: optional per-variant additions.
     """
 
     def __init__(self, vid, name, comp, playback, text_area=None, text_areas=None, thumb_t=0.5,
-                 bg=None, region=None, description=None, tags=None):
+                 bg=None, region=None, pad=None, description=None, tags=None):
         assert isinstance(comp, Comp), "comp must be a lottie_kit.Comp"
         assert playback in PLAYBACKS, f"playback must be one of {PLAYBACKS}"
         assert vid == vid.lower() and vid.replace("-", "").isalnum(), f"variant id {vid!r} must be kebab-case"
         self.id, self.name, self.comp, self.playback = vid, name, comp, playback
         self.text_area, self.text_areas = text_area, text_areas
-        self.thumb_t, self.bg, self.region = thumb_t, bg or DEFAULT_BG, region
+        self.thumb_t, self.bg, self.region, self.pad = thumb_t, bg or DEFAULT_BG, region, pad
         self.description, self.tags = description, tags
 
 
@@ -150,6 +151,8 @@ def build_asset(category, asset_id, name, description, tags, variants):
         targs = [jpath, os.path.join(out, tname), "--size", "512", "--t", str(v.thumb_t), "--bg", v.bg]
         if v.region:
             targs += ["--region", ",".join(str(round(c)) for c in v.region)]
+        if v.pad is not None:
+            targs += ["--pad", str(v.pad)]
         _render(targs)
         if sheet:
             os.makedirs(os.path.join(STAGE, "sheets"), exist_ok=True)
