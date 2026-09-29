@@ -1,0 +1,108 @@
+{
+  "schema": 1,
+  "id": "picture-in-picture-frame",
+  "name": "Picture In Picture Frame",
+  "type": "lottie",
+  "category": "broadcast",
+  "file": "picture-in-picture-frame.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Picture-in-picture window frame with a transparent inside that pops out from its corner, holds (stretchable) and tucks away. Place your second video inside and a name in the label.",
+  "tags": [
+    "picture in picture",
+    "pip",
+    "frame",
+    "window",
+    "webcam",
+    "facecam",
+    "reaction",
+    "border"
+  ],
+  "width": 820,
+  "height": 540,
+  "fps": 30,
+  "duration": 3.0,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "outline": "#FFFFFF",
+    "primary": "#FF3D6E"
+  },
+  "textArea": [
+    150,
+    416,
+    248,
+    44
+  ],
+  "variants": [
+    {
+      "id": "modern",
+      "name": "Rounded",
+      "file": "picture-in-picture-frame.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 820,
+      "height": 540,
+      "duration": 3.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "outline": "#FFFFFF",
+        "primary": "#FF3D6E"
+      },
+      "textArea": [
+        150,
+        416,
+        248,
+        44
+      ],
+      "description": "Rounded white-bordered window with a soft shadow and a colour name pill on its edge."
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "file": "picture-in-picture-frame--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 820,
+      "height": 540,
+      "duration": 3.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#35F0FF",
+        "accent": "#FF3DD8"
+      },
+      "textArea": [
+        156,
+        412,
+        228,
+        40
+      ],
+      "description": "Glowing neon frame with bright corner accents that flickers on as it pops."
+    },
+    {
+      "id": "window",
+      "name": "App Window",
+      "file": "picture-in-picture-frame--window.json",
+      "thumbnail": "thumbnail--window.png",
+      "preview": "preview--window.webp",
+      "poster": "poster--window.png",
+      "width": 820,
+      "height": 540,
+      "duration": 3.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#2B2F3A",
+        "outline": "#2B2F3A",
+        "icon": "#FFFFFF"
+      },
+      "textArea": [
+        124,
+        76,
+        480,
+        36
+      ],
+      "description": "Desktop-app style window with a title bar and control dots, sliding out from the corner."
+    }
+  ]
+}

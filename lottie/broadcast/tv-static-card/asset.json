@@ -1,0 +1,95 @@
+{
+  "schema": 1,
+  "id": "tv-static-card",
+  "name": "TV Static Card",
+  "type": "lottie",
+  "category": "broadcast",
+  "file": "tv-static-card.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Full-screen old-TV card: analogue snow, a colour-bar test pattern or a blue no-signal screen, with CRT scanlines. Use as a cutaway or to fake a lost signal; the test card has a text area in its ID box.",
+  "tags": [
+    "tv static",
+    "noise",
+    "test pattern",
+    "color bars",
+    "no signal",
+    "retro",
+    "crt",
+    "glitch"
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 1.0,
+  "playback": "loop",
+  "slots": {
+    "background": "#161616"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "static",
+      "name": "Snow",
+      "file": "tv-static-card.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.0,
+      "playback": "loop",
+      "slots": {
+        "background": "#161616"
+      },
+      "textArea": null,
+      "description": "Full-screen analogue snow with a rolling band, tear lines and CRT scanlines."
+    },
+    {
+      "id": "bars",
+      "name": "Test Card",
+      "file": "tv-static-card--bars.json",
+      "thumbnail": "thumbnail--bars.png",
+      "preview": "preview--bars.webp",
+      "poster": "poster--bars.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "background": "#101010",
+        "icon": "#FFFFFF"
+      },
+      "textArea": [
+        680,
+        485,
+        560,
+        110
+      ],
+      "description": "SMPTE-style colour bars with a centre circle and an ID box for your text."
+    },
+    {
+      "id": "no-signal",
+      "name": "No Signal",
+      "file": "tv-static-card--no-signal.json",
+      "thumbnail": "thumbnail--no-signal.png",
+      "preview": "preview--no-signal.webp",
+      "poster": "poster--no-signal.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 2.5,
+      "playback": "loop",
+      "slots": {
+        "background": "#0B2FA8",
+        "icon": "#FFFFFF"
+      },
+      "textArea": [
+        560,
+        625,
+        800,
+        110
+      ],
+      "description": "Deep-blue no-signal screen with a small bars ident; a burst of static glitches it once per loop."
+    }
+  ]
+}

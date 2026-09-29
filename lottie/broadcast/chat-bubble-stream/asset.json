@@ -1,0 +1,288 @@
+{
+  "schema": 1,
+  "id": "chat-bubble-stream",
+  "name": "Chat Bubble Stream",
+  "type": "lottie",
+  "category": "broadcast",
+  "file": "chat-bubble-stream.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Live chat messages that pop in at the bottom and push the earlier ones up, then hold. Every bubble has its own text areas (name1-4 and message1-4, oldest first).",
+  "tags": [
+    "chat",
+    "live chat",
+    "comments",
+    "messages",
+    "stream",
+    "bubbles",
+    "text",
+    "social"
+  ],
+  "width": 760,
+  "height": 860,
+  "fps": 30,
+  "duration": 4.0,
+  "playback": "intro-hold",
+  "slots": {
+    "background": "#16171D",
+    "primary": "#FF4D6D",
+    "secondary": "#3DB2FF",
+    "accent": "#FFC53D"
+  },
+  "textArea": [
+    176,
+    722,
+    504,
+    72
+  ],
+  "textAreas": {
+    "name1": [
+      176,
+      88,
+      504,
+      40
+    ],
+    "message1": [
+      176,
+      134,
+      504,
+      72
+    ],
+    "name2": [
+      176,
+      284,
+      504,
+      40
+    ],
+    "message2": [
+      176,
+      330,
+      504,
+      72
+    ],
+    "name3": [
+      176,
+      480,
+      504,
+      40
+    ],
+    "message3": [
+      176,
+      526,
+      504,
+      72
+    ],
+    "name4": [
+      176,
+      676,
+      504,
+      40
+    ],
+    "message4": [
+      176,
+      722,
+      504,
+      72
+    ]
+  },
+  "variants": [
+    {
+      "id": "modern",
+      "name": "Live Chat",
+      "file": "chat-bubble-stream.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 760,
+      "height": 860,
+      "duration": 4.0,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#16171D",
+        "primary": "#FF4D6D",
+        "secondary": "#3DB2FF",
+        "accent": "#FFC53D"
+      },
+      "textArea": [
+        176,
+        722,
+        504,
+        72
+      ],
+      "textAreas": {
+        "name1": [
+          176,
+          88,
+          504,
+          40
+        ],
+        "message1": [
+          176,
+          134,
+          504,
+          72
+        ],
+        "name2": [
+          176,
+          284,
+          504,
+          40
+        ],
+        "message2": [
+          176,
+          330,
+          504,
+          72
+        ],
+        "name3": [
+          176,
+          480,
+          504,
+          40
+        ],
+        "message3": [
+          176,
+          526,
+          504,
+          72
+        ],
+        "name4": [
+          176,
+          676,
+          504,
+          40
+        ],
+        "message4": [
+          176,
+          722,
+          504,
+          72
+        ]
+      },
+      "description": "Dark rounded rows with coloured avatar circles pop in and push up."
+    },
+    {
+      "id": "messenger",
+      "name": "Messenger",
+      "file": "chat-bubble-stream--messenger.json",
+      "thumbnail": "thumbnail--messenger.png",
+      "preview": "preview--messenger.webp",
+      "poster": "poster--messenger.png",
+      "width": 760,
+      "height": 860,
+      "duration": 4.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#1F8BFF",
+        "secondary": "#E9E9EE"
+      },
+      "textArea": [
+        240,
+        700,
+        440,
+        90
+      ],
+      "textAreas": {
+        "message1": [
+          80,
+          130,
+          440,
+          90
+        ],
+        "message2": [
+          240,
+          320,
+          440,
+          90
+        ],
+        "message3": [
+          80,
+          510,
+          440,
+          90
+        ],
+        "message4": [
+          240,
+          700,
+          440,
+          90
+        ]
+      },
+      "description": "Tailed message bubbles alternating left and right, popping from their tail corner."
+    },
+    {
+      "id": "gamer",
+      "name": "Gamer Chat",
+      "file": "chat-bubble-stream--gamer.json",
+      "thumbnail": "thumbnail--gamer.png",
+      "preview": "preview--gamer.webp",
+      "poster": "poster--gamer.png",
+      "width": 760,
+      "height": 700,
+      "duration": 4.0,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#0D0B14",
+        "primary": "#9B5CFF",
+        "accent": "#3DFFB5"
+      },
+      "textArea": [
+        74,
+        598,
+        614,
+        48
+      ],
+      "textAreas": {
+        "name1": [
+          118,
+          116,
+          570,
+          38
+        ],
+        "message1": [
+          74,
+          160,
+          614,
+          48
+        ],
+        "name2": [
+          118,
+          262,
+          570,
+          38
+        ],
+        "message2": [
+          74,
+          306,
+          614,
+          48
+        ],
+        "name3": [
+          118,
+          408,
+          570,
+          38
+        ],
+        "message3": [
+          74,
+          452,
+          614,
+          48
+        ],
+        "name4": [
+          118,
+          554,
+          570,
+          38
+        ],
+        "message4": [
+          74,
+          598,
+          614,
+          48
+        ]
+      },
+      "description": "Slim dark rows with a glowing name stripe slide in from the left, gaming-stream style."
+    }
+  ]
+}

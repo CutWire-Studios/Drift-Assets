@@ -1,0 +1,220 @@
+{
+  "schema": 1,
+  "id": "video-call-grid-frame",
+  "name": "Video Call Grid Frame",
+  "type": "lottie",
+  "category": "broadcast",
+  "file": "video-call-grid-frame.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Full-frame 2x2 video-call overlay with transparent tiles: name tags with mic icons and a speaking ring that moves from tile to tile. Put four clips under the tiles and the names in name1-4.",
+  "tags": [
+    "video call",
+    "zoom",
+    "meeting",
+    "grid",
+    "webcam",
+    "call",
+    "interview",
+    "overlay"
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 4.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#35D07F",
+    "background": "#1B1C22",
+    "icon": "#FFFFFF",
+    "accent": "#FF4D4D"
+  },
+  "textArea": [
+    120,
+    408,
+    236,
+    42
+  ],
+  "textAreas": {
+    "name1": [
+      120,
+      408,
+      236,
+      42
+    ],
+    "name2": [
+      1054,
+      408,
+      236,
+      42
+    ],
+    "name3": [
+      120,
+      870,
+      236,
+      42
+    ],
+    "name4": [
+      1054,
+      870,
+      236,
+      42
+    ]
+  },
+  "variants": [
+    {
+      "id": "modern",
+      "name": "App Chrome",
+      "file": "video-call-grid-frame.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#35D07F",
+        "background": "#1B1C22",
+        "icon": "#FFFFFF",
+        "accent": "#FF4D4D"
+      },
+      "textArea": [
+        120,
+        408,
+        236,
+        42
+      ],
+      "textAreas": {
+        "name1": [
+          120,
+          408,
+          236,
+          42
+        ],
+        "name2": [
+          1054,
+          408,
+          236,
+          42
+        ],
+        "name3": [
+          120,
+          870,
+          236,
+          42
+        ],
+        "name4": [
+          1054,
+          870,
+          236,
+          42
+        ]
+      },
+      "description": "Rounded tiles on a dark surround with name pills, a call toolbar and a green speaker ring."
+    },
+    {
+      "id": "minimal",
+      "name": "Minimal",
+      "file": "video-call-grid-frame--minimal.json",
+      "thumbnail": "thumbnail--minimal.png",
+      "preview": "preview--minimal.webp",
+      "poster": "poster--minimal.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFFFFF",
+        "icon": "#FFFFFF",
+        "accent": "#FF4D4D",
+        "outline": "#FFFFFF"
+      },
+      "textArea": [
+        124,
+        462,
+        236,
+        42
+      ],
+      "textAreas": {
+        "name1": [
+          124,
+          462,
+          236,
+          42
+        ],
+        "name2": [
+          1052,
+          462,
+          236,
+          42
+        ],
+        "name3": [
+          124,
+          970,
+          236,
+          42
+        ],
+        "name4": [
+          1052,
+          970,
+          236,
+          42
+        ]
+      },
+      "description": "No chrome: thin outlines, small mic icons and a thick ring that jumps to the speaker."
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "file": "video-call-grid-frame--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#3DF2FF",
+        "secondary": "#B04DFF",
+        "background": "#0C0A14",
+        "icon": "#FFFFFF",
+        "accent": "#FF3D7A"
+      },
+      "textArea": [
+        128,
+        456,
+        236,
+        42
+      ],
+      "textAreas": {
+        "name1": [
+          128,
+          456,
+          236,
+          42
+        ],
+        "name2": [
+          1058,
+          456,
+          236,
+          42
+        ],
+        "name3": [
+          128,
+          966,
+          236,
+          42
+        ],
+        "name4": [
+          1058,
+          966,
+          236,
+          42
+        ]
+      },
+      "description": "Dim neon tile outlines; the speaker's tile lights up in a second colour and pulses."
+    }
+  ]
+}

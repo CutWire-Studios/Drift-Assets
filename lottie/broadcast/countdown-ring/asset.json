@@ -1,0 +1,109 @@
+{
+  "schema": 1,
+  "id": "countdown-ring",
+  "name": "Countdown Ring",
+  "type": "lottie",
+  "category": "broadcast",
+  "file": "countdown-ring.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Circular countdown timer that runs down once per second, ready to loop under each number. Put the number in the centre with the text tool.",
+  "tags": [
+    "countdown",
+    "timer",
+    "ring",
+    "clock",
+    "seconds",
+    "circle",
+    "broadcast"
+  ],
+  "width": 520,
+  "height": 520,
+  "fps": 30,
+  "duration": 1.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FF3B5C",
+    "background": "#16161C",
+    "icon": "#FFFFFF"
+  },
+  "textArea": [
+    140,
+    176,
+    240,
+    168
+  ],
+  "variants": [
+    {
+      "id": "modern",
+      "name": "Modern Ring",
+      "file": "countdown-ring.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 520,
+      "height": 520,
+      "duration": 1.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF3B5C",
+        "background": "#16161C",
+        "icon": "#FFFFFF"
+      },
+      "textArea": [
+        140,
+        176,
+        240,
+        168
+      ],
+      "description": "Thick ring with tick marks around a dark disc; a head dot leads the ring down."
+    },
+    {
+      "id": "film",
+      "name": "Film Leader",
+      "file": "countdown-ring--film.json",
+      "thumbnail": "thumbnail--film.png",
+      "preview": "preview--film.webp",
+      "poster": "poster--film.png",
+      "width": 520,
+      "height": 520,
+      "duration": 1.0,
+      "playback": "loop",
+      "slots": {
+        "background": "#8C8A84",
+        "outline": "#F4F1E8",
+        "secondary": "#2A2926"
+      },
+      "textArea": [
+        140,
+        176,
+        240,
+        168
+      ],
+      "description": "Old film-leader countdown: crosshair, double circle and a sweeping wedge with dust and flicker."
+    },
+    {
+      "id": "neon",
+      "name": "Neon Ticks",
+      "file": "countdown-ring--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 520,
+      "height": 520,
+      "duration": 1.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#27F2FF",
+        "accent": "#FF3DDB"
+      },
+      "textArea": [
+        140,
+        176,
+        240,
+        168
+      ],
+      "description": "Sixty glowing tick segments switch off one by one inside a neon double ring."
+    }
+  ]
+}

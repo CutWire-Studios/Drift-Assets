@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "id": "awards-spotlight",
+  "name": "Awards Spotlight",
+  "type": "lottie",
+  "category": "broadcast",
+  "file": "awards-spotlight.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Full-frame awards-show lighting overlay: sweeping spotlights, stage glow and twinkling sparkles that loop behind a winner reveal or a title.",
+  "tags": [
+    "awards",
+    "spotlight",
+    "stage",
+    "winner",
+    "premiere",
+    "sparkles",
+    "celebration",
+    "light"
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 4.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FFE2A6",
+    "accent": "#FFD55A"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Twin Spots",
+      "file": "awards-spotlight.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFE2A6",
+        "accent": "#FFD55A"
+      },
+      "textArea": null,
+      "description": "Two warm spotlights from the top corners sweep and cross over a glowing stage with sparkles."
+    },
+    {
+      "id": "searchlights",
+      "name": "Searchlights",
+      "file": "awards-spotlight--searchlights.json",
+      "thumbnail": "thumbnail--searchlights.png",
+      "preview": "preview--searchlights.webp",
+      "poster": "poster--searchlights.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#CFE6FF",
+        "accent": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Premiere searchlights sweeping up from the floor through haze, with rising glitter."
+    },
+    {
+      "id": "center-stage",
+      "name": "Center Stage",
+      "file": "awards-spotlight--center-stage.json",
+      "thumbnail": "thumbnail--center-stage.png",
+      "preview": "preview--center-stage.webp",
+      "poster": "poster--center-stage.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFF1CF",
+        "accent": "#FFE08A",
+        "background": "#000000"
+      },
+      "textArea": null,
+      "description": "One spotlight from above opens onto a pool of light, dust glinting in the beam."
+    }
+  ]
+}

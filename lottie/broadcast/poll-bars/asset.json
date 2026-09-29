@@ -1,0 +1,272 @@
+{
+  "schema": 1,
+  "id": "poll-bars",
+  "name": "Poll Bars",
+  "type": "lottie",
+  "category": "broadcast",
+  "file": "poll-bars.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Three-option poll whose bars fill to their results, the leader highlighted. Each option has its own text areas for the answer (option1-3) and its percentage (value1-3).",
+  "tags": [
+    "poll",
+    "vote",
+    "survey",
+    "results",
+    "bars",
+    "percent",
+    "chart",
+    "question"
+  ],
+  "width": 1000,
+  "height": 500,
+  "fps": 30,
+  "duration": 3.0,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#4C7DFF",
+    "secondary": "#8A8FA3",
+    "background": "#FFFFFF"
+  },
+  "textArea": [
+    84,
+    70,
+    600,
+    60
+  ],
+  "textAreas": {
+    "option1": [
+      84,
+      70,
+      600,
+      60
+    ],
+    "value1": [
+      770,
+      70,
+      160,
+      60
+    ],
+    "option2": [
+      84,
+      220,
+      600,
+      60
+    ],
+    "value2": [
+      770,
+      220,
+      160,
+      60
+    ],
+    "option3": [
+      84,
+      370,
+      600,
+      60
+    ],
+    "value3": [
+      770,
+      370,
+      160,
+      60
+    ]
+  },
+  "variants": [
+    {
+      "id": "modern",
+      "name": "Floating Pills",
+      "file": "poll-bars.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1000,
+      "height": 500,
+      "duration": 3.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#4C7DFF",
+        "secondary": "#8A8FA3",
+        "background": "#FFFFFF"
+      },
+      "textArea": [
+        84,
+        70,
+        600,
+        60
+      ],
+      "textAreas": {
+        "option1": [
+          84,
+          70,
+          600,
+          60
+        ],
+        "value1": [
+          770,
+          70,
+          160,
+          60
+        ],
+        "option2": [
+          84,
+          220,
+          600,
+          60
+        ],
+        "value2": [
+          770,
+          220,
+          160,
+          60
+        ],
+        "option3": [
+          84,
+          370,
+          600,
+          60
+        ],
+        "value3": [
+          770,
+          370,
+          160,
+          60
+        ]
+      },
+      "description": "Three floating pill bars slide in and fill; the leader glows in the highlight colour."
+    },
+    {
+      "id": "card",
+      "name": "Poll Card",
+      "file": "poll-bars--card.json",
+      "thumbnail": "thumbnail--card.png",
+      "preview": "preview--card.webp",
+      "poster": "poster--card.png",
+      "width": 920,
+      "height": 660,
+      "duration": 3.0,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#FFFFFF",
+        "primary": "#7B4DFF",
+        "secondary": "#D9D4E8",
+        "icon": "#FFFFFF"
+      },
+      "textArea": [
+        90,
+        80,
+        740,
+        90
+      ],
+      "textAreas": {
+        "question": [
+          90,
+          80,
+          740,
+          90
+        ],
+        "option1": [
+          154,
+          210,
+          490,
+          52
+        ],
+        "value1": [
+          670,
+          210,
+          160,
+          52
+        ],
+        "option2": [
+          154,
+          340,
+          490,
+          52
+        ],
+        "value2": [
+          670,
+          340,
+          160,
+          52
+        ],
+        "option3": [
+          154,
+          470,
+          490,
+          52
+        ],
+        "value3": [
+          670,
+          470,
+          160,
+          52
+        ]
+      },
+      "description": "White card with a question header, radio dots and thin bars; the winner gets a check."
+    },
+    {
+      "id": "slanted",
+      "name": "Election Slant",
+      "file": "poll-bars--slanted.json",
+      "thumbnail": "thumbnail--slanted.png",
+      "preview": "preview--slanted.webp",
+      "poster": "poster--slanted.png",
+      "width": 1120,
+      "height": 500,
+      "duration": 3.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#E8263B",
+        "secondary": "#1E6BFF",
+        "accent": "#FFC21A",
+        "background": "#14161F",
+        "icon": "#FFFFFF"
+      },
+      "textArea": [
+        90,
+        70,
+        240,
+        60
+      ],
+      "textAreas": {
+        "option1": [
+          90,
+          70,
+          240,
+          60
+        ],
+        "value1": [
+          880,
+          70,
+          160,
+          60
+        ],
+        "option2": [
+          90,
+          210,
+          240,
+          60
+        ],
+        "value2": [
+          880,
+          210,
+          160,
+          60
+        ],
+        "option3": [
+          90,
+          350,
+          240,
+          60
+        ],
+        "value3": [
+          880,
+          350,
+          160,
+          60
+        ]
+      },
+      "description": "TV-election style: slanted colour chips snap in and white result bars wipe across."
+    }
+  ]
+}

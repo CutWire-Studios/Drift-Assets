@@ -1,0 +1,192 @@
+{
+  "schema": 1,
+  "id": "versus-slash",
+  "name": "Versus Slash",
+  "type": "lottie",
+  "category": "broadcast",
+  "file": "versus-slash.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Full-frame VS card: two colour halves slam together and a lightning slash cracks down the seam. Text areas for VS in the middle and a name on each side.",
+  "tags": [
+    "versus",
+    "vs",
+    "battle",
+    "fight",
+    "comparison",
+    "lightning",
+    "matchup",
+    "gaming"
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#1E6BFF",
+    "secondary": "#FF2E3E",
+    "accent": "#FFE45C"
+  },
+  "textArea": [
+    830,
+    450,
+    260,
+    180
+  ],
+  "textAreas": {
+    "vs": [
+      830,
+      450,
+      260,
+      180
+    ],
+    "left": [
+      140,
+      830,
+      600,
+      130
+    ],
+    "right": [
+      1180,
+      830,
+      600,
+      130
+    ]
+  },
+  "variants": [
+    {
+      "id": "diagonal",
+      "name": "Diagonal Slash",
+      "file": "versus-slash.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#1E6BFF",
+        "secondary": "#FF2E3E",
+        "accent": "#FFE45C"
+      },
+      "textArea": [
+        830,
+        450,
+        260,
+        180
+      ],
+      "textAreas": {
+        "vs": [
+          830,
+          450,
+          260,
+          180
+        ],
+        "left": [
+          140,
+          830,
+          600,
+          130
+        ],
+        "right": [
+          1180,
+          830,
+          600,
+          130
+        ]
+      },
+      "description": "Striped colour halves slam in from the sides on a diagonal seam, split by a lightning bolt."
+    },
+    {
+      "id": "vertical",
+      "name": "Vertical Drop",
+      "file": "versus-slash--vertical.json",
+      "thumbnail": "thumbnail--vertical.png",
+      "preview": "preview--vertical.webp",
+      "poster": "poster--vertical.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#7A2BFF",
+        "secondary": "#FF8A00",
+        "accent": "#FFFFFF"
+      },
+      "textArea": [
+        830,
+        450,
+        260,
+        180
+      ],
+      "textAreas": {
+        "vs": [
+          830,
+          450,
+          260,
+          180
+        ],
+        "left": [
+          140,
+          830,
+          600,
+          130
+        ],
+        "right": [
+          1180,
+          830,
+          600,
+          130
+        ]
+      },
+      "description": "Halves drop in from above and below on a straight seam; a jagged white bolt splits them."
+    },
+    {
+      "id": "comic",
+      "name": "Comic",
+      "file": "versus-slash--comic.json",
+      "thumbnail": "thumbnail--comic.png",
+      "preview": "preview--comic.webp",
+      "poster": "poster--comic.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#00B4FF",
+        "secondary": "#FF3D7F",
+        "accent": "#FFE600",
+        "outline": "#111111"
+      },
+      "textArea": [
+        810,
+        450,
+        300,
+        180
+      ],
+      "textAreas": {
+        "vs": [
+          810,
+          450,
+          300,
+          180
+        ],
+        "left": [
+          140,
+          830,
+          600,
+          130
+        ],
+        "right": [
+          1180,
+          830,
+          600,
+          130
+        ]
+      },
+      "description": "Comic-book halftone halves with an ink seam and a jagged yellow VS burst with speed lines."
+    }
+  ]
+}
