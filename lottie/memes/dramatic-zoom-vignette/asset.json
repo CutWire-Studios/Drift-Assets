@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "id": "dramatic-zoom-vignette",
+  "name": "Dramatic Zoom Vignette",
+  "type": "lottie",
+  "category": "memes",
+  "file": "dramatic-zoom-vignette.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Full-frame dramatic zoom overlay: the edges darken and radial speed lines snap in around the centre, holding the tension before snapping back out. Keep your subject in the clear middle.",
+  "tags": [
+    "dramatic",
+    "zoom",
+    "speed lines",
+    "vignette",
+    "anime",
+    "meme",
+    "focus"
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 2.5,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "primary": "#FFFFFF"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Anime Lines",
+      "file": "dramatic-zoom-vignette.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 2.5,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Dark vignette closes in and white anime speed lines flicker around the subject."
+    },
+    {
+      "id": "iris",
+      "name": "Iris Spotlight",
+      "file": "dramatic-zoom-vignette--iris.json",
+      "thumbnail": "thumbnail--iris.png",
+      "preview": "preview--iris.webp",
+      "poster": "poster--iris.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 2.5,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "outline": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "A hard iris squeezes the frame to a spotlight with a bright rim and inward zoom rings."
+    },
+    {
+      "id": "manga",
+      "name": "Manga Focus",
+      "file": "dramatic-zoom-vignette--manga.json",
+      "thumbnail": "thumbnail--manga.png",
+      "preview": "preview--manga.webp",
+      "poster": "poster--manga.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 2.5,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#0B0B0F",
+        "accent": "#E3262E"
+      },
+      "textArea": null,
+      "description": "Dense black manga focus lines with red accent streaks that jitter; no darkening."
+    }
+  ]
+}

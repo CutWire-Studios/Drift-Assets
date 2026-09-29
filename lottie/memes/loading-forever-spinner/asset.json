@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "id": "loading-forever-spinner",
+  "name": "Loading Forever Spinner",
+  "type": "lottie",
+  "category": "memes",
+  "file": "loading-forever-spinner.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A buffering spinner that loops forever and never finishes loading. Drop it over a frozen moment for the eternal-buffering joke.",
+  "tags": [
+    "loading",
+    "buffering",
+    "spinner",
+    "waiting",
+    "meme",
+    "lag",
+    "loop"
+  ],
+  "width": 320,
+  "height": 320,
+  "fps": 30,
+  "duration": 2.4,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FFFFFF",
+    "background": "#000000"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "dots",
+      "name": "Dot Ring",
+      "file": "loading-forever-spinner.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 320,
+      "height": 320,
+      "duration": 2.4,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFFFFF",
+        "background": "#000000"
+      },
+      "textArea": null,
+      "description": "Twelve dots with a fading chase that ticks round on a dim disc."
+    },
+    {
+      "id": "ring",
+      "name": "Arc Ring",
+      "file": "loading-forever-spinner--ring.json",
+      "thumbnail": "thumbnail--ring.png",
+      "preview": "preview--ring.webp",
+      "poster": "poster--ring.png",
+      "width": 320,
+      "height": 320,
+      "duration": 1.5,
+      "playback": "loop",
+      "slots": {
+        "primary": "#4DA3FF",
+        "secondary": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Modern arc that grows and chases its tail over a faint track."
+    },
+    {
+      "id": "pixel",
+      "name": "Pixel Blocks",
+      "file": "loading-forever-spinner--pixel.json",
+      "thumbnail": "thumbnail--pixel.png",
+      "preview": "preview--pixel.webp",
+      "poster": "poster--pixel.png",
+      "width": 320,
+      "height": 320,
+      "duration": 2.133,
+      "playback": "loop",
+      "slots": {
+        "primary": "#7CFF6B",
+        "background": "#101418"
+      },
+      "textArea": null,
+      "description": "Retro 8-bit panel of square blocks lighting up in turn."
+    }
+  ]
+}

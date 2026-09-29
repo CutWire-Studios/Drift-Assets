@@ -1,0 +1,87 @@
+{
+  "schema": 1,
+  "id": "npc-glitch",
+  "name": "NPC Glitch",
+  "type": "lottie",
+  "category": "memes",
+  "file": "npc-glitch.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Full-frame glitch overlay for \"NPC moment\" edits: RGB-split outlines, scanlines and glitch slices that jolt in bursts on a seamless loop. The middle stays clear for your subject.",
+  "tags": [
+    "npc",
+    "glitch",
+    "rgb split",
+    "scanlines",
+    "error",
+    "meme",
+    "loop"
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FF2A4D",
+    "secondary": "#1FE6FF"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "rgb",
+      "name": "RGB Outline",
+      "file": "npc-glitch.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF2A4D",
+        "secondary": "#1FE6FF"
+      },
+      "textArea": null,
+      "description": "Thin screen outline split into red and cyan that jolts in bursts, with scanlines."
+    },
+    {
+      "id": "marker",
+      "name": "NPC Marker",
+      "file": "npc-glitch--marker.json",
+      "thumbnail": "thumbnail--marker.png",
+      "preview": "preview--marker.webp",
+      "poster": "poster--marker.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF2A4D",
+        "secondary": "#1FE6FF",
+        "accent": "#FFD83D"
+      },
+      "textArea": null,
+      "description": "Game-style diamond marker bobbing above the subject inside glitching target brackets."
+    },
+    {
+      "id": "vhs",
+      "name": "Tape Tracking",
+      "file": "npc-glitch--vhs.json",
+      "thumbnail": "thumbnail--vhs.png",
+      "preview": "preview--vhs.webp",
+      "poster": "poster--vhs.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF2A4D",
+        "secondary": "#1FE6FF"
+      },
+      "textArea": null,
+      "description": "Heavy scanlines, a rolling tracking-noise band and colour fringes down the edges."
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "schema": 1,
+  "id": "wasted-stripe",
+  "name": "Game Over Stripe",
+  "type": "lottie",
+  "category": "memes",
+  "file": "wasted-stripe.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Full-frame game-over overlay: the picture washes out grey and a dark banner stripe settles across the middle. Type your verdict inside the stripe.",
+  "tags": [
+    "wasted",
+    "game over",
+    "fail",
+    "banner",
+    "grey",
+    "meme",
+    "death screen"
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "intro-hold",
+  "slots": {
+    "background": "#000000",
+    "secondary": "#7C7C80"
+  },
+  "textArea": [
+    160,
+    460,
+    1600,
+    160
+  ],
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Classic",
+      "file": "wasted-stripe.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#000000",
+        "secondary": "#7C7C80"
+      },
+      "textArea": [
+        160,
+        460,
+        1600,
+        160
+      ],
+      "description": "Grey wash with a soft vignette; a translucent black stripe opens from the centre line."
+    },
+    {
+      "id": "slide",
+      "name": "Slide In",
+      "file": "wasted-stripe--slide.json",
+      "thumbnail": "thumbnail--slide.png",
+      "preview": "preview--slide.webp",
+      "poster": "poster--slide.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#101014",
+        "primary": "#E0322B",
+        "secondary": "#6E6E74"
+      },
+      "textArea": [
+        160,
+        470,
+        1600,
+        140
+      ],
+      "description": "A skewed dark banner whips in from the left between red edge lines."
+    },
+    {
+      "id": "cinematic",
+      "name": "Cinematic",
+      "file": "wasted-stripe--cinematic.json",
+      "thumbnail": "thumbnail--cinematic.png",
+      "preview": "preview--cinematic.webp",
+      "poster": "poster--cinematic.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#000000",
+        "accent": "#D9B25B",
+        "secondary": "#5C5C62"
+      },
+      "textArea": [
+        360,
+        480,
+        1200,
+        120
+      ],
+      "description": "Heavy vignette closes in and gold hairlines draw out to frame a thin fading stripe."
+    }
+  ]
+}
