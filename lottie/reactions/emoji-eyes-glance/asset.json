@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "id": "emoji-eyes-glance",
+  "name": "Emoji Eyes Glance",
+  "type": "lottie",
+  "category": "reactions",
+  "file": "emoji-eyes-glance.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A pair of big cartoon eyes that dart left, right and back with a little hop, then blink; for side-eye and 'look at this' moments. Seamless loop.",
+  "tags": [
+    "emoji",
+    "eyes",
+    "side eye",
+    "looking",
+    "glance",
+    "watching",
+    "reaction"
+  ],
+  "width": 460,
+  "height": 340,
+  "fps": 30,
+  "duration": 3.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FFFFFF",
+    "secondary": "#1B1B24"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "glossy",
+      "name": "Glossy",
+      "file": "emoji-eyes-glance.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 460,
+      "height": 340,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFFFFF",
+        "secondary": "#1B1B24"
+      },
+      "textArea": null,
+      "description": "Shaded glassy eyeballs with bright highlights."
+    },
+    {
+      "id": "flat",
+      "name": "Flat Sticker",
+      "file": "emoji-eyes-glance--flat.json",
+      "thumbnail": "thumbnail--flat.png",
+      "preview": "preview--flat.webp",
+      "poster": "poster--flat.png",
+      "width": 460,
+      "height": 340,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFFFFF",
+        "secondary": "#1B1B24",
+        "outline": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Flat colours with a thick white die-cut border."
+    },
+    {
+      "id": "outline",
+      "name": "Bold Outline",
+      "file": "emoji-eyes-glance--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 460,
+      "height": 340,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFFFFF",
+        "secondary": "#1B1B24",
+        "outline": "#161616"
+      },
+      "textArea": null,
+      "description": "Cartoon line art with bold black outlines."
+    }
+  ]
+}

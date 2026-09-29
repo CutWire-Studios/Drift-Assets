@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "id": "money-rain",
+  "name": "Money Rain",
+  "type": "lottie",
+  "category": "reactions",
+  "file": "money-rain.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Banknotes fluttering and flipping down with spinning gold coins; for wins, sales, payday and 'make it rain' moments. Seamless loop.",
+  "tags": [
+    "money",
+    "cash",
+    "rain",
+    "rich",
+    "payday",
+    "coins",
+    "reaction"
+  ],
+  "width": 460,
+  "height": 560,
+  "fps": 30,
+  "duration": 3.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#4CC38A",
+    "secondary": "#FFC93C"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "glossy",
+      "name": "Glossy",
+      "file": "money-rain.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 460,
+      "height": 560,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#4CC38A",
+        "secondary": "#FFC93C"
+      },
+      "textArea": null,
+      "description": "Shaded notes and shiny coins with highlights."
+    },
+    {
+      "id": "flat",
+      "name": "Flat Sticker",
+      "file": "money-rain--flat.json",
+      "thumbnail": "thumbnail--flat.png",
+      "preview": "preview--flat.webp",
+      "poster": "poster--flat.png",
+      "width": 460,
+      "height": 560,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#4CC38A",
+        "secondary": "#FFC93C",
+        "outline": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Flat colours with white die-cut borders."
+    },
+    {
+      "id": "outline",
+      "name": "Bold Outline",
+      "file": "money-rain--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 460,
+      "height": 560,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#4CC38A",
+        "secondary": "#FFC93C",
+        "outline": "#161616"
+      },
+      "textArea": null,
+      "description": "Cartoon line art with bold black outlines."
+    }
+  ]
+}

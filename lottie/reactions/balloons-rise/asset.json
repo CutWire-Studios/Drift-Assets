@@ -1,0 +1,92 @@
+{
+  "schema": 1,
+  "id": "balloons-rise",
+  "name": "Balloons Rise",
+  "type": "lottie",
+  "category": "reactions",
+  "file": "balloons-rise.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Party balloons floating up past the frame, swaying on their strings; for birthdays and celebrations. Seamless loop.",
+  "tags": [
+    "balloons",
+    "birthday",
+    "party",
+    "celebration",
+    "float",
+    "congrats",
+    "reaction"
+  ],
+  "width": 440,
+  "height": 560,
+  "fps": 30,
+  "duration": 4.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FF4D6D",
+    "secondary": "#4D9BFF",
+    "accent": "#FFC93C"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "glossy",
+      "name": "Glossy",
+      "file": "balloons-rise.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 440,
+      "height": 560,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF4D6D",
+        "secondary": "#4D9BFF",
+        "accent": "#FFC93C"
+      },
+      "textArea": null,
+      "description": "Shiny latex balloons with highlights."
+    },
+    {
+      "id": "flat",
+      "name": "Flat Sticker",
+      "file": "balloons-rise--flat.json",
+      "thumbnail": "thumbnail--flat.png",
+      "preview": "preview--flat.webp",
+      "poster": "poster--flat.png",
+      "width": 440,
+      "height": 560,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF4D6D",
+        "secondary": "#4D9BFF",
+        "accent": "#FFC93C",
+        "outline": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Flat colours with a thick white die-cut border."
+    },
+    {
+      "id": "outline",
+      "name": "Bold Outline",
+      "file": "balloons-rise--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 440,
+      "height": 560,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF4D6D",
+        "secondary": "#4D9BFF",
+        "accent": "#FFC93C",
+        "outline": "#161616"
+      },
+      "textArea": null,
+      "description": "Cartoon line art with bold black outlines."
+    }
+  ]
+}

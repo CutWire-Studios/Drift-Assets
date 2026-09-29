@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "id": "emoji-thinking",
+  "name": "Emoji Thinking",
+  "type": "lottie",
+  "category": "reactions",
+  "file": "emoji-thinking.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Pondering face with a hand on its chin: it taps thoughtfully while its eyes drift up and one brow arches. Seamless loop; room above it for your question.",
+  "tags": [
+    "emoji",
+    "thinking",
+    "hmm",
+    "pondering",
+    "wonder",
+    "question",
+    "reaction"
+  ],
+  "width": 460,
+  "height": 480,
+  "fps": 30,
+  "duration": 3.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FFC83D"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "glossy",
+      "name": "Glossy",
+      "file": "emoji-thinking.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 460,
+      "height": 480,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFC83D"
+      },
+      "textArea": null,
+      "description": "Classic yellow emoji with soft shading and highlights."
+    },
+    {
+      "id": "flat",
+      "name": "Flat Sticker",
+      "file": "emoji-thinking--flat.json",
+      "thumbnail": "thumbnail--flat.png",
+      "preview": "preview--flat.webp",
+      "poster": "poster--flat.png",
+      "width": 460,
+      "height": 480,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFCC3A",
+        "outline": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Flat colours with a thick white die-cut border."
+    },
+    {
+      "id": "outline",
+      "name": "Bold Outline",
+      "file": "emoji-thinking--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 460,
+      "height": 480,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFD23F",
+        "outline": "#161616"
+      },
+      "textArea": null,
+      "description": "Cartoon line art with bold black outlines."
+    }
+  ]
+}

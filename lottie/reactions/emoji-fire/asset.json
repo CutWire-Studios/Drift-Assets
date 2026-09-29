@@ -1,0 +1,92 @@
+{
+  "schema": 1,
+  "id": "emoji-fire",
+  "name": "Emoji Fire",
+  "type": "lottie",
+  "category": "reactions",
+  "file": "emoji-fire.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Three-tone flame that licks and flickers while embers drift up; for anything that's lit. Seamless loop.",
+  "tags": [
+    "emoji",
+    "fire",
+    "flame",
+    "lit",
+    "hot",
+    "trending",
+    "reaction"
+  ],
+  "width": 420,
+  "height": 480,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FF4E1F",
+    "secondary": "#FF9A1F",
+    "accent": "#FFE14D"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "glossy",
+      "name": "Glossy",
+      "file": "emoji-fire.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 420,
+      "height": 480,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF4E1F",
+        "secondary": "#FF9A1F",
+        "accent": "#FFE14D"
+      },
+      "textArea": null,
+      "description": "Shaded flame with a warm glow and glowing embers."
+    },
+    {
+      "id": "flat",
+      "name": "Flat Sticker",
+      "file": "emoji-fire--flat.json",
+      "thumbnail": "thumbnail--flat.png",
+      "preview": "preview--flat.webp",
+      "poster": "poster--flat.png",
+      "width": 420,
+      "height": 480,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF4E1F",
+        "secondary": "#FF9A1F",
+        "accent": "#FFE14D",
+        "outline": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Flat colours with a thick white die-cut border."
+    },
+    {
+      "id": "outline",
+      "name": "Bold Outline",
+      "file": "emoji-fire--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 420,
+      "height": 480,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF4E1F",
+        "secondary": "#FF9A1F",
+        "accent": "#FFE14D",
+        "outline": "#161616"
+      },
+      "textArea": null,
+      "description": "Cartoon line art with bold black outlines."
+    }
+  ]
+}

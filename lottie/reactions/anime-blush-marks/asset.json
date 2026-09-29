@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "id": "anime-blush-marks",
+  "name": "Anime Blush Marks",
+  "type": "lottie",
+  "category": "reactions",
+  "file": "anime-blush-marks.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A pair of anime cheek blushes that glow on and pulse; position them over a face for flustered, shy or smitten moments. Seamless loop.",
+  "tags": [
+    "anime",
+    "blush",
+    "shy",
+    "flustered",
+    "cute",
+    "kawaii",
+    "reaction"
+  ],
+  "width": 460,
+  "height": 200,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FF6F91"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "hatch",
+      "name": "Hatched",
+      "file": "anime-blush-marks.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 460,
+      "height": 200,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF6F91"
+      },
+      "textArea": null,
+      "description": "Pink ovals with classic white diagonal hatching."
+    },
+    {
+      "id": "soft",
+      "name": "Soft Glow",
+      "file": "anime-blush-marks--soft.json",
+      "thumbnail": "thumbnail--soft.png",
+      "preview": "preview--soft.webp",
+      "poster": "poster--soft.png",
+      "width": 460,
+      "height": 200,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF6F91"
+      },
+      "textArea": null,
+      "description": "Soft layered glow with twinkling sparkles."
+    },
+    {
+      "id": "doodle",
+      "name": "Doodle",
+      "file": "anime-blush-marks--doodle.json",
+      "thumbnail": "thumbnail--doodle.png",
+      "preview": "preview--doodle.webp",
+      "poster": "poster--doodle.png",
+      "width": 460,
+      "height": 200,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF6F91"
+      },
+      "textArea": null,
+      "description": "Marker hatch strokes that draw on and redraw."
+    }
+  ]
+}
