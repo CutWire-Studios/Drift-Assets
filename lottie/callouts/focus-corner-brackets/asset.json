@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "id": "focus-corner-brackets",
+  "name": "Focus Corner Brackets",
+  "type": "lottie",
+  "category": "callouts",
+  "file": "focus-corner-brackets.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Four corner brackets that snap in to frame a subject, like a camera focusing; stretch it to fit what you want to highlight.",
+  "tags": [
+    "focus",
+    "brackets",
+    "frame",
+    "corners",
+    "highlight",
+    "camera",
+    "callout"
+  ],
+  "width": 580,
+  "height": 400,
+  "fps": 30,
+  "duration": 1.2,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FFFFFF"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "clean",
+      "name": "Clean",
+      "file": "focus-corner-brackets.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 580,
+      "height": 400,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "White round-capped corners that spring in from outside the frame."
+    },
+    {
+      "id": "hand",
+      "name": "Hand-Drawn",
+      "file": "focus-corner-brackets--hand.json",
+      "thumbnail": "thumbnail--hand.png",
+      "preview": "preview--hand.webp",
+      "poster": "poster--hand.png",
+      "width": 580,
+      "height": 400,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFD21F"
+      },
+      "textArea": null,
+      "description": "Marker corners flicked on one after another."
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "file": "focus-corner-brackets--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 580,
+      "height": 400,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#39FF88"
+      },
+      "textArea": null,
+      "description": "Glowing neon corners that slide in and flicker on."
+    }
+  ]
+}

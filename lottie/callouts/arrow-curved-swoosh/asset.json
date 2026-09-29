@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "id": "arrow-curved-swoosh",
+  "name": "Curved Swoosh Arrow",
+  "type": "lottie",
+  "category": "callouts",
+  "file": "arrow-curved-swoosh.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A long curved arrow that swoops down and sweeps up to the right as it draws on; point it at whatever you want viewers to notice.",
+  "tags": [
+    "arrow",
+    "curved",
+    "swoosh",
+    "pointer",
+    "callout",
+    "draw-on"
+  ],
+  "width": 560,
+  "height": 380,
+  "fps": 30,
+  "duration": 1.2,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FF2D2D"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "hand",
+      "name": "Hand-Drawn",
+      "file": "arrow-curved-swoosh.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 560,
+      "height": 380,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF2D2D"
+      },
+      "textArea": null,
+      "description": "Tapered marker stroke with a flicked-on arrowhead."
+    },
+    {
+      "id": "clean",
+      "name": "Clean",
+      "file": "arrow-curved-swoosh--clean.json",
+      "thumbnail": "thumbnail--clean.png",
+      "preview": "preview--clean.webp",
+      "poster": "poster--clean.png",
+      "width": 560,
+      "height": 380,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF2D2D"
+      },
+      "textArea": null,
+      "description": "Even vector line with a rounded solid arrowhead that pops on."
+    },
+    {
+      "id": "bold",
+      "name": "Comic Bold",
+      "file": "arrow-curved-swoosh--bold.json",
+      "thumbnail": "thumbnail--bold.png",
+      "preview": "preview--bold.webp",
+      "poster": "poster--bold.png",
+      "width": 560,
+      "height": 380,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF2D2D",
+        "outline": "#141414"
+      },
+      "textArea": null,
+      "description": "Chunky tapered comic arrow with an ink outline and hard shadow."
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "id": "strike-through-scribble",
+  "name": "Strike-Through Scribble",
+  "type": "lottie",
+  "category": "callouts",
+  "file": "strike-through-scribble.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Crosses something out: lay it over a word or line of text, which sits in the text area behind it.",
+  "tags": [
+    "strike-through",
+    "cross out",
+    "scribble",
+    "wrong",
+    "delete",
+    "edit",
+    "hand-drawn"
+  ],
+  "width": 700,
+  "height": 200,
+  "fps": 30,
+  "duration": 1.0,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FF2D2D"
+  },
+  "textArea": [
+    68,
+    60,
+    564,
+    80
+  ],
+  "variants": [
+    {
+      "id": "scribble",
+      "name": "Scratch-Out",
+      "file": "strike-through-scribble.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 700,
+      "height": 200,
+      "duration": 1.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF2D2D"
+      },
+      "textArea": [
+        68,
+        60,
+        564,
+        80
+      ],
+      "description": "Messy back-and-forth marker scribble that scratches the word out."
+    },
+    {
+      "id": "marker",
+      "name": "Marker Strike",
+      "file": "strike-through-scribble--marker.json",
+      "thumbnail": "thumbnail--marker.png",
+      "preview": "preview--marker.webp",
+      "poster": "poster--marker.png",
+      "width": 700,
+      "height": 200,
+      "duration": 1.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF2D2D"
+      },
+      "textArea": [
+        68,
+        60,
+        564,
+        80
+      ],
+      "description": "One confident marker stroke through the middle with a quick return stroke."
+    },
+    {
+      "id": "clean",
+      "name": "Clean Line",
+      "file": "strike-through-scribble--clean.json",
+      "thumbnail": "thumbnail--clean.png",
+      "preview": "preview--clean.webp",
+      "poster": "poster--clean.png",
+      "width": 700,
+      "height": 200,
+      "duration": 1.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF2D2D"
+      },
+      "textArea": [
+        68,
+        60,
+        564,
+        80
+      ],
+      "description": "Straight vector strike that shoots across and throws a little spark at the end."
+    }
+  ]
+}

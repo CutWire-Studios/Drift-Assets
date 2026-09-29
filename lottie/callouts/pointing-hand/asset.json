@@ -1,0 +1,89 @@
+{
+  "schema": 1,
+  "id": "pointing-hand",
+  "name": "Pointing Hand",
+  "type": "lottie",
+  "category": "callouts",
+  "file": "pointing-hand.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Cartoon hand pointing to the right that keeps poking forward; place the fingertip next to whatever you want to point out (flip it horizontally to point left).",
+  "tags": [
+    "hand",
+    "pointing",
+    "finger",
+    "point",
+    "look-here",
+    "cartoon",
+    "loop"
+  ],
+  "width": 440,
+  "height": 250,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FFFFFF",
+    "outline": "#141414",
+    "accent": "#FFD21F"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "glove",
+      "name": "Cartoon Glove",
+      "file": "pointing-hand.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 440,
+      "height": 250,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFFFFF",
+        "outline": "#141414",
+        "accent": "#FFD21F"
+      },
+      "textArea": null,
+      "description": "White cartoon glove with stitching; little yellow lines flick out on each poke."
+    },
+    {
+      "id": "bold",
+      "name": "Comic Bold",
+      "file": "pointing-hand--bold.json",
+      "thumbnail": "thumbnail--bold.png",
+      "preview": "preview--bold.webp",
+      "poster": "poster--bold.png",
+      "width": 440,
+      "height": 250,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFC83D",
+        "outline": "#141414",
+        "accent": "#FF2D2D"
+      },
+      "textArea": null,
+      "description": "Emoji-yellow hand with a thick ink outline and hard shadow."
+    },
+    {
+      "id": "doodle",
+      "name": "Doodle",
+      "file": "pointing-hand--doodle.json",
+      "thumbnail": "thumbnail--doodle.png",
+      "preview": "preview--doodle.webp",
+      "poster": "poster--doodle.png",
+      "width": 440,
+      "height": 250,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "background": "#FFFFFF",
+        "outline": "#141414"
+      },
+      "textArea": null,
+      "description": "Marker doodle hand whose outline boils like frame-by-frame animation."
+    }
+  ]
+}

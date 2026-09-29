@@ -1,0 +1,104 @@
+{
+  "schema": 1,
+  "id": "tape-strip",
+  "name": "Tape Strip",
+  "type": "lottie",
+  "category": "callouts",
+  "file": "tape-strip.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A piece of tape that slaps on at an angle; stick it over a corner of a photo or use it as a label with your text on it.",
+  "tags": [
+    "tape",
+    "washi",
+    "sticker",
+    "scrapbook",
+    "label",
+    "paper",
+    "collage"
+  ],
+  "width": 400,
+  "height": 220,
+  "fps": 30,
+  "duration": 1.0,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FF8FB1",
+    "secondary": "#FFFFFF"
+  },
+  "textArea": [
+    90,
+    86,
+    220,
+    48
+  ],
+  "variants": [
+    {
+      "id": "washi",
+      "name": "Washi",
+      "file": "tape-strip.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 400,
+      "height": 220,
+      "duration": 1.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF8FB1",
+        "secondary": "#FFFFFF"
+      },
+      "textArea": [
+        90,
+        86,
+        220,
+        48
+      ],
+      "description": "Pink semi-transparent washi tape with white diagonal stripes."
+    },
+    {
+      "id": "clear",
+      "name": "Clear",
+      "file": "tape-strip--clear.json",
+      "thumbnail": "thumbnail--clear.png",
+      "preview": "preview--clear.webp",
+      "poster": "poster--clear.png",
+      "width": 400,
+      "height": 220,
+      "duration": 1.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFFFFF"
+      },
+      "textArea": [
+        90,
+        86,
+        220,
+        48
+      ],
+      "description": "Frosted clear sticky tape with bright edges and a sheen that glints across."
+    },
+    {
+      "id": "duct",
+      "name": "Duct Tape",
+      "file": "tape-strip--duct.json",
+      "thumbnail": "thumbnail--duct.png",
+      "preview": "preview--duct.webp",
+      "poster": "poster--duct.png",
+      "width": 400,
+      "height": 220,
+      "duration": 1.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#B9BEC7"
+      },
+      "textArea": [
+        90,
+        86,
+        220,
+        48
+      ],
+      "description": "Silver duct tape with fibre texture and ragged hand-torn ends."
+    }
+  ]
+}

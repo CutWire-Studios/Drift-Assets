@@ -1,0 +1,81 @@
+{
+  "schema": 1,
+  "id": "arrow-zigzag",
+  "name": "Zigzag Arrow",
+  "type": "lottie",
+  "category": "callouts",
+  "file": "arrow-zigzag.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A zigzag arrow that zaps across in quick switchbacks and ends pointing up and to the right.",
+  "tags": [
+    "arrow",
+    "zigzag",
+    "lightning",
+    "pointer",
+    "callout",
+    "draw-on"
+  ],
+  "width": 580,
+  "height": 320,
+  "fps": 30,
+  "duration": 1.2,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FF2D2D"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "hand",
+      "name": "Hand-Drawn",
+      "file": "arrow-zigzag.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 580,
+      "height": 320,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF2D2D"
+      },
+      "textArea": null,
+      "description": "Quick marker zigzag with a flicked-on arrowhead."
+    },
+    {
+      "id": "clean",
+      "name": "Clean",
+      "file": "arrow-zigzag--clean.json",
+      "thumbnail": "thumbnail--clean.png",
+      "preview": "preview--clean.webp",
+      "poster": "poster--clean.png",
+      "width": 580,
+      "height": 320,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFD21F"
+      },
+      "textArea": null,
+      "description": "Even vector zigzag with a rounded solid arrowhead."
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "file": "arrow-zigzag--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 580,
+      "height": 320,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#29E6FF"
+      },
+      "textArea": null,
+      "description": "Glowing neon tube that flickers on as it zaps across."
+    }
+  ]
+}
