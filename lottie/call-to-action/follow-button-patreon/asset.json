@@ -1,0 +1,100 @@
+{
+  "schema": 1,
+  "id": "follow-button-patreon",
+  "name": "Follow Button Patreon",
+  "type": "lottie",
+  "category": "call-to-action",
+  "file": "follow-button-patreon.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Patreon app icon with a join button; a pointer clicks it. Put your own \"Join\" text inside the button.",
+  "tags": [
+    "patreon",
+    "follow",
+    "button",
+    "social",
+    "membership",
+    "click"
+  ],
+  "width": 680,
+  "height": 290,
+  "fps": 30,
+  "duration": 4.0,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "primary": "#FF424D",
+    "secondary": "#363636"
+  },
+  "textArea": [
+    210,
+    88,
+    398,
+    72
+  ],
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Classic Pill",
+      "file": "follow-button-patreon.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 680,
+      "height": 290,
+      "duration": 4.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FF424D",
+        "secondary": "#363636"
+      },
+      "textArea": [
+        210,
+        88,
+        398,
+        72
+      ],
+      "description": "Patreon-coloured pill slides out of the app icon; the click switches it to the followed colour."
+    },
+    {
+      "id": "outline",
+      "name": "Outline",
+      "file": "follow-button-patreon--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 680,
+      "height": 290,
+      "duration": 4.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "outline": "#FFFFFF",
+        "primary": "#FF424D"
+      },
+      "textArea": [
+        210,
+        88,
+        398,
+        72
+      ],
+      "description": "White outline draws on around the pill; the click floods it with the brand colour."
+    },
+    {
+      "id": "icon-pop",
+      "name": "Icon Pop",
+      "file": "follow-button-patreon--icon-pop.json",
+      "thumbnail": "thumbnail--icon-pop.png",
+      "preview": "preview--icon-pop.webp",
+      "poster": "poster--icon-pop.png",
+      "width": 330,
+      "height": 330,
+      "duration": 4.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FF424D",
+        "secondary": "#2ECC71"
+      },
+      "textArea": null,
+      "description": "Just the app icon with a plus badge that flips to a check when clicked; no text area."
+    }
+  ]
+}
