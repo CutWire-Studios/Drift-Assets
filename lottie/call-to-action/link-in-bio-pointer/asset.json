@@ -1,0 +1,112 @@
+{
+  "schema": 1,
+  "id": "link-in-bio-pointer",
+  "name": "Link In Bio Pointer",
+  "type": "lottie",
+  "category": "call-to-action",
+  "file": "link-in-bio-pointer.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A link chip with a chain icon and a cartoon finger poking up at it; seamless loop. Type \"Link in bio\" or your URL inside the chip.",
+  "tags": [
+    "link",
+    "bio",
+    "link in bio",
+    "url",
+    "pointer",
+    "finger",
+    "loop"
+  ],
+  "width": 560,
+  "height": 344,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#6C5CE7",
+    "background": "#FFFFFF",
+    "icon": "#FFFFFF",
+    "secondary": "#5B5BF0"
+  },
+  "textArea": [
+    138,
+    44,
+    349,
+    65
+  ],
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Classic",
+      "file": "link-in-bio-pointer.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 560,
+      "height": 344,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#6C5CE7",
+        "background": "#FFFFFF",
+        "icon": "#FFFFFF",
+        "secondary": "#5B5BF0"
+      },
+      "textArea": [
+        138,
+        44,
+        349,
+        65
+      ],
+      "description": "Flat filled shapes with a soft drop shadow."
+    },
+    {
+      "id": "outline",
+      "name": "Line Art",
+      "file": "link-in-bio-pointer--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 560,
+      "height": 344,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#6C5CE7",
+        "outline": "#FFFFFF"
+      },
+      "textArea": [
+        138,
+        44,
+        349,
+        65
+      ],
+      "description": "Line-art version: clean outer contours, see-through inside."
+    },
+    {
+      "id": "3d-pop",
+      "name": "3D Pop",
+      "file": "link-in-bio-pointer--3d-pop.json",
+      "thumbnail": "thumbnail--3d-pop.png",
+      "preview": "preview--3d-pop.webp",
+      "poster": "poster--3d-pop.png",
+      "width": 560,
+      "height": 344,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#6C5CE7",
+        "background": "#FFFFFF",
+        "icon": "#FFFFFF",
+        "secondary": "#5B5BF0"
+      },
+      "textArea": [
+        138,
+        44,
+        349,
+        65
+      ],
+      "description": "Chunky layered look with an extruded side, highlight rim and depth shadow."
+    }
+  ]
+}

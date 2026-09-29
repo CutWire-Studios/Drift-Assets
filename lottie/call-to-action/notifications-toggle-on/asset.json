@@ -1,0 +1,113 @@
+{
+  "schema": 1,
+  "id": "notifications-toggle-on",
+  "name": "Notifications Toggle On",
+  "type": "lottie",
+  "category": "call-to-action",
+  "file": "notifications-toggle-on.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Settings-style card with a bell and a switch; a tap flips the switch on and the bell rings. Type \"Turn on notifications\" between the bell and the switch.",
+  "tags": [
+    "notifications",
+    "toggle",
+    "switch",
+    "bell",
+    "alerts",
+    "turn on",
+    "subscribe"
+  ],
+  "width": 724,
+  "height": 236,
+  "fps": 30,
+  "duration": 3.5,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FFB800",
+    "accent": "#34C759",
+    "secondary": "#8E8E93",
+    "background": "#FFFFFF"
+  },
+  "textArea": [
+    198,
+    72,
+    296,
+    80
+  ],
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Classic",
+      "file": "notifications-toggle-on.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 724,
+      "height": 236,
+      "duration": 3.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFB800",
+        "accent": "#34C759",
+        "secondary": "#8E8E93",
+        "background": "#FFFFFF"
+      },
+      "textArea": [
+        198,
+        72,
+        296,
+        80
+      ],
+      "description": "Flat filled shapes with a soft drop shadow."
+    },
+    {
+      "id": "outline",
+      "name": "Line Art",
+      "file": "notifications-toggle-on--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 724,
+      "height": 236,
+      "duration": 3.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFB800",
+        "accent": "#34C759",
+        "outline": "#FFFFFF"
+      },
+      "textArea": [
+        198,
+        72,
+        296,
+        80
+      ],
+      "description": "Line-art version: clean outer contours, see-through inside."
+    },
+    {
+      "id": "3d-pop",
+      "name": "3D Pop",
+      "file": "notifications-toggle-on--3d-pop.json",
+      "thumbnail": "thumbnail--3d-pop.png",
+      "preview": "preview--3d-pop.webp",
+      "poster": "poster--3d-pop.png",
+      "width": 724,
+      "height": 236,
+      "duration": 3.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFB800",
+        "accent": "#34C759",
+        "secondary": "#8E8E93",
+        "background": "#FFFFFF"
+      },
+      "textArea": [
+        198,
+        72,
+        296,
+        80
+      ],
+      "description": "Chunky layered look with an extruded side, highlight rim and depth shadow."
+    }
+  ]
+}

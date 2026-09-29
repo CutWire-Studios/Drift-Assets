@@ -1,0 +1,109 @@
+{
+  "schema": 1,
+  "id": "comment-bubble-pop",
+  "name": "Comment Bubble Pop",
+  "type": "lottie",
+  "category": "call-to-action",
+  "file": "comment-bubble-pop.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Chat bubble pops in beside an avatar placeholder, shows bouncing typing dots, then opens up into a wide comment box. Type your comment inside the bubble.",
+  "tags": [
+    "comment",
+    "chat",
+    "bubble",
+    "typing",
+    "reply",
+    "social"
+  ],
+  "width": 640,
+  "height": 244,
+  "fps": 30,
+  "duration": 3.0,
+  "playback": "intro-hold",
+  "slots": {
+    "background": "#FFFFFF",
+    "accent": "#3A3A46",
+    "secondary": "#8E7CFF"
+  },
+  "textArea": [
+    158,
+    76,
+    410,
+    100
+  ],
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Classic",
+      "file": "comment-bubble-pop.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 640,
+      "height": 244,
+      "duration": 3.0,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#FFFFFF",
+        "accent": "#3A3A46",
+        "secondary": "#8E7CFF"
+      },
+      "textArea": [
+        158,
+        76,
+        410,
+        100
+      ],
+      "description": "Flat filled shapes with a soft drop shadow."
+    },
+    {
+      "id": "outline",
+      "name": "Line Art",
+      "file": "comment-bubble-pop--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 640,
+      "height": 244,
+      "duration": 3.0,
+      "playback": "intro-hold",
+      "slots": {
+        "outline": "#FFFFFF",
+        "accent": "#FFFFFF",
+        "secondary": "#8E7CFF"
+      },
+      "textArea": [
+        158,
+        76,
+        410,
+        100
+      ],
+      "description": "Line-art version: clean outer contours, see-through inside."
+    },
+    {
+      "id": "3d-pop",
+      "name": "3D Pop",
+      "file": "comment-bubble-pop--3d-pop.json",
+      "thumbnail": "thumbnail--3d-pop.png",
+      "preview": "preview--3d-pop.webp",
+      "poster": "poster--3d-pop.png",
+      "width": 640,
+      "height": 244,
+      "duration": 3.0,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#FFFFFF",
+        "accent": "#3A3A46",
+        "secondary": "#8E7CFF"
+      },
+      "textArea": [
+        158,
+        76,
+        410,
+        100
+      ],
+      "description": "Chunky layered look with an extruded side, highlight rim and depth shadow."
+    }
+  ]
+}
