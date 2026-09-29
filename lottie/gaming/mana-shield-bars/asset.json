@@ -1,0 +1,171 @@
+{
+  "schema": 1,
+  "id": "mana-shield-bars",
+  "name": "Mana Shield Bars",
+  "type": "lottie",
+  "category": "gaming",
+  "file": "mana-shield-bars.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Stacked shield and mana bars on a loop: the shield takes a hit and recharges while mana is spent and regenerates. Put the values to the right of each bar.",
+  "tags": [
+    "mana",
+    "shield",
+    "energy",
+    "bars",
+    "regen",
+    "gaming",
+    "hud",
+    "rpg"
+  ],
+  "width": 660,
+  "height": 170,
+  "fps": 30,
+  "duration": 3.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#46A6FF",
+    "secondary": "#E9F4FF",
+    "background": "#0F131B",
+    "accent": "#FF4D5E"
+  },
+  "textArea": [
+    546,
+    96,
+    104,
+    36
+  ],
+  "textAreas": {
+    "shield": [
+      546,
+      42,
+      104,
+      36
+    ],
+    "mana": [
+      546,
+      96,
+      104,
+      36
+    ]
+  },
+  "variants": [
+    {
+      "id": "modern",
+      "name": "Modern HUD",
+      "file": "mana-shield-bars.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 660,
+      "height": 170,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#46A6FF",
+        "secondary": "#E9F4FF",
+        "background": "#0F131B",
+        "accent": "#FF4D5E"
+      },
+      "textArea": [
+        546,
+        96,
+        104,
+        36
+      ],
+      "textAreas": {
+        "shield": [
+          546,
+          42,
+          104,
+          36
+        ],
+        "mana": [
+          546,
+          96,
+          104,
+          36
+        ]
+      },
+      "description": "Skewed glossy bars with a red damage trail and a glowing regen edge."
+    },
+    {
+      "id": "pixel",
+      "name": "Pixel",
+      "file": "mana-shield-bars--pixel.json",
+      "thumbnail": "thumbnail--pixel.png",
+      "preview": "preview--pixel.webp",
+      "poster": "poster--pixel.png",
+      "width": 660,
+      "height": 170,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#3F7CFF",
+        "secondary": "#FFD23F",
+        "outline": "#160E1E",
+        "background": "#2B2140",
+        "accent": "#FF4D5E"
+      },
+      "textArea": [
+        546,
+        96,
+        104,
+        36
+      ],
+      "textAreas": {
+        "shield": [
+          546,
+          42,
+          104,
+          36
+        ],
+        "mana": [
+          546,
+          96,
+          104,
+          36
+        ]
+      },
+      "description": "8-bit block bars with pixel icons; cells blink back one by one as they regenerate."
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "file": "mana-shield-bars--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 660,
+      "height": 170,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#27F2FF",
+        "secondary": "#FF2BD6",
+        "accent": "#FFFFFF"
+      },
+      "textArea": [
+        546,
+        96,
+        104,
+        36
+      ],
+      "textAreas": {
+        "shield": [
+          546,
+          42,
+          104,
+          36
+        ],
+        "mana": [
+          546,
+          96,
+          104,
+          36
+        ]
+      },
+      "description": "Glowing neon tubes that flicker when hit and refill with a spark."
+    }
+  ]
+}

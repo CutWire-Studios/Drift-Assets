@@ -1,0 +1,111 @@
+{
+  "schema": 1,
+  "id": "defeat-screen-crack",
+  "name": "Defeat Screen Crack",
+  "type": "lottie",
+  "category": "gaming",
+  "file": "defeat-screen-crack.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Full-frame game-over overlay: the screen cracks from an impact point, shards fall away and a dark, desaturating vignette closes in. Put \"Defeat\" or your message in the centre.",
+  "tags": [
+    "defeat",
+    "game over",
+    "crack",
+    "broken",
+    "screen",
+    "lose",
+    "gaming",
+    "overlay"
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FFFFFF",
+    "background": "#3A3A42",
+    "accent": "#C8202C"
+  },
+  "textArea": [
+    560,
+    640,
+    800,
+    150
+  ],
+  "variants": [
+    {
+      "id": "glass",
+      "name": "Glass",
+      "file": "defeat-screen-crack.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFFFFF",
+        "background": "#3A3A42",
+        "accent": "#C8202C"
+      },
+      "textArea": [
+        560,
+        640,
+        800,
+        150
+      ],
+      "description": "White cracked-glass lines with a red-edged vignette and falling glass shards."
+    },
+    {
+      "id": "pixel",
+      "name": "Pixel",
+      "file": "defeat-screen-crack--pixel.json",
+      "thumbnail": "thumbnail--pixel.png",
+      "preview": "preview--pixel.webp",
+      "poster": "poster--pixel.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFFFFF",
+        "background": "#2A2238",
+        "outline": "#160E1E"
+      },
+      "textArea": [
+        560,
+        640,
+        800,
+        150
+      ],
+      "description": "8-bit cracks that spread in three stepped waves with blocky falling shards and a banded vignette."
+    },
+    {
+      "id": "grim",
+      "name": "Grim",
+      "file": "defeat-screen-crack--grim.json",
+      "thumbnail": "thumbnail--grim.png",
+      "preview": "preview--grim.webp",
+      "poster": "poster--grim.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#B3121F",
+        "background": "#1A0C10",
+        "secondary": "#000000"
+      },
+      "textArea": [
+        560,
+        640,
+        800,
+        150
+      ],
+      "description": "Dark cracks with a smouldering red glow, a blood-tinted vignette and a black band for the text."
+    }
+  ]
+}

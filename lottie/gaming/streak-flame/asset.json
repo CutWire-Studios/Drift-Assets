@@ -1,0 +1,115 @@
+{
+  "schema": 1,
+  "id": "streak-flame",
+  "name": "Streak Flame",
+  "type": "lottie",
+  "category": "gaming",
+  "file": "streak-flame.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A flickering flame grows with each hit while a streak bar ignites segment by segment. Put the streak count to the right of the bar.",
+  "tags": [
+    "streak",
+    "flame",
+    "fire",
+    "combo",
+    "on fire",
+    "hot",
+    "gaming",
+    "hud"
+  ],
+  "width": 720,
+  "height": 240,
+  "fps": 30,
+  "duration": 2.5,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FF5A1F",
+    "secondary": "#FFC21A",
+    "background": "#0F131B",
+    "outline": "#FFFFFF"
+  },
+  "textArea": [
+    554,
+    104,
+    152,
+    68
+  ],
+  "variants": [
+    {
+      "id": "modern",
+      "name": "Modern",
+      "file": "streak-flame.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 720,
+      "height": 240,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF5A1F",
+        "secondary": "#FFC21A",
+        "background": "#0F131B",
+        "outline": "#FFFFFF"
+      },
+      "textArea": [
+        554,
+        104,
+        152,
+        68
+      ],
+      "description": "Layered orange flame with a white-hot core, glowing embers and skewed glossy bar segments."
+    },
+    {
+      "id": "pixel",
+      "name": "Pixel",
+      "file": "streak-flame--pixel.json",
+      "thumbnail": "thumbnail--pixel.png",
+      "preview": "preview--pixel.webp",
+      "poster": "poster--pixel.png",
+      "width": 720,
+      "height": 240,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#E8283C",
+        "secondary": "#FF8A1F",
+        "accent": "#FFD23F",
+        "outline": "#160E1E",
+        "background": "#2B2140"
+      },
+      "textArea": [
+        554,
+        104,
+        152,
+        68
+      ],
+      "description": "Two-frame 8-bit flame sprite that grows in steps, with blinking block segments."
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "file": "streak-flame--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 720,
+      "height": 240,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF3DAE",
+        "secondary": "#FFB02E",
+        "accent": "#27F2FF"
+      },
+      "textArea": [
+        554,
+        104,
+        152,
+        68
+      ],
+      "description": "Neon outline flame with flickering glowing segments in a cyan frame."
+    }
+  ]
+}

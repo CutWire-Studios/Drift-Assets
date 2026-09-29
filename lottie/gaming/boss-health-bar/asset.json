@@ -1,0 +1,147 @@
+{
+  "schema": 1,
+  "id": "boss-health-bar",
+  "name": "Boss Health Bar",
+  "type": "lottie",
+  "category": "gaming",
+  "file": "boss-health-bar.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Wide boss health bar that draws in, fills up and then drains in three chunks with a white flash and a delayed damage trail. Put the boss name above the bar.",
+  "tags": [
+    "boss",
+    "health",
+    "hp",
+    "bar",
+    "damage",
+    "gaming",
+    "hud",
+    "rpg"
+  ],
+  "width": 1400,
+  "height": 190,
+  "fps": 30,
+  "duration": 4.0,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#D1202F",
+    "secondary": "#F6C343",
+    "accent": "#FFB347",
+    "background": "#1A0D12"
+  },
+  "textArea": [
+    170,
+    34,
+    700,
+    46
+  ],
+  "textAreas": {
+    "name": [
+      170,
+      34,
+      700,
+      46
+    ]
+  },
+  "variants": [
+    {
+      "id": "fantasy",
+      "name": "Ornate",
+      "file": "boss-health-bar.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1400,
+      "height": 190,
+      "duration": 4.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#D1202F",
+        "secondary": "#F6C343",
+        "accent": "#FFB347",
+        "background": "#1A0D12"
+      },
+      "textArea": [
+        170,
+        34,
+        700,
+        46
+      ],
+      "textAreas": {
+        "name": [
+          170,
+          34,
+          700,
+          46
+        ]
+      },
+      "description": "Gold ornate frame with a horned-skull crest, studs and a gem-tipped end."
+    },
+    {
+      "id": "modern",
+      "name": "Modern",
+      "file": "boss-health-bar--modern.json",
+      "thumbnail": "thumbnail--modern.png",
+      "preview": "preview--modern.webp",
+      "poster": "poster--modern.png",
+      "width": 1400,
+      "height": 190,
+      "duration": 4.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF2D3F",
+        "accent": "#FFE2E4",
+        "background": "#0F131B",
+        "outline": "#FFFFFF"
+      },
+      "textArea": [
+        130,
+        38,
+        700,
+        46
+      ],
+      "textAreas": {
+        "name": [
+          130,
+          38,
+          700,
+          46
+        ]
+      },
+      "description": "Sleek skewed red bar with phase notches, tick marks and a diamond boss icon."
+    },
+    {
+      "id": "pixel",
+      "name": "Pixel",
+      "file": "boss-health-bar--pixel.json",
+      "thumbnail": "thumbnail--pixel.png",
+      "preview": "preview--pixel.webp",
+      "poster": "poster--pixel.png",
+      "width": 1400,
+      "height": 190,
+      "duration": 4.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#E8283C",
+        "accent": "#FFD23F",
+        "background": "#2B2140",
+        "outline": "#160E1E"
+      },
+      "textArea": [
+        176,
+        20,
+        700,
+        46
+      ],
+      "textAreas": {
+        "name": [
+          176,
+          20,
+          700,
+          46
+        ]
+      },
+      "description": "Chunky 8-bit bar with a pixel horned skull; drains in stepped blocks."
+    }
+  ]
+}

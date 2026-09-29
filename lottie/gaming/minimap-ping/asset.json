@@ -1,0 +1,97 @@
+{
+  "schema": 1,
+  "id": "minimap-ping",
+  "name": "Minimap Ping",
+  "type": "lottie",
+  "category": "gaming",
+  "file": "minimap-ping.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Circular minimap with a radar sweep that lights up blips as it passes and a ping marker rippling on the map, on a loop.",
+  "tags": [
+    "minimap",
+    "radar",
+    "map",
+    "ping",
+    "sweep",
+    "gaming",
+    "hud",
+    "marker"
+  ],
+  "width": 440,
+  "height": 440,
+  "fps": 30,
+  "duration": 3.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#35E0FF",
+    "secondary": "#FFC83D",
+    "accent": "#FF4555",
+    "background": "#0E141C",
+    "outline": "#FFFFFF"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "modern",
+      "name": "Modern",
+      "file": "minimap-ping.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 440,
+      "height": 440,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#35E0FF",
+        "secondary": "#FFC83D",
+        "accent": "#FF4555",
+        "background": "#0E141C",
+        "outline": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Dark translucent map with a cyan sweep, compass bezel, player arrow and a bobbing ping pin."
+    },
+    {
+      "id": "pixel",
+      "name": "Pixel",
+      "file": "minimap-ping--pixel.json",
+      "thumbnail": "thumbnail--pixel.png",
+      "preview": "preview--pixel.webp",
+      "poster": "poster--pixel.png",
+      "width": 440,
+      "height": 440,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#4DFF7A",
+        "secondary": "#FFD23F",
+        "accent": "#FF4D5E",
+        "background": "#1B2A24",
+        "outline": "#160E1E"
+      },
+      "textArea": null,
+      "description": "8-bit round map with a sweep that ticks round in 16 steps and stepped ping rings."
+    },
+    {
+      "id": "radar",
+      "name": "Radar",
+      "file": "minimap-ping--radar.json",
+      "thumbnail": "thumbnail--radar.png",
+      "preview": "preview--radar.webp",
+      "poster": "poster--radar.png",
+      "width": 440,
+      "height": 440,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#3DFF8B",
+        "secondary": "#FFE45C",
+        "background": "#04140B"
+      },
+      "textArea": null,
+      "description": "Green phosphor radar scope with range rings, a glowing sweep trail and a yellow ping."
+    }
+  ]
+}

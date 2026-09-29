@@ -1,0 +1,113 @@
+{
+  "schema": 1,
+  "id": "combo-meter",
+  "name": "Combo Meter",
+  "type": "lottie",
+  "category": "gaming",
+  "file": "combo-meter.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Combo gauge that pumps up with every hit and bursts when it maxes out. Put the combo multiplier in the text area.",
+  "tags": [
+    "combo",
+    "multiplier",
+    "streak",
+    "hits",
+    "meter",
+    "gaming",
+    "hud",
+    "fighting"
+  ],
+  "width": 420,
+  "height": 420,
+  "fps": 30,
+  "duration": 3.0,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FF7A1A",
+    "secondary": "#FFD23F",
+    "background": "#0F131B",
+    "outline": "#FFFFFF"
+  },
+  "textArea": [
+    140,
+    182,
+    140,
+    84
+  ],
+  "variants": [
+    {
+      "id": "modern",
+      "name": "Radial",
+      "file": "combo-meter.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 420,
+      "height": 420,
+      "duration": 3.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF7A1A",
+        "secondary": "#FFD23F",
+        "background": "#0F131B",
+        "outline": "#FFFFFF"
+      },
+      "textArea": [
+        140,
+        182,
+        140,
+        84
+      ],
+      "description": "Radial arc gauge with a dark centre for the multiplier; the arc springs forward with each hit."
+    },
+    {
+      "id": "pixel",
+      "name": "Pixel",
+      "file": "combo-meter--pixel.json",
+      "thumbnail": "thumbnail--pixel.png",
+      "preview": "preview--pixel.webp",
+      "poster": "poster--pixel.png",
+      "width": 580,
+      "height": 200,
+      "duration": 3.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF5A36",
+        "secondary": "#FFD23F",
+        "outline": "#160E1E",
+        "background": "#2B2140"
+      },
+      "textArea": [
+        138,
+        18,
+        290,
+        44
+      ],
+      "description": "8-bit star icon and five blocks that pop in one per hit, with a lightning bolt at max."
+    },
+    {
+      "id": "neon",
+      "name": "Neon Bars",
+      "file": "combo-meter--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 560,
+      "height": 300,
+      "duration": 3.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF2BD6",
+        "secondary": "#27F2FF"
+      },
+      "textArea": [
+        340,
+        40,
+        200,
+        90
+      ],
+      "description": "Rising skewed neon bars, like a signal meter, that flicker on hit by hit."
+    }
+  ]
+}

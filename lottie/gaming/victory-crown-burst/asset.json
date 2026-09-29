@@ -1,0 +1,112 @@
+{
+  "schema": 1,
+  "id": "victory-crown-burst",
+  "name": "Victory Crown Burst",
+  "type": "lottie",
+  "category": "gaming",
+  "file": "victory-crown-burst.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A crown slams down with light rays, a shockwave and a confetti burst, then a ribbon banner unfurls beneath it. Put your victory text on the banner.",
+  "tags": [
+    "victory",
+    "crown",
+    "winner",
+    "win",
+    "champion",
+    "confetti",
+    "gaming",
+    "reward"
+  ],
+  "width": 620,
+  "height": 620,
+  "fps": 30,
+  "duration": 2.2,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FFC21A",
+    "secondary": "#E0282E",
+    "accent": "#35A8FF"
+  },
+  "textArea": [
+    160,
+    452,
+    300,
+    52
+  ],
+  "variants": [
+    {
+      "id": "modern",
+      "name": "Modern",
+      "file": "victory-crown-burst.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 620,
+      "height": 620,
+      "duration": 2.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFC21A",
+        "secondary": "#E0282E",
+        "accent": "#35A8FF"
+      },
+      "textArea": [
+        160,
+        452,
+        300,
+        52
+      ],
+      "description": "Glossy gold crown with gems, spinning rays and colourful confetti over a red ribbon."
+    },
+    {
+      "id": "pixel",
+      "name": "Pixel",
+      "file": "victory-crown-burst--pixel.json",
+      "thumbnail": "thumbnail--pixel.png",
+      "preview": "preview--pixel.webp",
+      "poster": "poster--pixel.png",
+      "width": 620,
+      "height": 620,
+      "duration": 2.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFD23F",
+        "secondary": "#3F7CFF",
+        "accent": "#FF4D5E",
+        "outline": "#160E1E"
+      },
+      "textArea": [
+        160,
+        452,
+        300,
+        52
+      ],
+      "description": "8-bit crown that drops in steps, with blocky star rays and square pixel confetti."
+    },
+    {
+      "id": "fantasy",
+      "name": "Royal",
+      "file": "victory-crown-burst--fantasy.json",
+      "thumbnail": "thumbnail--fantasy.png",
+      "preview": "preview--fantasy.webp",
+      "poster": "poster--fantasy.png",
+      "width": 620,
+      "height": 620,
+      "duration": 2.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#F6C343",
+        "secondary": "#6B2FB8",
+        "accent": "#3FCB7A"
+      },
+      "textArea": [
+        160,
+        452,
+        300,
+        52
+      ],
+      "description": "Ornate crown with trefoil tips and jewels, a laurel wreath unfurling behind it and golden sparkles."
+    }
+  ]
+}
