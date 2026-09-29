@@ -5,6 +5,8 @@
 OUT_DIR receives index.json plus drift-assets.tar.gz (every asset folder, no tools). The index
 lists categories in the order Drift shows them and, per asset, its metadata file merged with the
 sha256 and size of each shipped file, so the backend and Drift can verify what they fetch.
+Assets with design variants list them under "variants" (the first is the default and matches the
+top-level fields); each variant entry gets its own "files" and "preview" size the same way.
 Standard library only, so CI needs nothing but Python.
 """
 
@@ -29,6 +31,9 @@ CATEGORIES = [
     ("broadcast", "Broadcast", "lottie"),
     ("gaming", "Gaming", "lottie"),
     ("memes", "Memes", "lottie"),
+    ("transitions", "Transitions", "lottie"),
+    ("infographics", "Infographics", "lottie"),
+    ("seasonal", "Seasonal", "lottie"),
 ]
 
 
@@ -55,6 +60,8 @@ def asset_dirs(category, kind):
         root = os.path.join(REPO, "lottie", category)
     else:
         root = os.path.join(REPO, category)
+    if not os.path.isdir(root):
+        return []
     return sorted(os.path.join(root, d) for d in os.listdir(root) if os.path.isdir(os.path.join(root, d)))
 
 
@@ -75,14 +82,28 @@ def build(version):
             if kind == "lottie":
                 files["poster"] = file_entry(asset_dir, "poster.png")
             w, h = webp_size(os.path.join(asset_dir, "preview.webp"))
-            assets.append({
+            variants = []
+            for v in meta.get("variants", []):
+                vfiles = {
+                    "main": file_entry(asset_dir, v.get("file") or v["model"]),
+                    "thumbnail": file_entry(asset_dir, v["thumbnail"]),
+                    "preview": file_entry(asset_dir, v["preview"]),
+                }
+                if kind == "lottie":
+                    vfiles["poster"] = file_entry(asset_dir, v["poster"])
+                vw, vh = webp_size(os.path.join(asset_dir, v["preview"]))
+                variants.append({**v, "files": vfiles, "previewSize": {"width": vw, "height": vh}})
+            entry = {
                 **meta,
                 "kind": kind,
                 "category": cat_id,
                 "path": os.path.relpath(asset_dir, REPO),
                 "files": files,
                 "preview": {"width": w, "height": h},
-            })
+            }
+            if variants:
+                entry["variants"] = variants
+            assets.append(entry)
     return {"schema": 1, "version": version, "categories": categories, "assets": assets}
 
 
@@ -103,7 +124,10 @@ def main():
     with tarfile.open(os.path.join(out, "drift-assets.tar.gz"), "w:gz") as tar:
         tar.add(os.path.join(out, "index.json"), arcname="index.json")
         for asset in index["assets"]:
-            for entry in asset["files"].values():
+            shipped = list(asset["files"].values())
+            for v in asset.get("variants", []):
+                shipped += v["files"].values()
+            for entry in {e["name"]: e for e in shipped}.values():
                 name = os.path.join(asset["path"], entry["name"])
                 tar.add(os.path.join(REPO, name), arcname=name)
     print(f"{len(index['assets'])} assets in {len(index['categories'])} categories, version {version}")

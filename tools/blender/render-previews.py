@@ -85,6 +85,8 @@ def main():
             asset_id = os.path.basename(asset_dir)
             if only and asset_id not in only:
                 continue
+            if re.search(r"build_(object|prop)_variants\(", script_source(kind, asset_id)):
+                continue  # the variant builders render their own previews
             out = os.path.join(out_root, asset_id)
             os.makedirs(out, exist_ok=True)
             render(asset_dir, out)

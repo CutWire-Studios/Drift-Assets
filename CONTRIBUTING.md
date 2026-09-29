@@ -17,7 +17,10 @@ tools/lottie/lottie_kit.py            Lottie authoring helpers
 tools/lottie/<category>/<id>.py       one generator per Lottie asset
 tools/blender/drift3d.py              Blender helpers (materials, export, head space, thumbnails)
 tools/blender/{face-props,objects}/<id>.py
+tools/lottie/drift_lottie.py          Variant/Build output step shared by new Lottie generators
 tools/skottie-render/                 renders Lottie with Skottie (the renderer Drift uses)
+tools/check-assets.py                 lints every asset (CI runs it)
+tools/build-readme.py                 regenerates the README asset tables
 ```
 
 `<id>` is kebab-case and unique across the repo. Thumbnails are 512x512 PNG.
@@ -31,6 +34,52 @@ cmake --build tools/skottie-render/build    # links Drift's prebuilt Skia (see i
 ```
 
 Blender 5.2 (flatpak `org.blender.Blender`) builds the 3D assets headless.
+
+Without Drift's prebuilt Skia or the flatpak (CI runners, cloud dev boxes on Ubuntu), run
+`tools/setup-cloud.sh` instead. It installs ffmpeg and Blender 5.2 from blender.org, creates the
+venv, and installs `build/skottie-render` as a launcher for `skottie-render.mjs`: the same CLI,
+rendered by Skottie from CanvasKit (Skia's WebAssembly build) in Node. Its `--strict` rejects the
+content rules below instead of Skottie log warnings, which CanvasKit does not expose. Then run
+Blender as `$DRIFT_BLENDER` (printed by the script) wherever this guide says `flatpak run
+org.blender.Blender`; `tools/build-previews.py` honours `DRIFT_BLENDER` too.
+
+## Variants
+
+An asset can ship several designs, e.g. a follow button as a solid pill, an outline, a glass card
+and an icon-only pop. Variants must differ in **shape, style or motion**, never only in colour
+(colour slots already cover recolouring). One generator script builds all of an asset's variants.
+
+The first variant is the default: it keeps the plain file names and the metadata's top-level
+fields describe it, so clients that ignore variants still work. Variant `<v>` adds
+`<id>--<v>.json|.glb`, `thumbnail--<v>.png`, `preview--<v>.webp` (and `poster--<v>.png` for
+Lottie). The metadata lists every variant, the default included:
+
+```json
+"variants": [
+  {"id": "classic", "name": "Classic Pill", "file": "follow-button-instagram.json",
+   "thumbnail": "thumbnail.png", "preview": "preview.webp", "poster": "poster.png",
+   "width": 680, "height": 290, "duration": 4.0, "playback": "intro-hold-outro",
+   "slots": {"primary": "#0095F6", "secondary": "#363636"}, "textArea": [230, 88, 398, 72]},
+  {"id": "outline", "name": "Outline", "file": "follow-button-instagram--outline.json", ...}
+]
+```
+
+Face-prop variants carry `model`, `thumbnail`, `preview` and their own `params`; object variants
+carry `file`, `thumbnail`, `preview` and `animation`. Any variant may add a `description` and
+`tags`. The builders write all of this:
+
+- Lottie: `drift_lottie.build_asset(category, id, name, description, tags, [Variant(...), ...])`
+  (see `tools/lottie/call-to-action/follow-button-instagram.py`). It also renders the previews.
+- Objects: `drift3d.build_object_variants(id, name, description, tags, [(vid, name, opts)], build)`
+  where `build(opts)` returns `(objects, action_name, frames)` (see `tools/blender/objects/heart.py`).
+- Face props: `drift3d.build_prop_variants(id, name, description, tags, [(vid, name, opts)], build)`
+  where `build(opts)` returns the prop meshes (see `tools/blender/face-props/party-hat.py`).
+
+The 3D builders render their own previews (so `render-previews.py` skips them). All builders take
+`--no-preview` and `--only=a,b` after the script (`-- --only=a,b` for Blender); the Lottie
+builder also takes `--sheet` to write contact sheets to `.preview-frames/sheets/`.
+
+Before committing, run `python3 tools/check-assets.py` and `python3 tools/build-readme.py`.
 
 ## Previews and release
 

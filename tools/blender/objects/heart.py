@@ -71,12 +71,65 @@ def animate(obj):
         obj.keyframe_insert("rotation_euler", frame=fr)
 
 
-reset()
-heart = build()
-animate(heart)
-export_glb(os.path.join(OUT, f"{ID}.glb"), [heart], animations=True)
-render_thumbnail(os.path.join(OUT, "thumbnail.png"), [heart], frame=0, view=(0.5, -1.0, 0.3), margin=1.1)
-write_asset_json(OUT, ID, "Heart", "object", f"{ID}.glb",
-                 description="Glossy puffy red heart with a double-pulse heartbeat and a gentle sway.",
-                 tags=["heart", "love", "like", "valentine", "heartbeat", "red"],
-                 extra={"animation": {"name": "Heartbeat", "duration": FRAMES / FPS, "loop": True}})
+def build_pixel():
+    """Voxel heart: the classic 7x6 pixel-art heart extruded into chunky cubes with bevelled edges."""
+    rows = [".XX.XX.", "XXXXXXX", "XXXXXXX", ".XXXXX.", "..XXX..", "...X..."]
+    red = material("PixelRed", "#e8132f", roughness=0.35)
+    shine = material("PixelShine", "#ff8a98", roughness=0.3)
+    cubes = []
+    s = 1.0 / 7
+    for r, row in enumerate(rows):
+        for c, ch in enumerate(row):
+            if ch != "X":
+                continue
+            bpy.ops.mesh.primitive_cube_add(size=s * 0.96, location=((c - 3) * s, 0, (2.5 - r) * s))
+            cube = bpy.context.active_object
+            bev = cube.modifiers.new("Bevel", "BEVEL")
+            bev.width = s * 0.08
+            bev.segments = 2
+            assign(cube, shine if (r, c) in ((1, 1), (1, 2), (2, 1)) else red)
+            cubes.append(cube)
+    h = join(cubes, "PixelHeart")
+    apply_all(h)
+    return h
+
+
+def animate_spin(obj, frames):
+    """One full turn with a small bob; linear so the loop is seamless."""
+    scene = bpy.context.scene
+    scene.frame_start, scene.frame_end = 0, frames
+    bpy.context.preferences.edit.keyframe_new_interpolation_type = "LINEAR"
+    obj.animation_data_create()
+    obj.animation_data.action = bpy.data.actions.new("Spin")
+    for fr in range(frames + 1):
+        ph = fr / frames
+        obj.rotation_euler = (0, 0, 2 * math.pi * ph)
+        obj.location = (0, 0, 0.04 * math.sin(2 * math.pi * ph))
+        obj.keyframe_insert("rotation_euler", frame=fr)
+        obj.keyframe_insert("location", frame=fr)
+
+
+def make(opts):
+    if opts["style"] == "classic":
+        h = build()
+        animate(h)
+        return [h], "Heartbeat", FRAMES
+    if opts["style"] == "chrome":
+        h = build()
+        assign(h, material("HeartChrome", "#ff8fa3", metallic=0.9, roughness=0.28))
+        animate_spin(h, 72)
+        return [h], "Spin", 72
+    h = build_pixel()
+    animate(h)
+    return [h], "Heartbeat", FRAMES
+
+
+build_object_variants(ID, "Heart", "Puffy heart for likes, love and Valentine's edits.",
+                      ["heart", "love", "like", "valentine", "red"], [
+    ("classic", "Glossy Heartbeat", {"style": "classic",
+                                     "description": "Glossy puffy red heart with a double-pulse heartbeat and a gentle sway."}),
+    ("chrome", "Rose Metal Spin", {"style": "chrome",
+                               "description": "Rose-metal heart turning a full circle with a slight bob."}),
+    ("pixel", "Pixel Heart", {"style": "pixel", "view": (0.45, -1.0, 0.25),
+                              "description": "Chunky voxel pixel-art heart with a heartbeat pulse."}),
+], build=make, view=(0.5, -1.0, 0.3), margin=1.1)

@@ -8,7 +8,10 @@ Per asset this writes, next to thumbnail.png:
   poster.png    Lottie only: a still at the preview's size, shown before the preview plays.
 
 Frames are staged under .preview-frames/ (gitignored). Needs ffmpeg with libwebp_anim, the
-skottie-render build (see CONTRIBUTING.md) and, unless --skip-3d, the Blender flatpak.
+skottie-render build (see CONTRIBUTING.md) and, unless --skip-3d, Blender (the flatpak, or the
+binary named by $DRIFT_BLENDER). Lottie variants listed in asset.json get preview--<v>.webp and
+poster--<v>.png. 3D assets built with drift3d's variant builders render their own previews in their
+build script, so they are skipped here.
 """
 
 import glob
@@ -22,7 +25,8 @@ from PIL import Image
 
 REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 STAGE = os.path.join(REPO, ".preview-frames")
-SKOTTIE = os.path.join(REPO, "tools", "skottie-render", "build", "skottie-render")
+SKOTTIE = os.environ.get("DRIFT_SKOTTIE") or os.path.join(REPO, "tools", "skottie-render", "build", "skottie-render")
+BLENDER = [os.environ["DRIFT_BLENDER"]] if os.environ.get("DRIFT_BLENDER") else ["flatpak", "run", "org.blender.Blender"]
 PREVIEW_HEIGHT = 180
 LOTTIE_FPS = 20
 QUALITY = 75
@@ -34,29 +38,32 @@ def encode(frames_dir, out, fps):
                     "-c:v", "libwebp_anim", "-q:v", str(QUALITY), "-loop", "0", out], check=True)
 
 
-def thumbnail_background(asset_dir):
+def thumbnail_background(asset_dir, thumbnail="thumbnail.png"):
     """The thumbnail's backdrop, so a preview sits on the same colour as its still."""
-    r, g, b, *_ = Image.open(os.path.join(asset_dir, "thumbnail.png")).convert("RGB").getpixel((1, 1))
+    r, g, b, *_ = Image.open(os.path.join(asset_dir, thumbnail)).convert("RGB").getpixel((1, 1))
     return f"{r:02x}{g:02x}{b:02x}"
 
 
 def build_lottie(asset_dir):
     meta = json.load(open(os.path.join(asset_dir, "asset.json")))
-    frames = os.path.join(STAGE, meta["id"])
-    shutil.rmtree(frames, ignore_errors=True)
-    os.makedirs(frames)
-    # The poster is the moment the asset is fully on screen: the end of an intro, otherwise mid-way.
-    poster_t = "0.95" if meta.get("playback") == "intro-hold" else "0.5"
-    subprocess.run([SKOTTIE, os.path.join(asset_dir, meta["file"]), os.path.join(asset_dir, "poster.png"),
-                    "--frames", frames, "--height", str(PREVIEW_HEIGHT), "--fps", str(LOTTIE_FPS),
-                    "--t", poster_t, "--bg", thumbnail_background(asset_dir), "--strict"],
-                   check=True, stdout=subprocess.DEVNULL)
-    encode(frames, os.path.join(asset_dir, "preview.webp"), LOTTIE_FPS)
+    variants = meta.get("variants") or [{"id": "default", "file": meta["file"], "thumbnail": "thumbnail.png",
+                                         "preview": "preview.webp", "poster": "poster.png"}]
+    for v in variants:
+        frames = os.path.join(STAGE, f"{meta['id']}--{v['id']}")
+        shutil.rmtree(frames, ignore_errors=True)
+        os.makedirs(frames)
+        # The poster is the moment the asset is fully on screen: the end of an intro, otherwise mid-way.
+        poster_t = "0.95" if v.get("playback", meta.get("playback")) == "intro-hold" else "0.5"
+        subprocess.run([SKOTTIE, os.path.join(asset_dir, v["file"]), os.path.join(asset_dir, v["poster"]),
+                        "--frames", frames, "--height", str(PREVIEW_HEIGHT), "--fps", str(LOTTIE_FPS),
+                        "--t", poster_t, "--bg", thumbnail_background(asset_dir, v["thumbnail"]), "--strict"],
+                       check=True, stdout=subprocess.DEVNULL)
+        encode(frames, os.path.join(asset_dir, v["preview"]), LOTTIE_FPS)
 
 
 def build_3d(ids):
     script = os.path.join(REPO, "tools", "blender", "render-previews.py")
-    subprocess.run(["flatpak", "run", "org.blender.Blender", "-b", "--factory-startup", "--python-exit-code", "1",
+    subprocess.run([*BLENDER, "-b", "--factory-startup", "--python-exit-code", "1",
                     "--python", script, "--", STAGE, *ids], check=True, stdout=subprocess.DEVNULL)
     for kind in ("objects", "face-props"):
         for asset_dir in sorted(glob.glob(os.path.join(REPO, kind, "*"))):

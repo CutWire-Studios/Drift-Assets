@@ -20,6 +20,9 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Check assets
+        run: python3 tools/check-assets.py
+
       - name: Build index
         run: python3 tools/build-index.py dist "${GITHUB_REF_NAME}"
 
