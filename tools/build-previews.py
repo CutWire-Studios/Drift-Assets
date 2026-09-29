@@ -46,6 +46,11 @@ def thumbnail_background(asset_dir, thumbnail="thumbnail.png"):
 
 def build_lottie(asset_dir):
     meta = json.load(open(os.path.join(asset_dir, "asset.json")))
+    script = os.path.join(REPO, "tools", "lottie", meta["category"], f"{meta['id']}.py")
+    if "variants" in meta and os.path.exists(script):
+        # drift_lottie generators render their own previews with the right backdrop and poster time.
+        subprocess.run([sys.executable, script], check=True, stdout=subprocess.DEVNULL)
+        return
     variants = meta.get("variants") or [{"id": "default", "file": meta["file"], "thumbnail": "thumbnail.png",
                                          "preview": "preview.webp", "poster": "poster.png"}]
     for v in variants:
@@ -53,7 +58,10 @@ def build_lottie(asset_dir):
         shutil.rmtree(frames, ignore_errors=True)
         os.makedirs(frames)
         # The poster is the moment the asset is fully on screen: the end of an intro, otherwise mid-way.
+        # Transitions are a solid colour mid-way, so theirs is part-way through the cover-in.
         poster_t = "0.95" if v.get("playback", meta.get("playback")) == "intro-hold" else "0.5"
+        if meta.get("category") == "transitions":
+            poster_t = "0.2"
         subprocess.run([SKOTTIE, os.path.join(asset_dir, v["file"]), os.path.join(asset_dir, v["poster"]),
                         "--frames", frames, "--height", str(PREVIEW_HEIGHT), "--fps", str(LOTTIE_FPS),
                         "--t", poster_t, "--bg", thumbnail_background(asset_dir, v["thumbnail"]), "--strict"],

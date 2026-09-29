@@ -103,13 +103,20 @@ def _files(asset_id, vid, default):
     return f"{asset_id}--{vid}.json", f"thumbnail--{vid}.png", f"preview--{vid}.webp", f"poster--{vid}.png"
 
 
-def render_preview(json_path, poster, preview, playback, thumb_bg, region=None, tag="x"):
+def poster_time(category, playback):
+    """The poster is the moment the asset is fully on screen: the end of an intro, otherwise mid-way.
+    Transitions are solid mid-way, so theirs is taken part-way through the cover-in."""
+    if category == "transitions":
+        return "0.2"
+    return "0.95" if playback == "intro-hold" else "0.5"
+
+
+def render_preview(json_path, poster, preview, playback, thumb_bg, region=None, tag="x", category=None):
     """Animated preview (canvas aspect clamped 1:1..4:1, 180 px tall) + a still poster."""
     frames = os.path.join(STAGE, tag)
     shutil.rmtree(frames, ignore_errors=True)
     os.makedirs(frames)
-    # The poster is the moment the asset is fully on screen: the end of an intro, otherwise mid-way.
-    poster_t = "0.95" if playback == "intro-hold" else "0.5"
+    poster_t = poster_time(category, playback)
     args = [json_path, poster, "--frames", frames, "--height", str(PREVIEW_HEIGHT), "--fps", str(PREVIEW_FPS),
             "--t", poster_t, "--bg", thumb_bg]
     if region:
@@ -160,7 +167,7 @@ def build_asset(category, asset_id, name, description, tags, variants):
                      "--bg", v.bg])
         if previews:
             render_preview(jpath, os.path.join(out, poname), os.path.join(out, pname), v.playback, v.bg,
-                           tag=f"{asset_id}--{v.id}")
+                           tag=f"{asset_id}--{v.id}", category=category)
         entry = {
             "id": v.id, "name": v.name, "file": jname, "thumbnail": tname, "preview": pname, "poster": poname,
             "width": comp.w, "height": comp.h, "duration": round(comp.frames / comp.fps, 3),
