@@ -1,0 +1,165 @@
+{
+  "schema": 1,
+  "id": "lower-third-quote-bar",
+  "name": "Quote Bar Lower Third",
+  "type": "lottie",
+  "category": "lower-thirds",
+  "file": "lower-third-quote-bar.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Lower third for quotes: big drawn quotation marks frame a quote area, with a smaller row for who said it. Type the quote in the headline area and the name in the subtitle.",
+  "tags": [
+    "lower third",
+    "quote",
+    "quotation",
+    "testimonial",
+    "citation",
+    "review",
+    "speech"
+  ],
+  "width": 1150,
+  "height": 250,
+  "fps": 30,
+  "duration": 5.0,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "accent": "#FFC53D",
+    "outline": "#FFFFFF",
+    "background": "#000000"
+  },
+  "textArea": [
+    150,
+    44,
+    860,
+    120
+  ],
+  "textAreas": {
+    "headline": [
+      150,
+      44,
+      860,
+      120
+    ],
+    "subtitle": [
+      206,
+      190,
+      700,
+      32
+    ]
+  },
+  "variants": [
+    {
+      "id": "framed",
+      "name": "Framed Quote",
+      "file": "lower-third-quote-bar.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1150,
+      "height": 250,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "accent": "#FFC53D",
+        "outline": "#FFFFFF",
+        "background": "#000000"
+      },
+      "textArea": [
+        150,
+        44,
+        860,
+        120
+      ],
+      "textAreas": {
+        "headline": [
+          150,
+          44,
+          860,
+          120
+        ],
+        "subtitle": [
+          206,
+          190,
+          700,
+          32
+        ]
+      },
+      "description": "Opening and closing marks spin in at opposite corners over a soft dark backdrop."
+    },
+    {
+      "id": "side",
+      "name": "Side Bar",
+      "file": "lower-third-quote-bar--side.json",
+      "thumbnail": "thumbnail--side.png",
+      "preview": "preview--side.webp",
+      "poster": "poster--side.png",
+      "width": 1100,
+      "height": 250,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "accent": "#4ADE80",
+        "primary": "#0B1220"
+      },
+      "textArea": [
+        170,
+        56,
+        770,
+        100
+      ],
+      "textAreas": {
+        "headline": [
+          170,
+          56,
+          770,
+          100
+        ],
+        "subtitle": [
+          170,
+          170,
+          600,
+          30
+        ]
+      },
+      "description": "A vertical accent bar grows, an opening mark pops on and a dark panel wipes out."
+    },
+    {
+      "id": "card",
+      "name": "Quote Card",
+      "file": "lower-third-quote-bar--card.json",
+      "thumbnail": "thumbnail--card.png",
+      "preview": "preview--card.webp",
+      "poster": "poster--card.png",
+      "width": 1100,
+      "height": 260,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FFFFFF",
+        "accent": "#6366F1",
+        "secondary": "#1E1B4B"
+      },
+      "textArea": [
+        160,
+        56,
+        680,
+        88
+      ],
+      "textAreas": {
+        "headline": [
+          160,
+          56,
+          680,
+          88
+        ],
+        "subtitle": [
+          100,
+          172,
+          860,
+          28
+        ]
+      },
+      "description": "White card with a large faded watermark quote and a coloured footer strip for the name."
+    }
+  ]
+}

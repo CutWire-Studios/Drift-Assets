@@ -1,0 +1,170 @@
+{
+  "schema": 1,
+  "id": "lower-third-date-chip",
+  "name": "Date Chip Lower Third",
+  "type": "lottie",
+  "category": "lower-thirds",
+  "file": "lower-third-date-chip.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Small calendar-chip icon with a bar for a date, time or event. Type the date in the headline row and the time or event name beneath it.",
+  "tags": [
+    "lower third",
+    "date",
+    "calendar",
+    "time",
+    "event",
+    "schedule",
+    "clock"
+  ],
+  "width": 1100,
+  "height": 240,
+  "fps": 30,
+  "duration": 5.0,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "primary": "#1F2933",
+    "accent": "#E53935",
+    "background": "#FFFFFF",
+    "secondary": "#1F2933"
+  },
+  "textArea": [
+    214,
+    88,
+    800,
+    50
+  ],
+  "textAreas": {
+    "headline": [
+      214,
+      88,
+      800,
+      50
+    ],
+    "subtitle": [
+      214,
+      142,
+      660,
+      24
+    ]
+  },
+  "variants": [
+    {
+      "id": "chip",
+      "name": "Calendar Chip",
+      "file": "lower-third-date-chip.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1100,
+      "height": 240,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#1F2933",
+        "accent": "#E53935",
+        "background": "#FFFFFF",
+        "secondary": "#1F2933"
+      },
+      "textArea": [
+        214,
+        88,
+        800,
+        50
+      ],
+      "textAreas": {
+        "headline": [
+          214,
+          88,
+          800,
+          50
+        ],
+        "subtitle": [
+          214,
+          142,
+          660,
+          24
+        ]
+      },
+      "description": "The calendar chip flips up into place and a bar wipes out from behind it."
+    },
+    {
+      "id": "clock",
+      "name": "Clock Chip",
+      "file": "lower-third-date-chip--clock.json",
+      "thumbnail": "thumbnail--clock.png",
+      "preview": "preview--clock.webp",
+      "poster": "poster--clock.png",
+      "width": 1100,
+      "height": 230,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FFFFFF",
+        "accent": "#7C3AED",
+        "background": "#FFFFFF",
+        "secondary": "#111827"
+      },
+      "textArea": [
+        218,
+        83,
+        770,
+        40
+      ],
+      "textAreas": {
+        "headline": [
+          218,
+          83,
+          770,
+          40
+        ],
+        "subtitle": [
+          218,
+          127,
+          650,
+          22
+        ]
+      },
+      "description": "A clock face spins in with its hands whirling to a time; a capsule bar extends behind it."
+    },
+    {
+      "id": "flip",
+      "name": "Page Flip",
+      "file": "lower-third-date-chip--flip.json",
+      "thumbnail": "thumbnail--flip.png",
+      "preview": "preview--flip.webp",
+      "poster": "poster--flip.png",
+      "width": 1100,
+      "height": 250,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FDF2E9",
+        "accent": "#FF7A00",
+        "background": "#FFFFFF",
+        "secondary": "#3D2C1E"
+      },
+      "textArea": [
+        226,
+        98,
+        792,
+        50
+      ],
+      "textAreas": {
+        "headline": [
+          226,
+          98,
+          792,
+          50
+        ],
+        "subtitle": [
+          226,
+          152,
+          652,
+          24
+        ]
+      },
+      "description": "The calendar's top page tears away to reveal the next day as the bar wipes on."
+    }
+  ]
+}

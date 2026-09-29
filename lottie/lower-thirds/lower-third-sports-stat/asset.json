@@ -1,0 +1,206 @@
+{
+  "schema": 1,
+  "id": "lower-third-sports-stat",
+  "name": "Sports Stat Lower Third",
+  "type": "lottie",
+  "category": "lower-thirds",
+  "file": "lower-third-sports-stat.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Angled sports lower third with a player name bar, a team subtitle strip and a stat box on the right. Put the player in the headline, the team in the subtitle and a number in the stat box.",
+  "tags": [
+    "lower third",
+    "sports",
+    "stats",
+    "score",
+    "player",
+    "broadcast",
+    "slant"
+  ],
+  "width": 1250,
+  "height": 250,
+  "fps": 30,
+  "duration": 5.0,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "primary": "#101820",
+    "secondary": "#E4002B",
+    "accent": "#FFD100",
+    "background": "#FFFFFF"
+  },
+  "textArea": [
+    110,
+    62,
+    720,
+    64
+  ],
+  "textAreas": {
+    "headline": [
+      110,
+      62,
+      720,
+      64
+    ],
+    "subtitle": [
+      80,
+      160,
+      470,
+      28
+    ],
+    "stat": [
+      920,
+      62,
+      150,
+      98
+    ]
+  },
+  "variants": [
+    {
+      "id": "slam",
+      "name": "Stat Slam",
+      "file": "lower-third-sports-stat.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1250,
+      "height": 250,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#101820",
+        "secondary": "#E4002B",
+        "accent": "#FFD100",
+        "background": "#FFFFFF"
+      },
+      "textArea": [
+        110,
+        62,
+        720,
+        64
+      ],
+      "textAreas": {
+        "headline": [
+          110,
+          62,
+          720,
+          64
+        ],
+        "subtitle": [
+          80,
+          160,
+          470,
+          28
+        ],
+        "stat": [
+          920,
+          62,
+          150,
+          98
+        ]
+      },
+      "description": "Bars slash in diagonally and the stat box slams down from above with a bounce."
+    },
+    {
+      "id": "wipe",
+      "name": "Two-Row Stat",
+      "file": "lower-third-sports-stat--wipe.json",
+      "thumbnail": "thumbnail--wipe.png",
+      "preview": "preview--wipe.webp",
+      "poster": "poster--wipe.png",
+      "width": 1250,
+      "height": 250,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#0B1F4B",
+        "secondary": "#00A3E0",
+        "accent": "#FFFFFF",
+        "background": "#0B1F4B"
+      },
+      "textArea": [
+        110,
+        62,
+        720,
+        64
+      ],
+      "textAreas": {
+        "headline": [
+          110,
+          62,
+          720,
+          64
+        ],
+        "subtitle": [
+          80,
+          160,
+          470,
+          28
+        ],
+        "stat": [
+          914,
+          46,
+          160,
+          90
+        ],
+        "stat_label": [
+          900,
+          158,
+          170,
+          32
+        ]
+      },
+      "description": "Stat box split into a value block and a label strip, wiped in with speed ticks."
+    },
+    {
+      "id": "twin",
+      "name": "Twin Stats",
+      "file": "lower-third-sports-stat--twin.json",
+      "thumbnail": "thumbnail--twin.png",
+      "preview": "preview--twin.webp",
+      "poster": "poster--twin.png",
+      "width": 1250,
+      "height": 250,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#1B1B1B",
+        "secondary": "#7ED957",
+        "accent": "#FF7A00",
+        "background": "#FFFFFF"
+      },
+      "textArea": [
+        110,
+        62,
+        720,
+        64
+      ],
+      "textAreas": {
+        "headline": [
+          110,
+          62,
+          720,
+          64
+        ],
+        "subtitle": [
+          80,
+          160,
+          470,
+          28
+        ],
+        "stat": [
+          900,
+          62,
+          100,
+          90
+        ],
+        "stat_2": [
+          1066,
+          62,
+          100,
+          90
+        ]
+      },
+      "description": "Two smaller stat boxes pop in side by side for comparing numbers."
+    }
+  ]
+}

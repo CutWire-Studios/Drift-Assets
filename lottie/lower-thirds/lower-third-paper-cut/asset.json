@@ -1,0 +1,166 @@
+{
+  "schema": 1,
+  "id": "lower-third-paper-cut",
+  "name": "Paper Cut Lower Third",
+  "type": "lottie",
+  "category": "lower-thirds",
+  "file": "lower-third-paper-cut.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Layered paper-cut lower third: stacked card shapes with soft shadows pop up one after another. Your name goes on the front layer with a subtitle under it.",
+  "tags": [
+    "lower third",
+    "paper",
+    "papercut",
+    "layered",
+    "craft",
+    "soft",
+    "shadow"
+  ],
+  "width": 1100,
+  "height": 260,
+  "fps": 30,
+  "duration": 5.0,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "primary": "#FFF8EC",
+    "secondary": "#2E86AB",
+    "accent": "#F6AE2D"
+  },
+  "textArea": [
+    140,
+    104,
+    720,
+    58
+  ],
+  "textAreas": {
+    "headline": [
+      140,
+      104,
+      720,
+      58
+    ],
+    "subtitle": [
+      140,
+      166,
+      560,
+      32
+    ]
+  },
+  "variants": [
+    {
+      "id": "layers",
+      "name": "Stacked Layers",
+      "file": "lower-third-paper-cut.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1100,
+      "height": 260,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FFF8EC",
+        "secondary": "#2E86AB",
+        "accent": "#F6AE2D"
+      },
+      "textArea": [
+        140,
+        104,
+        720,
+        58
+      ],
+      "textAreas": {
+        "headline": [
+          140,
+          104,
+          720,
+          58
+        ],
+        "subtitle": [
+          140,
+          166,
+          560,
+          32
+        ]
+      },
+      "description": "Three rounded paper layers spring up from the bottom, back to front."
+    },
+    {
+      "id": "wavy",
+      "name": "Wavy Hills",
+      "file": "lower-third-paper-cut--wavy.json",
+      "thumbnail": "thumbnail--wavy.png",
+      "preview": "preview--wavy.webp",
+      "poster": "poster--wavy.png",
+      "width": 1100,
+      "height": 270,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FDF6E3",
+        "secondary": "#6A994E",
+        "accent": "#A7C957"
+      },
+      "textArea": [
+        130,
+        134,
+        800,
+        54
+      ],
+      "textAreas": {
+        "headline": [
+          130,
+          134,
+          800,
+          54
+        ],
+        "subtitle": [
+          130,
+          192,
+          660,
+          30
+        ]
+      },
+      "description": "Paper layers with wavy, hill-like top edges that rise in like a pop-up book."
+    },
+    {
+      "id": "tags",
+      "name": "Tag and Ribbon",
+      "file": "lower-third-paper-cut--tags.json",
+      "thumbnail": "thumbnail--tags.png",
+      "preview": "preview--tags.webp",
+      "poster": "poster--tags.png",
+      "width": 1100,
+      "height": 270,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FFFFFF",
+        "secondary": "#E76F51",
+        "accent": "#264653"
+      },
+      "textArea": [
+        140,
+        60,
+        740,
+        76
+      ],
+      "textAreas": {
+        "headline": [
+          140,
+          60,
+          740,
+          76
+        ],
+        "subtitle": [
+          180,
+          182,
+          390,
+          32
+        ]
+      },
+      "description": "A notched paper tag and a forked ribbon unfold sideways with a little swing."
+    }
+  ]
+}

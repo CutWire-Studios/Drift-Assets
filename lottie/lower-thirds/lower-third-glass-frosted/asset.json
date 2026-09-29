@@ -1,0 +1,152 @@
+{
+  "schema": 1,
+  "id": "lower-third-glass-frosted",
+  "name": "Frosted Glass Lower Third",
+  "type": "lottie",
+  "category": "lower-thirds",
+  "file": "lower-third-glass-frosted.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Translucent frosted-glass lower third with a bright rim and a light sheen sweeping across. Your name goes in the headline row and a role or caption in the subtitle row.",
+  "tags": [
+    "lower third",
+    "glass",
+    "frosted",
+    "glassmorphism",
+    "modern",
+    "clean",
+    "name"
+  ],
+  "width": 1100,
+  "height": 250,
+  "fps": 30,
+  "duration": 5.0,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "primary": "#FFFFFF",
+    "outline": "#FFFFFF",
+    "accent": "#7CF2FF"
+  },
+  "textArea": [
+    108,
+    70,
+    820,
+    66
+  ],
+  "textAreas": {
+    "headline": [
+      108,
+      70,
+      820,
+      66
+    ],
+    "subtitle": [
+      108,
+      156,
+      820,
+      30
+    ]
+  },
+  "variants": [
+    {
+      "id": "bar",
+      "name": "Glass Card",
+      "file": "lower-third-glass-frosted.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1100,
+      "height": 250,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FFFFFF",
+        "outline": "#FFFFFF",
+        "accent": "#7CF2FF"
+      },
+      "textArea": [
+        108,
+        70,
+        820,
+        66
+      ],
+      "textAreas": {
+        "headline": [
+          108,
+          70,
+          820,
+          66
+        ],
+        "subtitle": [
+          108,
+          156,
+          820,
+          30
+        ]
+      },
+      "description": "Two-line frosted card that grows from the left with an accent tick and divider."
+    },
+    {
+      "id": "pill",
+      "name": "Glass Pill",
+      "file": "lower-third-glass-frosted--pill.json",
+      "thumbnail": "thumbnail--pill.png",
+      "preview": "preview--pill.webp",
+      "poster": "poster--pill.png",
+      "width": 1000,
+      "height": 200,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FFFFFF",
+        "outline": "#FFFFFF",
+        "accent": "#FF8AD8"
+      },
+      "textArea": [
+        190,
+        68,
+        620,
+        64
+      ],
+      "description": "Single-line centred glass capsule that springs open from the middle."
+    },
+    {
+      "id": "stacked",
+      "name": "Stacked Panes",
+      "file": "lower-third-glass-frosted--stacked.json",
+      "thumbnail": "thumbnail--stacked.png",
+      "preview": "preview--stacked.webp",
+      "poster": "poster--stacked.png",
+      "width": 1080,
+      "height": 250,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FFFFFF",
+        "outline": "#FFFFFF",
+        "accent": "#FFD36E"
+      },
+      "textArea": [
+        78,
+        52,
+        800,
+        66
+      ],
+      "textAreas": {
+        "headline": [
+          78,
+          52,
+          800,
+          66
+        ],
+        "subtitle": [
+          74,
+          164,
+          468,
+          34
+        ]
+      },
+      "description": "Separate headline and subtitle glass panes that rise in one after the other."
+    }
+  ]
+}

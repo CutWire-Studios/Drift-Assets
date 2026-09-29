@@ -1,0 +1,155 @@
+{
+  "schema": 1,
+  "id": "lower-third-podcast-guest",
+  "name": "Podcast Guest Lower Third",
+  "type": "lottie",
+  "category": "lower-thirds",
+  "file": "lower-third-podcast-guest.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Podcast name bar with a microphone badge and a live audio waveform. Put the guest's name on the first row and their show or role on the second.",
+  "tags": [
+    "lower third",
+    "podcast",
+    "microphone",
+    "guest",
+    "waveform",
+    "audio",
+    "interview"
+  ],
+  "width": 1150,
+  "height": 250,
+  "fps": 30,
+  "duration": 5.0,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "primary": "#16161D",
+    "accent": "#FF4F7B",
+    "icon": "#FFFFFF",
+    "secondary": "#2A2A36"
+  },
+  "textArea": [
+    250,
+    82,
+    610,
+    58
+  ],
+  "textAreas": {
+    "headline": [
+      250,
+      82,
+      610,
+      58
+    ],
+    "subtitle": [
+      250,
+      152,
+      610,
+      22
+    ]
+  },
+  "variants": [
+    {
+      "id": "badge",
+      "name": "Mic Badge",
+      "file": "lower-third-podcast-guest.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1150,
+      "height": 250,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#16161D",
+        "accent": "#FF4F7B",
+        "icon": "#FFFFFF",
+        "secondary": "#2A2A36"
+      },
+      "textArea": [
+        250,
+        82,
+        610,
+        58
+      ],
+      "textAreas": {
+        "headline": [
+          250,
+          82,
+          610,
+          58
+        ],
+        "subtitle": [
+          250,
+          152,
+          610,
+          22
+        ]
+      },
+      "description": "Round mic badge with pulsing rings; a dark bar extends from it with a waveform on the end."
+    },
+    {
+      "id": "waveform",
+      "name": "Waveform Underline",
+      "file": "lower-third-podcast-guest--waveform.json",
+      "thumbnail": "thumbnail--waveform.png",
+      "preview": "preview--waveform.webp",
+      "poster": "poster--waveform.png",
+      "width": 1100,
+      "height": 230,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FFFFFF",
+        "accent": "#7B5CFF",
+        "icon": "#FFFFFF"
+      },
+      "textArea": [
+        170,
+        52,
+        750,
+        64
+      ],
+      "description": "Single-line white bar with a mic tile and a full-width bouncing waveform underneath."
+    },
+    {
+      "id": "on-air",
+      "name": "On-Air Card",
+      "file": "lower-third-podcast-guest--on-air.json",
+      "thumbnail": "thumbnail--on-air.png",
+      "preview": "preview--on-air.webp",
+      "poster": "poster--on-air.png",
+      "width": 1000,
+      "height": 250,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FFF4E0",
+        "accent": "#FF7A1A",
+        "icon": "#FFFFFF",
+        "secondary": "#2B1D14"
+      },
+      "textArea": [
+        220,
+        114,
+        560,
+        50
+      ],
+      "textAreas": {
+        "headline": [
+          220,
+          114,
+          560,
+          50
+        ],
+        "subtitle": [
+          260,
+          168,
+          480,
+          26
+        ]
+      },
+      "description": "Centred rounded card with the mic badge perched on top between two waveforms."
+    }
+  ]
+}

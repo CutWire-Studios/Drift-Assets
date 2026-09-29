@@ -1,0 +1,166 @@
+{
+  "schema": 1,
+  "id": "lower-third-vertical-side-bar",
+  "name": "Vertical Side Bar Lower Third",
+  "type": "lottie",
+  "category": "lower-thirds",
+  "file": "lower-third-vertical-side-bar.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A vertical accent bar springs up, then text panels slide out to the right from behind it. Put the name in the top panel and a subtitle in the lower one.",
+  "tags": [
+    "lower third",
+    "vertical bar",
+    "side bar",
+    "slide",
+    "clean",
+    "name",
+    "corporate"
+  ],
+  "width": 1100,
+  "height": 250,
+  "fps": 30,
+  "duration": 5.0,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "accent": "#FF3D00",
+    "primary": "#FFFFFF",
+    "secondary": "#1C1C1C"
+  },
+  "textArea": [
+    108,
+    60,
+    800,
+    68
+  ],
+  "textAreas": {
+    "headline": [
+      108,
+      60,
+      800,
+      68
+    ],
+    "subtitle": [
+      104,
+      160,
+      490,
+      32
+    ]
+  },
+  "variants": [
+    {
+      "id": "panel",
+      "name": "Slide Panels",
+      "file": "lower-third-vertical-side-bar.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1100,
+      "height": 250,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "accent": "#FF3D00",
+        "primary": "#FFFFFF",
+        "secondary": "#1C1C1C"
+      },
+      "textArea": [
+        108,
+        60,
+        800,
+        68
+      ],
+      "textAreas": {
+        "headline": [
+          108,
+          60,
+          800,
+          68
+        ],
+        "subtitle": [
+          104,
+          160,
+          490,
+          32
+        ]
+      },
+      "description": "Accent bar grows up, then white name and dark subtitle panels slide out from behind it."
+    },
+    {
+      "id": "outline",
+      "name": "Outline Frame",
+      "file": "lower-third-vertical-side-bar--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 1100,
+      "height": 250,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "accent": "#00E5A0",
+        "outline": "#FFFFFF",
+        "secondary": "#00E5A0"
+      },
+      "textArea": [
+        108,
+        64,
+        800,
+        64
+      ],
+      "textAreas": {
+        "headline": [
+          108,
+          64,
+          800,
+          64
+        ],
+        "subtitle": [
+          100,
+          168,
+          380,
+          30
+        ]
+      },
+      "description": "Instead of a filled panel, an outline frame draws out from the bar with a coloured tag below."
+    },
+    {
+      "id": "split",
+      "name": "Double Bar",
+      "file": "lower-third-vertical-side-bar--split.json",
+      "thumbnail": "thumbnail--split.png",
+      "preview": "preview--split.webp",
+      "poster": "poster--split.png",
+      "width": 1100,
+      "height": 250,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "accent": "#FFC300",
+        "primary": "#0A2342",
+        "secondary": "#2CA58D"
+      },
+      "textArea": [
+        121,
+        60,
+        790,
+        70
+      ],
+      "textAreas": {
+        "headline": [
+          121,
+          60,
+          790,
+          70
+        ],
+        "subtitle": [
+          115,
+          164,
+          430,
+          30
+        ]
+      },
+      "description": "Thick and thin accent bars side by side with separate headline and subtitle panels."
+    }
+  ]
+}
