@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "id": "lunar-new-year-lanterns",
+  "name": "Lunar New Year Lanterns",
+  "type": "lottie",
+  "category": "seasonal",
+  "file": "lunar-new-year-lanterns.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Red Lunar New Year lanterns with gold caps and tassels swaying gently on their strings; seamless loops that hang from the top of the frame.",
+  "tags": [
+    "lunar new year",
+    "chinese new year",
+    "lantern",
+    "spring festival",
+    "red",
+    "gold",
+    "festive"
+  ],
+  "width": 900,
+  "height": 560,
+  "fps": 30,
+  "duration": 3.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#E0231C",
+    "accent": "#FFC23D"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Classic Trio",
+      "file": "lunar-new-year-lanterns.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 900,
+      "height": 560,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#E0231C",
+        "accent": "#FFC23D"
+      },
+      "textArea": null,
+      "description": "Three shaded red lanterns on strings of different lengths, swaying with lagging tassels."
+    },
+    {
+      "id": "glow",
+      "name": "Glowing",
+      "file": "lunar-new-year-lanterns--glow.json",
+      "thumbnail": "thumbnail--glow.png",
+      "preview": "preview--glow.webp",
+      "poster": "poster--glow.png",
+      "width": 900,
+      "height": 600,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#E0231C",
+        "accent": "#FFC23D"
+      },
+      "textArea": null,
+      "description": "Lanterns lit from within with a warm gradient and a softly flickering halo."
+    },
+    {
+      "id": "border",
+      "name": "Top Border",
+      "file": "lunar-new-year-lanterns--border.json",
+      "thumbnail": "thumbnail--border.png",
+      "preview": "preview--border.webp",
+      "poster": "poster--border.png",
+      "width": 1920,
+      "height": 420,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#E0231C",
+        "accent": "#FFC23D"
+      },
+      "textArea": null,
+      "description": "A swagged rope across the top of the frame with eight small hanging lanterns."
+    }
+  ]
+}

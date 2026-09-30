@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "id": "snowfall",
+  "name": "Snowfall",
+  "type": "lottie",
+  "category": "seasonal",
+  "file": "snowfall.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Full-frame transparent snow overlay that falls over your footage in a seamless loop; for winter, Christmas and holiday edits.",
+  "tags": [
+    "snow",
+    "snowfall",
+    "winter",
+    "christmas",
+    "holiday",
+    "overlay",
+    "weather"
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 4.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FFFFFF"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "soft",
+      "name": "Soft Snow",
+      "file": "snowfall.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Soft round flakes in three depths, drifting and swaying gently."
+    },
+    {
+      "id": "crystals",
+      "name": "Crystal Flakes",
+      "file": "snowfall--crystals.json",
+      "thumbnail": "thumbnail--crystals.png",
+      "preview": "preview--crystals.webp",
+      "poster": "poster--crystals.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Six-armed crystal snowflakes that spin and flutter as they fall."
+    },
+    {
+      "id": "blizzard",
+      "name": "Blizzard",
+      "file": "snowfall--blizzard.json",
+      "thumbnail": "thumbnail--blizzard.png",
+      "preview": "preview--blizzard.webp",
+      "poster": "poster--blizzard.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Fast wind-driven snow streaking diagonally across the frame."
+    }
+  ]
+}

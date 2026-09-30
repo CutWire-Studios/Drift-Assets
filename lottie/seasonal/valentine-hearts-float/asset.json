@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "id": "valentine-hearts-float",
+  "name": "Valentine Hearts Float",
+  "type": "lottie",
+  "category": "seasonal",
+  "file": "valentine-hearts-float.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Hearts floating up and swaying for Valentine's Day, anniversaries and love notes; seamless loops.",
+  "tags": [
+    "valentine",
+    "hearts",
+    "love",
+    "romantic",
+    "floating",
+    "anniversary"
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 4.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FF2E5F",
+    "secondary": "#FF8FB1"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "rise",
+      "name": "Rising Hearts",
+      "file": "valentine-hearts-float.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF2E5F",
+        "secondary": "#FF8FB1"
+      },
+      "textArea": null,
+      "description": "Full-frame transparent overlay of glossy hearts drifting up in three depths."
+    },
+    {
+      "id": "beat",
+      "name": "Heartbeat",
+      "file": "valentine-hearts-float--beat.json",
+      "thumbnail": "thumbnail--beat.png",
+      "preview": "preview--beat.webp",
+      "poster": "poster--beat.png",
+      "width": 600,
+      "height": 600,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF2E5F",
+        "secondary": "#FF8FB1"
+      },
+      "textArea": null,
+      "description": "One big glossy heart beating lub-dub, releasing little hearts and pulse rings."
+    },
+    {
+      "id": "doodle",
+      "name": "Doodle",
+      "file": "valentine-hearts-float--doodle.json",
+      "thumbnail": "thumbnail--doodle.png",
+      "preview": "preview--doodle.webp",
+      "poster": "poster--doodle.png",
+      "width": 720,
+      "height": 960,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "outline": "#2A2233",
+        "primary": "#FF2E5F",
+        "secondary": "#FF8FB1"
+      },
+      "textArea": null,
+      "description": "Hand-drawn ink hearts with off-register fills rising in a column, with twinkles."
+    }
+  ]
+}

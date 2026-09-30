@@ -1,0 +1,90 @@
+{
+  "schema": 1,
+  "id": "ramadan-crescent-lanterns",
+  "name": "Ramadan Crescent Lanterns",
+  "type": "lottie",
+  "category": "seasonal",
+  "file": "ramadan-crescent-lanterns.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A golden crescent moon with a star and glowing fanous lanterns swaying on their chains for Ramadan and Eid greetings; seamless loops.",
+  "tags": [
+    "ramadan",
+    "eid",
+    "crescent",
+    "moon",
+    "fanous",
+    "lantern",
+    "ramadan kareem"
+  ],
+  "width": 900,
+  "height": 540,
+  "fps": 30,
+  "duration": 3.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#F2C14E",
+    "accent": "#FF9F3A",
+    "secondary": "#2FB6A8"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Crescent & Fanous",
+      "file": "ramadan-crescent-lanterns.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 900,
+      "height": 540,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#F2C14E",
+        "accent": "#FF9F3A",
+        "secondary": "#2FB6A8"
+      },
+      "textArea": null,
+      "description": "Glowing gold crescent and star beside two hanging fanous lanterns with flickering glass."
+    },
+    {
+      "id": "line",
+      "name": "Line Art",
+      "file": "ramadan-crescent-lanterns--line.json",
+      "thumbnail": "thumbnail--line.png",
+      "preview": "preview--line.webp",
+      "poster": "poster--line.png",
+      "width": 900,
+      "height": 540,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#F2C14E",
+        "accent": "#FF9F3A",
+        "secondary": "#2FB6A8"
+      },
+      "textArea": null,
+      "description": "Elegant gold line-art version with softly pulsing glow and twinkling stars."
+    },
+    {
+      "id": "border",
+      "name": "Top Border",
+      "file": "ramadan-crescent-lanterns--border.json",
+      "thumbnail": "thumbnail--border.png",
+      "preview": "preview--border.webp",
+      "poster": "poster--border.png",
+      "width": 1920,
+      "height": 440,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#F2C14E",
+        "accent": "#FF9F3A",
+        "secondary": "#2FB6A8"
+      },
+      "textArea": null,
+      "description": "A gold rail across the top of the frame hung with fanous lanterns, crescents and stars."
+    }
+  ]
+}

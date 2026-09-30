@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "id": "autumn-leaves-fall",
+  "name": "Autumn Leaves Fall",
+  "type": "lottie",
+  "category": "seasonal",
+  "file": "autumn-leaves-fall.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Maple, oak and elm leaves tumbling down over the whole frame in a seamless loop; a transparent overlay for autumn, harvest and Thanksgiving edits.",
+  "tags": [
+    "autumn",
+    "fall",
+    "leaves",
+    "maple",
+    "thanksgiving",
+    "overlay",
+    "seasonal"
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 4.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#D63A26",
+    "secondary": "#F07A1C",
+    "accent": "#F2B43A"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "mixed",
+      "name": "Tumbling Leaves",
+      "file": "autumn-leaves-fall.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#D63A26",
+        "secondary": "#F07A1C",
+        "accent": "#F2B43A"
+      },
+      "textArea": null,
+      "description": "Softly shaded leaves with veins, flipping and swaying as they fall."
+    },
+    {
+      "id": "gust",
+      "name": "Wind Gust",
+      "file": "autumn-leaves-fall--gust.json",
+      "thumbnail": "thumbnail--gust.png",
+      "preview": "preview--gust.webp",
+      "poster": "poster--gust.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#D63A26",
+        "secondary": "#F07A1C",
+        "accent": "#F2B43A"
+      },
+      "textArea": null,
+      "description": "Flat two-tone leaves blown sideways by a strong gust, spinning fast."
+    },
+    {
+      "id": "doodle",
+      "name": "Doodle",
+      "file": "autumn-leaves-fall--doodle.json",
+      "thumbnail": "thumbnail--doodle.png",
+      "preview": "preview--doodle.webp",
+      "poster": "poster--doodle.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#D63A26",
+        "secondary": "#F07A1C",
+        "accent": "#F2B43A",
+        "outline": "#2A2233"
+      },
+      "textArea": null,
+      "description": "Hand-drawn ink leaves with off-register colour fills."
+    }
+  ]
+}

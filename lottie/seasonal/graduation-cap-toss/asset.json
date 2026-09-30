@@ -1,0 +1,87 @@
+{
+  "schema": 1,
+  "id": "graduation-cap-toss",
+  "name": "Graduation Cap Toss",
+  "type": "lottie",
+  "category": "seasonal",
+  "file": "graduation-cap-toss.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Mortarboards tossed into the air with swinging gold tassels to celebrate graduation; seamless loops.",
+  "tags": [
+    "graduation",
+    "cap",
+    "mortarboard",
+    "tassel",
+    "school",
+    "celebration",
+    "class of"
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 3.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#1E2233",
+    "accent": "#FFC53A"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "toss",
+      "name": "Cap Toss",
+      "file": "graduation-cap-toss.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#1E2233",
+        "accent": "#FFC53A"
+      },
+      "textArea": null,
+      "description": "Full-frame transparent overlay of caps flung up from the bottom edge, tumbling and falling back."
+    },
+    {
+      "id": "hero",
+      "name": "Hero Cap",
+      "file": "graduation-cap-toss--hero.json",
+      "thumbnail": "thumbnail--hero.png",
+      "preview": "preview--hero.webp",
+      "poster": "poster--hero.png",
+      "width": 600,
+      "height": 720,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#1E2233",
+        "accent": "#FFC53A"
+      },
+      "textArea": null,
+      "description": "One big cap flipping up into view with twinkling sparkles, then dropping away."
+    },
+    {
+      "id": "doodle",
+      "name": "Doodle",
+      "file": "graduation-cap-toss--doodle.json",
+      "thumbnail": "thumbnail--doodle.png",
+      "preview": "preview--doodle.webp",
+      "poster": "poster--doodle.png",
+      "width": 900,
+      "height": 720,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#3A3F66",
+        "accent": "#FFC53A",
+        "outline": "#2A2233"
+      },
+      "textArea": null,
+      "description": "Hand-drawn ink caps tossed in turn among bobbing doodle stars."
+    }
+  ]
+}

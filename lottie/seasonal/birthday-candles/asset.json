@@ -1,0 +1,90 @@
+{
+  "schema": 1,
+  "id": "birthday-candles",
+  "name": "Birthday Candles",
+  "type": "lottie",
+  "category": "seasonal",
+  "file": "birthday-candles.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Striped birthday candles with softly flickering flames; also a blow-out moment and a cupcake. Great next to a birthday message.",
+  "tags": [
+    "birthday",
+    "candles",
+    "cake",
+    "party",
+    "celebration",
+    "flame",
+    "cupcake"
+  ],
+  "width": 440,
+  "height": 420,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FF6FA5",
+    "secondary": "#63C5FF",
+    "accent": "#FFCB3D"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Three Candles",
+      "file": "birthday-candles.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 440,
+      "height": 420,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF6FA5",
+        "secondary": "#63C5FF",
+        "accent": "#FFCB3D"
+      },
+      "textArea": null,
+      "description": "Three striped candles of different heights with flickering flames and a warm glow."
+    },
+    {
+      "id": "blow-out",
+      "name": "Blow Out",
+      "file": "birthday-candles--blow-out.json",
+      "thumbnail": "thumbnail--blow-out.png",
+      "preview": "preview--blow-out.webp",
+      "poster": "poster--blow-out.png",
+      "width": 440,
+      "height": 460,
+      "duration": 3.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF6FA5",
+        "secondary": "#63C5FF",
+        "accent": "#FFCB3D"
+      },
+      "textArea": null,
+      "description": "The flames lean in a puff of breath and go out, leaving curling smoke and embers."
+    },
+    {
+      "id": "cupcake",
+      "name": "Cupcake",
+      "file": "birthday-candles--cupcake.json",
+      "thumbnail": "thumbnail--cupcake.png",
+      "preview": "preview--cupcake.webp",
+      "poster": "poster--cupcake.png",
+      "width": 420,
+      "height": 520,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF8FC0",
+        "secondary": "#8E5A3C",
+        "accent": "#63C5FF"
+      },
+      "textArea": null,
+      "description": "A frosted cupcake with sprinkles and a single flickering candle."
+    }
+  ]
+}
