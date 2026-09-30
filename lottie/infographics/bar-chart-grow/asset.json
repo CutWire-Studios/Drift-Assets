@@ -1,0 +1,360 @@
+{
+  "schema": 1,
+  "id": "bar-chart-grow",
+  "name": "Bar Chart Grow",
+  "type": "lottie",
+  "category": "infographics",
+  "file": "bar-chart-grow.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Five-bar chart whose bars grow from the baseline with a staggered overshoot. Put the category names in 'label1'-'label5' under the bars and the numbers in 'value1'-'value5' above them.",
+  "tags": [
+    "bar",
+    "chart",
+    "graph",
+    "column",
+    "growth",
+    "stats",
+    "infographic",
+    "data"
+  ],
+  "width": 900,
+  "height": 600,
+  "fps": 30,
+  "duration": 2.8,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#5B6CFF",
+    "secondary": "#FF6B8A",
+    "background": "#FFFFFF"
+  },
+  "textArea": [
+    80,
+    486,
+    140,
+    44
+  ],
+  "textAreas": {
+    "label1": [
+      80,
+      486,
+      140,
+      44
+    ],
+    "value1": [
+      90,
+      261,
+      120,
+      44
+    ],
+    "label2": [
+      230,
+      486,
+      140,
+      44
+    ],
+    "value2": [
+      240,
+      176,
+      120,
+      44
+    ],
+    "label3": [
+      380,
+      486,
+      140,
+      44
+    ],
+    "value3": [
+      390,
+      227,
+      120,
+      44
+    ],
+    "label4": [
+      530,
+      486,
+      140,
+      44
+    ],
+    "value4": [
+      540,
+      101,
+      120,
+      44
+    ],
+    "label5": [
+      680,
+      486,
+      140,
+      44
+    ],
+    "value5": [
+      690,
+      162,
+      120,
+      44
+    ]
+  },
+  "variants": [
+    {
+      "id": "flat",
+      "name": "Flat",
+      "file": "bar-chart-grow.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 900,
+      "height": 600,
+      "duration": 2.8,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#5B6CFF",
+        "secondary": "#FF6B8A",
+        "background": "#FFFFFF"
+      },
+      "textArea": [
+        80,
+        486,
+        140,
+        44
+      ],
+      "textAreas": {
+        "label1": [
+          80,
+          486,
+          140,
+          44
+        ],
+        "value1": [
+          90,
+          261,
+          120,
+          44
+        ],
+        "label2": [
+          230,
+          486,
+          140,
+          44
+        ],
+        "value2": [
+          240,
+          176,
+          120,
+          44
+        ],
+        "label3": [
+          380,
+          486,
+          140,
+          44
+        ],
+        "value3": [
+          390,
+          227,
+          120,
+          44
+        ],
+        "label4": [
+          530,
+          486,
+          140,
+          44
+        ],
+        "value4": [
+          540,
+          101,
+          120,
+          44
+        ],
+        "label5": [
+          680,
+          486,
+          140,
+          44
+        ],
+        "value5": [
+          690,
+          162,
+          120,
+          44
+        ]
+      },
+      "description": "Rounded bars spring up in turn over a light grid; the tallest bar is highlighted."
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "file": "bar-chart-grow--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 900,
+      "height": 600,
+      "duration": 2.8,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#23E5FF",
+        "secondary": "#FF3DCB",
+        "background": "#0D1024",
+        "outline": "#23E5FF"
+      },
+      "textArea": [
+        80,
+        486,
+        140,
+        44
+      ],
+      "textAreas": {
+        "label1": [
+          80,
+          486,
+          140,
+          44
+        ],
+        "value1": [
+          90,
+          261,
+          120,
+          44
+        ],
+        "label2": [
+          230,
+          486,
+          140,
+          44
+        ],
+        "value2": [
+          240,
+          176,
+          120,
+          44
+        ],
+        "label3": [
+          380,
+          486,
+          140,
+          44
+        ],
+        "value3": [
+          390,
+          227,
+          120,
+          44
+        ],
+        "label4": [
+          530,
+          486,
+          140,
+          44
+        ],
+        "value4": [
+          540,
+          101,
+          120,
+          44
+        ],
+        "label5": [
+          680,
+          486,
+          140,
+          44
+        ],
+        "value5": [
+          690,
+          162,
+          120,
+          44
+        ]
+      },
+      "description": "Dark panel with dashed gridlines; glowing outlined bars shoot up with white-hot caps."
+    },
+    {
+      "id": "3d",
+      "name": "Isometric Blocks",
+      "file": "bar-chart-grow--3d.json",
+      "thumbnail": "thumbnail--3d.png",
+      "preview": "preview--3d.webp",
+      "poster": "poster--3d.png",
+      "width": 900,
+      "height": 600,
+      "duration": 2.8,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#5B6CFF",
+        "secondary": "#FF6B8A",
+        "background": "#FFFFFF"
+      },
+      "textArea": [
+        60,
+        512,
+        140,
+        44
+      ],
+      "textAreas": {
+        "label1": [
+          60,
+          512,
+          140,
+          44
+        ],
+        "value1": [
+          70,
+          292,
+          120,
+          44
+        ],
+        "label2": [
+          210,
+          512,
+          140,
+          44
+        ],
+        "value2": [
+          220,
+          209,
+          120,
+          44
+        ],
+        "label3": [
+          360,
+          512,
+          140,
+          44
+        ],
+        "value3": [
+          370,
+          258,
+          120,
+          44
+        ],
+        "label4": [
+          510,
+          512,
+          140,
+          44
+        ],
+        "value4": [
+          520,
+          136,
+          120,
+          44
+        ],
+        "label5": [
+          660,
+          512,
+          140,
+          44
+        ],
+        "value5": [
+          670,
+          196,
+          120,
+          44
+        ]
+      },
+      "description": "Isometric blocks rise out of a floor plate with staggered overshoot."
+    }
+  ]
+}

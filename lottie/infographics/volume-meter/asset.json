@@ -1,0 +1,146 @@
+{
+  "schema": 1,
+  "id": "volume-meter",
+  "name": "Volume Meter",
+  "type": "lottie",
+  "category": "infographics",
+  "file": "volume-meter.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A looping audio level meter that bounces to an imaginary beat. Put a caption such as the track or speaker name in the 'label' area.",
+  "tags": [
+    "volume",
+    "audio",
+    "meter",
+    "equalizer",
+    "vu",
+    "sound",
+    "music",
+    "signal"
+  ],
+  "width": 720,
+  "height": 400,
+  "fps": 30,
+  "duration": 2.4,
+  "playback": "loop",
+  "slots": {
+    "primary": "#5B6CFF",
+    "accent": "#FF6B8A",
+    "background": "#FFFFFF"
+  },
+  "textArea": [
+    140,
+    334,
+    440,
+    56
+  ],
+  "textAreas": {
+    "label": [
+      140,
+      334,
+      440,
+      56
+    ]
+  },
+  "variants": [
+    {
+      "id": "bars",
+      "name": "Equalizer Bars",
+      "file": "volume-meter.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 720,
+      "height": 400,
+      "duration": 2.4,
+      "playback": "loop",
+      "slots": {
+        "primary": "#5B6CFF",
+        "accent": "#FF6B8A",
+        "background": "#FFFFFF"
+      },
+      "textArea": [
+        140,
+        334,
+        440,
+        56
+      ],
+      "textAreas": {
+        "label": [
+          140,
+          334,
+          440,
+          56
+        ]
+      },
+      "description": "Rounded equalizer bars bounce with peak-hold caps drifting down."
+    },
+    {
+      "id": "vu",
+      "name": "Analog VU",
+      "file": "volume-meter--vu.json",
+      "thumbnail": "thumbnail--vu.png",
+      "preview": "preview--vu.webp",
+      "poster": "poster--vu.png",
+      "width": 640,
+      "height": 480,
+      "duration": 2.4,
+      "playback": "loop",
+      "slots": {
+        "background": "#F6EEDC",
+        "outline": "#2A2A30",
+        "primary": "#E8413B",
+        "accent": "#34343C"
+      },
+      "textArea": [
+        120,
+        408,
+        400,
+        56
+      ],
+      "textAreas": {
+        "label": [
+          120,
+          408,
+          400,
+          56
+        ]
+      },
+      "description": "Retro analog VU meter: cream face, red zone and a swinging needle."
+    },
+    {
+      "id": "neon",
+      "name": "Neon LED",
+      "file": "volume-meter--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 720,
+      "height": 460,
+      "duration": 2.4,
+      "playback": "loop",
+      "slots": {
+        "primary": "#3DFF8B",
+        "accent": "#FFD23D",
+        "secondary": "#FF3D6E",
+        "background": "#0D1024",
+        "outline": "#23E5FF"
+      },
+      "textArea": [
+        140,
+        386,
+        440,
+        44
+      ],
+      "textAreas": {
+        "label": [
+          140,
+          386,
+          440,
+          44
+        ]
+      },
+      "description": "Dark panel with columns of neon LED segments lighting green, amber and red."
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "schema": 1,
+  "id": "calendar-flip",
+  "name": "Calendar Flip",
+  "type": "lottie",
+  "category": "infographics",
+  "file": "calendar-flip.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A desk calendar whose pages flip over to land on a new date. Put the month in the 'month' area on the header and the day or date in the big 'day' area on the page.",
+  "tags": [
+    "calendar",
+    "date",
+    "day",
+    "schedule",
+    "deadline",
+    "event",
+    "time",
+    "infographic"
+  ],
+  "width": 520,
+  "height": 580,
+  "fps": 30,
+  "duration": 2.5,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FF4D5E",
+    "background": "#FFFFFF",
+    "outline": "#E3E6EE"
+  },
+  "textArea": [
+    110,
+    246,
+    300,
+    230
+  ],
+  "textAreas": {
+    "month": [
+      110,
+      122,
+      300,
+      70
+    ],
+    "day": [
+      110,
+      246,
+      300,
+      230
+    ]
+  },
+  "variants": [
+    {
+      "id": "flat",
+      "name": "Flip Over",
+      "file": "calendar-flip.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 520,
+      "height": 580,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF4D5E",
+        "background": "#FFFFFF",
+        "outline": "#E3E6EE"
+      },
+      "textArea": [
+        110,
+        246,
+        300,
+        230
+      ],
+      "textAreas": {
+        "month": [
+          110,
+          122,
+          300,
+          70
+        ],
+        "day": [
+          110,
+          246,
+          300,
+          230
+        ]
+      },
+      "description": "Desk calendar with binder rings; pages flip up over the binding and the last one lands."
+    },
+    {
+      "id": "tear-off",
+      "name": "Tear-off Pad",
+      "file": "calendar-flip--tear-off.json",
+      "thumbnail": "thumbnail--tear-off.png",
+      "preview": "preview--tear-off.webp",
+      "poster": "poster--tear-off.png",
+      "width": 520,
+      "height": 580,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#2F6BFF",
+        "background": "#FFFFFF",
+        "outline": "#E3E6EE"
+      },
+      "textArea": [
+        110,
+        246,
+        300,
+        230
+      ],
+      "textAreas": {
+        "month": [
+          110,
+          122,
+          300,
+          70
+        ],
+        "day": [
+          110,
+          246,
+          300,
+          230
+        ]
+      },
+      "description": "Tear-off pad: pages rip off and tumble away, revealing a fresh page."
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "file": "calendar-flip--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 520,
+      "height": 580,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF3DCB",
+        "background": "#0D1024",
+        "outline": "#23E5FF"
+      },
+      "textArea": [
+        110,
+        246,
+        300,
+        230
+      ],
+      "textAreas": {
+        "month": [
+          110,
+          122,
+          300,
+          70
+        ],
+        "day": [
+          110,
+          246,
+          300,
+          230
+        ]
+      },
+      "description": "Dark panel; outlined neon pages flip up over glowing rings."
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "schema": 1,
+  "id": "progress-bar",
+  "name": "Progress Bar",
+  "type": "lottie",
+  "category": "infographics",
+  "file": "progress-bar.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A progress bar that fills to about 70% with a glinting leading edge. Put the label in the 'label' area and the percentage in the 'value' area above the bar.",
+  "tags": [
+    "progress",
+    "bar",
+    "percent",
+    "loading",
+    "infographic",
+    "stat",
+    "goal"
+  ],
+  "width": 900,
+  "height": 240,
+  "fps": 30,
+  "duration": 2.5,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#5B6CFF",
+    "background": "#FFFFFF"
+  },
+  "textArea": [
+    60,
+    34,
+    500,
+    64
+  ],
+  "textAreas": {
+    "label": [
+      60,
+      34,
+      500,
+      64
+    ],
+    "value": [
+      620,
+      34,
+      220,
+      64
+    ]
+  },
+  "variants": [
+    {
+      "id": "flat",
+      "name": "Flat",
+      "file": "progress-bar.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 900,
+      "height": 240,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#5B6CFF",
+        "background": "#FFFFFF"
+      },
+      "textArea": [
+        60,
+        34,
+        500,
+        64
+      ],
+      "textAreas": {
+        "label": [
+          60,
+          34,
+          500,
+          64
+        ],
+        "value": [
+          620,
+          34,
+          220,
+          64
+        ]
+      },
+      "description": "Soft rounded track; the fill eases in with a glowing leading edge and a glint sweep."
+    },
+    {
+      "id": "neon",
+      "name": "Neon Segments",
+      "file": "progress-bar--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 900,
+      "height": 240,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#23E5FF",
+        "background": "#0D1024",
+        "outline": "#23E5FF"
+      },
+      "textArea": [
+        60,
+        34,
+        500,
+        64
+      ],
+      "textAreas": {
+        "label": [
+          60,
+          34,
+          500,
+          64
+        ],
+        "value": [
+          620,
+          34,
+          220,
+          64
+        ]
+      },
+      "description": "Dark glass panel; twenty glowing segments light up behind a white-hot spark."
+    },
+    {
+      "id": "sketch",
+      "name": "Sketch",
+      "file": "progress-bar--sketch.json",
+      "thumbnail": "thumbnail--sketch.png",
+      "preview": "preview--sketch.webp",
+      "poster": "poster--sketch.png",
+      "width": 900,
+      "height": 240,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF5A4E",
+        "background": "#FFF9EC",
+        "outline": "#26262E"
+      },
+      "textArea": [
+        60,
+        40,
+        500,
+        64
+      ],
+      "textAreas": {
+        "label": [
+          60,
+          40,
+          500,
+          64
+        ],
+        "value": [
+          620,
+          40,
+          220,
+          64
+        ]
+      },
+      "description": "Paper card with a hand-drawn bar, marker scribble fill and an ink arrow at the end."
+    }
+  ]
+}

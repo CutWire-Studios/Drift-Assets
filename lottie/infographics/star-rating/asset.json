@@ -1,0 +1,140 @@
+{
+  "schema": 1,
+  "id": "star-rating",
+  "name": "Star Rating",
+  "type": "lottie",
+  "category": "infographics",
+  "file": "star-rating.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Five rating stars that pop in one by one, the last one half filled for a 4.5 score. Put the score in the 'value' area to the right.",
+  "tags": [
+    "rating",
+    "stars",
+    "review",
+    "score",
+    "feedback",
+    "infographic",
+    "stat"
+  ],
+  "width": 700,
+  "height": 330,
+  "fps": 30,
+  "duration": 2.2,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FFC247",
+    "background": "#FFFFFF"
+  },
+  "textArea": [
+    190,
+    210,
+    320,
+    84
+  ],
+  "textAreas": {
+    "value": [
+      190,
+      210,
+      320,
+      84
+    ]
+  },
+  "variants": [
+    {
+      "id": "flat",
+      "name": "Flat",
+      "file": "star-rating.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 700,
+      "height": 330,
+      "duration": 2.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFC247",
+        "background": "#FFFFFF"
+      },
+      "textArea": [
+        190,
+        210,
+        320,
+        84
+      ],
+      "textAreas": {
+        "value": [
+          190,
+          210,
+          320,
+          84
+        ]
+      },
+      "description": "Rounded gold stars pop in with little bursts over soft star tracks."
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "file": "star-rating--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 700,
+      "height": 330,
+      "duration": 2.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFD23D",
+        "background": "#0D1024",
+        "outline": "#23E5FF"
+      },
+      "textArea": [
+        190,
+        210,
+        320,
+        84
+      ],
+      "textAreas": {
+        "value": [
+          190,
+          210,
+          320,
+          84
+        ]
+      },
+      "description": "Dark panel; neon star outlines flicker on and fill with a soft glow."
+    },
+    {
+      "id": "sketch",
+      "name": "Sketch",
+      "file": "star-rating--sketch.json",
+      "thumbnail": "thumbnail--sketch.png",
+      "preview": "preview--sketch.webp",
+      "poster": "poster--sketch.png",
+      "width": 700,
+      "height": 330,
+      "duration": 2.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFC83D",
+        "background": "#FFF9EC",
+        "outline": "#26262E"
+      },
+      "textArea": [
+        190,
+        210,
+        320,
+        84
+      ],
+      "textAreas": {
+        "value": [
+          190,
+          210,
+          320,
+          84
+        ]
+      },
+      "description": "Paper card with hand-drawn stars coloured in by marker scribbles."
+    }
+  ]
+}
