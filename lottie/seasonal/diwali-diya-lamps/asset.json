@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "id": "diwali-diya-lamps",
+  "name": "Diwali Diya Lamps",
+  "type": "lottie",
+  "category": "seasonal",
+  "file": "diwali-diya-lamps.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Clay diya oil lamps with gently flickering flames for Diwali greetings, with rangoli-inspired flower and dot motifs; seamless loops.",
+  "tags": [
+    "diwali",
+    "deepavali",
+    "diya",
+    "lamp",
+    "rangoli",
+    "festival of lights",
+    "flame"
+  ],
+  "width": 1040,
+  "height": 380,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#C9562B",
+    "secondary": "#FFFFFF",
+    "accent": "#FFC93C",
+    "icon": "#E0287A"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Diya Row",
+      "file": "diwali-diya-lamps.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1040,
+      "height": 380,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#C9562B",
+        "secondary": "#FFFFFF",
+        "accent": "#FFC93C",
+        "icon": "#E0287A"
+      },
+      "textArea": null,
+      "description": "A row of five painted terracotta diyas above a turning rangoli flower border."
+    },
+    {
+      "id": "rangoli",
+      "name": "Rangoli",
+      "file": "diwali-diya-lamps--rangoli.json",
+      "thumbnail": "thumbnail--rangoli.png",
+      "preview": "preview--rangoli.webp",
+      "poster": "poster--rangoli.png",
+      "width": 720,
+      "height": 720,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#C9562B",
+        "secondary": "#E0287A",
+        "accent": "#FFC93C",
+        "icon": "#16A99A"
+      },
+      "textArea": null,
+      "description": "One diya at the centre of a circular rangoli of petal and dot rings slowly turning."
+    },
+    {
+      "id": "glow",
+      "name": "Golden Glow",
+      "file": "diwali-diya-lamps--glow.json",
+      "thumbnail": "thumbnail--glow.png",
+      "preview": "preview--glow.webp",
+      "poster": "poster--glow.png",
+      "width": 880,
+      "height": 420,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFD27A"
+      },
+      "textArea": null,
+      "description": "Three polished brass diyas with a strong warm bloom and sparks drifting up."
+    }
+  ]
+}

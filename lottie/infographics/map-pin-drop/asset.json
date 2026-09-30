@@ -1,0 +1,141 @@
+{
+  "schema": 1,
+  "id": "map-pin-drop",
+  "name": "Map Pin Drop",
+  "type": "lottie",
+  "category": "infographics",
+  "file": "map-pin-drop.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A location pin drops onto an abstract map tile with a squash and ripple, then a label chip pops under the map. Put the place name in the 'label' area.",
+  "tags": [
+    "map",
+    "pin",
+    "location",
+    "place",
+    "travel",
+    "gps",
+    "marker",
+    "infographic"
+  ],
+  "width": 640,
+  "height": 640,
+  "fps": 30,
+  "duration": 2.8,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FF4D5E",
+    "background": "#EEF2F7"
+  },
+  "textArea": [
+    140,
+    552,
+    360,
+    52
+  ],
+  "textAreas": {
+    "label": [
+      140,
+      552,
+      360,
+      52
+    ]
+  },
+  "variants": [
+    {
+      "id": "flat",
+      "name": "Flat Map",
+      "file": "map-pin-drop.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 640,
+      "height": 640,
+      "duration": 2.8,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF4D5E",
+        "background": "#EEF2F7"
+      },
+      "textArea": [
+        140,
+        552,
+        360,
+        52
+      ],
+      "textAreas": {
+        "label": [
+          140,
+          552,
+          360,
+          52
+        ]
+      },
+      "description": "Top-down map tile with roads, a river and a park; the pin drops and ripples."
+    },
+    {
+      "id": "3d",
+      "name": "Isometric",
+      "file": "map-pin-drop--3d.json",
+      "thumbnail": "thumbnail--3d.png",
+      "preview": "preview--3d.webp",
+      "poster": "poster--3d.png",
+      "width": 640,
+      "height": 640,
+      "duration": 2.8,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF4D5E",
+        "background": "#EEF2F7"
+      },
+      "textArea": [
+        140,
+        552,
+        360,
+        52
+      ],
+      "textAreas": {
+        "label": [
+          140,
+          552,
+          360,
+          52
+        ]
+      },
+      "description": "Isometric map slab that swings into place; the pin drops onto it with flat ripples."
+    },
+    {
+      "id": "neon",
+      "name": "Neon Holo-map",
+      "file": "map-pin-drop--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 640,
+      "height": 640,
+      "duration": 2.8,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF3DCB",
+        "secondary": "#23E5FF",
+        "background": "#0D1024",
+        "outline": "#23E5FF"
+      },
+      "textArea": [
+        140,
+        552,
+        360,
+        52
+      ],
+      "textAreas": {
+        "label": [
+          140,
+          552,
+          360,
+          52
+        ]
+      },
+      "description": "Dark holo-map with glowing streets; a neon pin drops in and radar rings sweep out."
+    }
+  ]
+}

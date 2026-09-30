@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "id": "vine-boom-rings",
+  "name": "Boom Impact Rings",
+  "type": "lottie",
+  "category": "memes",
+  "file": "vine-boom-rings.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Full-frame bass-drop boom: a quick impact flash and shockwave rings punch out from the centre while the edges jolt. Sync it to the hit in your audio.",
+  "tags": [
+    "boom",
+    "impact",
+    "shockwave",
+    "bass",
+    "flash",
+    "meme",
+    "shake"
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 1.5,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "primary": "#FFFFFF"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Shockwave",
+      "file": "vine-boom-rings.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.5,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "White impact flash, three shockwave rings and a shaking dark vignette."
+    },
+    {
+      "id": "chroma",
+      "name": "Chroma Split",
+      "file": "vine-boom-rings--chroma.json",
+      "thumbnail": "thumbnail--chroma.png",
+      "preview": "preview--chroma.webp",
+      "poster": "poster--chroma.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.5,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FF2BD6",
+        "secondary": "#23E5FF"
+      },
+      "textArea": null,
+      "description": "Rings split into magenta and cyan with a coloured flash and glitch slices."
+    },
+    {
+      "id": "comic",
+      "name": "Comic Burst",
+      "file": "vine-boom-rings--comic.json",
+      "thumbnail": "thumbnail--comic.png",
+      "preview": "preview--comic.webp",
+      "poster": "poster--comic.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.5,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FFD23F",
+        "outline": "#141418"
+      },
+      "textArea": null,
+      "description": "Cartoon starburst with ink rays and dashed rings blasting outward."
+    }
+  ]
+}

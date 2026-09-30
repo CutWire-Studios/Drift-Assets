@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "id": "sad-confetti-pop",
+  "name": "Sad Confetti Pop",
+  "type": "lottie",
+  "category": "memes",
+  "file": "sad-confetti-pop.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A single sad little party popper that puffs out a few weak bits of confetti and then droops. For every anticlimactic celebration.",
+  "tags": [
+    "party popper",
+    "confetti",
+    "sad",
+    "anticlimax",
+    "celebration",
+    "meme",
+    "fail"
+  ],
+  "width": 520,
+  "height": 520,
+  "fps": 30,
+  "duration": 2.2,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FF5A8A",
+    "secondary": "#FFD23F",
+    "accent": "#3DB2FF"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Classic",
+      "file": "sad-confetti-pop.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 520,
+      "height": 520,
+      "duration": 2.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF5A8A",
+        "secondary": "#FFD23F",
+        "accent": "#3DB2FF"
+      },
+      "textArea": null,
+      "description": "Striped popper: a pathetic puff, a few confetti bits flutter down and it droops."
+    },
+    {
+      "id": "streamer",
+      "name": "Limp Streamer",
+      "file": "sad-confetti-pop--streamer.json",
+      "thumbnail": "thumbnail--streamer.png",
+      "preview": "preview--streamer.webp",
+      "poster": "poster--streamer.png",
+      "width": 520,
+      "height": 520,
+      "duration": 2.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#3DB2FF",
+        "secondary": "#FFFFFF",
+        "accent": "#FF5A8A"
+      },
+      "textArea": null,
+      "description": "One limp streamer uncurls and flops out, plus a single lonely dot."
+    },
+    {
+      "id": "line",
+      "name": "Line Art",
+      "file": "sad-confetti-pop--line.json",
+      "thumbnail": "thumbnail--line.png",
+      "preview": "preview--line.webp",
+      "poster": "poster--line.png",
+      "width": 520,
+      "height": 520,
+      "duration": 2.2,
+      "playback": "intro-hold",
+      "slots": {
+        "outline": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Monochrome outline popper with a scribbly puff and outlined confetti."
+    }
+  ]
+}

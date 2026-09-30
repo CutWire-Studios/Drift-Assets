@@ -1,0 +1,140 @@
+{
+  "schema": 1,
+  "id": "watch-next-arrow",
+  "name": "Watch Next Arrow",
+  "type": "lottie",
+  "category": "call-to-action",
+  "file": "watch-next-arrow.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Arrow that springs in and nudges towards a video card sliding in from the right; the card has a thumbnail placeholder and room for a title. Type \"Watch next\" or the video title in the card.",
+  "tags": [
+    "watch next",
+    "next video",
+    "arrow",
+    "card",
+    "up next",
+    "end screen"
+  ],
+  "width": 820,
+  "height": 290,
+  "fps": 30,
+  "duration": 4.0,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "primary": "#FF5A36",
+    "background": "#FFFFFF",
+    "secondary": "#2B2B36"
+  },
+  "textArea": [
+    476,
+    88,
+    280,
+    104
+  ],
+  "textAreas": {
+    "title": [
+      476,
+      88,
+      280,
+      104
+    ]
+  },
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Classic",
+      "file": "watch-next-arrow.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 820,
+      "height": 290,
+      "duration": 4.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FF5A36",
+        "background": "#FFFFFF",
+        "secondary": "#2B2B36"
+      },
+      "textArea": [
+        476,
+        88,
+        280,
+        104
+      ],
+      "textAreas": {
+        "title": [
+          476,
+          88,
+          280,
+          104
+        ]
+      },
+      "description": "Flat filled shapes with a soft drop shadow."
+    },
+    {
+      "id": "outline",
+      "name": "Line Art",
+      "file": "watch-next-arrow--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 820,
+      "height": 290,
+      "duration": 4.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FF5A36",
+        "outline": "#FFFFFF"
+      },
+      "textArea": [
+        476,
+        88,
+        280,
+        104
+      ],
+      "textAreas": {
+        "title": [
+          476,
+          88,
+          280,
+          104
+        ]
+      },
+      "description": "Line-art version: clean outer contours, see-through inside."
+    },
+    {
+      "id": "3d-pop",
+      "name": "3D Pop",
+      "file": "watch-next-arrow--3d-pop.json",
+      "thumbnail": "thumbnail--3d-pop.png",
+      "preview": "preview--3d-pop.webp",
+      "poster": "poster--3d-pop.png",
+      "width": 820,
+      "height": 290,
+      "duration": 4.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FF5A36",
+        "background": "#FFFFFF",
+        "secondary": "#2B2B36"
+      },
+      "textArea": [
+        476,
+        88,
+        280,
+        104
+      ],
+      "textAreas": {
+        "title": [
+          476,
+          88,
+          280,
+          104
+        ]
+      },
+      "description": "Chunky layered look with an extruded side, highlight rim and depth shadow."
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "file": "follow-button-twitch.json",
   "thumbnail": "thumbnail.png",
   "license": "CC-BY-NC-SA-4.0",
-  "description": "Purple follow pill with a blinking Twitch glitch logo; a pointer clicks the heart, which fills with a burst. Put your own \"Follow\" text inside the pill.",
+  "description": "Twitch follow button with the glitch logo; a pointer clicks it. Put your own \"Follow\" text inside the button.",
   "tags": [
     "follow",
     "twitch",
@@ -32,5 +32,72 @@
     88,
     286,
     84
+  ],
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Classic Pill",
+      "file": "follow-button-twitch.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 680,
+      "height": 300,
+      "duration": 4.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#9146FF",
+        "icon": "#FFFFFF"
+      },
+      "textArea": [
+        200,
+        88,
+        286,
+        84
+      ],
+      "description": "Purple follow pill with a blinking Twitch glitch logo; a pointer clicks the heart, which fills with a burst."
+    },
+    {
+      "id": "glass",
+      "name": "Glass Card",
+      "file": "follow-button-twitch--glass.json",
+      "thumbnail": "thumbnail--glass.png",
+      "preview": "preview--glass.webp",
+      "poster": "poster--glass.png",
+      "width": 680,
+      "height": 290,
+      "duration": 4.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "outline": "#FFFFFF",
+        "primary": "#FFFFFF",
+        "accent": "#9146FF"
+      },
+      "textArea": [
+        182,
+        74,
+        422,
+        100
+      ],
+      "description": "Frosted glass card with the app icon; a sheen sweeps across and a check pops on the icon after the click."
+    },
+    {
+      "id": "icon-pop",
+      "name": "Icon Pop",
+      "file": "follow-button-twitch--icon-pop.json",
+      "thumbnail": "thumbnail--icon-pop.png",
+      "preview": "preview--icon-pop.webp",
+      "poster": "poster--icon-pop.png",
+      "width": 330,
+      "height": 330,
+      "duration": 4.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#9146FF",
+        "secondary": "#2ECC71"
+      },
+      "textArea": null,
+      "description": "Just the app icon with a plus badge that flips to a check when clicked; no text area."
+    }
   ]
 }

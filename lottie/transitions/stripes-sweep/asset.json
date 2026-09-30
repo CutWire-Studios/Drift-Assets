@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "id": "stripes-sweep",
+  "name": "Stripes Sweep",
+  "type": "lottie",
+  "category": "transitions",
+  "file": "stripes-sweep.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Striped wipe transition: bands slide in one after another to cover the shot, hold for the cut, then slide on out to reveal the next clip.",
+  "tags": [
+    "stripes",
+    "bands",
+    "sweep",
+    "wipe",
+    "transition",
+    "slide"
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 1.4,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "primary": "#0F5BFF"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "horizontal",
+      "name": "Horizontal",
+      "file": "stripes-sweep.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.4,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#0F5BFF"
+      },
+      "textArea": null,
+      "description": "Six horizontal stripes slide in from alternating sides, top to bottom, and carry on out."
+    },
+    {
+      "id": "tricolor",
+      "name": "Tri-Colour Drop",
+      "file": "stripes-sweep--tricolor.json",
+      "thumbnail": "thumbnail--tricolor.png",
+      "preview": "preview--tricolor.webp",
+      "poster": "poster--tricolor.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.467,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FF4D2E",
+        "secondary": "#FF9F1C",
+        "accent": "#FFE066"
+      },
+      "textArea": null,
+      "description": "Vertical stripes drop from the top in three colour passes, left to right."
+    },
+    {
+      "id": "capsules",
+      "name": "Diagonal Capsules",
+      "file": "stripes-sweep--capsules.json",
+      "thumbnail": "thumbnail--capsules.png",
+      "preview": "preview--capsules.webp",
+      "poster": "poster--capsules.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.2,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#5B3DF5",
+        "secondary": "#FF4F8B"
+      },
+      "textArea": null,
+      "description": "Round-ended diagonal capsules whip in from the centre outwards with a secondary echo."
+    }
+  ]
+}

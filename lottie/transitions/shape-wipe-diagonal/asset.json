@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "id": "shape-wipe-diagonal",
+  "name": "Shape Wipe Diagonal",
+  "type": "lottie",
+  "category": "transitions",
+  "file": "shape-wipe-diagonal.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Full-frame diagonal wipe: a tilted slab slides across to cover the shot, holds for the cut and slides off to reveal the next clip.",
+  "tags": [
+    "wipe",
+    "diagonal",
+    "slide",
+    "transition",
+    "cover",
+    "swipe"
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 1.333,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "primary": "#5B3DF5"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "flat",
+      "name": "Flat Slab",
+      "file": "shape-wipe-diagonal.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.333,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#5B3DF5"
+      },
+      "textArea": null,
+      "description": "One solid slab slides across at a tilt, holds, then carries on off the far side."
+    },
+    {
+      "id": "stacked",
+      "name": "Stacked Colours",
+      "file": "shape-wipe-diagonal--stacked.json",
+      "thumbnail": "thumbnail--stacked.png",
+      "preview": "preview--stacked.webp",
+      "poster": "poster--stacked.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.4,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#5B3DF5",
+        "secondary": "#FF4F8B",
+        "accent": "#FFC93C"
+      },
+      "textArea": null,
+      "description": "Three tilted slabs in accent, secondary and primary follow each other in and peel away in reverse."
+    },
+    {
+      "id": "arrow",
+      "name": "Arrow",
+      "file": "shape-wipe-diagonal--arrow.json",
+      "thumbnail": "thumbnail--arrow.png",
+      "preview": "preview--arrow.webp",
+      "poster": "poster--arrow.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#5B3DF5",
+        "accent": "#FFC93C"
+      },
+      "textArea": null,
+      "description": "Snappy arrow-shaped chevron with an accent rim and a trailing accent echo."
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "file": "news-ticker-bar.json",
   "thumbnail": "thumbnail.png",
   "license": "CC-BY-NC-SA-4.0",
-  "description": "Full-width news ticker bar with a red tag block, a pulsing live dot and a looping shine; add scrolling text on top.",
+  "description": "Full-width news ticker bar with a red tag block and a pulsing live indicator; add scrolling text on top. Seamless loop.",
   "tags": [
     "news",
     "ticker",
@@ -46,5 +46,127 @@
       200,
       59
     ]
-  }
+  },
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Classic",
+      "file": "news-ticker-bar.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1920,
+      "height": 90,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "accent": "#CC0000",
+        "background": "#101318",
+        "primary": "#FFFFFF"
+      },
+      "textArea": [
+        316,
+        15,
+        1584,
+        63
+      ],
+      "textAreas": {
+        "ticker": [
+          316,
+          15,
+          1584,
+          63
+        ],
+        "tag": [
+          58,
+          17,
+          200,
+          59
+        ]
+      },
+      "description": "Full-width bar with a red tag block, a pulsing live dot and a looping shine."
+    },
+    {
+      "id": "pill",
+      "name": "Floating Pill",
+      "file": "news-ticker-bar--pill.json",
+      "thumbnail": "thumbnail--pill.png",
+      "preview": "preview--pill.webp",
+      "poster": "poster--pill.png",
+      "width": 1920,
+      "height": 90,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "accent": "#CC0000",
+        "background": "#101318",
+        "primary": "#FFFFFF"
+      },
+      "textArea": [
+        347,
+        21,
+        1519,
+        48
+      ],
+      "textAreas": {
+        "ticker": [
+          347,
+          21,
+          1519,
+          48
+        ],
+        "tag": [
+          89,
+          25,
+          210,
+          40
+        ]
+      },
+      "description": "Rounded capsule bar inset from the edges, with a pill-shaped tag, live dot and shine."
+    },
+    {
+      "id": "clock",
+      "name": "Clock Split",
+      "file": "news-ticker-bar--clock.json",
+      "thumbnail": "thumbnail--clock.png",
+      "preview": "preview--clock.webp",
+      "poster": "poster--clock.png",
+      "width": 1920,
+      "height": 90,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "accent": "#CC0000",
+        "background": "#101318",
+        "primary": "#FFFFFF"
+      },
+      "textArea": [
+        362,
+        14,
+        1284,
+        62
+      ],
+      "textAreas": {
+        "ticker": [
+          362,
+          14,
+          1284,
+          62
+        ],
+        "tag": [
+          26,
+          16,
+          200,
+          58
+        ],
+        "time": [
+          1714,
+          18,
+          180,
+          54
+        ]
+      },
+      "description": "Slanted tag with running chevrons, a light sweeping along the bar and a white clock box on the right for the time or a score."
+    }
+  ]
 }

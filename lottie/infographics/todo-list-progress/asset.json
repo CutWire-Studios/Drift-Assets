@@ -1,0 +1,267 @@
+{
+  "schema": 1,
+  "id": "todo-list-progress",
+  "name": "To-do List Progress",
+  "type": "lottie",
+  "category": "infographics",
+  "file": "todo-list-progress.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A four-item checklist whose rows tick off one by one while a progress bar at the top steps up to 75%. Put the list name in 'title', the percentage in 'value' and each task in 'item1'-'item4'.",
+  "tags": [
+    "todo",
+    "checklist",
+    "tasks",
+    "progress",
+    "list",
+    "checkbox",
+    "infographic",
+    "goals"
+  ],
+  "width": 700,
+  "height": 640,
+  "fps": 30,
+  "duration": 3.5,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#5B6CFF",
+    "background": "#FFFFFF",
+    "outline": "#C9CEDC",
+    "icon": "#2ED3A0"
+  },
+  "textArea": [
+    70,
+    44,
+    380,
+    60
+  ],
+  "textAreas": {
+    "title": [
+      70,
+      44,
+      380,
+      60
+    ],
+    "value": [
+      480,
+      44,
+      150,
+      60
+    ],
+    "item1": [
+      148,
+      208,
+      482,
+      56
+    ],
+    "item2": [
+      148,
+      304,
+      482,
+      56
+    ],
+    "item3": [
+      148,
+      400,
+      482,
+      56
+    ],
+    "item4": [
+      148,
+      496,
+      482,
+      56
+    ]
+  },
+  "variants": [
+    {
+      "id": "flat",
+      "name": "Flat Card",
+      "file": "todo-list-progress.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 700,
+      "height": 640,
+      "duration": 3.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#5B6CFF",
+        "background": "#FFFFFF",
+        "outline": "#C9CEDC",
+        "icon": "#2ED3A0"
+      },
+      "textArea": [
+        70,
+        44,
+        380,
+        60
+      ],
+      "textAreas": {
+        "title": [
+          70,
+          44,
+          380,
+          60
+        ],
+        "value": [
+          480,
+          44,
+          150,
+          60
+        ],
+        "item1": [
+          148,
+          208,
+          482,
+          56
+        ],
+        "item2": [
+          148,
+          304,
+          482,
+          56
+        ],
+        "item3": [
+          148,
+          400,
+          482,
+          56
+        ],
+        "item4": [
+          148,
+          496,
+          482,
+          56
+        ]
+      },
+      "description": "White card; checkboxes fill and tick in turn while the bar steps up."
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "file": "todo-list-progress--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 700,
+      "height": 640,
+      "duration": 3.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#23E5FF",
+        "secondary": "#FF3DCB",
+        "background": "#0D1024",
+        "outline": "#23E5FF"
+      },
+      "textArea": [
+        70,
+        44,
+        380,
+        60
+      ],
+      "textAreas": {
+        "title": [
+          70,
+          44,
+          380,
+          60
+        ],
+        "value": [
+          480,
+          44,
+          150,
+          60
+        ],
+        "item1": [
+          148,
+          208,
+          482,
+          56
+        ],
+        "item2": [
+          148,
+          304,
+          482,
+          56
+        ],
+        "item3": [
+          148,
+          400,
+          482,
+          56
+        ],
+        "item4": [
+          148,
+          496,
+          482,
+          56
+        ]
+      },
+      "description": "Dark panel with round glowing checkboxes that flare as they tick; the neon bar steps up."
+    },
+    {
+      "id": "sketch",
+      "name": "Notepad",
+      "file": "todo-list-progress--sketch.json",
+      "thumbnail": "thumbnail--sketch.png",
+      "preview": "preview--sketch.webp",
+      "poster": "poster--sketch.png",
+      "width": 700,
+      "height": 640,
+      "duration": 3.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF5A4E",
+        "background": "#FFF9EC",
+        "outline": "#26262E",
+        "icon": "#35C27A"
+      },
+      "textArea": [
+        70,
+        44,
+        380,
+        60
+      ],
+      "textAreas": {
+        "title": [
+          70,
+          44,
+          380,
+          60
+        ],
+        "value": [
+          480,
+          44,
+          150,
+          60
+        ],
+        "item1": [
+          148,
+          208,
+          482,
+          56
+        ],
+        "item2": [
+          148,
+          304,
+          482,
+          56
+        ],
+        "item3": [
+          148,
+          400,
+          482,
+          56
+        ],
+        "item4": [
+          148,
+          496,
+          482,
+          56
+        ]
+      },
+      "description": "Notepad page with hand-drawn boxes, big ink ticks and a marker bar scribbled in steps."
+    }
+  ]
+}

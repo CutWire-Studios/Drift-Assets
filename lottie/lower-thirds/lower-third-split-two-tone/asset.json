@@ -1,0 +1,166 @@
+{
+  "schema": 1,
+  "id": "lower-third-split-two-tone",
+  "name": "Split Two-Tone Lower Third",
+  "type": "lottie",
+  "category": "lower-thirds",
+  "file": "lower-third-split-two-tone.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Two stacked colour blocks that fly in from opposite sides and lock together. The top block holds your name, the bottom block a role or caption.",
+  "tags": [
+    "lower third",
+    "two tone",
+    "split",
+    "blocks",
+    "bold",
+    "name",
+    "title"
+  ],
+  "width": 1160,
+  "height": 250,
+  "fps": 30,
+  "duration": 5.0,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "primary": "#1D2B53",
+    "secondary": "#FF6B35",
+    "accent": "#FFFFFF"
+  },
+  "textArea": [
+    90,
+    60,
+    800,
+    64
+  ],
+  "textAreas": {
+    "headline": [
+      90,
+      60,
+      800,
+      64
+    ],
+    "subtitle": [
+      90,
+      152,
+      540,
+      32
+    ]
+  },
+  "variants": [
+    {
+      "id": "slide",
+      "name": "Slide Lock",
+      "file": "lower-third-split-two-tone.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1160,
+      "height": 250,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#1D2B53",
+        "secondary": "#FF6B35",
+        "accent": "#FFFFFF"
+      },
+      "textArea": [
+        90,
+        60,
+        800,
+        64
+      ],
+      "textAreas": {
+        "headline": [
+          90,
+          60,
+          800,
+          64
+        ],
+        "subtitle": [
+          90,
+          152,
+          540,
+          32
+        ]
+      },
+      "description": "Solid blocks slide in from left and right with a spinning accent square at the joint."
+    },
+    {
+      "id": "wipe",
+      "name": "Edge Wipe",
+      "file": "lower-third-split-two-tone--wipe.json",
+      "thumbnail": "thumbnail--wipe.png",
+      "preview": "preview--wipe.webp",
+      "poster": "poster--wipe.png",
+      "width": 1160,
+      "height": 250,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#0F0F14",
+        "secondary": "#F5C518",
+        "accent": "#F5C518"
+      },
+      "textArea": [
+        90,
+        60,
+        800,
+        64
+      ],
+      "textAreas": {
+        "headline": [
+          90,
+          60,
+          800,
+          64
+        ],
+        "subtitle": [
+          90,
+          152,
+          540,
+          32
+        ]
+      },
+      "description": "Blocks are wiped on in opposite directions behind racing edge lines."
+    },
+    {
+      "id": "diagonal",
+      "name": "Diagonal",
+      "file": "lower-third-split-two-tone--diagonal.json",
+      "thumbnail": "thumbnail--diagonal.png",
+      "preview": "preview--diagonal.webp",
+      "poster": "poster--diagonal.png",
+      "width": 1160,
+      "height": 250,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#5B2EFF",
+        "secondary": "#00D1B2",
+        "accent": "#FFFFFF"
+      },
+      "textArea": [
+        130,
+        60,
+        750,
+        64
+      ],
+      "textAreas": {
+        "headline": [
+          130,
+          60,
+          750,
+          64
+        ],
+        "subtitle": [
+          100,
+          152,
+          520,
+          32
+        ]
+      },
+      "description": "Slanted parallelogram blocks that fly in diagonally from opposite corners."
+    }
+  ]
+}

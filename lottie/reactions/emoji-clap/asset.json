@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "id": "emoji-clap",
+  "name": "Emoji Clap",
+  "type": "lottie",
+  "category": "reactions",
+  "file": "emoji-clap.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Two hands clapping four times a loop, squashing on every clap with a burst of impact lines; applause for anything. Seamless loop.",
+  "tags": [
+    "emoji",
+    "clap",
+    "applause",
+    "bravo",
+    "congrats",
+    "hands",
+    "reaction"
+  ],
+  "width": 460,
+  "height": 460,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FFC83D",
+    "accent": "#FFB020"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "glossy",
+      "name": "Glossy",
+      "file": "emoji-clap.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 460,
+      "height": 460,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFC83D",
+        "accent": "#FFB020"
+      },
+      "textArea": null,
+      "description": "Classic yellow hands with soft shading and highlights."
+    },
+    {
+      "id": "flat",
+      "name": "Flat Sticker",
+      "file": "emoji-clap--flat.json",
+      "thumbnail": "thumbnail--flat.png",
+      "preview": "preview--flat.webp",
+      "poster": "poster--flat.png",
+      "width": 460,
+      "height": 460,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFCC3A",
+        "accent": "#FFB020",
+        "outline": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Flat colours with a thick white die-cut border."
+    },
+    {
+      "id": "outline",
+      "name": "Bold Outline",
+      "file": "emoji-clap--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 460,
+      "height": 460,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFD23F",
+        "accent": "#FFB020",
+        "outline": "#161616"
+      },
+      "textArea": null,
+      "description": "Cartoon line art with bold black outlines."
+    }
+  ]
+}

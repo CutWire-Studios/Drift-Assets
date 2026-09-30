@@ -1,0 +1,100 @@
+{
+  "schema": 1,
+  "id": "record-scratch-freeze",
+  "name": "Record Scratch Freeze",
+  "type": "lottie",
+  "category": "memes",
+  "file": "record-scratch-freeze.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Full-frame \"yep, that's me\" freeze-frame look: a white flash, a faded tint wash and a vinyl record that scratches back and forth. Pause your clip under it; some designs leave a strip for a caption.",
+  "tags": [
+    "freeze frame",
+    "record scratch",
+    "vinyl",
+    "yep thats me",
+    "meme",
+    "flashback",
+    "pause"
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 3.0,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "primary": "#E8433A",
+    "icon": "#FFFFFF",
+    "secondary": "#6E4A22"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Sepia Corner",
+      "file": "record-scratch-freeze.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 3.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#E8433A",
+        "icon": "#FFFFFF",
+        "secondary": "#6E4A22"
+      },
+      "textArea": null,
+      "description": "Flash, warm sepia wash with a soft vignette and the record scratching in the corner."
+    },
+    {
+      "id": "letterbox",
+      "name": "Letterbox",
+      "file": "record-scratch-freeze--letterbox.json",
+      "thumbnail": "thumbnail--letterbox.png",
+      "preview": "preview--letterbox.webp",
+      "poster": "poster--letterbox.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 3.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#2F8CFF",
+        "background": "#07070A",
+        "secondary": "#5A6272"
+      },
+      "textArea": [
+        380,
+        970,
+        1220,
+        70
+      ],
+      "description": "Black cinema bars slam in over a cool grey wash; the record scratches in the bottom bar beside a caption strip."
+    },
+    {
+      "id": "polaroid",
+      "name": "Instant Photo",
+      "file": "record-scratch-freeze--polaroid.json",
+      "thumbnail": "thumbnail--polaroid.png",
+      "preview": "preview--polaroid.webp",
+      "poster": "poster--polaroid.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 3.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FFC23D",
+        "outline": "#F6F2E8",
+        "secondary": "#C9A77A"
+      },
+      "textArea": [
+        110,
+        930,
+        1300,
+        110
+      ],
+      "description": "A thick instant-photo border snaps in with a tilt; caption space on the wide bottom edge."
+    }
+  ]
+}

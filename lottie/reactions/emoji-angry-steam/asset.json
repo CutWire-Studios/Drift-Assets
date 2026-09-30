@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "id": "emoji-angry-steam",
+  "name": "Emoji Angry Steam",
+  "type": "lottie",
+  "category": "reactions",
+  "file": "emoji-angry-steam.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Fuming face that flushes red, swells up and blasts puffs of steam from both sides of its head while shaking with rage. Seamless loop.",
+  "tags": [
+    "emoji",
+    "angry",
+    "mad",
+    "rage",
+    "furious",
+    "steam",
+    "reaction"
+  ],
+  "width": 560,
+  "height": 460,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FFC83D"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "glossy",
+      "name": "Glossy",
+      "file": "emoji-angry-steam.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 560,
+      "height": 460,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFC83D"
+      },
+      "textArea": null,
+      "description": "Classic emoji with soft shading and highlights."
+    },
+    {
+      "id": "flat",
+      "name": "Flat Sticker",
+      "file": "emoji-angry-steam--flat.json",
+      "thumbnail": "thumbnail--flat.png",
+      "preview": "preview--flat.webp",
+      "poster": "poster--flat.png",
+      "width": 560,
+      "height": 460,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFCC3A",
+        "outline": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Flat colours with a thick white die-cut border."
+    },
+    {
+      "id": "outline",
+      "name": "Bold Outline",
+      "file": "emoji-angry-steam--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 560,
+      "height": 460,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFD23F",
+        "outline": "#161616"
+      },
+      "textArea": null,
+      "description": "Cartoon line art with bold black outlines."
+    }
+  ]
+}

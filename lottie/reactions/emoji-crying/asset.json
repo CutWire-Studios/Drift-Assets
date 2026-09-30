@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "id": "emoji-crying",
+  "name": "Emoji Crying",
+  "type": "lottie",
+  "category": "reactions",
+  "file": "emoji-crying.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Loudly crying face that sobs in shuddering hops while rivers of tears pour down both cheeks and spill off the chin. Seamless loop.",
+  "tags": [
+    "emoji",
+    "crying",
+    "sob",
+    "sad",
+    "tears",
+    "bawling",
+    "reaction"
+  ],
+  "width": 460,
+  "height": 500,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FFC83D",
+    "accent": "#4FC3F7"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "glossy",
+      "name": "Glossy",
+      "file": "emoji-crying.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 460,
+      "height": 500,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFC83D",
+        "accent": "#4FC3F7"
+      },
+      "textArea": null,
+      "description": "Classic yellow emoji with soft shading and highlights."
+    },
+    {
+      "id": "flat",
+      "name": "Flat Sticker",
+      "file": "emoji-crying--flat.json",
+      "thumbnail": "thumbnail--flat.png",
+      "preview": "preview--flat.webp",
+      "poster": "poster--flat.png",
+      "width": 460,
+      "height": 500,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFCC3A",
+        "accent": "#4FC3F7",
+        "outline": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Flat colours with a thick white die-cut border."
+    },
+    {
+      "id": "outline",
+      "name": "Bold Outline",
+      "file": "emoji-crying--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 460,
+      "height": 500,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFD23F",
+        "accent": "#4FC3F7",
+        "outline": "#161616"
+      },
+      "textArea": null,
+      "description": "Cartoon line art with bold black outlines."
+    }
+  ]
+}

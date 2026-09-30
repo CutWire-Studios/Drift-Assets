@@ -1,0 +1,195 @@
+{
+  "schema": 1,
+  "id": "end-screen-subscribe-grid",
+  "name": "End Screen Subscribe Grid",
+  "type": "lottie",
+  "category": "call-to-action",
+  "file": "end-screen-subscribe-grid.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "End-screen layout: a round channel-avatar placeholder with a subscribe pill and two 16:9 video-card placeholders that draw in. Drop your videos over the cards and type into the named text areas (subscribe, video1, video2 titles).",
+  "tags": [
+    "end screen",
+    "outro",
+    "subscribe",
+    "video",
+    "youtube",
+    "layout",
+    "channel"
+  ],
+  "width": 1680,
+  "height": 580,
+  "fps": 30,
+  "duration": 5.0,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "primary": "#FF2E4D",
+    "outline": "#FFFFFF",
+    "secondary": "#3D3D4A",
+    "background": "#1F1F27",
+    "icon": "#FFFFFF"
+  },
+  "textArea": [
+    109,
+    452,
+    283,
+    55
+  ],
+  "textAreas": {
+    "subscribe": [
+      109,
+      452,
+      283,
+      55
+    ],
+    "video1": [
+      480,
+      420,
+      560,
+      56
+    ],
+    "video2": [
+      1080,
+      420,
+      560,
+      56
+    ]
+  },
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Classic",
+      "file": "end-screen-subscribe-grid.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1680,
+      "height": 580,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FF2E4D",
+        "outline": "#FFFFFF",
+        "secondary": "#3D3D4A",
+        "background": "#1F1F27",
+        "icon": "#FFFFFF"
+      },
+      "textArea": [
+        109,
+        452,
+        283,
+        55
+      ],
+      "textAreas": {
+        "subscribe": [
+          109,
+          452,
+          283,
+          55
+        ],
+        "video1": [
+          480,
+          420,
+          560,
+          56
+        ],
+        "video2": [
+          1080,
+          420,
+          560,
+          56
+        ]
+      },
+      "description": "Flat filled shapes with a soft drop shadow."
+    },
+    {
+      "id": "outline",
+      "name": "Line Art",
+      "file": "end-screen-subscribe-grid--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 1680,
+      "height": 580,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FF2E4D",
+        "outline": "#FFFFFF"
+      },
+      "textArea": [
+        109,
+        452,
+        283,
+        55
+      ],
+      "textAreas": {
+        "subscribe": [
+          109,
+          452,
+          283,
+          55
+        ],
+        "video1": [
+          480,
+          420,
+          560,
+          56
+        ],
+        "video2": [
+          1080,
+          420,
+          560,
+          56
+        ]
+      },
+      "description": "Line-art version: clean outer contours, see-through inside."
+    },
+    {
+      "id": "3d-pop",
+      "name": "3D Pop",
+      "file": "end-screen-subscribe-grid--3d-pop.json",
+      "thumbnail": "thumbnail--3d-pop.png",
+      "preview": "preview--3d-pop.webp",
+      "poster": "poster--3d-pop.png",
+      "width": 1680,
+      "height": 580,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FF2E4D",
+        "outline": "#FFFFFF",
+        "secondary": "#3D3D4A",
+        "background": "#1F1F27",
+        "icon": "#FFFFFF"
+      },
+      "textArea": [
+        109,
+        452,
+        283,
+        55
+      ],
+      "textAreas": {
+        "subscribe": [
+          109,
+          452,
+          283,
+          55
+        ],
+        "video1": [
+          480,
+          420,
+          560,
+          56
+        ],
+        "video2": [
+          1080,
+          420,
+          560,
+          56
+        ]
+      },
+      "description": "Chunky layered look with an extruded side, highlight rim and depth shadow."
+    }
+  ]
+}

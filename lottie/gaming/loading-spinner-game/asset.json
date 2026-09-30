@@ -1,0 +1,111 @@
+{
+  "schema": 1,
+  "id": "loading-spinner-game",
+  "name": "Loading Spinner Game",
+  "type": "lottie",
+  "category": "gaming",
+  "file": "loading-spinner-game.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Stylised game loading spinner on a loop, with room for a \"Loading\" label underneath.",
+  "tags": [
+    "loading",
+    "spinner",
+    "loader",
+    "wait",
+    "rune",
+    "gaming",
+    "hud",
+    "progress"
+  ],
+  "width": 320,
+  "height": 400,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#F6C343",
+    "secondary": "#9B5CFF",
+    "accent": "#E7D2FF"
+  },
+  "textArea": [
+    40,
+    318,
+    240,
+    52
+  ],
+  "variants": [
+    {
+      "id": "rune",
+      "name": "Rune Ring",
+      "file": "loading-spinner-game.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 320,
+      "height": 400,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#F6C343",
+        "secondary": "#9B5CFF",
+        "accent": "#E7D2FF"
+      },
+      "textArea": [
+        40,
+        318,
+        240,
+        52
+      ],
+      "description": "Fantasy rune circle: a ring of geometric glyphs and a hexagram counter-rotate around a pulsing gem."
+    },
+    {
+      "id": "diamond",
+      "name": "Diamond",
+      "file": "loading-spinner-game--diamond.json",
+      "thumbnail": "thumbnail--diamond.png",
+      "preview": "preview--diamond.webp",
+      "poster": "poster--diamond.png",
+      "width": 320,
+      "height": 400,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#35E0FF",
+        "secondary": "#FFFFFF",
+        "background": "#0F131B"
+      },
+      "textArea": [
+        40,
+        318,
+        240,
+        52
+      ],
+      "description": "Modern flipping diamond with orbiting squares and a chasing arc, over a label pill."
+    },
+    {
+      "id": "pixel",
+      "name": "Pixel",
+      "file": "loading-spinner-game--pixel.json",
+      "thumbnail": "thumbnail--pixel.png",
+      "preview": "preview--pixel.webp",
+      "poster": "poster--pixel.png",
+      "width": 320,
+      "height": 400,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#4DFF7A",
+        "outline": "#160E1E",
+        "background": "#2B2140"
+      },
+      "textArea": [
+        40,
+        318,
+        240,
+        52
+      ],
+      "description": "Classic 8-bit ring of blocks with a bright head and a stepped fading trail."
+    }
+  ]
+}

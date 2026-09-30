@@ -1,0 +1,111 @@
+{
+  "schema": 1,
+  "id": "split-screen-divider",
+  "name": "Split Screen Divider",
+  "type": "lottie",
+  "category": "broadcast",
+  "file": "split-screen-divider.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Full-frame split-screen overlay: an animated divider between two halves with a centre badge ready for VS or OR. It animates in, holds (stretchable) and animates out.",
+  "tags": [
+    "split screen",
+    "divider",
+    "versus",
+    "vs",
+    "comparison",
+    "side by side",
+    "before after",
+    "reaction"
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 3.0,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "outline": "#FFFFFF",
+    "primary": "#FF2E5B",
+    "icon": "#FFFFFF"
+  },
+  "textArea": [
+    870,
+    476,
+    180,
+    128
+  ],
+  "variants": [
+    {
+      "id": "vertical",
+      "name": "Vertical",
+      "file": "split-screen-divider.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 3.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "outline": "#FFFFFF",
+        "primary": "#FF2E5B",
+        "icon": "#FFFFFF"
+      },
+      "textArea": [
+        870,
+        476,
+        180,
+        128
+      ],
+      "description": "Glowing vertical line draws in from both ends; a round badge spins in at the centre."
+    },
+    {
+      "id": "diagonal",
+      "name": "Diagonal",
+      "file": "split-screen-divider--diagonal.json",
+      "thumbnail": "thumbnail--diagonal.png",
+      "preview": "preview--diagonal.webp",
+      "poster": "poster--diagonal.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 3.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "outline": "#FFFFFF",
+        "accent": "#FFC21A",
+        "primary": "#1D1D24"
+      },
+      "textArea": [
+        890,
+        490,
+        140,
+        100
+      ],
+      "description": "Slanted double line with a light streak running along it and a diamond badge."
+    },
+    {
+      "id": "framed",
+      "name": "Framed Panels",
+      "file": "split-screen-divider--framed.json",
+      "thumbnail": "thumbnail--framed.png",
+      "preview": "preview--framed.webp",
+      "poster": "poster--framed.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 3.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "outline": "#FFFFFF",
+        "primary": "#6C4DFF",
+        "background": "#101016"
+      },
+      "textArea": [
+        880,
+        496,
+        160,
+        88
+      ],
+      "description": "Two rounded frames slide in side by side on a dark surround, with a pill badge between them."
+    }
+  ]
+}

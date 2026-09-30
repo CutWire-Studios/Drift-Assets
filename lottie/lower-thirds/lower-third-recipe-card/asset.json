@@ -1,0 +1,170 @@
+{
+  "schema": 1,
+  "id": "lower-third-recipe-card",
+  "name": "Recipe Card Lower Third",
+  "type": "lottie",
+  "category": "lower-thirds",
+  "file": "lower-third-recipe-card.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Cooking lower third: a recipe card with a whisk or utensil icon and a dotted divider. Put the dish name on top and a detail such as time or servings under the divider.",
+  "tags": [
+    "lower third",
+    "recipe",
+    "cooking",
+    "food",
+    "kitchen",
+    "whisk",
+    "chef"
+  ],
+  "width": 1100,
+  "height": 250,
+  "fps": 30,
+  "duration": 5.0,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "background": "#FFF8EE",
+    "accent": "#E07A5F",
+    "icon": "#FFFFFF",
+    "secondary": "#3D405B"
+  },
+  "textArea": [
+    240,
+    64,
+    710,
+    66
+  ],
+  "textAreas": {
+    "headline": [
+      240,
+      64,
+      710,
+      66
+    ],
+    "subtitle": [
+      240,
+      162,
+      710,
+      32
+    ]
+  },
+  "variants": [
+    {
+      "id": "card",
+      "name": "Whisk Card",
+      "file": "lower-third-recipe-card.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1100,
+      "height": 250,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "background": "#FFF8EE",
+        "accent": "#E07A5F",
+        "icon": "#FFFFFF",
+        "secondary": "#3D405B"
+      },
+      "textArea": [
+        240,
+        64,
+        710,
+        66
+      ],
+      "textAreas": {
+        "headline": [
+          240,
+          64,
+          710,
+          66
+        ],
+        "subtitle": [
+          240,
+          162,
+          710,
+          32
+        ]
+      },
+      "description": "Cream card rises in, a whisk badge pops and keeps whisking, and a dotted divider draws on."
+    },
+    {
+      "id": "index",
+      "name": "Index Card",
+      "file": "lower-third-recipe-card--index.json",
+      "thumbnail": "thumbnail--index.png",
+      "preview": "preview--index.webp",
+      "poster": "poster--index.png",
+      "width": 1100,
+      "height": 270,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "background": "#FFFFFF",
+        "accent": "#D62828",
+        "icon": "#D62828",
+        "secondary": "#8ECAE6"
+      },
+      "textArea": [
+        114,
+        90,
+        690,
+        64
+      ],
+      "textAreas": {
+        "headline": [
+          114,
+          90,
+          690,
+          64
+        ],
+        "subtitle": [
+          114,
+          174,
+          690,
+          36
+        ]
+      },
+      "description": "A tilted ruled index card with a red header stripe and crossed spoon and fork."
+    },
+    {
+      "id": "pill",
+      "name": "Whisk Pill",
+      "file": "lower-third-recipe-card--pill.json",
+      "thumbnail": "thumbnail--pill.png",
+      "preview": "preview--pill.webp",
+      "poster": "poster--pill.png",
+      "width": 1100,
+      "height": 230,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "background": "#2F3E46",
+        "accent": "#F4A261",
+        "icon": "#2F3E46",
+        "secondary": "#F4A261"
+      },
+      "textArea": [
+        196,
+        70,
+        758,
+        60
+      ],
+      "textAreas": {
+        "headline": [
+          196,
+          70,
+          758,
+          60
+        ],
+        "subtitle": [
+          186,
+          188,
+          680,
+          30
+        ]
+      },
+      "description": "Compact capsule with a spinning whisk badge and a dotted underline for the detail."
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "schema": 1,
+  "id": "checklist-ticks",
+  "name": "Checklist Ticks",
+  "type": "lottie",
+  "category": "callouts",
+  "file": "checklist-ticks.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Three checklist rows whose boxes get ticked one after another; type an item next to each box.",
+  "tags": [
+    "checklist",
+    "check",
+    "tick",
+    "todo",
+    "list",
+    "done",
+    "steps"
+  ],
+  "width": 540,
+  "height": 380,
+  "fps": 30,
+  "duration": 1.8,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#22C55E",
+    "outline": "#FFFFFF",
+    "icon": "#FFFFFF"
+  },
+  "textArea": [
+    124,
+    56,
+    396,
+    60
+  ],
+  "textAreas": {
+    "row1": [
+      124,
+      56,
+      396,
+      60
+    ],
+    "row2": [
+      124,
+      160,
+      396,
+      60
+    ],
+    "row3": [
+      124,
+      264,
+      396,
+      60
+    ]
+  },
+  "variants": [
+    {
+      "id": "clean",
+      "name": "Clean",
+      "file": "checklist-ticks.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 540,
+      "height": 380,
+      "duration": 1.8,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#22C55E",
+        "outline": "#FFFFFF",
+        "icon": "#FFFFFF"
+      },
+      "textArea": [
+        124,
+        56,
+        396,
+        60
+      ],
+      "textAreas": {
+        "row1": [
+          124,
+          56,
+          396,
+          60
+        ],
+        "row2": [
+          124,
+          160,
+          396,
+          60
+        ],
+        "row3": [
+          124,
+          264,
+          396,
+          60
+        ]
+      },
+      "description": "Rounded outline boxes that fill green as a white tick draws in."
+    },
+    {
+      "id": "hand",
+      "name": "Hand-Drawn",
+      "file": "checklist-ticks--hand.json",
+      "thumbnail": "thumbnail--hand.png",
+      "preview": "preview--hand.webp",
+      "poster": "poster--hand.png",
+      "width": 540,
+      "height": 380,
+      "duration": 1.8,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#22C55E",
+        "outline": "#FFFFFF"
+      },
+      "textArea": [
+        124,
+        56,
+        396,
+        60
+      ],
+      "textAreas": {
+        "row1": [
+          124,
+          56,
+          396,
+          60
+        ],
+        "row2": [
+          124,
+          160,
+          396,
+          60
+        ],
+        "row3": [
+          124,
+          264,
+          396,
+          60
+        ]
+      },
+      "description": "Marker boxes with big green ticks swooshing out past their corners."
+    },
+    {
+      "id": "bold",
+      "name": "Comic",
+      "file": "checklist-ticks--bold.json",
+      "thumbnail": "thumbnail--bold.png",
+      "preview": "preview--bold.webp",
+      "poster": "poster--bold.png",
+      "width": 540,
+      "height": 380,
+      "duration": 1.8,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#22C55E",
+        "outline": "#141414",
+        "background": "#FFFFFF"
+      },
+      "textArea": [
+        124,
+        56,
+        396,
+        60
+      ],
+      "textAreas": {
+        "row1": [
+          124,
+          56,
+          396,
+          60
+        ],
+        "row2": [
+          124,
+          160,
+          396,
+          60
+        ],
+        "row3": [
+          124,
+          264,
+          396,
+          60
+        ]
+      },
+      "description": "Chunky outlined boxes with fat green ticks that stamp in."
+    }
+  ]
+}

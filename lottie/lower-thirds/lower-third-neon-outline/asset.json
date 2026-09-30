@@ -1,0 +1,148 @@
+{
+  "schema": 1,
+  "id": "lower-third-neon-outline",
+  "name": "Neon Outline Lower Third",
+  "type": "lottie",
+  "category": "lower-thirds",
+  "file": "lower-third-neon-outline.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Glowing neon-tube outline that flickers on like a sign. Type your name inside the tube and an optional caption on the second row.",
+  "tags": [
+    "lower third",
+    "neon",
+    "glow",
+    "outline",
+    "night",
+    "retro",
+    "sign"
+  ],
+  "width": 1100,
+  "height": 260,
+  "fps": 30,
+  "duration": 5.0,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "primary": "#FF3DCB",
+    "accent": "#3DF2FF"
+  },
+  "textArea": [
+    96,
+    72,
+    788,
+    72
+  ],
+  "textAreas": {
+    "headline": [
+      96,
+      72,
+      788,
+      72
+    ],
+    "subtitle": [
+      90,
+      172,
+      520,
+      30
+    ]
+  },
+  "variants": [
+    {
+      "id": "frame",
+      "name": "Neon Frame",
+      "file": "lower-third-neon-outline.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1100,
+      "height": 260,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FF3DCB",
+        "accent": "#3DF2FF"
+      },
+      "textArea": [
+        96,
+        72,
+        788,
+        72
+      ],
+      "textAreas": {
+        "headline": [
+          96,
+          72,
+          788,
+          72
+        ],
+        "subtitle": [
+          90,
+          172,
+          520,
+          30
+        ]
+      },
+      "description": "Rounded neon frame that flickers on with a second-colour underline for the subtitle."
+    },
+    {
+      "id": "draw",
+      "name": "Draw-On Tube",
+      "file": "lower-third-neon-outline--draw.json",
+      "thumbnail": "thumbnail--draw.png",
+      "preview": "preview--draw.webp",
+      "poster": "poster--draw.png",
+      "width": 1100,
+      "height": 250,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#39FF88",
+        "accent": "#FFE14D"
+      },
+      "textArea": [
+        120,
+        80,
+        760,
+        68
+      ],
+      "description": "Single-line capsule tube that draws itself on, with glowing end caps."
+    },
+    {
+      "id": "split",
+      "name": "Split Tubes",
+      "file": "lower-third-neon-outline--split.json",
+      "thumbnail": "thumbnail--split.png",
+      "preview": "preview--split.webp",
+      "poster": "poster--split.png",
+      "width": 1100,
+      "height": 260,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FF4D6D",
+        "accent": "#4DB8FF"
+      },
+      "textArea": [
+        234,
+        60,
+        632,
+        64
+      ],
+      "textAreas": {
+        "headline": [
+          234,
+          60,
+          632,
+          64
+        ],
+        "subtitle": [
+          364,
+          180,
+          372,
+          34
+        ]
+      },
+      "description": "Centred cut-corner headline tube and a separate subtitle tube, each flickering in turn."
+    }
+  ]
+}

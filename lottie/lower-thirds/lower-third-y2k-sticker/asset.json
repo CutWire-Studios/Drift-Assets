@@ -1,0 +1,129 @@
+{
+  "schema": 1,
+  "id": "lower-third-y2k-sticker",
+  "name": "Y2K Sticker Lower Third",
+  "type": "lottie",
+  "category": "lower-thirds",
+  "file": "lower-third-y2k-sticker.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Bubbly Y2K die-cut sticker with a chrome gradient, a glossy highlight and twinkling sparkles. Type your name or title across the sticker.",
+  "tags": [
+    "lower third",
+    "y2k",
+    "sticker",
+    "chrome",
+    "sparkle",
+    "bubbly",
+    "retro",
+    "cute"
+  ],
+  "width": 1100,
+  "height": 260,
+  "fps": 30,
+  "duration": 5.0,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "outline": "#FFFFFF",
+    "secondary": "#7A3CFF",
+    "accent": "#FFFFFF",
+    "primary": "#8A6BFF"
+  },
+  "textArea": [
+    200,
+    100,
+    680,
+    60
+  ],
+  "variants": [
+    {
+      "id": "bubble",
+      "name": "Chrome Bubble",
+      "file": "lower-third-y2k-sticker.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1100,
+      "height": 260,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "outline": "#FFFFFF",
+        "secondary": "#7A3CFF",
+        "accent": "#FFFFFF",
+        "primary": "#8A6BFF"
+      },
+      "textArea": [
+        200,
+        100,
+        680,
+        60
+      ],
+      "description": "Chrome pill sticker that bounces in tilted, with sparkles twinkling around it."
+    },
+    {
+      "id": "blob",
+      "name": "Cloud Blob",
+      "file": "lower-third-y2k-sticker--blob.json",
+      "thumbnail": "thumbnail--blob.png",
+      "preview": "preview--blob.webp",
+      "poster": "poster--blob.png",
+      "width": 1100,
+      "height": 280,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "outline": "#FFFFFF",
+        "secondary": "#FF4FB8",
+        "accent": "#FFFFFF",
+        "primary": "#8A6BFF"
+      },
+      "textArea": [
+        220,
+        104,
+        640,
+        72
+      ],
+      "description": "Scalloped cloud-shaped sticker that squashes and stretches as it lands."
+    },
+    {
+      "id": "stack",
+      "name": "Tilted Stack",
+      "file": "lower-third-y2k-sticker--stack.json",
+      "thumbnail": "thumbnail--stack.png",
+      "preview": "preview--stack.webp",
+      "poster": "poster--stack.png",
+      "width": 1100,
+      "height": 300,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "outline": "#FFFFFF",
+        "secondary": "#00B3FF",
+        "accent": "#FFFFFF",
+        "primary": "#8A6BFF"
+      },
+      "textArea": [
+        170,
+        76,
+        660,
+        64
+      ],
+      "textAreas": {
+        "headline": [
+          170,
+          76,
+          660,
+          64
+        ],
+        "subtitle": [
+          170,
+          204,
+          360,
+          36
+        ]
+      },
+      "description": "Two stickers, headline and subtitle, slapped on at opposite tilts."
+    }
+  ]
+}

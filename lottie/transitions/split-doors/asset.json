@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "id": "split-doors",
+  "name": "Split Doors",
+  "type": "lottie",
+  "category": "transitions",
+  "file": "split-doors.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Door transition: panels slide in from the edges and meet in the middle to cover the shot, hold for the cut, then slide open onto the next clip.",
+  "tags": [
+    "doors",
+    "split",
+    "slide",
+    "shutter",
+    "transition",
+    "open"
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 1.333,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "primary": "#15121F"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "sliding",
+      "name": "Sliding Doors",
+      "file": "split-doors.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.333,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#15121F"
+      },
+      "textArea": null,
+      "description": "Two doors slide in from the sides, meet in the middle with a little bounce, then slide back open."
+    },
+    {
+      "id": "vertical",
+      "name": "Stacked Vertical",
+      "file": "split-doors--vertical.json",
+      "thumbnail": "thumbnail--vertical.png",
+      "preview": "preview--vertical.webp",
+      "poster": "poster--vertical.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.467,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FF4D2E",
+        "secondary": "#FF9F1C",
+        "accent": "#FFE066"
+      },
+      "textArea": null,
+      "description": "Top and bottom doors close in three colour layers and open in reverse."
+    },
+    {
+      "id": "shutter",
+      "name": "Four-Way Shutter",
+      "file": "split-doors--shutter.json",
+      "thumbnail": "thumbnail--shutter.png",
+      "preview": "preview--shutter.webp",
+      "poster": "poster--shutter.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#0E1B33",
+        "accent": "#F7D35C"
+      },
+      "textArea": null,
+      "description": "Four corner panels with accent outlines snap into the centre like a camera shutter."
+    }
+  ]
+}

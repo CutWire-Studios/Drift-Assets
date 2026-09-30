@@ -1,0 +1,313 @@
+{
+  "schema": 1,
+  "id": "timeline-dots",
+  "name": "Timeline Dots",
+  "type": "lottie",
+  "category": "infographics",
+  "file": "timeline-dots.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Horizontal timeline whose line draws across and four milestone dots pop in sequence. Put the dates in 'date1'-'date4' above the dots and the milestone names in 'label1'-'label4' below.",
+  "tags": [
+    "timeline",
+    "milestones",
+    "roadmap",
+    "history",
+    "steps",
+    "dates",
+    "infographic",
+    "process"
+  ],
+  "width": 1100,
+  "height": 380,
+  "fps": 30,
+  "duration": 3.0,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#5B6CFF",
+    "background": "#FFFFFF"
+  },
+  "textArea": [
+    90,
+    248,
+    200,
+    80
+  ],
+  "textAreas": {
+    "date1": [
+      100,
+      62,
+      180,
+      52
+    ],
+    "label1": [
+      90,
+      248,
+      200,
+      80
+    ],
+    "date2": [
+      340,
+      62,
+      180,
+      52
+    ],
+    "label2": [
+      330,
+      248,
+      200,
+      80
+    ],
+    "date3": [
+      580,
+      62,
+      180,
+      52
+    ],
+    "label3": [
+      570,
+      248,
+      200,
+      80
+    ],
+    "date4": [
+      820,
+      62,
+      180,
+      52
+    ],
+    "label4": [
+      810,
+      248,
+      200,
+      80
+    ]
+  },
+  "variants": [
+    {
+      "id": "flat",
+      "name": "Flat",
+      "file": "timeline-dots.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1100,
+      "height": 380,
+      "duration": 3.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#5B6CFF",
+        "background": "#FFFFFF"
+      },
+      "textArea": [
+        90,
+        248,
+        200,
+        80
+      ],
+      "textAreas": {
+        "date1": [
+          100,
+          62,
+          180,
+          52
+        ],
+        "label1": [
+          90,
+          248,
+          200,
+          80
+        ],
+        "date2": [
+          340,
+          62,
+          180,
+          52
+        ],
+        "label2": [
+          330,
+          248,
+          200,
+          80
+        ],
+        "date3": [
+          580,
+          62,
+          180,
+          52
+        ],
+        "label3": [
+          570,
+          248,
+          200,
+          80
+        ],
+        "date4": [
+          820,
+          62,
+          180,
+          52
+        ],
+        "label4": [
+          810,
+          248,
+          200,
+          80
+        ]
+      },
+      "description": "Line draws across; ringed milestone dots spring up with ripples and the last one pulses."
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "file": "timeline-dots--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 1100,
+      "height": 380,
+      "duration": 3.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#23E5FF",
+        "secondary": "#FF3DCB",
+        "background": "#0D1024",
+        "outline": "#23E5FF"
+      },
+      "textArea": [
+        90,
+        248,
+        200,
+        80
+      ],
+      "textAreas": {
+        "date1": [
+          100,
+          62,
+          180,
+          52
+        ],
+        "label1": [
+          90,
+          248,
+          200,
+          80
+        ],
+        "date2": [
+          340,
+          62,
+          180,
+          52
+        ],
+        "label2": [
+          330,
+          248,
+          200,
+          80
+        ],
+        "date3": [
+          580,
+          62,
+          180,
+          52
+        ],
+        "label3": [
+          570,
+          248,
+          200,
+          80
+        ],
+        "date4": [
+          820,
+          62,
+          180,
+          52
+        ],
+        "label4": [
+          810,
+          248,
+          200,
+          80
+        ]
+      },
+      "description": "Dark panel; a spark races along the neon line and each milestone ring flares as it passes."
+    },
+    {
+      "id": "sketch",
+      "name": "Sketch",
+      "file": "timeline-dots--sketch.json",
+      "thumbnail": "thumbnail--sketch.png",
+      "preview": "preview--sketch.webp",
+      "poster": "poster--sketch.png",
+      "width": 1100,
+      "height": 380,
+      "duration": 3.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF5A4E",
+        "secondary": "#3D8BFF",
+        "accent": "#FFC83D",
+        "icon": "#35C27A",
+        "background": "#FFF9EC",
+        "outline": "#26262E"
+      },
+      "textArea": [
+        90,
+        248,
+        200,
+        80
+      ],
+      "textAreas": {
+        "date1": [
+          100,
+          62,
+          180,
+          52
+        ],
+        "label1": [
+          90,
+          248,
+          200,
+          80
+        ],
+        "date2": [
+          340,
+          62,
+          180,
+          52
+        ],
+        "label2": [
+          330,
+          248,
+          200,
+          80
+        ],
+        "date3": [
+          580,
+          62,
+          180,
+          52
+        ],
+        "label3": [
+          570,
+          248,
+          200,
+          80
+        ],
+        "date4": [
+          820,
+          62,
+          180,
+          52
+        ],
+        "label4": [
+          810,
+          248,
+          200,
+          80
+        ]
+      },
+      "description": "Paper strip with an ink arrow, circled milestones coloured in and a flag on the last one."
+    }
+  ]
+}

@@ -32,5 +32,83 @@
     80,
     360,
     76
+  ],
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Classic",
+      "file": "subscribe-bell-combo.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 960,
+      "height": 270,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FF0000",
+        "secondary": "#606060",
+        "accent": "#3EA6FF",
+        "icon": "#FFFFFF"
+      },
+      "textArea": [
+        304,
+        80,
+        360,
+        76
+      ],
+      "description": "Line-art thumb and bell either side of a flat red pill, each popping in on a spring."
+    },
+    {
+      "id": "3d-pop",
+      "name": "3D Pop",
+      "file": "subscribe-bell-combo--3d-pop.json",
+      "thumbnail": "thumbnail--3d-pop.png",
+      "preview": "preview--3d-pop.webp",
+      "poster": "poster--3d-pop.png",
+      "width": 960,
+      "height": 270,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FF0000",
+        "secondary": "#606060",
+        "accent": "#3EA6FF",
+        "icon": "#FFFFFF"
+      },
+      "textArea": [
+        304,
+        80,
+        360,
+        76
+      ],
+      "description": "Chunky layered 3D thumb, key and bell; the pill presses down into its base when clicked."
+    },
+    {
+      "id": "tray",
+      "name": "Glass Tray",
+      "file": "subscribe-bell-combo--tray.json",
+      "thumbnail": "thumbnail--tray.png",
+      "preview": "preview--tray.webp",
+      "poster": "poster--tray.png",
+      "width": 960,
+      "height": 270,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FF0000",
+        "secondary": "#606060",
+        "accent": "#3EA6FF",
+        "icon": "#FFFFFF",
+        "background": "#FFFFFF"
+      },
+      "textArea": [
+        304,
+        80,
+        360,
+        76
+      ],
+      "description": "A frosted glass tray stretches open and the line-art thumb, pill and bell rise into it one by one."
+    }
   ]
 }

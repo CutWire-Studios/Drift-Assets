@@ -1,0 +1,111 @@
+{
+  "schema": 1,
+  "id": "respawn-ring",
+  "name": "Respawn Ring",
+  "type": "lottie",
+  "category": "gaming",
+  "file": "respawn-ring.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Circular respawn timer: the ring counts down around a centre badge, pulses each second and bursts when it runs out. Put the countdown or label in the centre. One-shot that ends empty.",
+  "tags": [
+    "respawn",
+    "timer",
+    "countdown",
+    "ring",
+    "cooldown",
+    "gaming",
+    "hud",
+    "revive"
+  ],
+  "width": 400,
+  "height": 400,
+  "fps": 30,
+  "duration": 3.6,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#35E0FF",
+    "background": "#0F131B",
+    "outline": "#FFFFFF"
+  },
+  "textArea": [
+    138,
+    156,
+    124,
+    88
+  ],
+  "variants": [
+    {
+      "id": "modern",
+      "name": "Modern",
+      "file": "respawn-ring.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 400,
+      "height": 400,
+      "duration": 3.6,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#35E0FF",
+        "background": "#0F131B",
+        "outline": "#FFFFFF"
+      },
+      "textArea": [
+        138,
+        156,
+        124,
+        88
+      ],
+      "description": "Glowing cyan arc with a bright head, a dashed outer ring and a dark glass centre."
+    },
+    {
+      "id": "pixel",
+      "name": "Pixel",
+      "file": "respawn-ring--pixel.json",
+      "thumbnail": "thumbnail--pixel.png",
+      "preview": "preview--pixel.webp",
+      "poster": "poster--pixel.png",
+      "width": 400,
+      "height": 400,
+      "duration": 3.6,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF4D5E",
+        "secondary": "#FFD23F",
+        "background": "#2B2140",
+        "outline": "#160E1E"
+      },
+      "textArea": [
+        138,
+        156,
+        124,
+        88
+      ],
+      "description": "Sixteen 8-bit blocks around a pixel disc that blink out one by one."
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "file": "respawn-ring--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 400,
+      "height": 400,
+      "duration": 3.6,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF2BD6",
+        "secondary": "#27F2FF"
+      },
+      "textArea": [
+        138,
+        156,
+        124,
+        88
+      ],
+      "description": "Magenta neon ring with a spinning comet head inside a rotating cyan hexagon."
+    }
+  ]
+}

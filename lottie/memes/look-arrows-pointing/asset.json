@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "id": "look-arrows-pointing",
+  "name": "Look Here Arrows",
+  "type": "lottie",
+  "category": "memes",
+  "file": "look-arrows-pointing.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Several red thumbnail arrows fly in and converge on one spot. Put the thing everyone should look at in the middle.",
+  "tags": [
+    "arrows",
+    "look",
+    "pointing",
+    "thumbnail",
+    "red arrow",
+    "meme",
+    "highlight"
+  ],
+  "width": 900,
+  "height": 720,
+  "fps": 30,
+  "duration": 1.5,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FF2B2B",
+    "outline": "#FFFFFF"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Classic",
+      "file": "look-arrows-pointing.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 900,
+      "height": 720,
+      "duration": 1.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF2B2B",
+        "outline": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Solid red tapered arrows with a white outline and shadow that fly in with overshoot."
+    },
+    {
+      "id": "marker",
+      "name": "Marker",
+      "file": "look-arrows-pointing--marker.json",
+      "thumbnail": "thumbnail--marker.png",
+      "preview": "preview--marker.webp",
+      "poster": "poster--marker.png",
+      "width": 900,
+      "height": 720,
+      "duration": 1.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#F0262B"
+      },
+      "textArea": null,
+      "description": "Hand-drawn marker arrows draw on, then a scribbled circle rings the spot."
+    },
+    {
+      "id": "3d",
+      "name": "3D Pop",
+      "file": "look-arrows-pointing--3d.json",
+      "thumbnail": "thumbnail--3d.png",
+      "preview": "preview--3d.webp",
+      "poster": "poster--3d.png",
+      "width": 900,
+      "height": 720,
+      "duration": 1.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF3A2E",
+        "secondary": "#A3140F",
+        "accent": "#FFD23F"
+      },
+      "textArea": null,
+      "description": "Chunky extruded arrows stamp in with a bounce around a glowing dot."
+    }
+  ]
+}

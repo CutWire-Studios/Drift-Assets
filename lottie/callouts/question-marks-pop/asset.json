@@ -7,7 +7,7 @@
   "file": "question-marks-pop.json",
   "thumbnail": "thumbnail.png",
   "license": "CC-BY-NC-SA-4.0",
-  "description": "Three chunky question marks pop in one after another and wobble in confusion, then pop away; loops seamlessly.",
+  "description": "Three question marks pop in one after another and wobble in confusion, then pop away; loops seamlessly.",
   "tags": [
     "question",
     "confused",
@@ -25,5 +25,59 @@
     "primary": "#FF2D2D",
     "outline": "#141414"
   },
-  "textArea": null
+  "textArea": null,
+  "variants": [
+    {
+      "id": "bold",
+      "name": "Comic Bold",
+      "file": "question-marks-pop.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 460,
+      "height": 380,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF2D2D",
+        "outline": "#141414"
+      },
+      "textArea": null,
+      "description": "Three chunky outlined question marks that pop in one after another and wobble in confusion."
+    },
+    {
+      "id": "hand",
+      "name": "Hand-Drawn",
+      "file": "question-marks-pop--hand.json",
+      "thumbnail": "thumbnail--hand.png",
+      "preview": "preview--hand.webp",
+      "poster": "poster--hand.png",
+      "width": 460,
+      "height": 380,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF2D2D"
+      },
+      "textArea": null,
+      "description": "Marker question marks that scribble themselves on one after another, sway, then pop away."
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "file": "question-marks-pop--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 460,
+      "height": 380,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#B84DFF"
+      },
+      "textArea": null,
+      "description": "Neon question marks that flicker on one after another, hum, then shrink away."
+    }
+  ]
 }

@@ -1,0 +1,95 @@
+{
+  "schema": 1,
+  "id": "pixel-explosion",
+  "name": "Pixel Explosion",
+  "type": "lottie",
+  "category": "gaming",
+  "file": "pixel-explosion.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Pixel-art explosion burst that plays out sprite by sprite and ends empty. Drop it on a hit, a kill or a jump cut.",
+  "tags": [
+    "explosion",
+    "pixel",
+    "8-bit",
+    "retro",
+    "boom",
+    "blast",
+    "gaming",
+    "sprite"
+  ],
+  "width": 440,
+  "height": 440,
+  "fps": 30,
+  "duration": 1.2,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FFE14D",
+    "secondary": "#FF8A1F",
+    "accent": "#E8283C",
+    "outline": "#160E1E"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "fireball",
+      "name": "Fireball",
+      "file": "pixel-explosion.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 440,
+      "height": 440,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFE14D",
+        "secondary": "#FF8A1F",
+        "accent": "#E8283C",
+        "outline": "#160E1E"
+      },
+      "textArea": null,
+      "description": "Classic 8-bit fireball: white core, yellow-orange-red bands, sparks and smoke puffs."
+    },
+    {
+      "id": "debris",
+      "name": "Debris",
+      "file": "pixel-explosion--debris.json",
+      "thumbnail": "thumbnail--debris.png",
+      "preview": "preview--debris.webp",
+      "poster": "poster--debris.png",
+      "width": 440,
+      "height": 440,
+      "duration": 1.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFD23F",
+        "secondary": "#FF6A2B",
+        "outline": "#2A1B2E",
+        "background": "#7C7390"
+      },
+      "textArea": null,
+      "description": "16-bit blast with a pixel shockwave ring, tumbling debris chunks and a rising smoke column."
+    },
+    {
+      "id": "mono",
+      "name": "Handheld",
+      "file": "pixel-explosion--mono.json",
+      "thumbnail": "thumbnail--mono.png",
+      "preview": "preview--mono.webp",
+      "poster": "poster--mono.png",
+      "width": 440,
+      "height": 440,
+      "duration": 1.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#9BBC0F",
+        "secondary": "#8BAC0F",
+        "accent": "#306230",
+        "outline": "#0F380F"
+      },
+      "textArea": null,
+      "description": "Four-shade green handheld-console starburst with blinking corner twinkles."
+    }
+  ]
+}

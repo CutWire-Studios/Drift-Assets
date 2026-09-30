@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "id": "info-badge",
+  "name": "Info Badge",
+  "type": "lottie",
+  "category": "callouts",
+  "file": "info-badge.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Round information badge with an \"i\" made of a dot and a bar; pop it next to a tip or note.",
+  "tags": [
+    "info",
+    "information",
+    "badge",
+    "tip",
+    "note",
+    "icon",
+    "help"
+  ],
+  "width": 260,
+  "height": 260,
+  "fps": 30,
+  "duration": 1.0,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#2D8CFF",
+    "icon": "#FFFFFF"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "solid",
+      "name": "Solid",
+      "file": "info-badge.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 260,
+      "height": 260,
+      "duration": 1.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#2D8CFF",
+        "icon": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Blue disc pops in, the bar grows up and the dot drops in with a bounce."
+    },
+    {
+      "id": "outline",
+      "name": "Outline",
+      "file": "info-badge--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 260,
+      "height": 260,
+      "duration": 1.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#2D8CFF"
+      },
+      "textArea": null,
+      "description": "Ring draws round, then the bar strokes on and the dot pops."
+    },
+    {
+      "id": "hand",
+      "name": "Hand-Drawn",
+      "file": "info-badge--hand.json",
+      "thumbnail": "thumbnail--hand.png",
+      "preview": "preview--hand.webp",
+      "poster": "poster--hand.png",
+      "width": 260,
+      "height": 260,
+      "duration": 1.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#2D8CFF"
+      },
+      "textArea": null,
+      "description": "Marker circle and \"i\" scribbled on in three quick strokes."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "id": "kiss-marks",
+  "name": "Kiss Marks",
+  "type": "lottie",
+  "category": "reactions",
+  "file": "kiss-marks.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Lipstick kiss prints that stamp on one after another with a squash and a little heart, then fade out for the next round. Seamless loop.",
+  "tags": [
+    "kiss",
+    "lipstick",
+    "love",
+    "mwah",
+    "lips",
+    "flirty",
+    "reaction"
+  ],
+  "width": 460,
+  "height": 420,
+  "fps": 30,
+  "duration": 3.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#E8264F",
+    "accent": "#FF8FB1"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "glossy",
+      "name": "Glossy",
+      "file": "kiss-marks.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 460,
+      "height": 420,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#E8264F",
+        "accent": "#FF8FB1"
+      },
+      "textArea": null,
+      "description": "Shiny lip-gloss prints with highlights."
+    },
+    {
+      "id": "flat",
+      "name": "Flat Sticker",
+      "file": "kiss-marks--flat.json",
+      "thumbnail": "thumbnail--flat.png",
+      "preview": "preview--flat.webp",
+      "poster": "poster--flat.png",
+      "width": 460,
+      "height": 420,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#E8264F",
+        "accent": "#FF8FB1",
+        "outline": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Flat colours with a thick white die-cut border."
+    },
+    {
+      "id": "outline",
+      "name": "Bold Outline",
+      "file": "kiss-marks--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 460,
+      "height": 420,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#E8264F",
+        "accent": "#FF8FB1",
+        "outline": "#161616"
+      },
+      "textArea": null,
+      "description": "Cartoon line art with bold black outlines."
+    }
+  ]
+}

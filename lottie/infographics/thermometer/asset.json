@@ -1,0 +1,165 @@
+{
+  "schema": 1,
+  "id": "thermometer",
+  "name": "Thermometer",
+  "type": "lottie",
+  "category": "infographics",
+  "file": "thermometer.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A thermometer whose column rises to about 70% against a tick scale. Put the reading in the 'value' area beside the top of the column and a caption in 'label' underneath.",
+  "tags": [
+    "thermometer",
+    "temperature",
+    "gauge",
+    "heat",
+    "level",
+    "weather",
+    "infographic",
+    "meter"
+  ],
+  "width": 440,
+  "height": 680,
+  "fps": 30,
+  "duration": 2.6,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FF4D5E",
+    "outline": "#FFFFFF"
+  },
+  "textArea": [
+    245,
+    185,
+    179,
+    72
+  ],
+  "textAreas": {
+    "value": [
+      245,
+      185,
+      179,
+      72
+    ],
+    "label": [
+      40,
+      614,
+      360,
+      48
+    ]
+  },
+  "variants": [
+    {
+      "id": "flat",
+      "name": "Flat",
+      "file": "thermometer.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 440,
+      "height": 680,
+      "duration": 2.6,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF4D5E",
+        "outline": "#FFFFFF"
+      },
+      "textArea": [
+        245,
+        185,
+        179,
+        72
+      ],
+      "textAreas": {
+        "value": [
+          245,
+          185,
+          179,
+          72
+        ],
+        "label": [
+          40,
+          614,
+          360,
+          48
+        ]
+      },
+      "description": "Glass tube with ticks; the bulb fills and the red column rises with a small overshoot."
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "file": "thermometer--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 440,
+      "height": 680,
+      "duration": 2.6,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF3D6E",
+        "background": "#0D1024",
+        "outline": "#23E5FF"
+      },
+      "textArea": [
+        245,
+        185,
+        179,
+        72
+      ],
+      "textAreas": {
+        "value": [
+          245,
+          185,
+          179,
+          72
+        ],
+        "label": [
+          40,
+          614,
+          360,
+          48
+        ]
+      },
+      "description": "Dark panel with a neon tube; the column surges up behind a white-hot head."
+    },
+    {
+      "id": "sketch",
+      "name": "Sketch",
+      "file": "thermometer--sketch.json",
+      "thumbnail": "thumbnail--sketch.png",
+      "preview": "preview--sketch.webp",
+      "poster": "poster--sketch.png",
+      "width": 440,
+      "height": 680,
+      "duration": 2.6,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF5A4E",
+        "background": "#FFF9EC",
+        "outline": "#26262E"
+      },
+      "textArea": [
+        245,
+        185,
+        179,
+        72
+      ],
+      "textAreas": {
+        "value": [
+          245,
+          185,
+          179,
+          72
+        ],
+        "label": [
+          40,
+          614,
+          360,
+          48
+        ]
+      },
+      "description": "Paper card; an ink thermometer draws itself and a marker scribble climbs the tube."
+    }
+  ]
+}

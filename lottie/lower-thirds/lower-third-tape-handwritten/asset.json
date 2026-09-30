@@ -1,0 +1,148 @@
+{
+  "schema": 1,
+  "id": "lower-third-tape-handwritten",
+  "name": "Masking Tape Lower Third",
+  "type": "lottie",
+  "category": "lower-thirds",
+  "file": "lower-third-tape-handwritten.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Crafty lower third made from strips of masking tape with torn ends, slapped on at a slight angle. Write your name on the tape, ideally with a handwritten font.",
+  "tags": [
+    "lower third",
+    "tape",
+    "masking tape",
+    "handwritten",
+    "scrapbook",
+    "craft",
+    "diy"
+  ],
+  "width": 1100,
+  "height": 250,
+  "fps": 30,
+  "duration": 5.0,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "primary": "#F1DFA6",
+    "secondary": "#FFB3C7"
+  },
+  "textArea": [
+    110,
+    58,
+    780,
+    68
+  ],
+  "textAreas": {
+    "headline": [
+      110,
+      58,
+      780,
+      68
+    ],
+    "subtitle": [
+      110,
+      174,
+      420,
+      32
+    ]
+  },
+  "variants": [
+    {
+      "id": "strip",
+      "name": "Two Strips",
+      "file": "lower-third-tape-handwritten.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1100,
+      "height": 250,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#F1DFA6",
+        "secondary": "#FFB3C7"
+      },
+      "textArea": [
+        110,
+        58,
+        780,
+        68
+      ],
+      "textAreas": {
+        "headline": [
+          110,
+          58,
+          780,
+          68
+        ],
+        "subtitle": [
+          110,
+          174,
+          420,
+          32
+        ]
+      },
+      "description": "A long tape strip for the name and a shorter washi strip for the subtitle, slapped on in turn."
+    },
+    {
+      "id": "single",
+      "name": "Single Strip",
+      "file": "lower-third-tape-handwritten--single.json",
+      "thumbnail": "thumbnail--single.png",
+      "preview": "preview--single.webp",
+      "poster": "poster--single.png",
+      "width": 1050,
+      "height": 220,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#CFE8FF"
+      },
+      "textArea": [
+        120,
+        76,
+        800,
+        72
+      ],
+      "description": "One wide tape strip that drops in from above and slaps down."
+    },
+    {
+      "id": "card",
+      "name": "Taped Card",
+      "file": "lower-third-tape-handwritten--card.json",
+      "thumbnail": "thumbnail--card.png",
+      "preview": "preview--card.webp",
+      "poster": "poster--card.png",
+      "width": 1050,
+      "height": 290,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "background": "#FFFDF6",
+        "primary": "#F1DFA6",
+        "accent": "#E9C9A3"
+      },
+      "textArea": [
+        140,
+        109,
+        720,
+        64
+      ],
+      "textAreas": {
+        "headline": [
+          140,
+          109,
+          720,
+          64
+        ],
+        "subtitle": [
+          140,
+          190,
+          720,
+          34
+        ]
+      },
+      "description": "A paper card slides up and two tape pieces pin its top corners."
+    }
+  ]
+}

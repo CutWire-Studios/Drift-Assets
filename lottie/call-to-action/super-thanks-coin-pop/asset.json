@@ -1,0 +1,110 @@
+{
+  "schema": 1,
+  "id": "super-thanks-coin-pop",
+  "name": "Super Thanks Coin Pop",
+  "type": "lottie",
+  "category": "call-to-action",
+  "file": "super-thanks-coin-pop.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Gold coin with a heart flips, lands and pops a shower of little coins, beside a text pill. Type \"Thanks!\" or a tip amount inside the pill.",
+  "tags": [
+    "thanks",
+    "tip",
+    "donate",
+    "coin",
+    "support",
+    "heart",
+    "super thanks"
+  ],
+  "width": 660,
+  "height": 320,
+  "fps": 30,
+  "duration": 3.0,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FFC21A",
+    "accent": "#FF4D6D",
+    "background": "#FFFFFF"
+  },
+  "textArea": [
+    306,
+    147,
+    287,
+    62
+  ],
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Classic",
+      "file": "super-thanks-coin-pop.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 660,
+      "height": 320,
+      "duration": 3.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFC21A",
+        "accent": "#FF4D6D",
+        "background": "#FFFFFF"
+      },
+      "textArea": [
+        306,
+        147,
+        287,
+        62
+      ],
+      "description": "Flat filled shapes with a soft drop shadow."
+    },
+    {
+      "id": "outline",
+      "name": "Line Art",
+      "file": "super-thanks-coin-pop--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 660,
+      "height": 320,
+      "duration": 3.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFC21A",
+        "accent": "#FF4D6D",
+        "outline": "#FFFFFF"
+      },
+      "textArea": [
+        306,
+        147,
+        287,
+        62
+      ],
+      "description": "Line-art version: clean outer contours, see-through inside."
+    },
+    {
+      "id": "3d-pop",
+      "name": "3D Pop",
+      "file": "super-thanks-coin-pop--3d-pop.json",
+      "thumbnail": "thumbnail--3d-pop.png",
+      "preview": "preview--3d-pop.webp",
+      "poster": "poster--3d-pop.png",
+      "width": 660,
+      "height": 320,
+      "duration": 3.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFC21A",
+        "accent": "#FF4D6D",
+        "background": "#FFFFFF"
+      },
+      "textArea": [
+        306,
+        147,
+        287,
+        62
+      ],
+      "description": "Chunky layered look with an extruded side, highlight rim and depth shadow."
+    }
+  ]
+}

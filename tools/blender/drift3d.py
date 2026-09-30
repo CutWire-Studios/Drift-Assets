@@ -202,8 +202,8 @@ def reference_head(name="RefHead"):
     return head
 
 
-def write_prop_json(dir_path, asset_id, name, prop_objs, description="", tags=(), extra=None):
-    """Write prop.json with the Drift face-model params that put the prop exactly where it was modelled.
+def prop_params(prop_objs, extra=None):
+    """Drift face-model params that put the prop exactly where it was modelled.
 
     Drift re-centres a face-prop model on its AABB centre and scales it to 1 head-width in X.
     Undo that: scale = authored X extent, offset = authored AABB centre (both in head-widths,
@@ -216,9 +216,18 @@ def write_prop_json(dir_path, asset_id, name, prop_objs, description="", tags=()
               "offsetZ": round(-c.y, 4), "rotX": 0, "rotY": 0, "rotZ": 0, "occlusion": True}
     if extra:
         params.update(extra)
-    data = {"schema": 1, "id": asset_id, "name": name, "type": "face-prop", "model": f"{asset_id}.glb",
+    return params
+
+
+def write_prop_json(dir_path, asset_id, name, prop_objs, description="", tags=(), extra=None, variants=None):
+    """Write prop.json; params from prop_params(prop_objs) unless `variants` gives the default's."""
+    params = variants[0]["params"] if variants else prop_params(prop_objs, extra)
+    model = variants[0]["model"] if variants else f"{asset_id}.glb"
+    data = {"schema": 1, "id": asset_id, "name": name, "type": "face-prop", "model": model,
             "thumbnail": "thumbnail.png", "license": LICENSE, "description": description,
             "tags": list(tags), "anchor": "eyes", "params": params}
+    if variants:
+        data["variants"] = variants
     with open(os.path.join(dir_path, "prop.json"), "w") as f:
         json.dump(data, f, indent=2)
         f.write("\n")
@@ -303,7 +312,9 @@ def render_thumbnail(path, targets, frame=None, view=(0.0, -1.0, 0.25), margin=1
             continue
     if shots:
         # 256 px previews are downscaled again in Drift; the still thumbnail keeps full quality.
+        # Soft shadows barely show at that size but triple the render time on software GL.
         scene.eevee.taa_render_samples = 8
+        scene.eevee.use_shadows = False
     try:
         scene.view_settings.view_transform = "Standard"
     except TypeError:
@@ -365,3 +376,154 @@ def render_prop_thumbnail(path, props, head, region="head", view=(-0.45, -1.0, 0
 def args():
     """Script arguments after `--`."""
     return sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else []
+
+
+# ---------------------------------------------------------------- variants
+#
+# One build script can ship several designs of an asset. The first variant is the default: its
+# files keep the plain names (<id>.glb, thumbnail.png, preview.webp) and the metadata's top-level
+# fields describe it, so clients that ignore "variants" still work. Every other variant <v> gets
+# <id>--<v>.glb, thumbnail--<v>.png and preview--<v>.webp. Variants must differ in shape, style or
+# motion, never only in colour. These builders also render the animated preview (the same framing
+# as the thumbnail), so render-previews.py skips scripts that use them.
+#
+# Script flags (after `--`): --no-preview skips previews; --only=a,b rebuilds just those variants
+# and keeps the other entries from the existing metadata.
+
+PREVIEW_SIZE = 256
+PREVIEW_FPS = 20
+PROP_PREVIEW_SECONDS = 3.0
+PROP_PREVIEW_YAW = math.radians(35)
+PROP_VIEW = (-0.45, -1.0, 0.15)
+
+
+def variant_file(stem, vid, ext, default):
+    return f"{stem}.{ext}" if default else f"{stem}--{vid}.{ext}"
+
+
+def _flags():
+    a = args()
+    only = next((x.split("=", 1)[1].split(",") for x in a if x.startswith("--only=")), None)
+    return "--no-preview" not in a, set(only) if only else None
+
+
+def _stage(asset_id, vid):
+    import shutil
+    d = os.path.join(REPO, ".preview-frames", f"{asset_id}--{vid}")
+    shutil.rmtree(d, ignore_errors=True)
+    os.makedirs(d)
+    return d
+
+
+def encode_preview(frames_dir, out, fps=PREVIEW_FPS):
+    import subprocess
+    subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-framerate", str(fps),
+                    "-i", os.path.join(frames_dir, "%04d.png"), "-c:v", "libwebp_anim", "-q:v", "75",
+                    "-loop", "0", out], check=True)
+    print("wrote", out)
+
+
+def _existing_variants(path):
+    if not os.path.exists(path):
+        return {}
+    return {v["id"]: v for v in json.load(open(path)).get("variants", [])}
+
+
+def _check_variants(variants):
+    ids = [v[0] for v in variants]
+    assert len(ids) == len(set(ids)), f"duplicate variant ids {ids}"
+    for vid in ids:
+        assert vid.replace("-", "").isalnum() and vid == vid.lower(), f"variant id {vid!r} must be kebab-case"
+
+
+def build_object_variants(asset_id, name, description, tags, variants, build, view=(0.5, -1.0, 0.3),
+                          margin=1.2, frame=0):
+    """Build every variant of a 3D object, then write asset.json.
+
+    variants: [(id, name, opts), ...], first = default. opts is passed to build(opts), which runs in
+    a fresh scene and returns (objects, action_name, frames): the meshes to export and their one
+    seamless loop (frame 0 == frame `frames`, at 30 fps). opts may carry "description"/"tags" for
+    that variant and "view"/"margin" to override the framing.
+    """
+    _check_variants(variants)
+    previews, only = _flags()
+    out = os.path.join(REPO, "objects", asset_id)
+    os.makedirs(out, exist_ok=True)
+    old = _existing_variants(os.path.join(out, "asset.json"))
+    entries = []
+    for i, (vid, vname, opts) in enumerate(variants):
+        default = i == 0
+        if only and vid not in only:
+            entries.append(old[vid])
+            continue
+        glb = variant_file(asset_id, vid, "glb", default)
+        thumb = variant_file("thumbnail", vid, "png", default)
+        prev = variant_file("preview", vid, "webp", default)
+        reset()
+        objs, action, frames = build(opts)
+        v_view, v_margin = opts.get("view", view), opts.get("margin", margin)
+        export_glb(os.path.join(out, glb), objs, animations=True)
+        render_thumbnail(os.path.join(out, thumb), objs, frame=frame, view=v_view, margin=v_margin)
+        if previews:
+            stage = _stage(asset_id, vid)
+            count = max(1, round(frames / 30 * PREVIEW_FPS))
+            shots = [(os.path.join(stage, f"{k:04d}.png"), round(k * frames / count), v_view) for k in range(count)]
+            render_thumbnail(shots[0][0], objs, frame=frame, view=v_view, margin=v_margin, shots=shots,
+                             size=PREVIEW_SIZE)
+            encode_preview(stage, os.path.join(out, prev))
+        entry = {"id": vid, "name": vname, "file": glb, "thumbnail": thumb, "preview": prev,
+                 "animation": {"name": action, "duration": round(frames / 30, 4), "loop": True}}
+        for k in ("description", "tags"):
+            if k in opts:
+                entry[k] = opts[k]
+        entries.append(entry)
+    write_asset_json(out, asset_id, name, "object", entries[0]["file"], description, tags,
+                     extra={"animation": entries[0]["animation"], "variants": entries})
+
+
+def build_prop_variants(asset_id, name, description, tags, variants, build, region="head"):
+    """Build every variant of a face prop, then write prop.json.
+
+    variants: [(id, name, opts), ...], first = default. build(opts) runs in a fresh scene that
+    already holds the reference head (bpy object "RefHead", for fitting/ray casts) and returns the
+    prop's mesh objects in head space. opts may carry "description"/"tags" and "region".
+    """
+    _check_variants(variants)
+    previews, only = _flags()
+    out = os.path.join(REPO, "face-props", asset_id)
+    os.makedirs(out, exist_ok=True)
+    old = _existing_variants(os.path.join(out, "prop.json"))
+    entries = []
+    for i, (vid, vname, opts) in enumerate(variants):
+        default = i == 0
+        if only and vid not in only:
+            entries.append(old[vid])
+            continue
+        glb = variant_file(asset_id, vid, "glb", default)
+        thumb = variant_file("thumbnail", vid, "png", default)
+        prev = variant_file("preview", vid, "webp", default)
+        reset()
+        head = reference_head()
+        props = build(opts)
+        v_region = opts.get("region", region)
+        render_prop_thumbnail(os.path.join(out, thumb), props, head, region=v_region)
+        if previews:
+            stage = _stage(asset_id, vid)
+            count = round(PROP_PREVIEW_SECONDS * PREVIEW_FPS)
+            base = math.atan2(PROP_VIEW[0], -PROP_VIEW[1])
+            shots = []
+            for k in range(count):
+                # Starts and ends at the thumbnail's three-quarter angle so the loop has no seam.
+                a = base + PROP_PREVIEW_YAW * math.sin(2 * math.pi * k / count)
+                shots.append((os.path.join(stage, f"{k:04d}.png"), None, (math.sin(a), -math.cos(a), PROP_VIEW[2])))
+            render_prop_thumbnail(shots[0][0], props, head, region=v_region, shots=shots, size=PREVIEW_SIZE)
+            encode_preview(stage, os.path.join(out, prev))
+        bpy.data.objects.remove(head, do_unlink=True)
+        export_glb(os.path.join(out, glb), props)
+        entry = {"id": vid, "name": vname, "model": glb, "thumbnail": thumb, "preview": prev,
+                 "params": prop_params(props)}
+        for k in ("description", "tags"):
+            if k in opts:
+                entry[k] = opts[k]
+        entries.append(entry)
+    write_prop_json(out, asset_id, name, None, description, tags, variants=entries)

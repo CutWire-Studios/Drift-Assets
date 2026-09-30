@@ -7,7 +7,7 @@
   "file": "subscribe-button-click.json",
   "thumbnail": "thumbnail.png",
   "license": "CC-BY-NC-SA-4.0",
-  "description": "Red subscribe pill that pops in, gets clicked by a mouse pointer and turns grey. Put your own \"Subscribe\" text inside the pill.",
+  "description": "Red subscribe button that pops in, gets clicked by a mouse pointer and turns grey. Put your own \"Subscribe\" text inside the button.",
   "tags": [
     "subscribe",
     "youtube",
@@ -29,5 +29,76 @@
     88,
     392,
     80
+  ],
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Classic Pill",
+      "file": "subscribe-button-click.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 640,
+      "height": 300,
+      "duration": 4.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FF0000",
+        "secondary": "#606060"
+      },
+      "textArea": [
+        124,
+        88,
+        392,
+        80
+      ],
+      "description": "Flat red subscribe pill that pops in, gets clicked by a mouse pointer and turns grey."
+    },
+    {
+      "id": "3d-pop",
+      "name": "3D Key",
+      "file": "subscribe-button-click--3d-pop.json",
+      "thumbnail": "thumbnail--3d-pop.png",
+      "preview": "preview--3d-pop.webp",
+      "poster": "poster--3d-pop.png",
+      "width": 640,
+      "height": 300,
+      "duration": 4.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FF0000",
+        "secondary": "#606060"
+      },
+      "textArea": [
+        136,
+        81,
+        368,
+        74
+      ],
+      "description": "Chunky 3D key with a highlight rim and depth; the pointer presses it down into its base and it turns grey."
+    },
+    {
+      "id": "logo-tab",
+      "name": "Logo Tab",
+      "file": "subscribe-button-click--logo-tab.json",
+      "thumbnail": "thumbnail--logo-tab.png",
+      "preview": "preview--logo-tab.webp",
+      "poster": "poster--logo-tab.png",
+      "width": 680,
+      "height": 290,
+      "duration": 4.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FF0000",
+        "secondary": "#606060"
+      },
+      "textArea": [
+        210,
+        88,
+        398,
+        72
+      ],
+      "description": "A white play-button tile springs in and the red pill slides out from behind it; the click turns it grey."
+    }
   ]
 }

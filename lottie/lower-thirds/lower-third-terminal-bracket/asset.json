@@ -1,0 +1,165 @@
+{
+  "schema": 1,
+  "id": "lower-third-terminal-bracket",
+  "name": "Terminal Bracket Lower Third",
+  "type": "lottie",
+  "category": "lower-thirds",
+  "file": "lower-third-terminal-bracket.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Code-style lower third with brackets, a prompt chevron and a blinking cursor block. Type your name on the first row and a handle or topic on the second.",
+  "tags": [
+    "lower third",
+    "code",
+    "terminal",
+    "tech",
+    "developer",
+    "cursor",
+    "hacker"
+  ],
+  "width": 1100,
+  "height": 230,
+  "fps": 30,
+  "duration": 5.0,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "accent": "#3DFF8C",
+    "primary": "#0D1117",
+    "secondary": "#3DFF8C"
+  },
+  "textArea": [
+    140,
+    62,
+    810,
+    54
+  ],
+  "textAreas": {
+    "headline": [
+      140,
+      62,
+      810,
+      54
+    ],
+    "subtitle": [
+      140,
+      130,
+      810,
+      30
+    ]
+  },
+  "variants": [
+    {
+      "id": "brackets",
+      "name": "Square Brackets",
+      "file": "lower-third-terminal-bracket.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1100,
+      "height": 230,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "accent": "#3DFF8C",
+        "primary": "#0D1117",
+        "secondary": "#3DFF8C"
+      },
+      "textArea": [
+        140,
+        62,
+        810,
+        54
+      ],
+      "textAreas": {
+        "headline": [
+          140,
+          62,
+          810,
+          54
+        ],
+        "subtitle": [
+          140,
+          130,
+          810,
+          30
+        ]
+      },
+      "description": "Square brackets spring apart from the centre, opening a dark panel with a blinking cursor."
+    },
+    {
+      "id": "window",
+      "name": "Terminal Window",
+      "file": "lower-third-terminal-bracket--window.json",
+      "thumbnail": "thumbnail--window.png",
+      "preview": "preview--window.webp",
+      "poster": "poster--window.png",
+      "width": 1000,
+      "height": 260,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#161B22",
+        "secondary": "#2D333B",
+        "accent": "#58A6FF"
+      },
+      "textArea": [
+        120,
+        86,
+        710,
+        60
+      ],
+      "textAreas": {
+        "headline": [
+          120,
+          86,
+          710,
+          60
+        ],
+        "subtitle": [
+          110,
+          158,
+          720,
+          32
+        ]
+      },
+      "description": "A terminal window with traffic-light buttons unfolds: title bar first, then the body."
+    },
+    {
+      "id": "glitch",
+      "name": "Curly Glitch",
+      "file": "lower-third-terminal-bracket--glitch.json",
+      "thumbnail": "thumbnail--glitch.png",
+      "preview": "preview--glitch.webp",
+      "poster": "poster--glitch.png",
+      "width": 1100,
+      "height": 230,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "accent": "#C792EA",
+        "secondary": "#82AAFF"
+      },
+      "textArea": [
+        130,
+        64,
+        790,
+        60
+      ],
+      "textAreas": {
+        "headline": [
+          130,
+          64,
+          790,
+          60
+        ],
+        "subtitle": [
+          130,
+          148,
+          790,
+          30
+        ]
+      },
+      "description": "Curly braces glitch in with RGB-split ghosts and scanlines; no panel."
+    }
+  ]
+}

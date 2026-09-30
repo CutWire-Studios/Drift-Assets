@@ -1,0 +1,85 @@
+{
+  "schema": 1,
+  "id": "warning-triangle-pulse",
+  "name": "Warning Triangle Pulse",
+  "type": "lottie",
+  "category": "callouts",
+  "file": "warning-triangle-pulse.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A warning triangle with an exclamation mark that keeps pulsing to grab attention; loops seamlessly.",
+  "tags": [
+    "warning",
+    "caution",
+    "alert",
+    "triangle",
+    "exclamation",
+    "danger",
+    "loop"
+  ],
+  "width": 340,
+  "height": 320,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FFC400",
+    "icon": "#141414"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "solid",
+      "name": "Solid",
+      "file": "warning-triangle-pulse.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 340,
+      "height": 320,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFC400",
+        "icon": "#141414"
+      },
+      "textArea": null,
+      "description": "Yellow rounded triangle with an ink border that beats and sends out ripples."
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "file": "warning-triangle-pulse--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 340,
+      "height": 320,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF3B30"
+      },
+      "textArea": null,
+      "description": "Red neon sign outline whose glow swells on each beat."
+    },
+    {
+      "id": "hand",
+      "name": "Hand-Drawn",
+      "file": "warning-triangle-pulse--hand.json",
+      "thumbnail": "thumbnail--hand.png",
+      "preview": "preview--hand.webp",
+      "poster": "poster--hand.png",
+      "width": 340,
+      "height": 320,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFC400",
+        "outline": "#141414"
+      },
+      "textArea": null,
+      "description": "Marker-drawn doodle with a boiling line that wobbles on each beat."
+    }
+  ]
+}

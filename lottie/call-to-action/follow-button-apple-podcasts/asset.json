@@ -1,0 +1,101 @@
+{
+  "schema": 1,
+  "id": "follow-button-apple-podcasts",
+  "name": "Follow Button Apple Podcasts",
+  "type": "lottie",
+  "category": "call-to-action",
+  "file": "follow-button-apple-podcasts.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Apple Podcasts app icon with a follow button; a pointer clicks it. Put your own \"Follow\" text inside the button.",
+  "tags": [
+    "apple podcasts",
+    "follow",
+    "button",
+    "social",
+    "podcast",
+    "apple",
+    "click"
+  ],
+  "width": 680,
+  "height": 290,
+  "fps": 30,
+  "duration": 4.0,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "primary": "#9933CC",
+    "secondary": "#363636"
+  },
+  "textArea": [
+    210,
+    88,
+    398,
+    72
+  ],
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Classic Pill",
+      "file": "follow-button-apple-podcasts.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 680,
+      "height": 290,
+      "duration": 4.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#9933CC",
+        "secondary": "#363636"
+      },
+      "textArea": [
+        210,
+        88,
+        398,
+        72
+      ],
+      "description": "Apple Podcasts-coloured pill slides out of the app icon; the click switches it to the followed colour."
+    },
+    {
+      "id": "outline",
+      "name": "Outline",
+      "file": "follow-button-apple-podcasts--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 680,
+      "height": 290,
+      "duration": 4.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "outline": "#FFFFFF",
+        "primary": "#9933CC"
+      },
+      "textArea": [
+        210,
+        88,
+        398,
+        72
+      ],
+      "description": "White outline draws on around the pill; the click floods it with the brand colour."
+    },
+    {
+      "id": "icon-pop",
+      "name": "Icon Pop",
+      "file": "follow-button-apple-podcasts--icon-pop.json",
+      "thumbnail": "thumbnail--icon-pop.png",
+      "preview": "preview--icon-pop.webp",
+      "poster": "poster--icon-pop.png",
+      "width": 330,
+      "height": 330,
+      "duration": 4.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#9933CC",
+        "secondary": "#2ECC71"
+      },
+      "textArea": null,
+      "description": "Just the app icon with a plus badge that flips to a check when clicked; no text area."
+    }
+  ]
+}

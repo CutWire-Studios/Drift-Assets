@@ -1,0 +1,97 @@
+{
+  "schema": 1,
+  "id": "emoji-party-popper",
+  "name": "Emoji Party Popper",
+  "type": "lottie",
+  "category": "reactions",
+  "file": "emoji-party-popper.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Party popper that winds up, recoils with a pop and fires confetti and curly streamers; for celebrations and announcements. Seamless loop.",
+  "tags": [
+    "emoji",
+    "party",
+    "popper",
+    "celebrate",
+    "confetti",
+    "congrats",
+    "tada",
+    "reaction"
+  ],
+  "width": 500,
+  "height": 500,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "secondary": "#FF4D6D",
+    "accent": "#2EC4B6",
+    "primary": "#FFC23D",
+    "background": "#5B2A86"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "glossy",
+      "name": "Glossy",
+      "file": "emoji-party-popper.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 500,
+      "height": 500,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "secondary": "#FF4D6D",
+        "accent": "#2EC4B6",
+        "primary": "#FFC23D",
+        "background": "#5B2A86"
+      },
+      "textArea": null,
+      "description": "Shaded cone with soft highlights."
+    },
+    {
+      "id": "flat",
+      "name": "Flat Sticker",
+      "file": "emoji-party-popper--flat.json",
+      "thumbnail": "thumbnail--flat.png",
+      "preview": "preview--flat.webp",
+      "poster": "poster--flat.png",
+      "width": 500,
+      "height": 500,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "secondary": "#FF4D6D",
+        "accent": "#2EC4B6",
+        "primary": "#FFC23D",
+        "background": "#5B2A86",
+        "outline": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Flat colours with white die-cut borders on every piece."
+    },
+    {
+      "id": "outline",
+      "name": "Bold Outline",
+      "file": "emoji-party-popper--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 500,
+      "height": 500,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "secondary": "#FF4D6D",
+        "accent": "#2EC4B6",
+        "primary": "#FFC23D",
+        "background": "#5B2A86",
+        "outline": "#161616"
+      },
+      "textArea": null,
+      "description": "Cartoon line art with bold black outlines."
+    }
+  ]
+}

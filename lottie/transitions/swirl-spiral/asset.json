@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "id": "swirl-spiral",
+  "name": "Swirl Spiral",
+  "type": "lottie",
+  "category": "transitions",
+  "file": "swirl-spiral.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Spiral transition: a swirl coils in to cover the shot, holds for the cut, then unwinds to reveal the next clip.",
+  "tags": [
+    "swirl",
+    "spiral",
+    "twist",
+    "vortex",
+    "transition",
+    "hypnotic"
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 1.467,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "primary": "#FF4F8B"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "spiral",
+      "name": "Spiral Coil",
+      "file": "swirl-spiral.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.467,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FF4F8B"
+      },
+      "textArea": null,
+      "description": "A fat spiral coils in from the rim while turning until the frame is filled, then unwinds into the centre."
+    },
+    {
+      "id": "layered",
+      "name": "Layered Coils",
+      "file": "swirl-spiral--layered.json",
+      "thumbnail": "thumbnail--layered.png",
+      "preview": "preview--layered.webp",
+      "poster": "poster--layered.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.467,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#0F5BFF",
+        "secondary": "#18C8E8",
+        "accent": "#B6F24A"
+      },
+      "textArea": null,
+      "description": "Accent, secondary and primary spirals coil in one after another and unwind in reverse."
+    },
+    {
+      "id": "vortex",
+      "name": "Vortex Blades",
+      "file": "swirl-spiral--vortex.json",
+      "thumbnail": "thumbnail--vortex.png",
+      "preview": "preview--vortex.webp",
+      "poster": "poster--vortex.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.2,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#5B3DF5",
+        "secondary": "#FF4F8B"
+      },
+      "textArea": null,
+      "description": "Two sets of curved blades twist in and widen into a vortex, then twist away."
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "schema": 1,
+  "id": "pumpkin-jack-o-lantern",
+  "name": "Pumpkin Jack-o'-Lantern",
+  "type": "lottie",
+  "category": "seasonal",
+  "file": "pumpkin-jack-o-lantern.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A carved Halloween pumpkin whose face glows and flickers like a candle inside; a seamless loop.",
+  "tags": [
+    "pumpkin",
+    "jack-o-lantern",
+    "halloween",
+    "candle",
+    "spooky",
+    "autumn"
+  ],
+  "width": 520,
+  "height": 500,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#F47A1F",
+    "secondary": "#5A7A2E",
+    "accent": "#FFD24A"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Candle Lit",
+      "file": "pumpkin-jack-o-lantern.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 520,
+      "height": 500,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#F47A1F",
+        "secondary": "#5A7A2E",
+        "accent": "#FFD24A"
+      },
+      "textArea": null,
+      "description": "Shaded ribbed pumpkin with a candle-lit carved face and a flickering warm glow."
+    },
+    {
+      "id": "flat",
+      "name": "Flat Sticker",
+      "file": "pumpkin-jack-o-lantern--flat.json",
+      "thumbnail": "thumbnail--flat.png",
+      "preview": "preview--flat.webp",
+      "poster": "poster--flat.png",
+      "width": 520,
+      "height": 500,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF8A2A",
+        "secondary": "#3E8E4E",
+        "accent": "#FFE066",
+        "outline": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Geometric flat pumpkin sticker with a white die-cut border that hops and squashes."
+    },
+    {
+      "id": "neon",
+      "name": "Neon Sign",
+      "file": "pumpkin-jack-o-lantern--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 520,
+      "height": 500,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF7A1A",
+        "secondary": "#6CFF5A",
+        "accent": "#FFE14A"
+      },
+      "textArea": null,
+      "description": "Neon-tube outline pumpkin that hums and buzzes off and on like a sign."
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "id": "fireworks-burst",
+  "name": "Fireworks Burst",
+  "type": "lottie",
+  "category": "reactions",
+  "file": "fireworks-burst.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Three fireworks launch, burst and fade in turn so the sky is never empty; for celebrations, launches and new-year moments. Seamless loop.",
+  "tags": [
+    "fireworks",
+    "celebration",
+    "party",
+    "new year",
+    "burst",
+    "congrats",
+    "reaction"
+  ],
+  "width": 500,
+  "height": 500,
+  "fps": 30,
+  "duration": 3.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FF4D6D",
+    "secondary": "#FFC93C",
+    "accent": "#4DD8FF"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "trails",
+      "name": "Streak Trails",
+      "file": "fireworks-burst.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 500,
+      "height": 500,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF4D6D",
+        "secondary": "#FFC93C",
+        "accent": "#4DD8FF"
+      },
+      "textArea": null,
+      "description": "Classic streaking trails with twinkling tips."
+    },
+    {
+      "id": "glitter",
+      "name": "Glitter",
+      "file": "fireworks-burst--glitter.json",
+      "thumbnail": "thumbnail--glitter.png",
+      "preview": "preview--glitter.webp",
+      "poster": "poster--glitter.png",
+      "width": 500,
+      "height": 500,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF4D6D",
+        "secondary": "#FFC93C",
+        "accent": "#4DD8FF"
+      },
+      "textArea": null,
+      "description": "Glowing spark dots that spray out and fall with gravity."
+    },
+    {
+      "id": "doodle",
+      "name": "Doodle",
+      "file": "fireworks-burst--doodle.json",
+      "thumbnail": "thumbnail--doodle.png",
+      "preview": "preview--doodle.webp",
+      "poster": "poster--doodle.png",
+      "width": 500,
+      "height": 500,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF4D6D",
+        "secondary": "#FFC93C",
+        "accent": "#4DD8FF",
+        "outline": "#161616"
+      },
+      "textArea": null,
+      "description": "Cartoon bursts with chunky ink-outlined rays and rings."
+    }
+  ]
+}

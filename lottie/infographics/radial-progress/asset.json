@@ -1,0 +1,166 @@
+{
+  "schema": 1,
+  "id": "radial-progress",
+  "name": "Radial Progress",
+  "type": "lottie",
+  "category": "infographics",
+  "file": "radial-progress.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A progress ring that sweeps to about 70%. Put the percentage in the 'value' area in the centre and a short caption in the 'label' area under it.",
+  "tags": [
+    "progress",
+    "ring",
+    "radial",
+    "circle",
+    "percent",
+    "gauge",
+    "infographic",
+    "stat"
+  ],
+  "width": 520,
+  "height": 520,
+  "fps": 30,
+  "duration": 2.5,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#5B6CFF",
+    "background": "#FFFFFF"
+  },
+  "textArea": [
+    150,
+    198,
+    220,
+    92
+  ],
+  "textAreas": {
+    "value": [
+      150,
+      198,
+      220,
+      92
+    ],
+    "label": [
+      160,
+      298,
+      200,
+      40
+    ]
+  },
+  "variants": [
+    {
+      "id": "flat",
+      "name": "Flat Ring",
+      "file": "radial-progress.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 520,
+      "height": 520,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#5B6CFF",
+        "background": "#FFFFFF"
+      },
+      "textArea": [
+        150,
+        198,
+        220,
+        92
+      ],
+      "textAreas": {
+        "value": [
+          150,
+          198,
+          220,
+          92
+        ],
+        "label": [
+          160,
+          298,
+          200,
+          40
+        ]
+      },
+      "description": "Thick rounded ring sweeping to 70% with a bright head dot and a sparkle."
+    },
+    {
+      "id": "neon",
+      "name": "Neon Ticks",
+      "file": "radial-progress--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 520,
+      "height": 520,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#23E5FF",
+        "secondary": "#FF3DCB",
+        "background": "#0D1024",
+        "outline": "#23E5FF"
+      },
+      "textArea": [
+        150,
+        198,
+        220,
+        92
+      ],
+      "textAreas": {
+        "value": [
+          150,
+          198,
+          220,
+          92
+        ],
+        "label": [
+          160,
+          298,
+          200,
+          40
+        ]
+      },
+      "description": "Dark panel; a ring of tick marks lights up in a glowing sweep with an inner arc and dashed halo."
+    },
+    {
+      "id": "sketch",
+      "name": "Sketch",
+      "file": "radial-progress--sketch.json",
+      "thumbnail": "thumbnail--sketch.png",
+      "preview": "preview--sketch.webp",
+      "poster": "poster--sketch.png",
+      "width": 520,
+      "height": 520,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF5A4E",
+        "background": "#FFF9EC",
+        "outline": "#26262E"
+      },
+      "textArea": [
+        150,
+        198,
+        220,
+        92
+      ],
+      "textAreas": {
+        "value": [
+          150,
+          198,
+          220,
+          92
+        ],
+        "label": [
+          160,
+          298,
+          200,
+          40
+        ]
+      },
+      "description": "Paper card with a hand-drawn double circle and a thick marker arc looping to 70%."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "schema": 1,
+  "id": "sad-rain-cloud",
+  "name": "Sad Rain Cloud",
+  "type": "lottie",
+  "category": "memes",
+  "file": "sad-rain-cloud.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A tiny personal rain cloud that hovers and drizzles on a loop. Place it over someone's head for instant gloom.",
+  "tags": [
+    "rain",
+    "cloud",
+    "sad",
+    "gloomy",
+    "meme",
+    "weather",
+    "loop"
+  ],
+  "width": 440,
+  "height": 480,
+  "fps": 30,
+  "duration": 2.4,
+  "playback": "loop",
+  "slots": {
+    "primary": "#B9C3D4",
+    "accent": "#4FA8FF",
+    "outline": "#141418"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "cartoon",
+      "name": "Cartoon",
+      "file": "sad-rain-cloud.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 440,
+      "height": 480,
+      "duration": 2.4,
+      "playback": "loop",
+      "slots": {
+        "primary": "#B9C3D4",
+        "accent": "#4FA8FF",
+        "outline": "#141418"
+      },
+      "textArea": null,
+      "description": "Outlined cartoon cloud with a glum face, bobbing while fat drops fall."
+    },
+    {
+      "id": "line",
+      "name": "Line Art",
+      "file": "sad-rain-cloud--line.json",
+      "thumbnail": "thumbnail--line.png",
+      "preview": "preview--line.webp",
+      "poster": "poster--line.png",
+      "width": 440,
+      "height": 480,
+      "duration": 2.4,
+      "playback": "loop",
+      "slots": {
+        "outline": "#FFFFFF",
+        "accent": "#8CC8FF"
+      },
+      "textArea": null,
+      "description": "Clean white outline cloud with a simple line face and streaky rain."
+    },
+    {
+      "id": "storm",
+      "name": "Storm",
+      "file": "sad-rain-cloud--storm.json",
+      "thumbnail": "thumbnail--storm.png",
+      "preview": "preview--storm.webp",
+      "poster": "poster--storm.png",
+      "width": 440,
+      "height": 480,
+      "duration": 2.4,
+      "playback": "loop",
+      "slots": {
+        "primary": "#4A5163",
+        "accent": "#FFE14D",
+        "secondary": "#9FD0FF"
+      },
+      "textArea": null,
+      "description": "Dark rumbling cloud with heavy slanted rain and a lightning flash each loop."
+    }
+  ]
+}

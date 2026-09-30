@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "id": "loot-beam",
+  "name": "Loot Beam",
+  "type": "lottie",
+  "category": "gaming",
+  "file": "loot-beam.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Rarity light pillar shooting up from the ground with a glowing pool, rings and rising sparkles, on a loop. Place it over a dropped item in your footage.",
+  "tags": [
+    "loot",
+    "beam",
+    "drop",
+    "rarity",
+    "legendary",
+    "item",
+    "gaming",
+    "light"
+  ],
+  "width": 420,
+  "height": 760,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FFA126",
+    "secondary": "#FFE7A8"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "modern",
+      "name": "Legendary",
+      "file": "loot-beam.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 420,
+      "height": 760,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFA126",
+        "secondary": "#FFE7A8"
+      },
+      "textArea": null,
+      "description": "Smooth orange legendary beam with a flare, ground rings and rising sparks."
+    },
+    {
+      "id": "pixel",
+      "name": "Pixel",
+      "file": "loot-beam--pixel.json",
+      "thumbnail": "thumbnail--pixel.png",
+      "preview": "preview--pixel.webp",
+      "poster": "poster--pixel.png",
+      "width": 420,
+      "height": 760,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#3FA9FF",
+        "secondary": "#C8F0FF"
+      },
+      "textArea": null,
+      "description": "8-bit stepped beam that breaks into dashes, with pixel motes and a dithered ground ring."
+    },
+    {
+      "id": "fantasy",
+      "name": "Epic Rune",
+      "file": "loot-beam--fantasy.json",
+      "thumbnail": "thumbnail--fantasy.png",
+      "preview": "preview--fantasy.webp",
+      "poster": "poster--fantasy.png",
+      "width": 420,
+      "height": 760,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#A35BFF",
+        "secondary": "#F1DBFF",
+        "accent": "#F6C343"
+      },
+      "textArea": null,
+      "description": "Purple epic beam over a rotating golden rune circle, with sparkles spiralling up."
+    }
+  ]
+}

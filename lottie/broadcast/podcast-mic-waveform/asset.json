@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "id": "podcast-mic-waveform",
+  "name": "Podcast Mic Waveform",
+  "type": "lottie",
+  "category": "broadcast",
+  "file": "podcast-mic-waveform.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Podcast microphone with a live, looping voice waveform, for audiograms, podcast clips and radio segments.",
+  "tags": [
+    "podcast",
+    "microphone",
+    "waveform",
+    "audio",
+    "voice",
+    "audiogram",
+    "radio",
+    "mic"
+  ],
+  "width": 960,
+  "height": 300,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FF6B3D",
+    "icon": "#FFFFFF"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "modern",
+      "name": "Modern Badge",
+      "file": "podcast-mic-waveform.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 960,
+      "height": 300,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF6B3D",
+        "icon": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Mic in a pulsing coloured badge next to rounded voice bars."
+    },
+    {
+      "id": "retro",
+      "name": "Oscilloscope",
+      "file": "podcast-mic-waveform--retro.json",
+      "thumbnail": "thumbnail--retro.png",
+      "preview": "preview--retro.webp",
+      "poster": "poster--retro.png",
+      "width": 960,
+      "height": 300,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#52FF8F",
+        "background": "#0E1A12",
+        "outline": "#C9B48A"
+      },
+      "textArea": null,
+      "description": "Vintage ring-mounted mic beside a green oscilloscope screen with a live trace."
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "file": "podcast-mic-waveform--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 960,
+      "height": 300,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF3FD2",
+        "secondary": "#3FE7FF"
+      },
+      "textArea": null,
+      "description": "Glowing neon mic outline with mirrored neon bars pulsing from the centre."
+    }
+  ]
+}

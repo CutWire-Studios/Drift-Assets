@@ -1,0 +1,104 @@
+{
+  "schema": 1,
+  "id": "number-badge-circle",
+  "name": "Number Badge Circle",
+  "type": "lottie",
+  "category": "callouts",
+  "file": "number-badge-circle.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Round step badge for numbered lists and tutorials; type the step number in the middle.",
+  "tags": [
+    "number",
+    "badge",
+    "step",
+    "circle",
+    "tutorial",
+    "list",
+    "counter"
+  ],
+  "width": 280,
+  "height": 280,
+  "fps": 30,
+  "duration": 1.0,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FF2D2D",
+    "outline": "#FFFFFF"
+  },
+  "textArea": [
+    76,
+    76,
+    128,
+    128
+  ],
+  "variants": [
+    {
+      "id": "solid",
+      "name": "Solid",
+      "file": "number-badge-circle.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 280,
+      "height": 280,
+      "duration": 1.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF2D2D",
+        "outline": "#FFFFFF"
+      },
+      "textArea": [
+        76,
+        76,
+        128,
+        128
+      ],
+      "description": "Solid red disc with an inner white ring; it spins in with a spark burst."
+    },
+    {
+      "id": "outline",
+      "name": "Outline",
+      "file": "number-badge-circle--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 280,
+      "height": 280,
+      "duration": 1.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF2D2D"
+      },
+      "textArea": [
+        76,
+        76,
+        128,
+        128
+      ],
+      "description": "Thick ring drawn round by a dot, then a thin inner ring pops in."
+    },
+    {
+      "id": "hand",
+      "name": "Hand-Drawn",
+      "file": "number-badge-circle--hand.json",
+      "thumbnail": "thumbnail--hand.png",
+      "preview": "preview--hand.webp",
+      "poster": "poster--hand.png",
+      "width": 280,
+      "height": 280,
+      "duration": 1.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF2D2D"
+      },
+      "textArea": [
+        76,
+        76,
+        128,
+        128
+      ],
+      "description": "Quick double-loop marker circle scribbled round."
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "id": "halloween-bats",
+  "name": "Halloween Bats",
+  "type": "lottie",
+  "category": "seasonal",
+  "file": "halloween-bats.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Flapping bats for Halloween edits: a swarm flying across the whole frame, bats circling a full moon, or a cute hovering trio. Seamless loops.",
+  "tags": [
+    "halloween",
+    "bats",
+    "spooky",
+    "night",
+    "moon",
+    "october",
+    "flying"
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 4.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#1B1026"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "swarm",
+      "name": "Swarm",
+      "file": "halloween-bats.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#1B1026"
+      },
+      "textArea": null,
+      "description": "Full-frame transparent overlay of silhouette bats flapping across in wavy flight."
+    },
+    {
+      "id": "moon",
+      "name": "Full Moon",
+      "file": "halloween-bats--moon.json",
+      "thumbnail": "thumbnail--moon.png",
+      "preview": "preview--moon.webp",
+      "poster": "poster--moon.png",
+      "width": 720,
+      "height": 720,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#1B1026",
+        "secondary": "#FFE7A3"
+      },
+      "textArea": null,
+      "description": "Glowing full moon with three silhouette bats circling in front of and behind it."
+    },
+    {
+      "id": "cute",
+      "name": "Cute Trio",
+      "file": "halloween-bats--cute.json",
+      "thumbnail": "thumbnail--cute.png",
+      "preview": "preview--cute.webp",
+      "poster": "poster--cute.png",
+      "width": 820,
+      "height": 480,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#6B3FA0",
+        "secondary": "#9B72CF"
+      },
+      "textArea": null,
+      "description": "Three cute purple cartoon bats with big eyes and tiny fangs, hovering and flapping."
+    }
+  ]
+}

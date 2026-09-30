@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "id": "crosshair-target-lock",
+  "name": "Crosshair Target Lock",
+  "type": "lottie",
+  "category": "callouts",
+  "file": "crosshair-target-lock.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Target brackets that swing in and lock onto a point, with a flash on lock; centre it on the thing you are targeting.",
+  "tags": [
+    "crosshair",
+    "target",
+    "lock-on",
+    "aim",
+    "focus",
+    "hud",
+    "gaming"
+  ],
+  "width": 420,
+  "height": 420,
+  "fps": 30,
+  "duration": 1.5,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FF2D2D"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "clean",
+      "name": "Clean",
+      "file": "crosshair-target-lock.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 420,
+      "height": 420,
+      "duration": 1.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF2D2D"
+      },
+      "textArea": null,
+      "description": "Red brackets spin down onto a ring and blink twice when they lock."
+    },
+    {
+      "id": "hud",
+      "name": "Neon HUD",
+      "file": "crosshair-target-lock--hud.json",
+      "thumbnail": "thumbnail--hud.png",
+      "preview": "preview--hud.webp",
+      "poster": "poster--hud.png",
+      "width": 420,
+      "height": 420,
+      "duration": 1.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#39FF88"
+      },
+      "textArea": null,
+      "description": "Glowing sci-fi HUD: segmented ring keeps turning slowly after the lock."
+    },
+    {
+      "id": "hand",
+      "name": "Hand-Drawn",
+      "file": "crosshair-target-lock--hand.json",
+      "thumbnail": "thumbnail--hand.png",
+      "preview": "preview--hand.webp",
+      "poster": "poster--hand.png",
+      "width": 420,
+      "height": 420,
+      "duration": 1.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF2D2D"
+      },
+      "textArea": null,
+      "description": "Marker circle and crosshair lines scribbled on, with a little ring on the spot."
+    }
+  ]
+}

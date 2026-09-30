@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "id": "audio-visualizer-bars",
+  "name": "Audio Visualizer Bars",
+  "type": "lottie",
+  "category": "broadcast",
+  "file": "audio-visualizer-bars.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Looping music equalizer bars for podcasts, music clips and audiograms. The circular variant leaves room in the centre for a name or logo.",
+  "tags": [
+    "equalizer",
+    "audio",
+    "visualizer",
+    "music",
+    "spectrum",
+    "bars",
+    "sound",
+    "podcast"
+  ],
+  "width": 1040,
+  "height": 340,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#35E0A1",
+    "accent": "#FFFFFF"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "linear",
+      "name": "Linear EQ",
+      "file": "audio-visualizer-bars.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1040,
+      "height": 340,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#35E0A1",
+        "accent": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Classic equalizer bars rising from a baseline with falling peak caps."
+    },
+    {
+      "id": "mirrored",
+      "name": "Mirrored Wave",
+      "file": "audio-visualizer-bars--mirrored.json",
+      "thumbnail": "thumbnail--mirrored.png",
+      "preview": "preview--mirrored.webp",
+      "poster": "poster--mirrored.png",
+      "width": 1040,
+      "height": 400,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#7C5CFF",
+        "secondary": "#FF5CA8"
+      },
+      "textArea": null,
+      "description": "Rounded pill bars mirrored around a centre line in two colours, like a voice waveform."
+    },
+    {
+      "id": "circular",
+      "name": "Circular Spectrum",
+      "file": "audio-visualizer-bars--circular.json",
+      "thumbnail": "thumbnail--circular.png",
+      "preview": "preview--circular.webp",
+      "poster": "poster--circular.png",
+      "width": 660,
+      "height": 660,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#27D7FF",
+        "accent": "#FF4FD8",
+        "background": "#101018"
+      },
+      "textArea": [
+        220,
+        270,
+        220,
+        120
+      ],
+      "description": "Bars radiate around a dark disc with a beating ring; text area in the centre."
+    }
+  ]
+}

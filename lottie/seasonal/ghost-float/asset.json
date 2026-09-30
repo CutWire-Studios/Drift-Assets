@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "id": "ghost-float",
+  "name": "Ghost Float",
+  "type": "lottie",
+  "category": "seasonal",
+  "file": "ghost-float.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A friendly little ghost bobbing in mid-air with a waving hem; a seamless Halloween loop to place anywhere in the frame.",
+  "tags": [
+    "ghost",
+    "halloween",
+    "spooky",
+    "cute",
+    "boo",
+    "floating"
+  ],
+  "width": 460,
+  "height": 560,
+  "fps": 30,
+  "duration": 3.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FFFFFF",
+    "secondary": "#2B2340"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "cute",
+      "name": "Cute",
+      "file": "ghost-float.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 460,
+      "height": 560,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFFFFF",
+        "secondary": "#2B2340"
+      },
+      "textArea": null,
+      "description": "Soft white cartoon ghost with blushing cheeks, waving arms and a rippling hem."
+    },
+    {
+      "id": "spirit",
+      "name": "Glowing Spirit",
+      "file": "ghost-float--spirit.json",
+      "thumbnail": "thumbnail--spirit.png",
+      "preview": "preview--spirit.webp",
+      "poster": "poster--spirit.png",
+      "width": 460,
+      "height": 560,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#BFFFF1"
+      },
+      "textArea": null,
+      "description": "Translucent glowing spirit with a curling tail, a pulsing aura and rising wisps."
+    },
+    {
+      "id": "doodle",
+      "name": "Doodle",
+      "file": "ghost-float--doodle.json",
+      "thumbnail": "thumbnail--doodle.png",
+      "preview": "preview--doodle.webp",
+      "poster": "poster--doodle.png",
+      "width": 460,
+      "height": 560,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "outline": "#2A2233",
+        "primary": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Hand-drawn ink ghost with a boiling line, off-register fill and motion ticks."
+    }
+  ]
+}

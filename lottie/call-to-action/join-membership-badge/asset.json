@@ -1,0 +1,114 @@
+{
+  "schema": 1,
+  "id": "join-membership-badge",
+  "name": "Join Membership Badge",
+  "type": "lottie",
+  "category": "call-to-action",
+  "file": "join-membership-badge.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Rosette badge with a star spins in, a shine sweeps across it and sparkles twinkle, beside a text pill. Type \"Join\" or your membership tier inside the pill.",
+  "tags": [
+    "join",
+    "membership",
+    "member",
+    "badge",
+    "star",
+    "subscribe",
+    "vip"
+  ],
+  "width": 660,
+  "height": 280,
+  "fps": 30,
+  "duration": 3.0,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#7B4DFF",
+    "accent": "#FFD34D",
+    "secondary": "#4B2CB8",
+    "background": "#FFFFFF"
+  },
+  "textArea": [
+    282,
+    93,
+    311,
+    62
+  ],
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Classic",
+      "file": "join-membership-badge.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 660,
+      "height": 280,
+      "duration": 3.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#7B4DFF",
+        "accent": "#FFD34D",
+        "secondary": "#4B2CB8",
+        "background": "#FFFFFF"
+      },
+      "textArea": [
+        282,
+        93,
+        311,
+        62
+      ],
+      "description": "Flat filled shapes with a soft drop shadow."
+    },
+    {
+      "id": "outline",
+      "name": "Line Art",
+      "file": "join-membership-badge--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 660,
+      "height": 280,
+      "duration": 3.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#7B4DFF",
+        "accent": "#FFD34D",
+        "secondary": "#4B2CB8",
+        "outline": "#FFFFFF"
+      },
+      "textArea": [
+        282,
+        93,
+        311,
+        62
+      ],
+      "description": "Line-art version: clean outer contours, see-through inside."
+    },
+    {
+      "id": "3d-pop",
+      "name": "3D Pop",
+      "file": "join-membership-badge--3d-pop.json",
+      "thumbnail": "thumbnail--3d-pop.png",
+      "preview": "preview--3d-pop.webp",
+      "poster": "poster--3d-pop.png",
+      "width": 660,
+      "height": 280,
+      "duration": 3.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#7B4DFF",
+        "accent": "#FFD34D",
+        "secondary": "#4B2CB8",
+        "background": "#FFFFFF"
+      },
+      "textArea": [
+        282,
+        93,
+        311,
+        62
+      ],
+      "description": "Chunky layered look with an extruded side, highlight rim and depth shadow."
+    }
+  ]
+}

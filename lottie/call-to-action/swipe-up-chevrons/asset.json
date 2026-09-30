@@ -1,0 +1,106 @@
+{
+  "schema": 1,
+  "id": "swipe-up-chevrons",
+  "name": "Swipe Up Chevrons",
+  "type": "lottie",
+  "category": "call-to-action",
+  "file": "swipe-up-chevrons.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Stacked chevrons that pulse upwards in a wave above a capsule; seamless loop. Type \"Swipe up\" or your call to action inside the capsule.",
+  "tags": [
+    "swipe up",
+    "chevron",
+    "arrow",
+    "stories",
+    "link",
+    "loop",
+    "cta"
+  ],
+  "width": 380,
+  "height": 440,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FFFFFF",
+    "background": "#FF4F5E"
+  },
+  "textArea": [
+    72,
+    330,
+    236,
+    60
+  ],
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Classic",
+      "file": "swipe-up-chevrons.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 380,
+      "height": 440,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFFFFF",
+        "background": "#FF4F5E"
+      },
+      "textArea": [
+        72,
+        330,
+        236,
+        60
+      ],
+      "description": "Flat filled shapes with a soft drop shadow."
+    },
+    {
+      "id": "outline",
+      "name": "Line Art",
+      "file": "swipe-up-chevrons--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 380,
+      "height": 440,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFFFFF",
+        "outline": "#FFFFFF"
+      },
+      "textArea": [
+        72,
+        330,
+        236,
+        60
+      ],
+      "description": "Line-art version: clean outer contours, see-through inside."
+    },
+    {
+      "id": "3d-pop",
+      "name": "3D Pop",
+      "file": "swipe-up-chevrons--3d-pop.json",
+      "thumbnail": "thumbnail--3d-pop.png",
+      "preview": "preview--3d-pop.webp",
+      "poster": "poster--3d-pop.png",
+      "width": 380,
+      "height": 440,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFFFFF",
+        "background": "#FF4F5E"
+      },
+      "textArea": [
+        72,
+        330,
+        236,
+        60
+      ],
+      "description": "Chunky layered look with an extruded side, highlight rim and depth shadow."
+    }
+  ]
+}

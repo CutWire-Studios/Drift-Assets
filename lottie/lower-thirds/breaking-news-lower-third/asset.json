@@ -7,7 +7,7 @@
   "file": "breaking-news-lower-third.json",
   "thumbnail": "thumbnail.png",
   "license": "CC-BY-NC-SA-4.0",
-  "description": "TV news lower third: red tag block for the label, white headline bar and a dark strip, with a glint sweep.",
+  "description": "TV news lower third with a red tag block for the label, a headline bar and a dark subtitle strip.",
   "tags": [
     "breaking news",
     "news",
@@ -52,5 +52,139 @@
       300,
       42
     ]
-  }
+  },
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Classic",
+      "file": "breaking-news-lower-third.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1400,
+      "height": 246,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "accent": "#CC0000",
+        "primary": "#FFFFFF",
+        "secondary": "#0A1A3A"
+      },
+      "textArea": [
+        56,
+        106,
+        1288,
+        66
+      ],
+      "textAreas": {
+        "headline": [
+          56,
+          106,
+          1288,
+          66
+        ],
+        "subtitle": [
+          56,
+          187,
+          1288,
+          28
+        ],
+        "tag": [
+          50,
+          40,
+          300,
+          42
+        ]
+      },
+      "description": "Red tag block, white headline bar and a dark strip wipe in from the left, with a glint sweep."
+    },
+    {
+      "id": "split",
+      "name": "Centre Split",
+      "file": "breaking-news-lower-third--split.json",
+      "thumbnail": "thumbnail--split.png",
+      "preview": "preview--split.webp",
+      "poster": "poster--split.png",
+      "width": 1400,
+      "height": 246,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "accent": "#CC0000",
+        "primary": "#FFFFFF",
+        "secondary": "#0A1A3A"
+      },
+      "textArea": [
+        90,
+        102,
+        1220,
+        64
+      ],
+      "textAreas": {
+        "headline": [
+          90,
+          102,
+          1220,
+          64
+        ],
+        "subtitle": [
+          266,
+          181,
+          868,
+          30
+        ],
+        "tag": [
+          584,
+          36,
+          260,
+          42
+        ]
+      },
+      "description": "Centred layout: the headline bar splits open from the middle between red hairlines, the strip slides out below and the tag drops in on a spring with a pulsing live dot."
+    },
+    {
+      "id": "slant",
+      "name": "Slanted Slam",
+      "file": "breaking-news-lower-third--slant.json",
+      "thumbnail": "thumbnail--slant.png",
+      "preview": "preview--slant.webp",
+      "poster": "poster--slant.png",
+      "width": 1400,
+      "height": 246,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "accent": "#CC0000",
+        "primary": "#FFFFFF",
+        "secondary": "#0A1A3A"
+      },
+      "textArea": [
+        414,
+        44,
+        890,
+        76
+      ],
+      "textAreas": {
+        "headline": [
+          414,
+          44,
+          890,
+          76
+        ],
+        "subtitle": [
+          380,
+          146,
+          680,
+          32
+        ],
+        "tag": [
+          90,
+          80,
+          230,
+          70
+        ]
+      },
+      "description": "Slanted blocks: a tall red tag slams in from the left while the bars shoot in from the right behind speed streaks."
+    }
+  ]
 }

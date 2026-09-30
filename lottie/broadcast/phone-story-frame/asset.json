@@ -1,0 +1,163 @@
+{
+  "schema": 1,
+  "id": "phone-story-frame",
+  "name": "Phone Story Frame",
+  "type": "lottie",
+  "category": "broadcast",
+  "file": "phone-story-frame.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Full-screen vertical story overlay: animated progress segments, an avatar circle and a reply bar around a transparent centre. Add the account name next to the avatar and a reply prompt in the bar.",
+  "tags": [
+    "story",
+    "instagram",
+    "vertical",
+    "phone",
+    "frame",
+    "social",
+    "progress",
+    "overlay"
+  ],
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 5.0,
+  "playback": "intro-hold",
+  "slots": {
+    "icon": "#FFFFFF",
+    "secondary": "#9AA0B4"
+  },
+  "textArea": [
+    154,
+    98,
+    560,
+    60
+  ],
+  "textAreas": {
+    "name": [
+      154,
+      98,
+      560,
+      60
+    ],
+    "reply": [
+      86,
+      1776,
+      720,
+      60
+    ]
+  },
+  "variants": [
+    {
+      "id": "modern",
+      "name": "Classic Story",
+      "file": "phone-story-frame.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1080,
+      "height": 1920,
+      "duration": 5.0,
+      "playback": "intro-hold",
+      "slots": {
+        "icon": "#FFFFFF",
+        "secondary": "#9AA0B4"
+      },
+      "textArea": [
+        154,
+        98,
+        560,
+        60
+      ],
+      "textAreas": {
+        "name": [
+          154,
+          98,
+          560,
+          60
+        ],
+        "reply": [
+          86,
+          1776,
+          720,
+          60
+        ]
+      },
+      "description": "Segmented progress, gradient avatar ring, outlined reply pill with heart and send icons."
+    },
+    {
+      "id": "minimal",
+      "name": "Minimal",
+      "file": "phone-story-frame--minimal.json",
+      "thumbnail": "thumbnail--minimal.png",
+      "preview": "preview--minimal.webp",
+      "poster": "poster--minimal.png",
+      "width": 1080,
+      "height": 1920,
+      "duration": 5.0,
+      "playback": "intro-hold",
+      "slots": {
+        "icon": "#FFFFFF",
+        "secondary": "#C8CCD8"
+      },
+      "textArea": [
+        154,
+        98,
+        560,
+        60
+      ],
+      "textAreas": {
+        "name": [
+          154,
+          98,
+          560,
+          60
+        ],
+        "reply": [
+          86,
+          1776,
+          720,
+          60
+        ]
+      },
+      "description": "One continuous hairline progress bar, small avatar and a frosted reply bar with a camera button."
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "file": "phone-story-frame--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 1080,
+      "height": 1920,
+      "duration": 5.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF3FD2",
+        "secondary": "#3FE7FF"
+      },
+      "textArea": [
+        154,
+        98,
+        560,
+        60
+      ],
+      "textAreas": {
+        "name": [
+          154,
+          98,
+          560,
+          60
+        ],
+        "reply": [
+          86,
+          1776,
+          720,
+          60
+        ]
+      },
+      "description": "Glowing progress segments, a pulsing neon avatar ring and a neon reply bar."
+    }
+  ]
+}

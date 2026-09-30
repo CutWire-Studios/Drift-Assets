@@ -1,0 +1,81 @@
+{
+  "schema": 1,
+  "id": "arrow-double-headed",
+  "name": "Double-Headed Arrow",
+  "type": "lottie",
+  "category": "callouts",
+  "file": "arrow-double-headed.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A gently arched arrow with a head at each end that draws on; use it to link two things or show a range.",
+  "tags": [
+    "arrow",
+    "double",
+    "two-way",
+    "compare",
+    "callout",
+    "draw-on"
+  ],
+  "width": 620,
+  "height": 260,
+  "fps": 30,
+  "duration": 1.2,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FF2D2D"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "hand",
+      "name": "Hand-Drawn",
+      "file": "arrow-double-headed.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 620,
+      "height": 260,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF2D2D"
+      },
+      "textArea": null,
+      "description": "Marker arc with flicked-on heads at both ends."
+    },
+    {
+      "id": "clean",
+      "name": "Clean",
+      "file": "arrow-double-headed--clean.json",
+      "thumbnail": "thumbnail--clean.png",
+      "preview": "preview--clean.webp",
+      "poster": "poster--clean.png",
+      "width": 620,
+      "height": 260,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Even white vector arc with rounded solid heads."
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "file": "arrow-double-headed--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 620,
+      "height": 260,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF3DF2"
+      },
+      "textArea": null,
+      "description": "Glowing neon arc that flickers on, with chevron heads."
+    }
+  ]
+}

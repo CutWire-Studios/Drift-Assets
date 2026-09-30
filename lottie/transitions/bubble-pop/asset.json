@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "id": "bubble-pop",
+  "name": "Bubble Pop",
+  "type": "lottie",
+  "category": "transitions",
+  "file": "bubble-pop.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Bubble transition: round bubbles pop in to fill the shot, hold for the cut, then burst away to reveal the next clip.",
+  "tags": [
+    "bubbles",
+    "circles",
+    "pop",
+    "playful",
+    "transition",
+    "kids"
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 1.3,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "primary": "#18C8E8"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "pop",
+      "name": "Bubble Pop",
+      "file": "bubble-pop.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.3,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#18C8E8"
+      },
+      "textArea": null,
+      "description": "Round bubbles of different sizes pop in with a springy overshoot until the frame is filled, then burst away."
+    },
+    {
+      "id": "layered",
+      "name": "Layered Bubbles",
+      "file": "bubble-pop--layered.json",
+      "thumbnail": "thumbnail--layered.png",
+      "preview": "preview--layered.webp",
+      "poster": "poster--layered.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.4,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#E8254F",
+        "secondary": "#FF8FA8",
+        "accent": "#FFF1F4"
+      },
+      "textArea": null,
+      "description": "Three waves of bubbles in accent, secondary and primary pop in over each other and burst in reverse."
+    },
+    {
+      "id": "rise",
+      "name": "Rising Bubbles",
+      "file": "bubble-pop--rise.json",
+      "thumbnail": "thumbnail--rise.png",
+      "preview": "preview--rise.webp",
+      "poster": "poster--rise.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.467,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#7B4DFF",
+        "accent": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Glossy bubbles with highlights float up from the bottom, pack together, then float off the top."
+    }
+  ]
+}

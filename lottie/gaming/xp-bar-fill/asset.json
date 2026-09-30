@@ -1,0 +1,171 @@
+{
+  "schema": 1,
+  "id": "xp-bar-fill",
+  "name": "XP Bar Fill",
+  "type": "lottie",
+  "category": "gaming",
+  "file": "xp-bar-fill.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Experience bar that fills up with a sparkle riding its leading edge, flashes on level-up and starts the next level. Put the level number in the badge and a label above the bar.",
+  "tags": [
+    "xp",
+    "experience",
+    "level up",
+    "progress",
+    "bar",
+    "gaming",
+    "hud",
+    "rpg"
+  ],
+  "width": 900,
+  "height": 170,
+  "fps": 30,
+  "duration": 2.5,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#35E0FF",
+    "secondary": "#B8F5FF",
+    "background": "#0F131B",
+    "outline": "#FFFFFF"
+  },
+  "textArea": [
+    46,
+    66,
+    60,
+    48
+  ],
+  "textAreas": {
+    "level": [
+      46,
+      66,
+      60,
+      48
+    ],
+    "label": [
+      160,
+      30,
+      520,
+      26
+    ]
+  },
+  "variants": [
+    {
+      "id": "modern",
+      "name": "Modern HUD",
+      "file": "xp-bar-fill.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 900,
+      "height": 170,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#35E0FF",
+        "secondary": "#B8F5FF",
+        "background": "#0F131B",
+        "outline": "#FFFFFF"
+      },
+      "textArea": [
+        46,
+        66,
+        60,
+        48
+      ],
+      "textAreas": {
+        "level": [
+          46,
+          66,
+          60,
+          48
+        ],
+        "label": [
+          160,
+          30,
+          520,
+          26
+        ]
+      },
+      "description": "Sleek skewed cyan bar with a hexagon level badge and a glossy sheen."
+    },
+    {
+      "id": "pixel",
+      "name": "Pixel",
+      "file": "xp-bar-fill--pixel.json",
+      "thumbnail": "thumbnail--pixel.png",
+      "preview": "preview--pixel.webp",
+      "poster": "poster--pixel.png",
+      "width": 900,
+      "height": 170,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#3CD66A",
+        "secondary": "#FFD23F",
+        "outline": "#160E1E",
+        "background": "#2B2140"
+      },
+      "textArea": [
+        44,
+        60,
+        60,
+        48
+      ],
+      "textAreas": {
+        "level": [
+          44,
+          60,
+          60,
+          48
+        ],
+        "label": [
+          160,
+          30,
+          520,
+          24
+        ]
+      },
+      "description": "8-bit segmented bar that lights up block by block, with a blinking pixel badge."
+    },
+    {
+      "id": "fantasy",
+      "name": "Fantasy",
+      "file": "xp-bar-fill--fantasy.json",
+      "thumbnail": "thumbnail--fantasy.png",
+      "preview": "preview--fantasy.webp",
+      "poster": "poster--fantasy.png",
+      "width": 900,
+      "height": 170,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#9B5CFF",
+        "secondary": "#F6C343",
+        "background": "#1B1030",
+        "accent": "#E7D2FF"
+      },
+      "textArea": [
+        46,
+        62,
+        64,
+        52
+      ],
+      "textAreas": {
+        "level": [
+          46,
+          62,
+          64,
+          52
+        ],
+        "label": [
+          170,
+          34,
+          520,
+          26
+        ]
+      },
+      "description": "Ornate gold frame with gems, a purple magic fill and a medallion that flares with rays."
+    }
+  ]
+}

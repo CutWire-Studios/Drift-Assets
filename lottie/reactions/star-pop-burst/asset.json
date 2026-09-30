@@ -1,0 +1,92 @@
+{
+  "schema": 1,
+  "id": "star-pop-burst",
+  "name": "Star Pop Burst",
+  "type": "lottie",
+  "category": "reactions",
+  "file": "star-pop-burst.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Big star that springs in with a spin, a shockwave ring and a spray of mini stars and sparkles, then holds; for wins, favourites and top picks.",
+  "tags": [
+    "star",
+    "pop",
+    "burst",
+    "favorite",
+    "win",
+    "award",
+    "reaction"
+  ],
+  "width": 440,
+  "height": 440,
+  "fps": 30,
+  "duration": 1.5,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FFC93C",
+    "secondary": "#FFE58A",
+    "accent": "#FF7AB6"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "glossy",
+      "name": "Glossy",
+      "file": "star-pop-burst.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 440,
+      "height": 440,
+      "duration": 1.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFC93C",
+        "secondary": "#FFE58A",
+        "accent": "#FF7AB6"
+      },
+      "textArea": null,
+      "description": "Shaded golden star with soft highlights."
+    },
+    {
+      "id": "flat",
+      "name": "Flat Sticker",
+      "file": "star-pop-burst--flat.json",
+      "thumbnail": "thumbnail--flat.png",
+      "preview": "preview--flat.webp",
+      "poster": "poster--flat.png",
+      "width": 440,
+      "height": 440,
+      "duration": 1.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFC93C",
+        "secondary": "#FFE58A",
+        "accent": "#FF7AB6",
+        "outline": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Flat colours with a thick white die-cut border."
+    },
+    {
+      "id": "outline",
+      "name": "Bold Outline",
+      "file": "star-pop-burst--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 440,
+      "height": 440,
+      "duration": 1.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFC93C",
+        "secondary": "#FFE58A",
+        "accent": "#FF7AB6",
+        "outline": "#161616"
+      },
+      "textArea": null,
+      "description": "Cartoon line art with bold black outlines."
+    }
+  ]
+}

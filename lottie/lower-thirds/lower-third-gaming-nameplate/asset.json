@@ -1,0 +1,170 @@
+{
+  "schema": 1,
+  "id": "lower-third-gaming-nameplate",
+  "name": "Gaming Nameplate",
+  "type": "lottie",
+  "category": "lower-thirds",
+  "file": "lower-third-gaming-nameplate.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Esports-style nameplate with angular cut corners and a hexagonal rank badge of chevrons. Put the player's gamertag in the plate and a team or rank on the second row.",
+  "tags": [
+    "lower third",
+    "gaming",
+    "esports",
+    "nameplate",
+    "gamertag",
+    "rank",
+    "stream"
+  ],
+  "width": 1150,
+  "height": 240,
+  "fps": 30,
+  "duration": 5.0,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "primary": "#12131A",
+    "accent": "#FF2E63",
+    "secondary": "#08D9D6",
+    "background": "#1E2130"
+  },
+  "textArea": [
+    260,
+    76,
+    760,
+    58
+  ],
+  "textAreas": {
+    "headline": [
+      260,
+      76,
+      760,
+      58
+    ],
+    "subtitle": [
+      260,
+      138,
+      580,
+      28
+    ]
+  },
+  "variants": [
+    {
+      "id": "chamfered",
+      "name": "Chamfered Plate",
+      "file": "lower-third-gaming-nameplate.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1150,
+      "height": 240,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#12131A",
+        "accent": "#FF2E63",
+        "secondary": "#08D9D6",
+        "background": "#1E2130"
+      },
+      "textArea": [
+        260,
+        76,
+        760,
+        58
+      ],
+      "textAreas": {
+        "headline": [
+          260,
+          76,
+          760,
+          58
+        ],
+        "subtitle": [
+          260,
+          138,
+          580,
+          28
+        ]
+      },
+      "description": "The rank badge spins in and the cut-corner plate wipes out from behind it."
+    },
+    {
+      "id": "glitch",
+      "name": "Glitch In",
+      "file": "lower-third-gaming-nameplate--glitch.json",
+      "thumbnail": "thumbnail--glitch.png",
+      "preview": "preview--glitch.webp",
+      "poster": "poster--glitch.png",
+      "width": 1150,
+      "height": 240,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#0E0F14",
+        "accent": "#B8FF3C",
+        "secondary": "#FF3CAC",
+        "background": "#1A1D24"
+      },
+      "textArea": [
+        260,
+        76,
+        760,
+        58
+      ],
+      "textAreas": {
+        "headline": [
+          260,
+          76,
+          760,
+          58
+        ],
+        "subtitle": [
+          260,
+          138,
+          580,
+          28
+        ]
+      },
+      "description": "Same plate and badge arriving with a digital glitch, RGB-split ghosts and scanlines."
+    },
+    {
+      "id": "hex-right",
+      "name": "Badge Right",
+      "file": "lower-third-gaming-nameplate--hex-right.json",
+      "thumbnail": "thumbnail--hex-right.png",
+      "preview": "preview--hex-right.webp",
+      "poster": "poster--hex-right.png",
+      "width": 1150,
+      "height": 240,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#171A2B",
+        "accent": "#FFB800",
+        "secondary": "#7B61FF",
+        "background": "#232845"
+      },
+      "textArea": [
+        120,
+        102,
+        720,
+        50
+      ],
+      "textAreas": {
+        "headline": [
+          120,
+          102,
+          720,
+          50
+        ],
+        "subtitle": [
+          100,
+          44,
+          260,
+          26
+        ]
+      },
+      "description": "Mirrored layout: badge on the right, plate wiping leftwards and a team tab on top."
+    }
+  ]
+}

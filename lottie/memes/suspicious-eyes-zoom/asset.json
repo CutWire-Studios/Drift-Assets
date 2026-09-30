@@ -1,0 +1,87 @@
+{
+  "schema": 1,
+  "id": "suspicious-eyes-zoom",
+  "name": "Suspicious Side Eyes",
+  "type": "lottie",
+  "category": "memes",
+  "file": "suspicious-eyes-zoom.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A pair of suspicious cartoon eyes that punch in, dart left and right, squint with a zoom punch and settle on a side-eye. Place over a face or next to the suspect.",
+  "tags": [
+    "eyes",
+    "suspicious",
+    "side eye",
+    "sus",
+    "zoom",
+    "meme",
+    "look"
+  ],
+  "width": 640,
+  "height": 360,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "intro-hold",
+  "slots": {
+    "outline": "#141418",
+    "primary": "#F0B98E"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "cartoon",
+      "name": "Cartoon",
+      "file": "suspicious-eyes-zoom.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 640,
+      "height": 360,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "outline": "#141418",
+        "primary": "#F0B98E"
+      },
+      "textArea": null,
+      "description": "Round cartoon eyes with heavy lids and angled brows; black pupils dart side to side."
+    },
+    {
+      "id": "anime",
+      "name": "Anime",
+      "file": "suspicious-eyes-zoom--anime.json",
+      "thumbnail": "thumbnail--anime.png",
+      "preview": "preview--anime.webp",
+      "poster": "poster--anime.png",
+      "width": 640,
+      "height": 360,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "outline": "#1A1420",
+        "accent": "#7A4BE0",
+        "primary": "#F4D1B5"
+      },
+      "textArea": null,
+      "description": "Tall glossy eyes with a thick lash line and coloured irises."
+    },
+    {
+      "id": "pixel",
+      "name": "Pixel",
+      "file": "suspicious-eyes-zoom--pixel.json",
+      "thumbnail": "thumbnail--pixel.png",
+      "preview": "preview--pixel.webp",
+      "poster": "poster--pixel.png",
+      "width": 640,
+      "height": 360,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "outline": "#101010",
+        "primary": "#3A2A4A"
+      },
+      "textArea": null,
+      "description": "Pixel-art eyes whose square pupils jump in whole pixels while the lids step down."
+    }
+  ]
+}

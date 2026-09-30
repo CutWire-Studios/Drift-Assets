@@ -7,7 +7,7 @@
   "file": "heart-burst.json",
   "thumbnail": "thumbnail.png",
   "license": "CC-BY-NC-SA-4.0",
-  "description": "Hearts float up with a gentle wobble, pop in and fade out; staggered so it is never empty. Seamless loop.",
+  "description": "Hearts that pop and float for likes and love, looping seamlessly; never empty.",
   "tags": [
     "heart",
     "love",
@@ -25,5 +25,63 @@
     "primary": "#FF3B6B",
     "secondary": "#FF8FB1"
   },
-  "textArea": null
+  "textArea": null,
+  "variants": [
+    {
+      "id": "glossy",
+      "name": "Glossy Float",
+      "file": "heart-burst.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 400,
+      "height": 560,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF3B6B",
+        "secondary": "#FF8FB1"
+      },
+      "textArea": null,
+      "description": "Shaded hearts float up with a gentle wobble, pop in and fade out, staggered so it is never empty."
+    },
+    {
+      "id": "flat",
+      "name": "Flat Sticker",
+      "file": "heart-burst--flat.json",
+      "thumbnail": "thumbnail--flat.png",
+      "preview": "preview--flat.webp",
+      "poster": "poster--flat.png",
+      "width": 400,
+      "height": 560,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF3B6B",
+        "secondary": "#FF8FB1",
+        "outline": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Die-cut sticker hearts with white borders bob up in a zig-zag stream, each popping in with a squash."
+    },
+    {
+      "id": "outline",
+      "name": "Bold Outline Beat",
+      "file": "heart-burst--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 440,
+      "height": 440,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF3B6B",
+        "secondary": "#FF8FB1",
+        "outline": "#161616"
+      },
+      "textArea": null,
+      "description": "A big outlined cartoon heart beats twice per loop, throwing out rings of little hearts."
+    }
+  ]
 }

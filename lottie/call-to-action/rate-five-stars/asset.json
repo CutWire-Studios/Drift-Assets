@@ -1,0 +1,105 @@
+{
+  "schema": 1,
+  "id": "rate-five-stars",
+  "name": "Rate Five Stars",
+  "type": "lottie",
+  "category": "call-to-action",
+  "file": "rate-five-stars.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Five stars pop in empty, then fill with gold one by one; the last one bursts. Type a rating prompt or review line underneath.",
+  "tags": [
+    "rating",
+    "stars",
+    "review",
+    "rate",
+    "five stars",
+    "feedback"
+  ],
+  "width": 780,
+  "height": 270,
+  "fps": 30,
+  "duration": 2.8,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FFC531",
+    "secondary": "#4A4A58"
+  },
+  "textArea": [
+    44,
+    200,
+    692,
+    56
+  ],
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Classic",
+      "file": "rate-five-stars.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 780,
+      "height": 270,
+      "duration": 2.8,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFC531",
+        "secondary": "#4A4A58"
+      },
+      "textArea": [
+        44,
+        200,
+        692,
+        56
+      ],
+      "description": "Flat filled shapes with a soft drop shadow."
+    },
+    {
+      "id": "outline",
+      "name": "Line Art",
+      "file": "rate-five-stars--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 780,
+      "height": 270,
+      "duration": 2.8,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFC531",
+        "outline": "#FFFFFF"
+      },
+      "textArea": [
+        44,
+        200,
+        692,
+        56
+      ],
+      "description": "Line-art version: clean outer contours, see-through inside."
+    },
+    {
+      "id": "3d-pop",
+      "name": "3D Pop",
+      "file": "rate-five-stars--3d-pop.json",
+      "thumbnail": "thumbnail--3d-pop.png",
+      "preview": "preview--3d-pop.webp",
+      "poster": "poster--3d-pop.png",
+      "width": 780,
+      "height": 270,
+      "duration": 2.8,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFC531",
+        "secondary": "#4A4A58"
+      },
+      "textArea": [
+        44,
+        200,
+        692,
+        56
+      ],
+      "description": "Chunky layered look with an extruded side, highlight rim and depth shadow."
+    }
+  ]
+}

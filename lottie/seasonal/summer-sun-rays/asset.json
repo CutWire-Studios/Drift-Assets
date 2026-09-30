@@ -1,0 +1,87 @@
+{
+  "schema": 1,
+  "id": "summer-sun-rays",
+  "name": "Summer Sun Rays",
+  "type": "lottie",
+  "category": "seasonal",
+  "file": "summer-sun-rays.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A bold stylised summer sun with slowly rotating rays and wavy heat shimmer underneath; a seamless loop.",
+  "tags": [
+    "summer",
+    "sun",
+    "sunshine",
+    "hot",
+    "heat",
+    "beach",
+    "sunny"
+  ],
+  "width": 600,
+  "height": 640,
+  "fps": 30,
+  "duration": 4.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FFC93C",
+    "secondary": "#FF9A1F"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "flat",
+      "name": "Flat",
+      "file": "summer-sun-rays.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 600,
+      "height": 640,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFC93C",
+        "secondary": "#FF9A1F"
+      },
+      "textArea": null,
+      "description": "Flat modern sun with two counter-rotating crowns of rounded triangle rays."
+    },
+    {
+      "id": "glow",
+      "name": "Glow",
+      "file": "summer-sun-rays--glow.json",
+      "thumbnail": "thumbnail--glow.png",
+      "preview": "preview--glow.webp",
+      "poster": "poster--glow.png",
+      "width": 600,
+      "height": 640,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFE07A",
+        "secondary": "#FFB02E"
+      },
+      "textArea": null,
+      "description": "Radiant glowing sun with long needle rays, a pulsing corona and spreading heat rings."
+    },
+    {
+      "id": "retro",
+      "name": "Retro",
+      "file": "summer-sun-rays--retro.json",
+      "thumbnail": "thumbnail--retro.png",
+      "preview": "preview--retro.webp",
+      "poster": "poster--retro.png",
+      "width": 600,
+      "height": 640,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFC93C",
+        "secondary": "#FF9A1F",
+        "accent": "#FF5A36"
+      },
+      "textArea": null,
+      "description": "Seventies-style banded sun with wavy ray crowns and sunset stripes."
+    }
+  ]
+}

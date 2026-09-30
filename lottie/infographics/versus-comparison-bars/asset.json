@@ -1,0 +1,387 @@
+{
+  "schema": 1,
+  "id": "versus-comparison-bars",
+  "name": "Versus Comparison Bars",
+  "type": "lottie",
+  "category": "infographics",
+  "file": "versus-comparison-bars.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Head-to-head comparison: two sets of bars grow outward from a centre column across three rows. Put the two names in 'nameA'/'nameB', the row topics in 'label1'-'label3' and the numbers in 'valueA1'-'valueA3' and 'valueB1'-'valueB3'.",
+  "tags": [
+    "versus",
+    "comparison",
+    "vs",
+    "compare",
+    "bars",
+    "stats",
+    "infographic",
+    "head-to-head"
+  ],
+  "width": 1000,
+  "height": 540,
+  "fps": 30,
+  "duration": 2.8,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#5B6CFF",
+    "secondary": "#FF6B8A",
+    "background": "#FFFFFF"
+  },
+  "textArea": [
+    402,
+    186,
+    196,
+    56
+  ],
+  "textAreas": {
+    "nameA": [
+      40,
+      36,
+      360,
+      64
+    ],
+    "nameB": [
+      600,
+      36,
+      360,
+      64
+    ],
+    "label1": [
+      402,
+      186,
+      196,
+      56
+    ],
+    "valueA1": [
+      250,
+      192,
+      124,
+      44
+    ],
+    "valueB1": [
+      626,
+      192,
+      124,
+      44
+    ],
+    "label2": [
+      402,
+      296,
+      196,
+      56
+    ],
+    "valueA2": [
+      250,
+      302,
+      124,
+      44
+    ],
+    "valueB2": [
+      626,
+      302,
+      124,
+      44
+    ],
+    "label3": [
+      402,
+      406,
+      196,
+      56
+    ],
+    "valueA3": [
+      250,
+      412,
+      124,
+      44
+    ],
+    "valueB3": [
+      626,
+      412,
+      124,
+      44
+    ]
+  },
+  "variants": [
+    {
+      "id": "flat",
+      "name": "Flat",
+      "file": "versus-comparison-bars.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1000,
+      "height": 540,
+      "duration": 2.8,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#5B6CFF",
+        "secondary": "#FF6B8A",
+        "background": "#FFFFFF"
+      },
+      "textArea": [
+        402,
+        186,
+        196,
+        56
+      ],
+      "textAreas": {
+        "nameA": [
+          40,
+          36,
+          360,
+          64
+        ],
+        "nameB": [
+          600,
+          36,
+          360,
+          64
+        ],
+        "label1": [
+          402,
+          186,
+          196,
+          56
+        ],
+        "valueA1": [
+          250,
+          192,
+          124,
+          44
+        ],
+        "valueB1": [
+          626,
+          192,
+          124,
+          44
+        ],
+        "label2": [
+          402,
+          296,
+          196,
+          56
+        ],
+        "valueA2": [
+          250,
+          302,
+          124,
+          44
+        ],
+        "valueB2": [
+          626,
+          302,
+          124,
+          44
+        ],
+        "label3": [
+          402,
+          406,
+          196,
+          56
+        ],
+        "valueA3": [
+          250,
+          412,
+          124,
+          44
+        ],
+        "valueB3": [
+          626,
+          412,
+          124,
+          44
+        ]
+      },
+      "description": "Rounded bars grow outward from a centre column under a spinning split badge."
+    },
+    {
+      "id": "neon",
+      "name": "Neon Slant",
+      "file": "versus-comparison-bars--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 1000,
+      "height": 540,
+      "duration": 2.8,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#23E5FF",
+        "secondary": "#FF3DCB",
+        "accent": "#B6FF3B",
+        "background": "#0D1024",
+        "outline": "#23E5FF"
+      },
+      "textArea": [
+        402,
+        186,
+        196,
+        56
+      ],
+      "textAreas": {
+        "nameA": [
+          40,
+          36,
+          360,
+          64
+        ],
+        "nameB": [
+          600,
+          36,
+          360,
+          64
+        ],
+        "label1": [
+          402,
+          186,
+          196,
+          56
+        ],
+        "valueA1": [
+          250,
+          192,
+          124,
+          44
+        ],
+        "valueB1": [
+          626,
+          192,
+          124,
+          44
+        ],
+        "label2": [
+          402,
+          296,
+          196,
+          56
+        ],
+        "valueA2": [
+          250,
+          302,
+          124,
+          44
+        ],
+        "valueB2": [
+          626,
+          302,
+          124,
+          44
+        ],
+        "label3": [
+          402,
+          406,
+          196,
+          56
+        ],
+        "valueA3": [
+          250,
+          412,
+          124,
+          44
+        ],
+        "valueB3": [
+          626,
+          412,
+          124,
+          44
+        ]
+      },
+      "description": "Dark panel; slanted neon bars shoot out in two glowing colours with white-hot tips."
+    },
+    {
+      "id": "sketch",
+      "name": "Sketch",
+      "file": "versus-comparison-bars--sketch.json",
+      "thumbnail": "thumbnail--sketch.png",
+      "preview": "preview--sketch.webp",
+      "poster": "poster--sketch.png",
+      "width": 1000,
+      "height": 540,
+      "duration": 2.8,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF5A4E",
+        "secondary": "#3D8BFF",
+        "accent": "#FFC83D",
+        "background": "#FFF9EC",
+        "outline": "#26262E"
+      },
+      "textArea": [
+        402,
+        186,
+        196,
+        56
+      ],
+      "textAreas": {
+        "nameA": [
+          40,
+          36,
+          360,
+          64
+        ],
+        "nameB": [
+          600,
+          36,
+          360,
+          64
+        ],
+        "label1": [
+          402,
+          186,
+          196,
+          56
+        ],
+        "valueA1": [
+          250,
+          192,
+          124,
+          44
+        ],
+        "valueB1": [
+          626,
+          192,
+          124,
+          44
+        ],
+        "label2": [
+          402,
+          296,
+          196,
+          56
+        ],
+        "valueA2": [
+          250,
+          302,
+          124,
+          44
+        ],
+        "valueB2": [
+          626,
+          302,
+          124,
+          44
+        ],
+        "label3": [
+          402,
+          406,
+          196,
+          56
+        ],
+        "valueA3": [
+          250,
+          412,
+          124,
+          44
+        ],
+        "valueB3": [
+          626,
+          412,
+          124,
+          44
+        ]
+      },
+      "description": "Paper card; hand-drawn bars scribbled in from the centre in two marker colours."
+    }
+  ]
+}

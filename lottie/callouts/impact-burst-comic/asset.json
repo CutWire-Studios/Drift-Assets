@@ -7,7 +7,7 @@
   "file": "impact-burst-comic.json",
   "thumbnail": "thumbnail.png",
   "license": "CC-BY-NC-SA-4.0",
-  "description": "Spiky comic-book starburst in red and yellow with a black outline that slams in with a shake; room in the middle for your own word.",
+  "description": "Spiky comic-book starburst that slams in; room in the middle for your own word.",
   "tags": [
     "comic",
     "burst",
@@ -32,5 +32,77 @@
     240,
     190,
     120
+  ],
+  "variants": [
+    {
+      "id": "bold",
+      "name": "Comic Bold",
+      "file": "impact-burst-comic.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 600,
+      "height": 600,
+      "duration": 1.2,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FF2D2D",
+        "secondary": "#FFD21F",
+        "outline": "#141414"
+      },
+      "textArea": [
+        205,
+        240,
+        190,
+        120
+      ],
+      "description": "Spiky comic-book starburst in red and yellow with a black outline that slams in with a shake."
+    },
+    {
+      "id": "hand",
+      "name": "Hand-Drawn",
+      "file": "impact-burst-comic--hand.json",
+      "thumbnail": "thumbnail--hand.png",
+      "preview": "preview--hand.webp",
+      "poster": "poster--hand.png",
+      "width": 600,
+      "height": 600,
+      "duration": 1.2,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FF2D2D",
+        "secondary": "#FFD21F"
+      },
+      "textArea": [
+        205,
+        240,
+        190,
+        120
+      ],
+      "description": "Marker starburst scribbled round in one go, then filled with a pop of yellow and flicked speed lines."
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "file": "impact-burst-comic--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 600,
+      "height": 600,
+      "duration": 1.2,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FF2D95",
+        "secondary": "#FFE14D"
+      },
+      "textArea": [
+        205,
+        240,
+        190,
+        120
+      ],
+      "description": "Two nested neon starbursts that flicker on and hum, with glowing impact rays."
+    }
   ]
 }

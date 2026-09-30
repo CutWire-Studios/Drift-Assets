@@ -1,0 +1,241 @@
+{
+  "schema": 1,
+  "id": "donut-chart",
+  "name": "Donut Chart",
+  "type": "lottie",
+  "category": "infographics",
+  "file": "donut-chart.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A four-part donut chart whose segments sweep in one after another, with a colour-keyed legend. Put a total in the centre 'value' area and each segment's name in 'label1'-'label4'.",
+  "tags": [
+    "donut",
+    "pie",
+    "chart",
+    "percent",
+    "share",
+    "legend",
+    "infographic",
+    "data"
+  ],
+  "width": 880,
+  "height": 500,
+  "fps": 30,
+  "duration": 2.8,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#5B6CFF",
+    "secondary": "#FF6B8A",
+    "accent": "#FFC247",
+    "icon": "#2ED3A0",
+    "background": "#FFFFFF"
+  },
+  "textArea": [
+    170,
+    206,
+    160,
+    88
+  ],
+  "textAreas": {
+    "value": [
+      170,
+      206,
+      160,
+      88
+    ],
+    "label1": [
+      554,
+      108,
+      300,
+      52
+    ],
+    "label2": [
+      554,
+      186,
+      300,
+      52
+    ],
+    "label3": [
+      554,
+      264,
+      300,
+      52
+    ],
+    "label4": [
+      554,
+      342,
+      300,
+      52
+    ]
+  },
+  "variants": [
+    {
+      "id": "flat",
+      "name": "Flat",
+      "file": "donut-chart.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 880,
+      "height": 500,
+      "duration": 2.8,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#5B6CFF",
+        "secondary": "#FF6B8A",
+        "accent": "#FFC247",
+        "icon": "#2ED3A0",
+        "background": "#FFFFFF"
+      },
+      "textArea": [
+        170,
+        206,
+        160,
+        88
+      ],
+      "textAreas": {
+        "value": [
+          170,
+          206,
+          160,
+          88
+        ],
+        "label1": [
+          554,
+          108,
+          300,
+          52
+        ],
+        "label2": [
+          554,
+          186,
+          300,
+          52
+        ],
+        "label3": [
+          554,
+          264,
+          300,
+          52
+        ],
+        "label4": [
+          554,
+          342,
+          300,
+          52
+        ]
+      },
+      "description": "Thick donut with gaps between segments; legend dots pop as each segment lands."
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "file": "donut-chart--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 880,
+      "height": 500,
+      "duration": 2.8,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#23E5FF",
+        "secondary": "#FF3DCB",
+        "accent": "#B6FF3B",
+        "icon": "#FFB23D",
+        "background": "#0D1024",
+        "outline": "#23E5FF"
+      },
+      "textArea": [
+        170,
+        206,
+        160,
+        88
+      ],
+      "textAreas": {
+        "value": [
+          170,
+          206,
+          160,
+          88
+        ],
+        "label1": [
+          554,
+          108,
+          300,
+          52
+        ],
+        "label2": [
+          554,
+          186,
+          300,
+          52
+        ],
+        "label3": [
+          554,
+          264,
+          300,
+          52
+        ],
+        "label4": [
+          554,
+          342,
+          300,
+          52
+        ]
+      },
+      "description": "Dark panel with thin glowing arcs, tick marks and a dashed inner ring."
+    },
+    {
+      "id": "3d",
+      "name": "3D Tilted",
+      "file": "donut-chart--3d.json",
+      "thumbnail": "thumbnail--3d.png",
+      "preview": "preview--3d.webp",
+      "poster": "poster--3d.png",
+      "width": 880,
+      "height": 500,
+      "duration": 2.8,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#5B6CFF",
+        "secondary": "#FF6B8A",
+        "accent": "#FFC247",
+        "icon": "#2ED3A0"
+      },
+      "textArea": [
+        554,
+        108,
+        300,
+        52
+      ],
+      "textAreas": {
+        "label1": [
+          554,
+          108,
+          300,
+          52
+        ],
+        "label2": [
+          554,
+          186,
+          300,
+          52
+        ],
+        "label3": [
+          554,
+          264,
+          300,
+          52
+        ],
+        "label4": [
+          554,
+          342,
+          300,
+          52
+        ]
+      },
+      "description": "Tilted, extruded pie ring; the largest slice lifts out. The centre is left open (no value area); labels sit beside cube-shaped keys."
+    }
+  ]
+}

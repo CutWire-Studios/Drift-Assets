@@ -96,12 +96,47 @@ def pompom(mat):
     return join(parts, "PartyHatPompom")
 
 
-def build():
+def star(mat, points=5, r_out=0.085, r_in=0.038, depth=0.035):
+    """Puffy 5-point star standing upright on the cone tip."""
+    bm = bmesh.new()
+    front, back = [], []
+    for k in range(points * 2):
+        a = math.pi / 2 + math.pi * k / points
+        r = r_out if k % 2 == 0 else r_in
+        front.append(bm.verts.new((r * math.cos(a), -depth / 2, r * math.sin(a))))
+        back.append(bm.verts.new((r * math.cos(a), depth / 2, r * math.sin(a))))
+    cf = bm.verts.new((0, -depth * 1.1, 0))
+    cb = bm.verts.new((0, depth * 1.1, 0))
+    n = len(front)
+    for k in range(n):
+        bm.faces.new((cf, front[k], front[(k + 1) % n]))
+        bm.faces.new((cb, back[(k + 1) % n], back[k]))
+        bm.faces.new((front[k], back[k], back[(k + 1) % n], front[(k + 1) % n]))
+    bmesh.ops.recalc_face_normals(bm, faces=bm.faces)
+    obj = new_obj("PartyHatStar", bm, [mat])
+    obj.location = (0, 0, HEIGHT + 0.07)
+    return obj
+
+
+def trim_ring(mat):
+    bpy.ops.mesh.primitive_torus_add(major_radius=R_BASE + 0.004, minor_radius=0.014, major_segments=96,
+                                     minor_segments=10, location=(0, 0, 0.012))
+    return assign(bpy.context.active_object, mat)
+
+
+def build(opts=None):
+    style = (opts or {}).get("style", "classic")
     pink = material("PartyPink", "#ff4fa3", roughness=0.45)
     teal = material("PartyTeal", "#17c3b2", roughness=0.45)
     yellow = material("PartyYellow", "#ffd23f", roughness=0.45)
     white = material("PartyWhite", "#fff6fb", roughness=0.8)
-    objs = [cone([pink, teal, yellow]), ruffle(white), pompom(white)]
+    if style == "star":
+        gold = material("PartyGold", "#f5c542", metallic=0.9, roughness=0.3)
+        navy = material("PartyNavy", "#26235e", roughness=0.4)
+        purple = material("PartyPurple", "#7b4bff", roughness=0.4)
+        objs = [cone([navy, purple, navy]), trim_ring(gold), star(gold)]
+    else:
+        objs = [cone([pink, teal, yellow]), ruffle(white), pompom(white)]
     m = Matrix.Translation(PLACE) @ Euler(TILT).to_matrix().to_4x4()
     for o in objs:
         apply_all(o)
@@ -112,19 +147,10 @@ def build():
 
 
 if __name__ == "__main__":
-    reset()
-    head = reference_head()
-    props = build()
-    os.makedirs(OUT, exist_ok=True)
-    render_prop_thumbnail(os.path.join(OUT, "thumbnail.png"), props, head, region="head")
-    if "--check" in args():
-        render_thumbnail(os.path.join(OUT, "_check.png"), [head] + props, view=(0, -1, 0.05),
-                         margin=1.05)
-        render_thumbnail(os.path.join(OUT, "_check2.png"), [head] + props, view=(-1, 0, 0.05),
-                         margin=1.05)
-    bpy.data.objects.remove(head, do_unlink=True)
-    export_glb(os.path.join(OUT, f"{ID}.glb"), props)
-    write_prop_json(OUT, ID, "Party Hat", props,
-                    description="Striped pink, teal and yellow cone party hat with a fluffy "
-                                "pom-pom, perched on top of the head at a jaunty angle.",
-                    tags=["party", "hat", "birthday", "celebration", "cone", "fun"])
+    build_prop_variants(ID, "Party Hat", "Cone party hat perched on top of the head at a jaunty angle.",
+                        ["party", "hat", "birthday", "celebration", "cone", "fun"], [
+        ("classic", "Pom-Pom Stripes", {"style": "classic",
+                                        "description": "Striped pink, teal and yellow cone party hat with a fluffy pom-pom."}),
+        ("star", "Gold Star", {"style": "star",
+                               "description": "Navy and purple swirl cone with a gold trim and a gold star on top."}),
+    ], build, region="head")

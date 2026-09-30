@@ -7,7 +7,7 @@
   "file": "exclamation-alert.json",
   "thumbnail": "thumbnail.png",
   "license": "CC-BY-NC-SA-4.0",
-  "description": "Red exclamation mark that pops up and shakes with alert lines, stealth-game style.",
+  "description": "Exclamation mark that pops up with alert lines, stealth-game style, for surprises and warnings.",
   "tags": [
     "exclamation",
     "alert",
@@ -25,5 +25,59 @@
     "primary": "#FF2D2D",
     "outline": "#141414"
   },
-  "textArea": null
+  "textArea": null,
+  "variants": [
+    {
+      "id": "bold",
+      "name": "Glossy Bold",
+      "file": "exclamation-alert.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 380,
+      "height": 480,
+      "duration": 1.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF2D2D",
+        "outline": "#141414"
+      },
+      "textArea": null,
+      "description": "Red exclamation mark that pops up and shakes with alert lines, stealth-game style."
+    },
+    {
+      "id": "hand",
+      "name": "Hand-Drawn",
+      "file": "exclamation-alert--hand.json",
+      "thumbnail": "thumbnail--hand.png",
+      "preview": "preview--hand.webp",
+      "poster": "poster--hand.png",
+      "width": 380,
+      "height": 480,
+      "duration": 1.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF2D2D"
+      },
+      "textArea": null,
+      "description": "Marker exclamation mark drawn in two quick strokes with scribbled alert lines."
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "file": "exclamation-alert--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 380,
+      "height": 480,
+      "duration": 1.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF2D55"
+      },
+      "textArea": null,
+      "description": "Neon-sign outline exclamation mark that flickers on with glowing alert lines."
+    }
+  ]
 }

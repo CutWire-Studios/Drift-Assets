@@ -1,0 +1,108 @@
+{
+  "schema": 1,
+  "id": "share-arrow-send",
+  "name": "Share Arrow Send",
+  "type": "lottie",
+  "category": "call-to-action",
+  "file": "share-arrow-send.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Round share button with a paper plane that is tapped and flies off on a swooping trail, beside a label pill. Type your \"Share\" text inside the pill.",
+  "tags": [
+    "share",
+    "send",
+    "paper plane",
+    "button",
+    "tap",
+    "social"
+  ],
+  "width": 640,
+  "height": 300,
+  "fps": 30,
+  "duration": 3.0,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#2F7BFF",
+    "icon": "#FFFFFF",
+    "background": "#FFFFFF"
+  },
+  "textArea": [
+    260,
+    132,
+    312,
+    60
+  ],
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Classic",
+      "file": "share-arrow-send.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 640,
+      "height": 300,
+      "duration": 3.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#2F7BFF",
+        "icon": "#FFFFFF",
+        "background": "#FFFFFF"
+      },
+      "textArea": [
+        260,
+        132,
+        312,
+        60
+      ],
+      "description": "Flat filled shapes with a soft drop shadow."
+    },
+    {
+      "id": "outline",
+      "name": "Line Art",
+      "file": "share-arrow-send--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 640,
+      "height": 300,
+      "duration": 3.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#2F7BFF",
+        "outline": "#FFFFFF"
+      },
+      "textArea": [
+        260,
+        132,
+        312,
+        60
+      ],
+      "description": "Line-art version: clean outer contours, see-through inside."
+    },
+    {
+      "id": "3d-pop",
+      "name": "3D Pop",
+      "file": "share-arrow-send--3d-pop.json",
+      "thumbnail": "thumbnail--3d-pop.png",
+      "preview": "preview--3d-pop.webp",
+      "poster": "poster--3d-pop.png",
+      "width": 640,
+      "height": 300,
+      "duration": 3.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#2F7BFF",
+        "icon": "#FFFFFF",
+        "background": "#FFFFFF"
+      },
+      "textArea": [
+        260,
+        132,
+        312,
+        60
+      ],
+      "description": "Chunky layered look with an extruded side, highlight rim and depth shadow."
+    }
+  ]
+}

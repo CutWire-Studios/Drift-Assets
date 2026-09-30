@@ -1,0 +1,164 @@
+{
+  "schema": 1,
+  "id": "lower-third-corner-brackets",
+  "name": "Corner Brackets Lower Third",
+  "type": "lottie",
+  "category": "lower-thirds",
+  "file": "lower-third-corner-brackets.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Minimal lower third: corner brackets frame your text. Put a name on the first row and a subtitle on the second.",
+  "tags": [
+    "lower third",
+    "corner",
+    "brackets",
+    "frame",
+    "minimal",
+    "clean",
+    "viewfinder"
+  ],
+  "width": 1100,
+  "height": 250,
+  "fps": 30,
+  "duration": 5.0,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "outline": "#FFFFFF",
+    "background": "#000000",
+    "accent": "#FFD23F"
+  },
+  "textArea": [
+    130,
+    66,
+    840,
+    70
+  ],
+  "textAreas": {
+    "headline": [
+      130,
+      66,
+      840,
+      70
+    ],
+    "subtitle": [
+      130,
+      159,
+      840,
+      34
+    ]
+  },
+  "variants": [
+    {
+      "id": "expand",
+      "name": "Expand",
+      "file": "lower-third-corner-brackets.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1100,
+      "height": 250,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "outline": "#FFFFFF",
+        "background": "#000000",
+        "accent": "#FFD23F"
+      },
+      "textArea": [
+        130,
+        66,
+        840,
+        70
+      ],
+      "textAreas": {
+        "headline": [
+          130,
+          66,
+          840,
+          70
+        ],
+        "subtitle": [
+          130,
+          159,
+          840,
+          34
+        ]
+      },
+      "description": "Four corners burst out from the centre over a subtle dark backdrop, with an accent rule."
+    },
+    {
+      "id": "draw",
+      "name": "Draw Corners",
+      "file": "lower-third-corner-brackets--draw.json",
+      "thumbnail": "thumbnail--draw.png",
+      "preview": "preview--draw.webp",
+      "poster": "poster--draw.png",
+      "width": 1100,
+      "height": 250,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "outline": "#7DF9FF",
+        "primary": "#7DF9FF"
+      },
+      "textArea": [
+        130,
+        66,
+        840,
+        70
+      ],
+      "textAreas": {
+        "headline": [
+          130,
+          66,
+          840,
+          70
+        ],
+        "subtitle": [
+          130,
+          155,
+          840,
+          34
+        ]
+      },
+      "description": "Long corner arms draw out from each corner in turn with a faint tinted fill."
+    },
+    {
+      "id": "two-corner",
+      "name": "Two Corners",
+      "file": "lower-third-corner-brackets--two-corner.json",
+      "thumbnail": "thumbnail--two-corner.png",
+      "preview": "preview--two-corner.webp",
+      "poster": "poster--two-corner.png",
+      "width": 1100,
+      "height": 250,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "accent": "#FF4D4D",
+        "outline": "#FFFFFF"
+      },
+      "textArea": [
+        114,
+        70,
+        742,
+        64
+      ],
+      "textAreas": {
+        "headline": [
+          114,
+          70,
+          742,
+          64
+        ],
+        "subtitle": [
+          114,
+          149,
+          710,
+          34
+        ]
+      },
+      "description": "Bold top-left and bottom-right brackets spring in diagonally around left-aligned text."
+    }
+  ]
+}
