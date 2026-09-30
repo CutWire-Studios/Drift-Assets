@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "id": "crosshair-set",
+  "name": "Crosshair Set",
+  "type": "lottie",
+  "category": "gaming",
+  "file": "crosshair-set.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "FPS crosshair that blooms outward on a shot, kicks with recoil and flashes red hit ticks, then settles, on a loop. Each variant is a different reticle style.",
+  "tags": [
+    "crosshair",
+    "reticle",
+    "aim",
+    "fps",
+    "shooter",
+    "hitmarker",
+    "gaming",
+    "hud"
+  ],
+  "width": 240,
+  "height": 240,
+  "fps": 30,
+  "duration": 1.5,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FFFFFF",
+    "accent": "#FF3B47",
+    "outline": "#000000"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "cross",
+      "name": "Cross",
+      "file": "crosshair-set.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 240,
+      "height": 240,
+      "duration": 1.5,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFFFFF",
+        "accent": "#FF3B47",
+        "outline": "#000000"
+      },
+      "textArea": null,
+      "description": "Classic four-arm cross with a centre dot; the arms spread on each shot."
+    },
+    {
+      "id": "dot",
+      "name": "Dot",
+      "file": "crosshair-set--dot.json",
+      "thumbnail": "thumbnail--dot.png",
+      "preview": "preview--dot.webp",
+      "poster": "poster--dot.png",
+      "width": 240,
+      "height": 240,
+      "duration": 1.5,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFFFFF",
+        "accent": "#FF3B47",
+        "outline": "#000000"
+      },
+      "textArea": null,
+      "description": "Minimal centre dot that pulses red with an expanding ring on a hit."
+    },
+    {
+      "id": "circle-dot",
+      "name": "Circle Dot",
+      "file": "crosshair-set--circle-dot.json",
+      "thumbnail": "thumbnail--circle-dot.png",
+      "preview": "preview--circle-dot.webp",
+      "poster": "poster--circle-dot.png",
+      "width": 240,
+      "height": 240,
+      "duration": 1.5,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFFFFF",
+        "accent": "#FF3B47",
+        "outline": "#000000"
+      },
+      "textArea": null,
+      "description": "Segmented circle around a dot with cardinal ticks; the ring widens and twists on a shot."
+    }
+  ]
+}

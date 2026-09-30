@@ -1,0 +1,92 @@
+{
+  "schema": 1,
+  "id": "emoji-mind-blown",
+  "name": "Emoji Mind Blown",
+  "type": "lottie",
+  "category": "reactions",
+  "file": "emoji-mind-blown.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Face that builds up pressure until the top of its head blasts off on a mushroom cloud, then the lid drops back on with a bounce. Seamless loop.",
+  "tags": [
+    "emoji",
+    "mind blown",
+    "exploding head",
+    "shocked",
+    "wow",
+    "omg",
+    "reaction"
+  ],
+  "width": 500,
+  "height": 560,
+  "fps": 30,
+  "duration": 3.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FFC83D",
+    "accent": "#FF7A2E",
+    "secondary": "#FFD24D"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "glossy",
+      "name": "Glossy",
+      "file": "emoji-mind-blown.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 500,
+      "height": 560,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFC83D",
+        "accent": "#FF7A2E",
+        "secondary": "#FFD24D"
+      },
+      "textArea": null,
+      "description": "Classic yellow emoji with soft shading and highlights."
+    },
+    {
+      "id": "flat",
+      "name": "Flat Sticker",
+      "file": "emoji-mind-blown--flat.json",
+      "thumbnail": "thumbnail--flat.png",
+      "preview": "preview--flat.webp",
+      "poster": "poster--flat.png",
+      "width": 500,
+      "height": 560,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFCC3A",
+        "accent": "#FF7A2E",
+        "secondary": "#FFD24D",
+        "outline": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Flat colours with a thick white die-cut border."
+    },
+    {
+      "id": "outline",
+      "name": "Bold Outline",
+      "file": "emoji-mind-blown--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 500,
+      "height": 560,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFD23F",
+        "accent": "#FF7A2E",
+        "secondary": "#FFD24D",
+        "outline": "#161616"
+      },
+      "textArea": null,
+      "description": "Cartoon line art with bold black outlines."
+    }
+  ]
+}

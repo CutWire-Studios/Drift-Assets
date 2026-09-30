@@ -1,0 +1,159 @@
+{
+  "schema": 1,
+  "id": "lower-third-luxury-gold-line",
+  "name": "Luxury Gold Line Lower Third",
+  "type": "lottie",
+  "category": "lower-thirds",
+  "file": "lower-third-luxury-gold-line.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Elegant lower third of thin gold-gradient lines drawing out from a faceted diamond. Put a name or title on the headline row and a subtitle beneath it.",
+  "tags": [
+    "lower third",
+    "gold",
+    "luxury",
+    "elegant",
+    "wedding",
+    "premium",
+    "minimal"
+  ],
+  "width": 1200,
+  "height": 250,
+  "fps": 30,
+  "duration": 5.0,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "accent": "#E8C66A"
+  },
+  "textArea": [
+    200,
+    70,
+    800,
+    74
+  ],
+  "textAreas": {
+    "headline": [
+      200,
+      70,
+      800,
+      74
+    ],
+    "subtitle": [
+      300,
+      152,
+      600,
+      40
+    ]
+  },
+  "variants": [
+    {
+      "id": "centre",
+      "name": "Centred Lines",
+      "file": "lower-third-luxury-gold-line.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1200,
+      "height": 250,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "accent": "#E8C66A"
+      },
+      "textArea": [
+        200,
+        70,
+        800,
+        74
+      ],
+      "textAreas": {
+        "headline": [
+          200,
+          70,
+          800,
+          74
+        ],
+        "subtitle": [
+          300,
+          152,
+          600,
+          40
+        ]
+      },
+      "description": "Centred: a diamond spins in and gold lines draw outward above and below the text."
+    },
+    {
+      "id": "framed",
+      "name": "Framed Band",
+      "file": "lower-third-luxury-gold-line--framed.json",
+      "thumbnail": "thumbnail--framed.png",
+      "preview": "preview--framed.webp",
+      "poster": "poster--framed.png",
+      "width": 1100,
+      "height": 250,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "accent": "#E8C66A",
+        "background": "#0E0B06"
+      },
+      "textArea": [
+        130,
+        64,
+        840,
+        72
+      ],
+      "textAreas": {
+        "headline": [
+          130,
+          64,
+          840,
+          72
+        ],
+        "subtitle": [
+          190,
+          144,
+          720,
+          42
+        ]
+      },
+      "description": "Lines sweep across in opposite directions with gems on the ends and a dark band between."
+    },
+    {
+      "id": "left",
+      "name": "Left Underline",
+      "file": "lower-third-luxury-gold-line--left.json",
+      "thumbnail": "thumbnail--left.png",
+      "preview": "preview--left.webp",
+      "poster": "poster--left.png",
+      "width": 1100,
+      "height": 230,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "accent": "#E8C66A"
+      },
+      "textArea": [
+        90,
+        50,
+        880,
+        78
+      ],
+      "textAreas": {
+        "headline": [
+          90,
+          50,
+          880,
+          78
+        ],
+        "subtitle": [
+          110,
+          164,
+          700,
+          38
+        ]
+      },
+      "description": "Left-aligned: a diamond at the start and one long gold line under the headline."
+    }
+  ]
+}

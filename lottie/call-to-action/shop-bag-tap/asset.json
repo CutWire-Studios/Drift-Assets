@@ -1,0 +1,166 @@
+{
+  "schema": 1,
+  "id": "shop-bag-tap",
+  "name": "Shop Bag Tap",
+  "type": "lottie",
+  "category": "call-to-action",
+  "file": "shop-bag-tap.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Shopping bag icon that a pointer taps; a cart badge pops onto its corner. Type \"Shop now\" in the pill and a count in the badge (the \"count\" text area).",
+  "tags": [
+    "shop",
+    "shopping",
+    "bag",
+    "cart",
+    "store",
+    "buy",
+    "click"
+  ],
+  "width": 660,
+  "height": 264,
+  "fps": 30,
+  "duration": 3.5,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#00B894",
+    "accent": "#FF3B5C",
+    "background": "#FFFFFF"
+  },
+  "textArea": [
+    295,
+    114,
+    295,
+    65
+  ],
+  "textAreas": {
+    "label": [
+      295,
+      114,
+      295,
+      65
+    ],
+    "count": [
+      182,
+      78,
+      36,
+      36
+    ]
+  },
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Classic",
+      "file": "shop-bag-tap.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 660,
+      "height": 264,
+      "duration": 3.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#00B894",
+        "accent": "#FF3B5C",
+        "background": "#FFFFFF"
+      },
+      "textArea": [
+        295,
+        114,
+        295,
+        65
+      ],
+      "textAreas": {
+        "label": [
+          295,
+          114,
+          295,
+          65
+        ],
+        "count": [
+          182,
+          78,
+          36,
+          36
+        ]
+      },
+      "description": "Flat filled shapes with a soft drop shadow."
+    },
+    {
+      "id": "outline",
+      "name": "Line Art",
+      "file": "shop-bag-tap--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 660,
+      "height": 264,
+      "duration": 3.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#00B894",
+        "accent": "#FF3B5C",
+        "outline": "#FFFFFF"
+      },
+      "textArea": [
+        295,
+        114,
+        295,
+        65
+      ],
+      "textAreas": {
+        "label": [
+          295,
+          114,
+          295,
+          65
+        ],
+        "count": [
+          182,
+          78,
+          36,
+          36
+        ]
+      },
+      "description": "Line-art version: clean outer contours, see-through inside."
+    },
+    {
+      "id": "3d-pop",
+      "name": "3D Pop",
+      "file": "shop-bag-tap--3d-pop.json",
+      "thumbnail": "thumbnail--3d-pop.png",
+      "preview": "preview--3d-pop.webp",
+      "poster": "poster--3d-pop.png",
+      "width": 660,
+      "height": 264,
+      "duration": 3.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#00B894",
+        "accent": "#FF3B5C",
+        "background": "#FFFFFF"
+      },
+      "textArea": [
+        295,
+        114,
+        295,
+        65
+      ],
+      "textAreas": {
+        "label": [
+          295,
+          114,
+          295,
+          65
+        ],
+        "count": [
+          182,
+          78,
+          36,
+          36
+        ]
+      },
+      "description": "Chunky layered look with an extruded side, highlight rim and depth shadow."
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "id": "anime-shock-lines",
+  "name": "Anime Shock Lines",
+  "type": "lottie",
+  "category": "reactions",
+  "file": "anime-shock-lines.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Manga reaction marks for shocked, stunned or crushed moments; place your subject or text in the clear centre. Seamless loop.",
+  "tags": [
+    "anime",
+    "manga",
+    "shock",
+    "speed lines",
+    "surprise",
+    "gloom",
+    "reaction"
+  ],
+  "width": 500,
+  "height": 500,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#141414"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "radial",
+      "name": "Focus Lines",
+      "file": "anime-shock-lines.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 500,
+      "height": 500,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#141414"
+      },
+      "textArea": null,
+      "description": "Flickering radial speed lines around a clear centre."
+    },
+    {
+      "id": "spikes",
+      "name": "Shock Bolts",
+      "file": "anime-shock-lines--spikes.json",
+      "thumbnail": "thumbnail--spikes.png",
+      "preview": "preview--spikes.webp",
+      "poster": "poster--spikes.png",
+      "width": 500,
+      "height": 500,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#141414",
+        "accent": "#FFE14D"
+      },
+      "textArea": null,
+      "description": "Jagged bolts jolting out on both sides of a head."
+    },
+    {
+      "id": "gloom",
+      "name": "Gloom Lines",
+      "file": "anime-shock-lines--gloom.json",
+      "thumbnail": "thumbnail--gloom.png",
+      "preview": "preview--gloom.webp",
+      "poster": "poster--gloom.png",
+      "width": 500,
+      "height": 330,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#4B3F8F"
+      },
+      "textArea": null,
+      "description": "Despair lines hanging down with a dark wash."
+    }
+  ]
+}

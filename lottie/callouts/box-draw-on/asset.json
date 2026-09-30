@@ -1,0 +1,103 @@
+{
+  "schema": 1,
+  "id": "box-draw-on",
+  "name": "Box Draw-On",
+  "type": "lottie",
+  "category": "callouts",
+  "file": "box-draw-on.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A rectangle that draws itself around content to box it in; put your text inside or frame part of the video with it.",
+  "tags": [
+    "box",
+    "rectangle",
+    "frame",
+    "outline",
+    "highlight",
+    "draw-on",
+    "callout"
+  ],
+  "width": 660,
+  "height": 300,
+  "fps": 30,
+  "duration": 1.2,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FF2D2D"
+  },
+  "textArea": [
+    74,
+    70,
+    512,
+    160
+  ],
+  "variants": [
+    {
+      "id": "hand",
+      "name": "Hand-Drawn",
+      "file": "box-draw-on.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 660,
+      "height": 300,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF2D2D"
+      },
+      "textArea": [
+        74,
+        70,
+        512,
+        160
+      ],
+      "description": "Quick marker box that overshoots its starting corner."
+    },
+    {
+      "id": "clean",
+      "name": "Clean",
+      "file": "box-draw-on--clean.json",
+      "thumbnail": "thumbnail--clean.png",
+      "preview": "preview--clean.webp",
+      "poster": "poster--clean.png",
+      "width": 660,
+      "height": 300,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFFFFF"
+      },
+      "textArea": [
+        74,
+        70,
+        512,
+        160
+      ],
+      "description": "Rounded white box that draws out both ways from the right, with a faint tint."
+    },
+    {
+      "id": "select",
+      "name": "Selection Box",
+      "file": "box-draw-on--select.json",
+      "thumbnail": "thumbnail--select.png",
+      "preview": "preview--select.webp",
+      "poster": "poster--select.png",
+      "width": 660,
+      "height": 300,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#2D8CFF",
+        "background": "#FFFFFF"
+      },
+      "textArea": [
+        74,
+        70,
+        512,
+        160
+      ],
+      "description": "Design-tool style dashed selection box with handles popping on at the corners and edges."
+    }
+  ]
+}

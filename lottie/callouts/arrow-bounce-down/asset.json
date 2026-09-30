@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "id": "arrow-bounce-down",
+  "name": "Bouncing Down Arrow",
+  "type": "lottie",
+  "category": "callouts",
+  "file": "arrow-bounce-down.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A downward arrow that keeps bouncing on the spot, squashing as it lands; place its tip right above the thing to look at.",
+  "tags": [
+    "arrow",
+    "down",
+    "bounce",
+    "pointer",
+    "look-here",
+    "loop"
+  ],
+  "width": 240,
+  "height": 360,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FF2D2D",
+    "outline": "#FFFFFF"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "clean",
+      "name": "Clean",
+      "file": "arrow-bounce-down.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 240,
+      "height": 360,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF2D2D",
+        "outline": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Round-capped vector arrow with a squash-and-stretch bounce."
+    },
+    {
+      "id": "hand",
+      "name": "Hand-Drawn",
+      "file": "arrow-bounce-down--hand.json",
+      "thumbnail": "thumbnail--hand.png",
+      "preview": "preview--hand.webp",
+      "poster": "poster--hand.png",
+      "width": 240,
+      "height": 360,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF2D2D"
+      },
+      "textArea": null,
+      "description": "Marker-drawn arrow whose line boils like frame-by-frame animation."
+    },
+    {
+      "id": "bold",
+      "name": "Comic Block",
+      "file": "arrow-bounce-down--bold.json",
+      "thumbnail": "thumbnail--bold.png",
+      "preview": "preview--bold.webp",
+      "poster": "poster--bold.png",
+      "width": 240,
+      "height": 360,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF2D2D",
+        "outline": "#141414"
+      },
+      "textArea": null,
+      "description": "Chunky block arrow with an ink outline, shadow and impact ticks on each landing."
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "id": "glitch-blocks",
+  "name": "Glitch Blocks",
+  "type": "lottie",
+  "category": "transitions",
+  "file": "glitch-blocks.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Digital glitch transition: blocky bars stutter in to cover the shot, hold for the cut, then glitch away to reveal the next clip.",
+  "tags": [
+    "glitch",
+    "digital",
+    "blocks",
+    "transition",
+    "tech",
+    "error"
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 1.2,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "primary": "#2B2DFF"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "blocks",
+      "name": "Glitch Bars",
+      "file": "glitch-blocks.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.2,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#2B2DFF"
+      },
+      "textArea": null,
+      "description": "Horizontal bars of random height jump in with stepped glitch offsets until the frame is solid, then glitch out."
+    },
+    {
+      "id": "rgb",
+      "name": "RGB Split",
+      "file": "glitch-blocks--rgb.json",
+      "thumbnail": "thumbnail--rgb.png",
+      "preview": "preview--rgb.webp",
+      "poster": "poster--rgb.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.333,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#2B2DFF",
+        "secondary": "#FF2E88",
+        "accent": "#20F0C8"
+      },
+      "textArea": null,
+      "description": "Three colour passes of glitch bars land one after another like a broken RGB signal."
+    },
+    {
+      "id": "mosaic",
+      "name": "Mosaic Flicker",
+      "file": "glitch-blocks--mosaic.json",
+      "thumbnail": "thumbnail--mosaic.png",
+      "preview": "preview--mosaic.webp",
+      "poster": "poster--mosaic.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.333,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#2B2DFF",
+        "secondary": "#FF2E88"
+      },
+      "textArea": null,
+      "description": "A grid of blocks flickers on in random order with stray slivers, then flickers off."
+    }
+  ]
+}

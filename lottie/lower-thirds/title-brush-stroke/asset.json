@@ -7,7 +7,7 @@
   "file": "title-brush-stroke.json",
   "thumbnail": "thumbnail.png",
   "license": "CC-BY-NC-SA-4.0",
-  "description": "Painterly brush-stroke title plate that paints on left to right, with a smaller accent stroke for a subtitle.",
+  "description": "Hand-painted title plate that paints on left to right, with a smaller accent stroke for a subtitle.",
   "tags": [
     "title",
     "brush",
@@ -45,5 +45,118 @@
       360,
       34
     ]
-  }
+  },
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Dry Brush",
+      "file": "title-brush-stroke.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1000,
+      "height": 290,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FF4D6D",
+        "accent": "#FFC43D"
+      },
+      "textArea": [
+        150,
+        72,
+        530,
+        92
+      ],
+      "textAreas": {
+        "title": [
+          150,
+          72,
+          530,
+          92
+        ],
+        "subtitle": [
+          400,
+          220,
+          360,
+          34
+        ]
+      },
+      "description": "Painterly dry-brush stroke with a ragged split tail that paints on left to right, with a smaller accent stroke for a subtitle."
+    },
+    {
+      "id": "marker",
+      "name": "Highlighter",
+      "file": "title-brush-stroke--marker.json",
+      "thumbnail": "thumbnail--marker.png",
+      "preview": "preview--marker.webp",
+      "poster": "poster--marker.png",
+      "width": 1000,
+      "height": 290,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FF4D6D",
+        "accent": "#FFC43D"
+      },
+      "textArea": [
+        140,
+        80,
+        680,
+        84
+      ],
+      "textAreas": {
+        "title": [
+          140,
+          80,
+          680,
+          84
+        ],
+        "subtitle": [
+          400,
+          218,
+          400,
+          32
+        ]
+      },
+      "description": "Flat chisel-tipped highlighter swipes that zip on from the left and off to the right."
+    },
+    {
+      "id": "roller",
+      "name": "Paint Roller",
+      "file": "title-brush-stroke--roller.json",
+      "thumbnail": "thumbnail--roller.png",
+      "preview": "preview--roller.webp",
+      "poster": "poster--roller.png",
+      "width": 1000,
+      "height": 290,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FF4D6D",
+        "accent": "#FFC43D"
+      },
+      "textArea": [
+        140,
+        64,
+        700,
+        80
+      ],
+      "textAreas": {
+        "title": [
+          140,
+          64,
+          700,
+          80
+        ],
+        "subtitle": [
+          140,
+          202,
+          410,
+          32
+        ]
+      },
+      "description": "Thick rounded paint bands roll out from the left and paint drips run down from the edge."
+    }
+  ]
 }

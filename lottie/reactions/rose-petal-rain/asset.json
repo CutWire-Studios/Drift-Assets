@@ -1,0 +1,87 @@
+{
+  "schema": 1,
+  "id": "rose-petal-rain",
+  "name": "Rose Petal Rain",
+  "type": "lottie",
+  "category": "reactions",
+  "file": "rose-petal-rain.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Rose petals fluttering, flipping and drifting down in a soft shower; for romance, anniversaries and weddings. Seamless loop.",
+  "tags": [
+    "rose",
+    "petals",
+    "romantic",
+    "love",
+    "wedding",
+    "valentine",
+    "reaction"
+  ],
+  "width": 460,
+  "height": 560,
+  "fps": 30,
+  "duration": 4.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#E8264F",
+    "secondary": "#FF7A9C"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "glossy",
+      "name": "Glossy",
+      "file": "rose-petal-rain.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 460,
+      "height": 560,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#E8264F",
+        "secondary": "#FF7A9C"
+      },
+      "textArea": null,
+      "description": "Velvety shaded petals with soft highlights."
+    },
+    {
+      "id": "flat",
+      "name": "Flat",
+      "file": "rose-petal-rain--flat.json",
+      "thumbnail": "thumbnail--flat.png",
+      "preview": "preview--flat.webp",
+      "poster": "poster--flat.png",
+      "width": 460,
+      "height": 560,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#E8264F",
+        "secondary": "#FF7A9C"
+      },
+      "textArea": null,
+      "description": "Flat two-tone petals with soft drop shadows."
+    },
+    {
+      "id": "outline",
+      "name": "Bold Outline",
+      "file": "rose-petal-rain--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 460,
+      "height": 560,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#E8264F",
+        "secondary": "#FF7A9C",
+        "outline": "#161616"
+      },
+      "textArea": null,
+      "description": "Cartoon petals with bold black outlines."
+    }
+  ]
+}

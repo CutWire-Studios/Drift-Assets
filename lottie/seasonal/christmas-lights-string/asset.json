@@ -1,0 +1,95 @@
+{
+  "schema": 1,
+  "id": "christmas-lights-string",
+  "name": "Christmas Lights String",
+  "type": "lottie",
+  "category": "seasonal",
+  "file": "christmas-lights-string.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A string of twinkling Christmas lights swagged across the top of the frame; a seamless loop that sits over the top edge of your video.",
+  "tags": [
+    "christmas",
+    "lights",
+    "garland",
+    "holiday",
+    "festive",
+    "border",
+    "twinkle"
+  ],
+  "width": 1920,
+  "height": 220,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#E8332E",
+    "secondary": "#27A452",
+    "accent": "#FFC23D",
+    "icon": "#2F80F6",
+    "outline": "#1F3A28"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Classic Bulbs",
+      "file": "christmas-lights-string.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1920,
+      "height": 220,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#E8332E",
+        "secondary": "#27A452",
+        "accent": "#FFC23D",
+        "icon": "#2F80F6",
+        "outline": "#1F3A28"
+      },
+      "textArea": null,
+      "description": "Multicolour glass bulbs on a twisted green wire, glowing in a chase pattern."
+    },
+    {
+      "id": "fairy",
+      "name": "Fairy Lights",
+      "file": "christmas-lights-string--fairy.json",
+      "thumbnail": "thumbnail--fairy.png",
+      "preview": "preview--fairy.webp",
+      "poster": "poster--fairy.png",
+      "width": 1920,
+      "height": 250,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFF1C9",
+        "outline": "#8A6A3A"
+      },
+      "textArea": null,
+      "description": "Two strands of warm-white micro lights that twinkle softly with a golden bloom."
+    },
+    {
+      "id": "doodle",
+      "name": "Doodle",
+      "file": "christmas-lights-string--doodle.json",
+      "thumbnail": "thumbnail--doodle.png",
+      "preview": "preview--doodle.webp",
+      "poster": "poster--doodle.png",
+      "width": 960,
+      "height": 300,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#E8332E",
+        "secondary": "#27A452",
+        "accent": "#FFC23D",
+        "icon": "#2F80F6",
+        "outline": "#2A2233"
+      },
+      "textArea": null,
+      "description": "Hand-drawn bulbs on a wobbly ink wire that blink in alternating pairs."
+    }
+  ]
+}

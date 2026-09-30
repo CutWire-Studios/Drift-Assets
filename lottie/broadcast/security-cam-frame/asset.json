@@ -1,0 +1,182 @@
+{
+  "schema": 1,
+  "id": "security-cam-frame",
+  "name": "Security Cam Frame",
+  "type": "lottie",
+  "category": "broadcast",
+  "file": "security-cam-frame.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "CCTV surveillance overlay with a transparent centre: corner brackets, blinking record dot, scanlines and flickering static. Add a camera name and timestamp in the text areas.",
+  "tags": [
+    "cctv",
+    "security camera",
+    "surveillance",
+    "footage",
+    "scanlines",
+    "overlay",
+    "found footage"
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "icon": "#FFFFFF",
+    "primary": "#FF2B2B"
+  },
+  "textArea": [
+    150,
+    84,
+    520,
+    60
+  ],
+  "textAreas": {
+    "camera": [
+      150,
+      84,
+      520,
+      60
+    ],
+    "timestamp": [
+      1210,
+      926,
+      600,
+      60
+    ]
+  },
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Classic CCTV",
+      "file": "security-cam-frame.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "icon": "#FFFFFF",
+        "primary": "#FF2B2B"
+      },
+      "textArea": [
+        150,
+        84,
+        520,
+        60
+      ],
+      "textAreas": {
+        "camera": [
+          150,
+          84,
+          520,
+          60
+        ],
+        "timestamp": [
+          1210,
+          926,
+          600,
+          60
+        ]
+      },
+      "description": "Grey CCTV look: heavy corner brackets, blinking dot, scanlines, faint static and a rolling band."
+    },
+    {
+      "id": "night",
+      "name": "Night Vision",
+      "file": "security-cam-frame--night.json",
+      "thumbnail": "thumbnail--night.png",
+      "preview": "preview--night.webp",
+      "poster": "poster--night.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "icon": "#7CFF9A",
+        "primary": "#FF3B3B",
+        "background": "#0B2410"
+      },
+      "textArea": [
+        150,
+        94,
+        520,
+        60
+      ],
+      "textAreas": {
+        "camera": [
+          150,
+          94,
+          520,
+          60
+        ],
+        "timestamp": [
+          1200,
+          916,
+          600,
+          60
+        ]
+      },
+      "description": "Green night-vision HUD with an IR lamp icon, heavy green vignette and grainy static."
+    },
+    {
+      "id": "quad",
+      "name": "Quad Split",
+      "file": "security-cam-frame--quad.json",
+      "thumbnail": "thumbnail--quad.png",
+      "preview": "preview--quad.webp",
+      "poster": "poster--quad.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "icon": "#FFFFFF",
+        "primary": "#FF2B2B",
+        "background": "#0A0A0C"
+      },
+      "textArea": [
+        72,
+        26,
+        400,
+        40
+      ],
+      "textAreas": {
+        "camera1": [
+          72,
+          26,
+          400,
+          40
+        ],
+        "camera2": [
+          1039,
+          26,
+          400,
+          40
+        ],
+        "camera3": [
+          72,
+          573,
+          400,
+          40
+        ],
+        "camera4": [
+          1039,
+          573,
+          400,
+          40
+        ],
+        "timestamp": [
+          1007,
+          1000,
+          560,
+          50
+        ]
+      },
+      "description": "Four-camera wall: dividers split the frame into panes, each with its own dot and camera label."
+    }
+  ]
+}

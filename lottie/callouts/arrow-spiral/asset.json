@@ -1,0 +1,81 @@
+{
+  "schema": 1,
+  "id": "arrow-spiral",
+  "name": "Spiral Arrow",
+  "type": "lottie",
+  "category": "callouts",
+  "file": "arrow-spiral.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A playful loop-de-loop arrow that curls round and shoots off to the right.",
+  "tags": [
+    "arrow",
+    "spiral",
+    "loop",
+    "curl",
+    "pointer",
+    "callout"
+  ],
+  "width": 580,
+  "height": 400,
+  "fps": 30,
+  "duration": 1.4,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FF2D2D"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "hand",
+      "name": "Hand-Drawn",
+      "file": "arrow-spiral.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 580,
+      "height": 400,
+      "duration": 1.4,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF2D2D"
+      },
+      "textArea": null,
+      "description": "Marker loop with a flicked-on arrowhead."
+    },
+    {
+      "id": "clean",
+      "name": "Clean",
+      "file": "arrow-spiral--clean.json",
+      "thumbnail": "thumbnail--clean.png",
+      "preview": "preview--clean.webp",
+      "poster": "poster--clean.png",
+      "width": 580,
+      "height": 400,
+      "duration": 1.4,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFD21F"
+      },
+      "textArea": null,
+      "description": "Even vector loop with a rounded solid arrowhead."
+    },
+    {
+      "id": "dashed",
+      "name": "Dashed",
+      "file": "arrow-spiral--dashed.json",
+      "thumbnail": "thumbnail--dashed.png",
+      "preview": "preview--dashed.webp",
+      "poster": "poster--dashed.png",
+      "width": 580,
+      "height": 400,
+      "duration": 1.4,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Dashed path loop, like a route on a map, with an open chevron head."
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "id": "thumbs-down-drop",
+  "name": "Thumbs Down Drop",
+  "type": "lottie",
+  "category": "reactions",
+  "file": "thumbs-down-drop.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Thumbs-down fist that drops in from above and slams down with a squash, dust puffs and impact lines, then holds; for dislikes, fails and hard nos.",
+  "tags": [
+    "thumbs down",
+    "dislike",
+    "no",
+    "fail",
+    "boo",
+    "reaction"
+  ],
+  "width": 400,
+  "height": 440,
+  "fps": 30,
+  "duration": 1.5,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FFC83D",
+    "accent": "#FF4D4D",
+    "secondary": "#4C7DFF"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "glossy",
+      "name": "Glossy",
+      "file": "thumbs-down-drop.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 400,
+      "height": 440,
+      "duration": 1.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFC83D",
+        "accent": "#FF4D4D",
+        "secondary": "#4C7DFF"
+      },
+      "textArea": null,
+      "description": "Classic yellow hand with soft shading and highlights."
+    },
+    {
+      "id": "flat",
+      "name": "Flat Sticker",
+      "file": "thumbs-down-drop--flat.json",
+      "thumbnail": "thumbnail--flat.png",
+      "preview": "preview--flat.webp",
+      "poster": "poster--flat.png",
+      "width": 400,
+      "height": 440,
+      "duration": 1.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFCC3A",
+        "accent": "#FF4D4D",
+        "secondary": "#4C7DFF",
+        "outline": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Flat colours with a thick white die-cut border."
+    },
+    {
+      "id": "outline",
+      "name": "Bold Outline",
+      "file": "thumbs-down-drop--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 400,
+      "height": 440,
+      "duration": 1.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFD23F",
+        "accent": "#FF4D4D",
+        "secondary": "#4C7DFF",
+        "outline": "#161616"
+      },
+      "textArea": null,
+      "description": "Cartoon line art with bold black outlines."
+    }
+  ]
+}

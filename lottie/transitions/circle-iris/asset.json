@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "id": "circle-iris",
+  "name": "Circle Iris",
+  "type": "lottie",
+  "category": "transitions",
+  "file": "circle-iris.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Round iris transition: a circle closes over the shot, holds on a solid frame for the cut, then opens onto the next clip.",
+  "tags": [
+    "iris",
+    "circle",
+    "round",
+    "transition",
+    "reveal",
+    "zoom"
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 1.333,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "primary": "#0F5BFF"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "bloom",
+      "name": "Bloom",
+      "file": "circle-iris.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.333,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#0F5BFF"
+      },
+      "textArea": null,
+      "description": "A circle blooms out of the centre to fill the frame, then a round hole opens from the middle to reveal the next shot."
+    },
+    {
+      "id": "rings",
+      "name": "Stacked Rings",
+      "file": "circle-iris--rings.json",
+      "thumbnail": "thumbnail--rings.png",
+      "preview": "preview--rings.webp",
+      "poster": "poster--rings.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.4,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#0F5BFF",
+        "secondary": "#18C8E8",
+        "accent": "#B6F24A"
+      },
+      "textArea": null,
+      "description": "Three coloured circles bloom one after another, then open in reverse like ripples."
+    },
+    {
+      "id": "iris",
+      "name": "Classic Iris",
+      "file": "circle-iris--iris.json",
+      "thumbnail": "thumbnail--iris.png",
+      "preview": "preview--iris.webp",
+      "poster": "poster--iris.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#0F5BFF",
+        "accent": "#B6F24A"
+      },
+      "textArea": null,
+      "description": "Old-film iris: the frame closes to a point behind an accent rim and snaps back open."
+    }
+  ]
+}

@@ -6,18 +6,58 @@
   "file": "heart.glb",
   "thumbnail": "thumbnail.png",
   "license": "CC-BY-NC-SA-4.0",
-  "description": "Glossy puffy red heart with a double-pulse heartbeat and a gentle sway.",
+  "description": "Puffy heart for likes, love and Valentine's edits.",
   "tags": [
     "heart",
     "love",
     "like",
     "valentine",
-    "heartbeat",
     "red"
   ],
   "animation": {
     "name": "Heartbeat",
     "duration": 1.6,
     "loop": true
-  }
+  },
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Glossy Heartbeat",
+      "file": "heart.glb",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "animation": {
+        "name": "Heartbeat",
+        "duration": 1.6,
+        "loop": true
+      },
+      "description": "Glossy puffy red heart with a double-pulse heartbeat and a gentle sway."
+    },
+    {
+      "id": "chrome",
+      "name": "Chrome Spin",
+      "file": "heart--chrome.glb",
+      "thumbnail": "thumbnail--chrome.png",
+      "preview": "preview--chrome.webp",
+      "animation": {
+        "name": "Spin",
+        "duration": 2.4,
+        "loop": true
+      },
+      "description": "Mirror-chrome pink heart turning a full circle with a slight bob."
+    },
+    {
+      "id": "pixel",
+      "name": "Pixel Heart",
+      "file": "heart--pixel.glb",
+      "thumbnail": "thumbnail--pixel.png",
+      "preview": "preview--pixel.webp",
+      "animation": {
+        "name": "Heartbeat",
+        "duration": 1.6,
+        "loop": true
+      },
+      "description": "Chunky voxel pixel-art heart with a heartbeat pulse."
+    }
+  ]
 }

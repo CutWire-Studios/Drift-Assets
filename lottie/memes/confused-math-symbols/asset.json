@@ -1,0 +1,87 @@
+{
+  "schema": 1,
+  "id": "confused-math-symbols",
+  "name": "Confused Math Symbols",
+  "type": "lottie",
+  "category": "memes",
+  "file": "confused-math-symbols.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Maths-ish symbols (plus, pi, integral, root, triangles and more) float around a head on a seamless loop for the confused-calculating meme. Put the face in the clear middle.",
+  "tags": [
+    "math",
+    "confused",
+    "calculating",
+    "thinking",
+    "symbols",
+    "meme",
+    "loop"
+  ],
+  "width": 1240,
+  "height": 760,
+  "fps": 30,
+  "duration": 3.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FFFFFF"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "chalk",
+      "name": "Chalk",
+      "file": "confused-math-symbols.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1240,
+      "height": 760,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Hand-chalked white symbols drifting and fading around the head."
+    },
+    {
+      "id": "neon",
+      "name": "Neon Orbit",
+      "file": "confused-math-symbols--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 1240,
+      "height": 760,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#4FF0FF",
+        "secondary": "#FF4FD8",
+        "accent": "#FFE14D"
+      },
+      "textArea": null,
+      "description": "Glowing neon symbols orbiting the head on a tilted ring."
+    },
+    {
+      "id": "sticker",
+      "name": "Stickers",
+      "file": "confused-math-symbols--sticker.json",
+      "thumbnail": "thumbnail--sticker.png",
+      "preview": "preview--sticker.webp",
+      "poster": "poster--sticker.png",
+      "width": 1240,
+      "height": 760,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF5A5F",
+        "secondary": "#3DB2FF",
+        "accent": "#FFD23F",
+        "outline": "#141418"
+      },
+      "textArea": null,
+      "description": "Chunky colourful symbols with ink outlines that bob and wobble."
+    }
+  ]
+}

@@ -6,7 +6,7 @@
   "model": "party-hat.glb",
   "thumbnail": "thumbnail.png",
   "license": "CC-BY-NC-SA-4.0",
-  "description": "Striped pink, teal and yellow cone party hat with a fluffy pom-pom, perched on top of the head at a jaunty angle.",
+  "description": "Cone party hat perched on top of the head at a jaunty angle.",
   "tags": [
     "party",
     "hat",
@@ -25,5 +25,43 @@
     "rotY": 0,
     "rotZ": 0,
     "occlusion": true
-  }
+  },
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Pom-Pom Stripes",
+      "model": "party-hat.glb",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "params": {
+        "scale": 0.5634,
+        "offsetX": 0.1785,
+        "offsetY": 1.0883,
+        "offsetZ": -0.4417,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "occlusion": true
+      },
+      "description": "Striped pink, teal and yellow cone party hat with a fluffy pom-pom."
+    },
+    {
+      "id": "star",
+      "name": "Gold Star",
+      "model": "party-hat--star.glb",
+      "thumbnail": "thumbnail--star.png",
+      "preview": "preview--star.webp",
+      "params": {
+        "scale": 0.5513,
+        "offsetX": 0.1885,
+        "offsetY": 1.1019,
+        "offsetZ": -0.4417,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "occlusion": true
+      },
+      "description": "Navy and purple swirl cone with a gold trim and a gold star on top."
+    }
+  ]
 }

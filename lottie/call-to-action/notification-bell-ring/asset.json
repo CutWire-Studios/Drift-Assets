@@ -24,5 +24,61 @@
     "primary": "#FFC83D",
     "accent": "#FF3B30"
   },
-  "textArea": null
+  "textArea": null,
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Classic",
+      "file": "notification-bell-ring.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 440,
+      "height": 440,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFC83D",
+        "accent": "#FF3B30"
+      },
+      "textArea": null,
+      "description": "Flat bell with a shine, a lagging clapper, sound waves and a red badge."
+    },
+    {
+      "id": "3d-pop",
+      "name": "3D Pop",
+      "file": "notification-bell-ring--3d-pop.json",
+      "thumbnail": "thumbnail--3d-pop.png",
+      "preview": "preview--3d-pop.webp",
+      "poster": "poster--3d-pop.png",
+      "width": 440,
+      "height": 440,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFC83D",
+        "accent": "#FF3B30"
+      },
+      "textArea": null,
+      "description": "Chunky layered 3D bell with a highlight rim and depth, swinging with a 3D badge."
+    },
+    {
+      "id": "outline",
+      "name": "Line Art",
+      "file": "notification-bell-ring--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 440,
+      "height": 440,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "outline": "#FFFFFF",
+        "accent": "#FF3B30"
+      },
+      "textArea": null,
+      "description": "Line-art bell with clean outer contours, white sound waves and a solid red badge."
+    }
+  ]
 }

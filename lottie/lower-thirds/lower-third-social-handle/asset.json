@@ -1,0 +1,134 @@
+{
+  "schema": 1,
+  "id": "lower-third-social-handle",
+  "name": "Social Handle Lower Third",
+  "type": "lottie",
+  "category": "lower-thirds",
+  "file": "lower-third-social-handle.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Social media handle lower third with a round avatar placeholder. Type your @handle in the bar; the avatar is a generic person silhouette.",
+  "tags": [
+    "lower third",
+    "social",
+    "handle",
+    "username",
+    "avatar",
+    "profile",
+    "creator"
+  ],
+  "width": 1050,
+  "height": 200,
+  "fps": 30,
+  "duration": 5.0,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "primary": "#FFFFFF",
+    "secondary": "#CBD5E1",
+    "icon": "#F8FAFC",
+    "accent": "#1D9BF0"
+  },
+  "textArea": [
+    192,
+    74,
+    718,
+    52
+  ],
+  "variants": [
+    {
+      "id": "pill",
+      "name": "Handle Pill",
+      "file": "lower-third-social-handle.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1050,
+      "height": 200,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FFFFFF",
+        "secondary": "#CBD5E1",
+        "icon": "#F8FAFC",
+        "accent": "#1D9BF0"
+      },
+      "textArea": [
+        192,
+        74,
+        718,
+        52
+      ],
+      "description": "Avatar pops in with a verified seal and a white capsule extends for the handle."
+    },
+    {
+      "id": "story",
+      "name": "Profile Card",
+      "file": "lower-third-social-handle--story.json",
+      "thumbnail": "thumbnail--story.png",
+      "preview": "preview--story.webp",
+      "poster": "poster--story.png",
+      "width": 1100,
+      "height": 240,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#121212",
+        "secondary": "#3A3A3A",
+        "icon": "#8E8E8E",
+        "accent": "#FFFFFF"
+      },
+      "textArea": [
+        228,
+        76,
+        500,
+        50
+      ],
+      "textAreas": {
+        "headline": [
+          228,
+          76,
+          500,
+          50
+        ],
+        "subtitle": [
+          228,
+          134,
+          500,
+          30
+        ],
+        "button": [
+          790,
+          104,
+          130,
+          32
+        ]
+      },
+      "description": "Dark two-line profile card with a spinning story-style gradient ring and a follow button."
+    },
+    {
+      "id": "minimal",
+      "name": "Minimal",
+      "file": "lower-third-social-handle--minimal.json",
+      "thumbnail": "thumbnail--minimal.png",
+      "preview": "preview--minimal.webp",
+      "poster": "poster--minimal.png",
+      "width": 1050,
+      "height": 200,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FFFFFF",
+        "secondary": "#FF3B5C",
+        "icon": "#FFFFFF",
+        "accent": "#FF3B5C"
+      },
+      "textArea": [
+        166,
+        60,
+        794,
+        64
+      ],
+      "description": "Just the avatar with an outline ring and an underline drawing out beneath the handle."
+    }
+  ]
+}

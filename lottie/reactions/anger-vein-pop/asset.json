@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "id": "anger-vein-pop",
+  "name": "Anger Vein Pop",
+  "type": "lottie",
+  "category": "reactions",
+  "file": "anger-vein-pop.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Manga anger mark that throbs with rising pressure; stick it on a head or next to your text for irritation and rage. Seamless loop.",
+  "tags": [
+    "anger",
+    "angry",
+    "vein",
+    "manga",
+    "anime",
+    "mad",
+    "reaction"
+  ],
+  "width": 400,
+  "height": 400,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FF2E3F"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "glossy",
+      "name": "Glossy",
+      "file": "anger-vein-pop.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 400,
+      "height": 400,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF2E3F"
+      },
+      "textArea": null,
+      "description": "Shaded glossy mark with highlights."
+    },
+    {
+      "id": "flat",
+      "name": "Flat Sticker",
+      "file": "anger-vein-pop--flat.json",
+      "thumbnail": "thumbnail--flat.png",
+      "preview": "preview--flat.webp",
+      "poster": "poster--flat.png",
+      "width": 400,
+      "height": 400,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF2E3F",
+        "outline": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Flat colours with a thick white die-cut border."
+    },
+    {
+      "id": "outline",
+      "name": "Bold Outline",
+      "file": "anger-vein-pop--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 400,
+      "height": 400,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF2E3F",
+        "outline": "#161616"
+      },
+      "textArea": null,
+      "description": "Cartoon line art with bold black outlines."
+    }
+  ]
+}

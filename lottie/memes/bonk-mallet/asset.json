@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "id": "bonk-mallet",
+  "name": "Bonk Mallet",
+  "type": "lottie",
+  "category": "memes",
+  "file": "bonk-mallet.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A cartoon mallet winds up, swings down and bonks, with an impact burst and dizzy stars circling the spot. Line the bottom-left of the swing up with the head you are bonking.",
+  "tags": [
+    "bonk",
+    "mallet",
+    "hammer",
+    "hit",
+    "cartoon",
+    "meme",
+    "dizzy"
+  ],
+  "width": 720,
+  "height": 640,
+  "fps": 30,
+  "duration": 1.5,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#C98A4B",
+    "secondary": "#8A5A2E",
+    "accent": "#FFD23F",
+    "outline": "#141418"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "cartoon",
+      "name": "Wooden Mallet",
+      "file": "bonk-mallet.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 720,
+      "height": 640,
+      "duration": 1.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#C98A4B",
+        "secondary": "#8A5A2E",
+        "accent": "#FFD23F",
+        "outline": "#141418"
+      },
+      "textArea": null,
+      "description": "Wooden mallet with a thick ink outline, burst lines and yellow dizzy stars."
+    },
+    {
+      "id": "toy",
+      "name": "Squeaky Toy",
+      "file": "bonk-mallet--toy.json",
+      "thumbnail": "thumbnail--toy.png",
+      "preview": "preview--toy.webp",
+      "poster": "poster--toy.png",
+      "width": 720,
+      "height": 640,
+      "duration": 1.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF3B4E",
+        "secondary": "#FFD23F",
+        "accent": "#7FD4FF"
+      },
+      "textArea": null,
+      "description": "Red squeaky toy hammer with big squash and stretch, a pop cloud, stars and hearts."
+    },
+    {
+      "id": "pixel",
+      "name": "Pixel",
+      "file": "bonk-mallet--pixel.json",
+      "thumbnail": "thumbnail--pixel.png",
+      "preview": "preview--pixel.webp",
+      "poster": "poster--pixel.png",
+      "width": 720,
+      "height": 640,
+      "duration": 1.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#B0703A",
+        "secondary": "#6B4020",
+        "accent": "#FFE14D",
+        "outline": "#161616"
+      },
+      "textArea": null,
+      "description": "Chunky pixel-art mallet swinging in stepped frames with blocky stars."
+    }
+  ]
+}

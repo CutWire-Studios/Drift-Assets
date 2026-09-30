@@ -1,0 +1,165 @@
+{
+  "schema": 1,
+  "id": "battery-level",
+  "name": "Battery Level",
+  "type": "lottie",
+  "category": "infographics",
+  "file": "battery-level.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A battery that fills segment by segment. Put the percentage in the 'value' area beside it and a caption in 'label'.",
+  "tags": [
+    "battery",
+    "charge",
+    "level",
+    "power",
+    "energy",
+    "percent",
+    "infographic",
+    "status"
+  ],
+  "width": 780,
+  "height": 340,
+  "fps": 30,
+  "duration": 2.5,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#2ED3A0",
+    "outline": "#FFFFFF"
+  },
+  "textArea": [
+    560,
+    100,
+    196,
+    80
+  ],
+  "textAreas": {
+    "value": [
+      560,
+      100,
+      196,
+      80
+    ],
+    "label": [
+      560,
+      188,
+      196,
+      48
+    ]
+  },
+  "variants": [
+    {
+      "id": "flat",
+      "name": "Flat",
+      "file": "battery-level.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 780,
+      "height": 340,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#2ED3A0",
+        "outline": "#FFFFFF"
+      },
+      "textArea": [
+        560,
+        100,
+        196,
+        80
+      ],
+      "textAreas": {
+        "value": [
+          560,
+          100,
+          196,
+          80
+        ],
+        "label": [
+          560,
+          188,
+          196,
+          48
+        ]
+      },
+      "description": "Rounded battery outline; four of five segments pop in and the last one flashes."
+    },
+    {
+      "id": "charging",
+      "name": "Charging Loop",
+      "file": "battery-level--charging.json",
+      "thumbnail": "thumbnail--charging.png",
+      "preview": "preview--charging.webp",
+      "poster": "poster--charging.png",
+      "width": 780,
+      "height": 340,
+      "duration": 3.2,
+      "playback": "loop",
+      "slots": {
+        "primary": "#2ED3A0",
+        "accent": "#FFC247",
+        "outline": "#FFFFFF"
+      },
+      "textArea": [
+        560,
+        100,
+        196,
+        80
+      ],
+      "textAreas": {
+        "value": [
+          560,
+          100,
+          196,
+          80
+        ],
+        "label": [
+          560,
+          188,
+          196,
+          48
+        ]
+      },
+      "description": "Looping charge: a lightning bolt pulses while the segments fill, blink full and drain."
+    },
+    {
+      "id": "neon",
+      "name": "Neon Upright",
+      "file": "battery-level--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 560,
+      "height": 600,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#B6FF3B",
+        "background": "#0D1024",
+        "outline": "#B6FF3B"
+      },
+      "textArea": [
+        320,
+        250,
+        210,
+        84
+      ],
+      "textAreas": {
+        "value": [
+          320,
+          250,
+          210,
+          84
+        ],
+        "label": [
+          320,
+          344,
+          210,
+          48
+        ]
+      },
+      "description": "Upright neon battery on a dark panel; segments flicker on from the bottom up."
+    }
+  ]
+}

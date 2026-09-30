@@ -1,0 +1,112 @@
+{
+  "schema": 1,
+  "id": "quest-marker",
+  "name": "Quest Marker",
+  "type": "lottie",
+  "category": "gaming",
+  "file": "quest-marker.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Floating RPG quest marker built from shapes: it bobs over a soft shadow with twinkles, on a loop. Place it above a character or spot in your footage.",
+  "tags": [
+    "quest",
+    "marker",
+    "exclamation",
+    "question",
+    "npc",
+    "rpg",
+    "gaming",
+    "waypoint"
+  ],
+  "width": 300,
+  "height": 420,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FFC21A",
+    "outline": "#3A2200"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Exclamation",
+      "file": "quest-marker.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 300,
+      "height": 420,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFC21A",
+        "outline": "#3A2200"
+      },
+      "textArea": null,
+      "description": "Glossy gold exclamation mark with a dark outline, glow and ground shadow."
+    },
+    {
+      "id": "question",
+      "name": "Question",
+      "file": "quest-marker--question.json",
+      "thumbnail": "thumbnail--question.png",
+      "preview": "preview--question.webp",
+      "poster": "poster--question.png",
+      "width": 300,
+      "height": 420,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#3FB8FF",
+        "outline": "#0B2A4A"
+      },
+      "textArea": null,
+      "description": "Glossy blue question mark (quest turn-in) with the same bob and glow."
+    },
+    {
+      "id": "pixel",
+      "name": "Pixel",
+      "file": "quest-marker--pixel.json",
+      "thumbnail": "thumbnail--pixel.png",
+      "preview": "preview--pixel.webp",
+      "poster": "poster--pixel.png",
+      "width": 300,
+      "height": 420,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFD23F",
+        "secondary": "#E08A1E",
+        "outline": "#160E1E"
+      },
+      "textArea": null,
+      "description": "8-bit exclamation sprite that bobs in pixel steps with blinking twinkles."
+    },
+    {
+      "id": "hud",
+      "name": "HUD Waypoint",
+      "file": "quest-marker--hud.json",
+      "thumbnail": "thumbnail--hud.png",
+      "preview": "preview--hud.webp",
+      "poster": "poster--hud.png",
+      "width": 300,
+      "height": 420,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFC83D",
+        "background": "#0F131B",
+        "outline": "#FFFFFF"
+      },
+      "textArea": [
+        70,
+        360,
+        160,
+        36
+      ],
+      "description": "Modern diamond waypoint with a small exclamation, a pulse and a label for the distance."
+    }
+  ]
+}

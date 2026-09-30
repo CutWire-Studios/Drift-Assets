@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "id": "everything-is-fine-flames",
+  "name": "Everything Is Fine Flames",
+  "type": "lottie",
+  "category": "memes",
+  "file": "everything-is-fine-flames.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A full-width wall of flames licking up from the bottom edge on a seamless loop, for when everything is definitely fine. Lay it along the bottom of the frame.",
+  "tags": [
+    "fire",
+    "flames",
+    "this is fine",
+    "burning",
+    "chaos",
+    "meme",
+    "loop"
+  ],
+  "width": 1920,
+  "height": 540,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FF4A1C",
+    "secondary": "#FF9A1F",
+    "accent": "#FFE14D"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "cartoon",
+      "name": "Cartoon",
+      "file": "everything-is-fine-flames.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1920,
+      "height": 540,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF4A1C",
+        "secondary": "#FF9A1F",
+        "accent": "#FFE14D"
+      },
+      "textArea": null,
+      "description": "Three layers of toothy cartoon flames in red, orange and yellow with drifting embers."
+    },
+    {
+      "id": "pixel",
+      "name": "Pixel",
+      "file": "everything-is-fine-flames--pixel.json",
+      "thumbnail": "thumbnail--pixel.png",
+      "preview": "preview--pixel.webp",
+      "poster": "poster--pixel.png",
+      "width": 1920,
+      "height": 540,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#E83B1A",
+        "secondary": "#FF9A1F",
+        "accent": "#FFE14D"
+      },
+      "textArea": null,
+      "description": "Blocky 8-bit flames that flicker in held frames, with square embers."
+    },
+    {
+      "id": "inferno",
+      "name": "Inferno",
+      "file": "everything-is-fine-flames--inferno.json",
+      "thumbnail": "thumbnail--inferno.png",
+      "preview": "preview--inferno.webp",
+      "poster": "poster--inferno.png",
+      "width": 1920,
+      "height": 540,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {},
+      "textArea": null,
+      "description": "Tall wispy gradient flames with a hot glowing base and lots of sparks (fixed colours)."
+    }
+  ]
+}

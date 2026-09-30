@@ -26,3 +26,4 @@ _check*.png
 Thumbs.db
 .preview-frames/
 dist/
+node_modules/

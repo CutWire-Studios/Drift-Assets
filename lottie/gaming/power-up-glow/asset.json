@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "id": "power-up-glow",
+  "name": "Power-Up Glow",
+  "type": "lottie",
+  "category": "gaming",
+  "file": "power-up-glow.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A glowing power-up orb hovers, gets absorbed in a flash and sends rings of energy rising up, like a character powering up. One-shot that ends empty.",
+  "tags": [
+    "power up",
+    "powerup",
+    "orb",
+    "buff",
+    "energy",
+    "glow",
+    "gaming",
+    "boost"
+  ],
+  "width": 480,
+  "height": 560,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#35E0FF",
+    "secondary": "#FFFFFF",
+    "accent": "#FFE14D"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "modern",
+      "name": "Energy",
+      "file": "power-up-glow.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 480,
+      "height": 560,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#35E0FF",
+        "secondary": "#FFFFFF",
+        "accent": "#FFE14D"
+      },
+      "textArea": null,
+      "description": "Cyan energy orb with a lightning bolt and orbiting streaks; glowing rings rise after the flash."
+    },
+    {
+      "id": "pixel",
+      "name": "Pixel",
+      "file": "power-up-glow--pixel.json",
+      "thumbnail": "thumbnail--pixel.png",
+      "preview": "preview--pixel.webp",
+      "poster": "poster--pixel.png",
+      "width": 480,
+      "height": 560,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF4D9A",
+        "secondary": "#FFD23F",
+        "outline": "#160E1E"
+      },
+      "textArea": null,
+      "description": "8-bit orb with a star inside that shrinks in steps, then pixel rings and motes rise."
+    },
+    {
+      "id": "fantasy",
+      "name": "Magic",
+      "file": "power-up-glow--fantasy.json",
+      "thumbnail": "thumbnail--fantasy.png",
+      "preview": "preview--fantasy.webp",
+      "poster": "poster--fantasy.png",
+      "width": 480,
+      "height": 560,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#39E08A",
+        "secondary": "#F6C343",
+        "accent": "#E9FFF3"
+      },
+      "textArea": null,
+      "description": "Green magic orb in a gold rim with a rune, spiralling sparkles and golden rune rings rising."
+    }
+  ]
+}

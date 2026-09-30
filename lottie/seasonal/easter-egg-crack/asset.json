@@ -1,0 +1,95 @@
+{
+  "schema": 1,
+  "id": "easter-egg-crack",
+  "name": "Easter Egg Crack",
+  "type": "lottie",
+  "category": "seasonal",
+  "file": "easter-egg-crack.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A decorated Easter egg wobbles, cracks open and a fluffy chick pops out, then holds on the final pose.",
+  "tags": [
+    "easter",
+    "egg",
+    "chick",
+    "spring",
+    "hatch",
+    "cute"
+  ],
+  "width": 520,
+  "height": 600,
+  "fps": 30,
+  "duration": 3.2,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#8ED8F8",
+    "secondary": "#FF8CC6",
+    "accent": "#FFD75A",
+    "icon": "#FFD23F"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Shell Hat",
+      "file": "easter-egg-crack.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 520,
+      "height": 600,
+      "duration": 3.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#8ED8F8",
+        "secondary": "#FF8CC6",
+        "accent": "#FFD75A",
+        "icon": "#FFD23F"
+      },
+      "textArea": null,
+      "description": "Glossy painted egg; the top pops off and lands on the peeking chick like a hat."
+    },
+    {
+      "id": "flat",
+      "name": "Split Open",
+      "file": "easter-egg-crack--flat.json",
+      "thumbnail": "thumbnail--flat.png",
+      "preview": "preview--flat.webp",
+      "poster": "poster--flat.png",
+      "width": 520,
+      "height": 600,
+      "duration": 3.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#8ED8F8",
+        "secondary": "#FF8CC6",
+        "accent": "#FFD75A",
+        "icon": "#FFD23F",
+        "outline": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Flat sticker egg with a white die-cut edge that splits in two; the chick hops out flapping."
+    },
+    {
+      "id": "doodle",
+      "name": "Doodle",
+      "file": "easter-egg-crack--doodle.json",
+      "thumbnail": "thumbnail--doodle.png",
+      "preview": "preview--doodle.webp",
+      "poster": "poster--doodle.png",
+      "width": 520,
+      "height": 600,
+      "duration": 3.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#8ED8F8",
+        "secondary": "#FF8CC6",
+        "accent": "#FFD75A",
+        "icon": "#FFD23F",
+        "outline": "#2A2233"
+      },
+      "textArea": null,
+      "description": "Hand-drawn ink egg with boiling lines and off-register colour, same shell-hat reveal."
+    }
+  ]
+}

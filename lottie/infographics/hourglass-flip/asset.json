@@ -1,0 +1,143 @@
+{
+  "schema": 1,
+  "id": "hourglass-flip",
+  "name": "Hourglass Flip",
+  "type": "lottie",
+  "category": "infographics",
+  "file": "hourglass-flip.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Looping hourglass: the sand pours into the bottom bulb, then the glass flips over and it starts again. Put a caption such as a countdown or deadline in the 'label' area underneath.",
+  "tags": [
+    "hourglass",
+    "timer",
+    "time",
+    "wait",
+    "sand",
+    "countdown",
+    "deadline",
+    "loading"
+  ],
+  "width": 440,
+  "height": 680,
+  "fps": 30,
+  "duration": 4.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FFC247",
+    "secondary": "#5B6CFF",
+    "outline": "#FFFFFF"
+  },
+  "textArea": [
+    60,
+    610,
+    320,
+    48
+  ],
+  "textAreas": {
+    "label": [
+      60,
+      610,
+      320,
+      48
+    ]
+  },
+  "variants": [
+    {
+      "id": "flat",
+      "name": "Flat",
+      "file": "hourglass-flip.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 440,
+      "height": 680,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFC247",
+        "secondary": "#5B6CFF",
+        "outline": "#FFFFFF"
+      },
+      "textArea": [
+        60,
+        610,
+        320,
+        48
+      ],
+      "textAreas": {
+        "label": [
+          60,
+          610,
+          320,
+          48
+        ]
+      },
+      "description": "Minimal hourglass with coloured caps; flips with a springy spin."
+    },
+    {
+      "id": "classic",
+      "name": "Classic Wood",
+      "file": "hourglass-flip--classic.json",
+      "thumbnail": "thumbnail--classic.png",
+      "preview": "preview--classic.webp",
+      "poster": "poster--classic.png",
+      "width": 440,
+      "height": 680,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#E9B872",
+        "secondary": "#8A5530",
+        "outline": "#FFFFFF"
+      },
+      "textArea": [
+        60,
+        610,
+        320,
+        48
+      ],
+      "textAreas": {
+        "label": [
+          60,
+          610,
+          320,
+          48
+        ]
+      },
+      "description": "Wooden hourglass with turned pillars and glossy glass."
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "file": "hourglass-flip--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 440,
+      "height": 680,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFB23D",
+        "background": "#0D1024",
+        "outline": "#23E5FF"
+      },
+      "textArea": [
+        60,
+        610,
+        320,
+        48
+      ],
+      "textAreas": {
+        "label": [
+          60,
+          610,
+          320,
+          48
+        ]
+      },
+      "description": "Dark panel; a neon hourglass drains glowing sand and spins over."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "schema": 1,
+  "id": "save-bookmark-pop",
+  "name": "Save Bookmark Pop",
+  "type": "lottie",
+  "category": "call-to-action",
+  "file": "save-bookmark-pop.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Bookmark icon that springs in and fills with colour when tapped, with a sparkle burst. A \"save this post\" sticker; no text area.",
+  "tags": [
+    "save",
+    "bookmark",
+    "saved",
+    "tap",
+    "reaction",
+    "social"
+  ],
+  "width": 400,
+  "height": 400,
+  "fps": 30,
+  "duration": 1.8,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FFC53D",
+    "icon": "#FFFFFF"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Classic",
+      "file": "save-bookmark-pop.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 400,
+      "height": 400,
+      "duration": 1.8,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFC53D",
+        "icon": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Flat filled shapes with a soft drop shadow."
+    },
+    {
+      "id": "outline",
+      "name": "Line Art",
+      "file": "save-bookmark-pop--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 400,
+      "height": 400,
+      "duration": 1.8,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFC53D",
+        "outline": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Line-art version: clean outer contours, see-through inside."
+    },
+    {
+      "id": "3d-pop",
+      "name": "3D Pop",
+      "file": "save-bookmark-pop--3d-pop.json",
+      "thumbnail": "thumbnail--3d-pop.png",
+      "preview": "preview--3d-pop.webp",
+      "poster": "poster--3d-pop.png",
+      "width": 400,
+      "height": 400,
+      "duration": 1.8,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFC53D",
+        "icon": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Chunky layered look with an extruded side, highlight rim and depth shadow."
+    }
+  ]
+}

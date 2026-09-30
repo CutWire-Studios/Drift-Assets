@@ -1,0 +1,104 @@
+{
+  "schema": 1,
+  "id": "magnifier-zoom-ring",
+  "name": "Magnifier Zoom Ring",
+  "type": "lottie",
+  "category": "callouts",
+  "file": "magnifier-zoom-ring.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A magnifying glass that swoops in with an empty lens; line the lens up over the detail you want to zoom in on, or put text inside it.",
+  "tags": [
+    "magnifier",
+    "magnifying glass",
+    "zoom",
+    "search",
+    "detail",
+    "lens",
+    "callout"
+  ],
+  "width": 440,
+  "height": 440,
+  "fps": 30,
+  "duration": 1.2,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FFFFFF",
+    "secondary": "#FF4D2E"
+  },
+  "textArea": [
+    98,
+    98,
+    168,
+    168
+  ],
+  "variants": [
+    {
+      "id": "clean",
+      "name": "Clean",
+      "file": "magnifier-zoom-ring.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 440,
+      "height": 440,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFFFFF",
+        "secondary": "#FF4D2E"
+      },
+      "textArea": [
+        98,
+        98,
+        168,
+        168
+      ],
+      "description": "White rim and orange-red handle with a faint glass tint and a glare that sweeps on."
+    },
+    {
+      "id": "hand",
+      "name": "Hand-Drawn",
+      "file": "magnifier-zoom-ring--hand.json",
+      "thumbnail": "thumbnail--hand.png",
+      "preview": "preview--hand.webp",
+      "poster": "poster--hand.png",
+      "width": 440,
+      "height": 440,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF2D2D"
+      },
+      "textArea": [
+        98,
+        98,
+        168,
+        168
+      ],
+      "description": "Marker-drawn lens and handle, sketched on stroke by stroke."
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "file": "magnifier-zoom-ring--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 440,
+      "height": 440,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#29E6FF"
+      },
+      "textArea": [
+        98,
+        98,
+        168,
+        168
+      ],
+      "description": "Glowing neon outline that flickers on as it swoops in."
+    }
+  ]
+}

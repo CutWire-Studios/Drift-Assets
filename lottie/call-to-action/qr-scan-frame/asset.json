@@ -1,0 +1,110 @@
+{
+  "schema": 1,
+  "id": "qr-scan-frame",
+  "name": "QR Scan Frame",
+  "type": "lottie",
+  "category": "call-to-action",
+  "file": "qr-scan-frame.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Scanner corner brackets with a laser line sweeping over an empty 300x300 px square (centred at 220,210) where you place your own QR code image, plus a label pill below for \"Scan me\"; seamless loop.",
+  "tags": [
+    "qr code",
+    "scan",
+    "scanner",
+    "frame",
+    "laser",
+    "loop",
+    "cta"
+  ],
+  "width": 440,
+  "height": 560,
+  "fps": 30,
+  "duration": 2.4,
+  "playback": "loop",
+  "slots": {
+    "primary": "#34E0A1",
+    "accent": "#34E0A1",
+    "background": "#FFFFFF"
+  },
+  "textArea": [
+    77,
+    466,
+    286,
+    53
+  ],
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Classic",
+      "file": "qr-scan-frame.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 440,
+      "height": 560,
+      "duration": 2.4,
+      "playback": "loop",
+      "slots": {
+        "primary": "#34E0A1",
+        "accent": "#34E0A1",
+        "background": "#FFFFFF"
+      },
+      "textArea": [
+        77,
+        466,
+        286,
+        53
+      ],
+      "description": "Flat filled shapes with a soft drop shadow."
+    },
+    {
+      "id": "outline",
+      "name": "Line Art",
+      "file": "qr-scan-frame--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 440,
+      "height": 560,
+      "duration": 2.4,
+      "playback": "loop",
+      "slots": {
+        "primary": "#34E0A1",
+        "accent": "#34E0A1",
+        "outline": "#FFFFFF"
+      },
+      "textArea": [
+        77,
+        466,
+        286,
+        53
+      ],
+      "description": "Line-art version: clean outer contours, see-through inside."
+    },
+    {
+      "id": "3d-pop",
+      "name": "3D Pop",
+      "file": "qr-scan-frame--3d-pop.json",
+      "thumbnail": "thumbnail--3d-pop.png",
+      "preview": "preview--3d-pop.webp",
+      "poster": "poster--3d-pop.png",
+      "width": 440,
+      "height": 560,
+      "duration": 2.4,
+      "playback": "loop",
+      "slots": {
+        "primary": "#34E0A1",
+        "accent": "#34E0A1",
+        "background": "#FFFFFF"
+      },
+      "textArea": [
+        77,
+        466,
+        286,
+        53
+      ],
+      "description": "Chunky layered look with an extruded side, highlight rim and depth shadow."
+    }
+  ]
+}

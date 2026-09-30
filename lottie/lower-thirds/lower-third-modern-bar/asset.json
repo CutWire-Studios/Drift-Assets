@@ -7,7 +7,7 @@
   "file": "lower-third-modern-bar.json",
   "thumbnail": "thumbnail.png",
   "license": "CC-BY-NC-SA-4.0",
-  "description": "Clean corporate lower third: an accent block wipes in and a name bar and subtitle bar extend from it.",
+  "description": "Clean corporate lower third with a name bar, a subtitle bar and a colour accent.",
   "tags": [
     "lower third",
     "name",
@@ -46,5 +46,121 @@
       552,
       32
     ]
-  }
+  },
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Classic",
+      "file": "lower-third-modern-bar.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1000,
+      "height": 212,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "accent": "#2E7CF6",
+        "primary": "#FFFFFF",
+        "secondary": "#14213D"
+      },
+      "textArea": [
+        64,
+        48,
+        872,
+        72
+      ],
+      "textAreas": {
+        "name": [
+          64,
+          48,
+          872,
+          72
+        ],
+        "subtitle": [
+          64,
+          136,
+          552,
+          32
+        ]
+      },
+      "description": "An accent block wipes in and a name bar and subtitle bar extend from it."
+    },
+    {
+      "id": "rounded",
+      "name": "Rounded Badge",
+      "file": "lower-third-modern-bar--rounded.json",
+      "thumbnail": "thumbnail--rounded.png",
+      "preview": "preview--rounded.webp",
+      "poster": "poster--rounded.png",
+      "width": 1000,
+      "height": 212,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "accent": "#2E7CF6",
+        "primary": "#FFFFFF",
+        "secondary": "#14213D"
+      },
+      "textArea": [
+        206,
+        38,
+        729,
+        70
+      ],
+      "textAreas": {
+        "name": [
+          206,
+          38,
+          729,
+          70
+        ],
+        "subtitle": [
+          206,
+          136,
+          449,
+          34
+        ]
+      },
+      "description": "A round accent badge pops in and rounded bars slide out from behind it."
+    },
+    {
+      "id": "rise",
+      "name": "Rise Up",
+      "file": "lower-third-modern-bar--rise.json",
+      "thumbnail": "thumbnail--rise.png",
+      "preview": "preview--rise.webp",
+      "poster": "poster--rise.png",
+      "width": 1000,
+      "height": 212,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "accent": "#2E7CF6",
+        "primary": "#FFFFFF",
+        "secondary": "#14213D"
+      },
+      "textArea": [
+        56,
+        90,
+        848,
+        70
+      ],
+      "textAreas": {
+        "name": [
+          56,
+          90,
+          848,
+          70
+        ],
+        "subtitle": [
+          52,
+          39,
+          364,
+          32
+        ]
+      },
+      "description": "An accent baseline wipes across and the name bar and a subtitle chip spring up out of it."
+    }
+  ]
 }

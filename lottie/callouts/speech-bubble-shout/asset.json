@@ -1,0 +1,108 @@
+{
+  "schema": 1,
+  "id": "speech-bubble-shout",
+  "name": "Shout Speech Bubble",
+  "type": "lottie",
+  "category": "callouts",
+  "file": "speech-bubble-shout.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A spiky comic shout bubble that slams in with a shake, for yelling, surprise or big announcements; type your line in the middle.",
+  "tags": [
+    "shout",
+    "speech",
+    "bubble",
+    "yell",
+    "comic",
+    "exclaim",
+    "callout"
+  ],
+  "width": 620,
+  "height": 440,
+  "fps": 30,
+  "duration": 1.2,
+  "playback": "intro-hold",
+  "slots": {
+    "background": "#FFE14D",
+    "outline": "#141414",
+    "primary": "#FF2D2D"
+  },
+  "textArea": [
+    160,
+    134,
+    300,
+    140
+  ],
+  "variants": [
+    {
+      "id": "bold",
+      "name": "Comic",
+      "file": "speech-bubble-shout.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 620,
+      "height": 440,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#FFE14D",
+        "outline": "#141414",
+        "primary": "#FF2D2D"
+      },
+      "textArea": [
+        160,
+        134,
+        300,
+        140
+      ],
+      "description": "Yellow spiky bubble with an ink outline over a red burst, slammed in with a shake."
+    },
+    {
+      "id": "clean",
+      "name": "Clean",
+      "file": "speech-bubble-shout--clean.json",
+      "thumbnail": "thumbnail--clean.png",
+      "preview": "preview--clean.webp",
+      "poster": "poster--clean.png",
+      "width": 620,
+      "height": 440,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#FFFFFF",
+        "primary": "#FF2D2D"
+      },
+      "textArea": [
+        160,
+        134,
+        300,
+        140
+      ],
+      "description": "Flat white spiky bubble with a red offset echo, no outline."
+    },
+    {
+      "id": "hand",
+      "name": "Hand-Drawn",
+      "file": "speech-bubble-shout--hand.json",
+      "thumbnail": "thumbnail--hand.png",
+      "preview": "preview--hand.webp",
+      "poster": "poster--hand.png",
+      "width": 620,
+      "height": 440,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#FFFFFF",
+        "outline": "#141414"
+      },
+      "textArea": [
+        160,
+        134,
+        300,
+        140
+      ],
+      "description": "Marker-drawn jagged bubble with little shout ticks flicked on around it."
+    }
+  ]
+}

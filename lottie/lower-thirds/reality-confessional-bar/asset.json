@@ -7,7 +7,7 @@
   "file": "reality-confessional-bar.json",
   "thumbnail": "thumbnail.png",
   "license": "CC-BY-NC-SA-4.0",
-  "description": "Reality-TV confessional lower third: a soft semi-transparent white name bar with a coral accent line and pink subtitle plate.",
+  "description": "Reality-TV confessional lower third: a soft light name plate with a coral accent and a pink subtitle plate.",
   "tags": [
     "lower third",
     "reality tv",
@@ -46,5 +46,121 @@
       422,
       32
     ]
-  }
+  },
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Soft Glide",
+      "file": "reality-confessional-bar.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 900,
+      "height": 200,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "accent": "#FF6F61",
+        "primary": "#FFFFFF",
+        "secondary": "#FF8FA3"
+      },
+      "textArea": [
+        62,
+        50,
+        752,
+        58
+      ],
+      "textAreas": {
+        "name": [
+          62,
+          50,
+          752,
+          58
+        ],
+        "subtitle": [
+          62,
+          123,
+          422,
+          32
+        ]
+      },
+      "description": "A soft semi-transparent white name bar with a coral accent line and a pink subtitle plate."
+    },
+    {
+      "id": "bubble",
+      "name": "Speech Bubble",
+      "file": "reality-confessional-bar--bubble.json",
+      "thumbnail": "thumbnail--bubble.png",
+      "preview": "preview--bubble.webp",
+      "poster": "poster--bubble.png",
+      "width": 900,
+      "height": 200,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "accent": "#FF6F61",
+        "primary": "#FFFFFF",
+        "secondary": "#FF8FA3"
+      },
+      "textArea": [
+        74,
+        36,
+        712,
+        60
+      ],
+      "textAreas": {
+        "name": [
+          74,
+          36,
+          712,
+          60
+        ],
+        "subtitle": [
+          156,
+          142,
+          360,
+          32
+        ]
+      },
+      "description": "Speech-bubble name plate springs out of its tail and a tilted two-tone subtitle chip pops in under it."
+    },
+    {
+      "id": "sparkle",
+      "name": "Sparkle",
+      "file": "reality-confessional-bar--sparkle.json",
+      "thumbnail": "thumbnail--sparkle.png",
+      "preview": "preview--sparkle.webp",
+      "poster": "poster--sparkle.png",
+      "width": 900,
+      "height": 200,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "accent": "#FF6F61",
+        "primary": "#FFFFFF",
+        "secondary": "#FF8FA3"
+      },
+      "textArea": [
+        120,
+        54,
+        644,
+        52
+      ],
+      "textAreas": {
+        "name": [
+          120,
+          54,
+          644,
+          52
+        ],
+        "subtitle": [
+          84,
+          131,
+          402,
+          30
+        ]
+      },
+      "description": "Rounded capsules glide in from the right in a soft stagger while little sparkles twinkle on the corner."
+    }
+  ]
 }

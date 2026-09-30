@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "id": "sweat-drop-nervous",
+  "name": "Sweat Drop Nervous",
+  "type": "lottie",
+  "category": "reactions",
+  "file": "sweat-drop-nervous.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Big anime sweat drop that beads up, trembles and slides down with droplets flicking off; place it by a face for nervous, awkward moments. Seamless loop.",
+  "tags": [
+    "sweat",
+    "nervous",
+    "awkward",
+    "anime",
+    "drop",
+    "yikes",
+    "reaction"
+  ],
+  "width": 320,
+  "height": 420,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#7CCBFF"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "glossy",
+      "name": "Glossy",
+      "file": "sweat-drop-nervous.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 320,
+      "height": 420,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#7CCBFF"
+      },
+      "textArea": null,
+      "description": "Glassy drop with bright highlights."
+    },
+    {
+      "id": "flat",
+      "name": "Flat Sticker",
+      "file": "sweat-drop-nervous--flat.json",
+      "thumbnail": "thumbnail--flat.png",
+      "preview": "preview--flat.webp",
+      "poster": "poster--flat.png",
+      "width": 320,
+      "height": 420,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#7CCBFF",
+        "outline": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Flat colours with a thick white die-cut border."
+    },
+    {
+      "id": "outline",
+      "name": "Bold Outline",
+      "file": "sweat-drop-nervous--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 320,
+      "height": 420,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#7CCBFF",
+        "outline": "#161616"
+      },
+      "textArea": null,
+      "description": "Cartoon line art with bold black outlines."
+    }
+  ]
+}

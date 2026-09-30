@@ -1,0 +1,115 @@
+{
+  "schema": 1,
+  "id": "coin-counter-burst",
+  "name": "Coin Counter Burst",
+  "type": "lottie",
+  "category": "gaming",
+  "file": "coin-counter-burst.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A burst of coins arcs through the air and flies into a counter badge, which pulses as each one lands. Put the count inside the counter.",
+  "tags": [
+    "coins",
+    "gold",
+    "counter",
+    "currency",
+    "reward",
+    "loot",
+    "gaming",
+    "hud"
+  ],
+  "width": 640,
+  "height": 440,
+  "fps": 30,
+  "duration": 2.2,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FFC42E",
+    "secondary": "#D9861A",
+    "background": "#0F131B",
+    "outline": "#FFFFFF"
+  },
+  "textArea": [
+    445,
+    50,
+    151,
+    44
+  ],
+  "variants": [
+    {
+      "id": "modern",
+      "name": "Modern",
+      "file": "coin-counter-burst.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 640,
+      "height": 440,
+      "duration": 2.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFC42E",
+        "secondary": "#D9861A",
+        "background": "#0F131B",
+        "outline": "#FFFFFF"
+      },
+      "textArea": [
+        445,
+        50,
+        151,
+        44
+      ],
+      "description": "Glossy spinning gold coins and a dark translucent counter pill."
+    },
+    {
+      "id": "pixel",
+      "name": "Pixel",
+      "file": "coin-counter-burst--pixel.json",
+      "thumbnail": "thumbnail--pixel.png",
+      "preview": "preview--pixel.webp",
+      "poster": "poster--pixel.png",
+      "width": 640,
+      "height": 440,
+      "duration": 2.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFD23F",
+        "secondary": "#E08A1E",
+        "outline": "#160E1E",
+        "background": "#2B2140"
+      },
+      "textArea": [
+        445,
+        50,
+        151,
+        44
+      ],
+      "description": "8-bit coins flipping between face and edge sprites, into a pixel counter box."
+    },
+    {
+      "id": "fantasy",
+      "name": "Treasure",
+      "file": "coin-counter-burst--fantasy.json",
+      "thumbnail": "thumbnail--fantasy.png",
+      "preview": "preview--fantasy.webp",
+      "poster": "poster--fantasy.png",
+      "width": 640,
+      "height": 440,
+      "duration": 2.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#2BD48F",
+        "secondary": "#F6C343",
+        "accent": "#FF4D7A",
+        "background": "#1D1226"
+      },
+      "textArea": [
+        445,
+        50,
+        151,
+        44
+      ],
+      "description": "Tumbling gems and star coins fly into a leather pouch on a gold-framed plate."
+    }
+  ]
+}

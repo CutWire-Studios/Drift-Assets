@@ -25,5 +25,60 @@
   "slots": {
     "primary": "#FFF1B8"
   },
-  "textArea": null
+  "textArea": null,
+  "variants": [
+    {
+      "id": "glossy",
+      "name": "Glowing",
+      "file": "sparkles-twinkle.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 400,
+      "height": 400,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFF1B8"
+      },
+      "textArea": null,
+      "description": "Soft cream sparkles with white-hot cores and a faint glow."
+    },
+    {
+      "id": "flat",
+      "name": "Flat Sticker",
+      "file": "sparkles-twinkle--flat.json",
+      "thumbnail": "thumbnail--flat.png",
+      "preview": "preview--flat.webp",
+      "poster": "poster--flat.png",
+      "width": 400,
+      "height": 400,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFD84A",
+        "outline": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Golden sparkles as flat die-cut stickers with white borders and soft shadows."
+    },
+    {
+      "id": "outline",
+      "name": "Bold Outline",
+      "file": "sparkles-twinkle--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 400,
+      "height": 400,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFD84A",
+        "outline": "#161616"
+      },
+      "textArea": null,
+      "description": "Cartoon sparkles with bold black outlines and hard offset shadows."
+    }
+  ]
 }

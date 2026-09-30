@@ -1,0 +1,112 @@
+{
+  "schema": 1,
+  "id": "tap-here-finger",
+  "name": "Tap Here Finger",
+  "type": "lottie",
+  "category": "call-to-action",
+  "file": "tap-here-finger.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Cartoon finger tapping a target with ripples, next to a label pill; seamless loop. Type your \"Tap here\" text inside the pill.",
+  "tags": [
+    "tap",
+    "finger",
+    "hand",
+    "click",
+    "touch",
+    "cta",
+    "loop"
+  ],
+  "width": 560,
+  "height": 372,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FF3D71",
+    "background": "#FFFFFF",
+    "icon": "#FFFFFF",
+    "secondary": "#5B5BF0"
+  },
+  "textArea": [
+    254,
+    79,
+    245,
+    58
+  ],
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Classic",
+      "file": "tap-here-finger.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 560,
+      "height": 372,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF3D71",
+        "background": "#FFFFFF",
+        "icon": "#FFFFFF",
+        "secondary": "#5B5BF0"
+      },
+      "textArea": [
+        254,
+        79,
+        245,
+        58
+      ],
+      "description": "Flat filled shapes with a soft drop shadow."
+    },
+    {
+      "id": "outline",
+      "name": "Line Art",
+      "file": "tap-here-finger--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 560,
+      "height": 372,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF3D71",
+        "outline": "#FFFFFF"
+      },
+      "textArea": [
+        254,
+        79,
+        245,
+        58
+      ],
+      "description": "Line-art version: clean outer contours, see-through inside."
+    },
+    {
+      "id": "3d-pop",
+      "name": "3D Pop",
+      "file": "tap-here-finger--3d-pop.json",
+      "thumbnail": "thumbnail--3d-pop.png",
+      "preview": "preview--3d-pop.webp",
+      "poster": "poster--3d-pop.png",
+      "width": 560,
+      "height": 372,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF3D71",
+        "background": "#FFFFFF",
+        "icon": "#FFFFFF",
+        "secondary": "#5B5BF0"
+      },
+      "textArea": [
+        254,
+        79,
+        245,
+        58
+      ],
+      "description": "Chunky layered look with an extruded side, highlight rim and depth shadow."
+    }
+  ]
+}

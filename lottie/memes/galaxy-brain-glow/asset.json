@@ -1,0 +1,89 @@
+{
+  "schema": 1,
+  "id": "galaxy-brain-glow",
+  "name": "Galaxy Brain",
+  "type": "lottie",
+  "category": "memes",
+  "file": "galaxy-brain-glow.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A glowing brain with radiating galaxy rays and twinkling stars on a seamless loop, for peak big-brain moments. Place it beside or over a head.",
+  "tags": [
+    "galaxy brain",
+    "brain",
+    "glow",
+    "smart",
+    "enlightened",
+    "meme",
+    "loop"
+  ],
+  "width": 600,
+  "height": 600,
+  "fps": 30,
+  "duration": 3.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#BDF3FF",
+    "secondary": "#9B6BFF",
+    "accent": "#FFFFFF"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "cosmic",
+      "name": "Cosmic",
+      "file": "galaxy-brain-glow.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 600,
+      "height": 600,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#BDF3FF",
+        "secondary": "#9B6BFF",
+        "accent": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Bright cyan brain with layered glow, turning violet rays and a nebula haze."
+    },
+    {
+      "id": "neon",
+      "name": "Neon Outline",
+      "file": "galaxy-brain-glow--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 600,
+      "height": 600,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF4FD8",
+        "secondary": "#4FF0FF"
+      },
+      "textArea": null,
+      "description": "Line-art brain in neon tubes with light pulses racing out along thin rays."
+    },
+    {
+      "id": "ascend",
+      "name": "Ascended",
+      "file": "galaxy-brain-glow--ascend.json",
+      "thumbnail": "thumbnail--ascend.png",
+      "preview": "preview--ascend.webp",
+      "poster": "poster--ascend.png",
+      "width": 600,
+      "height": 600,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFF6DC",
+        "accent": "#FFC83D",
+        "secondary": "#FFE9A8"
+      },
+      "textArea": null,
+      "description": "White-gold radiant brain with halo rings radiating outward and slow gold rays."
+    }
+  ]
+}

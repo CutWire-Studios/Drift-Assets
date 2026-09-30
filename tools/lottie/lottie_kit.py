@@ -163,7 +163,12 @@ def stroke(color="#FFFFFF", width=4, opacity=100, slot=None, cap="round", join="
          "lc": {"butt": 1, "round": 2, "square": 3}[cap], "lj": {"miter": 1, "round": 2, "bevel": 3}[join],
          "ml": 4}
     if dashes:
+        # dashes = [dash, gap, ...] with an optional odd trailing offset. Skottie always reads the
+        # last entry as the offset, so an explicit 0 offset is added when none is given.
+        dashes = list(dashes)
+        offset = dashes.pop() if len(dashes) % 2 else 0
         s["d"] = [{"n": "d" if i % 2 == 0 else "g", "nm": "d", "v": _s(v)} for i, v in enumerate(dashes)]
+        s["d"].append({"n": "o", "nm": "o", "v": _s(offset)})
     return s
 
 

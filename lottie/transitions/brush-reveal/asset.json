@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "id": "brush-reveal",
+  "name": "Brush Reveal",
+  "type": "lottie",
+  "category": "transitions",
+  "file": "brush-reveal.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Paint brush transition: a thick brush stroke paints over the shot, holds on solid paint for the cut, then is wiped away to reveal the next clip.",
+  "tags": [
+    "brush",
+    "paint",
+    "stroke",
+    "reveal",
+    "transition",
+    "art"
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 1.467,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "primary": "#FF5A36"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "zigzag",
+      "name": "Brush Zigzag",
+      "file": "brush-reveal.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.467,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FF5A36"
+      },
+      "textArea": null,
+      "description": "One fat round brush paints back and forth across the frame, then the paint is wiped off in the same path."
+    },
+    {
+      "id": "layered",
+      "name": "Layered Paint",
+      "file": "brush-reveal--layered.json",
+      "thumbnail": "thumbnail--layered.png",
+      "preview": "preview--layered.webp",
+      "poster": "poster--layered.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.467,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#5B3DF5",
+        "secondary": "#FF4F8B",
+        "accent": "#FFC93C"
+      },
+      "textArea": null,
+      "description": "Accent, secondary and primary coats are painted one after another and wiped off in reverse."
+    },
+    {
+      "id": "dry-brush",
+      "name": "Dry Brush",
+      "file": "brush-reveal--dry-brush.json",
+      "thumbnail": "thumbnail--dry-brush.png",
+      "preview": "preview--dry-brush.webp",
+      "poster": "poster--dry-brush.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.467,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#141414"
+      },
+      "textArea": null,
+      "description": "Ink dry brush with frayed bristle streaks trailing at the tip and edges."
+    }
+  ]
+}

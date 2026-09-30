@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "id": "ink-splash",
+  "name": "Ink Splash",
+  "type": "lottie",
+  "category": "transitions",
+  "file": "ink-splash.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Ink splash transition: a splat of paint bursts over the shot, holds on solid colour for the cut, then splashes away to reveal the next clip.",
+  "tags": [
+    "ink",
+    "splash",
+    "splat",
+    "paint",
+    "transition",
+    "grunge"
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 1.267,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "primary": "#15121F"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "splat",
+      "name": "Single Splat",
+      "file": "ink-splash.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.267,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#15121F"
+      },
+      "textArea": null,
+      "description": "One big ink splat bursts out of the centre with a little overshoot, then a splat-shaped hole blows it away."
+    },
+    {
+      "id": "multi",
+      "name": "Colour Splats",
+      "file": "ink-splash--multi.json",
+      "thumbnail": "thumbnail--multi.png",
+      "preview": "preview--multi.webp",
+      "poster": "poster--multi.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.4,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#5B3DF5",
+        "secondary": "#FF4F8B",
+        "accent": "#FFC93C"
+      },
+      "textArea": null,
+      "description": "Accent, secondary and primary splats land from different spots and clear in reverse."
+    },
+    {
+      "id": "spatter",
+      "name": "Spatter",
+      "file": "ink-splash--spatter.json",
+      "thumbnail": "thumbnail--spatter.png",
+      "preview": "preview--spatter.webp",
+      "poster": "poster--spatter.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1.333,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#5B3DF5",
+        "secondary": "#FF4F8B"
+      },
+      "textArea": null,
+      "description": "Fifteen small splats pop across the frame one after another, then shrink away in reverse order."
+    }
+  ]
+}

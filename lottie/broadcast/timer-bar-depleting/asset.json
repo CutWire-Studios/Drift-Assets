@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "id": "timer-bar-depleting",
+  "name": "Timer Bar Depleting",
+  "type": "lottie",
+  "category": "broadcast",
+  "file": "timer-bar-depleting.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Ten-second countdown bar that drains and turns to a warning colour near the end, then refills so it loops. Good for quizzes, challenges and giveaways.",
+  "tags": [
+    "timer",
+    "countdown",
+    "progress",
+    "bar",
+    "quiz",
+    "time",
+    "game show",
+    "seconds"
+  ],
+  "width": 1200,
+  "height": 180,
+  "fps": 30,
+  "duration": 10.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#22D67A",
+    "accent": "#FF3B3B",
+    "icon": "#FFFFFF",
+    "background": "#23232B"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "modern",
+      "name": "Modern Pill",
+      "file": "timer-bar-depleting.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1200,
+      "height": 180,
+      "duration": 10.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#22D67A",
+        "accent": "#FF3B3B",
+        "icon": "#FFFFFF",
+        "background": "#23232B"
+      },
+      "textArea": null,
+      "description": "Rounded pill bar with a ticking stopwatch; turns red and pulses in the last seconds."
+    },
+    {
+      "id": "segmented",
+      "name": "Arcade Blocks",
+      "file": "timer-bar-depleting--segmented.json",
+      "thumbnail": "thumbnail--segmented.png",
+      "preview": "preview--segmented.webp",
+      "poster": "poster--segmented.png",
+      "width": 1160,
+      "height": 150,
+      "duration": 10.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#3CE05A",
+        "secondary": "#FFD23C",
+        "accent": "#FF3B3B",
+        "outline": "#FFFFFF",
+        "background": "#101014"
+      },
+      "textArea": null,
+      "description": "Chunky pixel-style frame of twenty blocks that switch off one by one, ending on blinking red."
+    },
+    {
+      "id": "neon",
+      "name": "Neon Fuse",
+      "file": "timer-bar-depleting--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 1200,
+      "height": 120,
+      "duration": 10.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#2EF2FF",
+        "accent": "#FF2E88"
+      },
+      "textArea": null,
+      "description": "Thin neon line that burns down like a fuse with a spark at its head."
+    }
+  ]
+}

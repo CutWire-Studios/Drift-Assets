@@ -1,0 +1,186 @@
+{
+  "schema": 1,
+  "id": "like-comment-share-bar",
+  "name": "Like Comment Share Bar",
+  "type": "lottie",
+  "category": "call-to-action",
+  "file": "like-comment-share-bar.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Short-video style sidebar: like, comment and share icons pop in one by one, then the like is tapped and fills red with a burst. Type your counts under each icon.",
+  "tags": [
+    "like",
+    "comment",
+    "share",
+    "sidebar",
+    "reels",
+    "shorts",
+    "social"
+  ],
+  "width": 240,
+  "height": 640,
+  "fps": 30,
+  "duration": 3.0,
+  "playback": "intro-hold",
+  "slots": {
+    "accent": "#FE2C55",
+    "icon": "#FFFFFF"
+  },
+  "textArea": [
+    30,
+    160,
+    180,
+    40
+  ],
+  "textAreas": {
+    "likes": [
+      30,
+      160,
+      180,
+      40
+    ],
+    "comments": [
+      30,
+      354,
+      180,
+      40
+    ],
+    "shares": [
+      30,
+      548,
+      180,
+      40
+    ]
+  },
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Classic",
+      "file": "like-comment-share-bar.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 240,
+      "height": 640,
+      "duration": 3.0,
+      "playback": "intro-hold",
+      "slots": {
+        "accent": "#FE2C55",
+        "icon": "#FFFFFF"
+      },
+      "textArea": [
+        30,
+        160,
+        180,
+        40
+      ],
+      "textAreas": {
+        "likes": [
+          30,
+          160,
+          180,
+          40
+        ],
+        "comments": [
+          30,
+          354,
+          180,
+          40
+        ],
+        "shares": [
+          30,
+          548,
+          180,
+          40
+        ]
+      },
+      "description": "Flat filled shapes with a soft drop shadow."
+    },
+    {
+      "id": "outline",
+      "name": "Line Art",
+      "file": "like-comment-share-bar--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 240,
+      "height": 640,
+      "duration": 3.0,
+      "playback": "intro-hold",
+      "slots": {
+        "accent": "#FE2C55",
+        "outline": "#FFFFFF"
+      },
+      "textArea": [
+        30,
+        160,
+        180,
+        40
+      ],
+      "textAreas": {
+        "likes": [
+          30,
+          160,
+          180,
+          40
+        ],
+        "comments": [
+          30,
+          354,
+          180,
+          40
+        ],
+        "shares": [
+          30,
+          548,
+          180,
+          40
+        ]
+      },
+      "description": "Line-art version: clean outer contours, see-through inside."
+    },
+    {
+      "id": "3d-pop",
+      "name": "3D Pop",
+      "file": "like-comment-share-bar--3d-pop.json",
+      "thumbnail": "thumbnail--3d-pop.png",
+      "preview": "preview--3d-pop.webp",
+      "poster": "poster--3d-pop.png",
+      "width": 240,
+      "height": 640,
+      "duration": 3.0,
+      "playback": "intro-hold",
+      "slots": {
+        "accent": "#FE2C55",
+        "icon": "#FFFFFF"
+      },
+      "textArea": [
+        30,
+        160,
+        180,
+        40
+      ],
+      "textAreas": {
+        "likes": [
+          30,
+          160,
+          180,
+          40
+        ],
+        "comments": [
+          30,
+          354,
+          180,
+          40
+        ],
+        "shares": [
+          30,
+          548,
+          180,
+          40
+        ]
+      },
+      "description": "Chunky layered look with an extruded side, highlight rim and depth shadow."
+    }
+  ]
+}

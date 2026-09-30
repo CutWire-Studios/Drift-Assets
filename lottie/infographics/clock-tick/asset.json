@@ -1,0 +1,146 @@
+{
+  "schema": 1,
+  "id": "clock-tick",
+  "name": "Clock Tick",
+  "type": "lottie",
+  "category": "infographics",
+  "file": "clock-tick.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Looping analog clock with a moving hand. Put a caption such as a time, deadline or duration in the 'label' area under the clock.",
+  "tags": [
+    "clock",
+    "time",
+    "watch",
+    "timer",
+    "deadline",
+    "schedule",
+    "hours",
+    "loop"
+  ],
+  "width": 520,
+  "height": 600,
+  "fps": 30,
+  "duration": 4.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FF4D5E",
+    "secondary": "#5B6CFF",
+    "background": "#FFFFFF",
+    "outline": "#1F2233"
+  },
+  "textArea": [
+    60,
+    510,
+    400,
+    60
+  ],
+  "textAreas": {
+    "label": [
+      60,
+      510,
+      400,
+      60
+    ]
+  },
+  "variants": [
+    {
+      "id": "flat",
+      "name": "Wall Clock",
+      "file": "clock-tick.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 520,
+      "height": 600,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF4D5E",
+        "secondary": "#5B6CFF",
+        "background": "#FFFFFF",
+        "outline": "#1F2233"
+      },
+      "textArea": [
+        60,
+        510,
+        400,
+        60
+      ],
+      "textAreas": {
+        "label": [
+          60,
+          510,
+          400,
+          60
+        ]
+      },
+      "description": "Classic wall clock; the red second hand ticks round in springy steps."
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "file": "clock-tick--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 520,
+      "height": 600,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF3DCB",
+        "background": "#0D1024",
+        "outline": "#23E5FF"
+      },
+      "textArea": [
+        60,
+        510,
+        400,
+        60
+      ],
+      "textAreas": {
+        "label": [
+          60,
+          510,
+          400,
+          60
+        ]
+      },
+      "description": "Dark panel with a glowing dial; the second hand sweeps smoothly with a comet trail."
+    },
+    {
+      "id": "sketch",
+      "name": "Sketch Time-lapse",
+      "file": "clock-tick--sketch.json",
+      "thumbnail": "thumbnail--sketch.png",
+      "preview": "preview--sketch.webp",
+      "poster": "poster--sketch.png",
+      "width": 520,
+      "height": 600,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF5A4E",
+        "background": "#FFF9EC",
+        "outline": "#26262E",
+        "accent": "#FFC83D"
+      },
+      "textArea": [
+        60,
+        510,
+        400,
+        60
+      ],
+      "textAreas": {
+        "label": [
+          60,
+          510,
+          400,
+          60
+        ]
+      },
+      "description": "Paper card with a hand-drawn clock; the minute hand whizzes round with motion arcs."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "skottie-render-node",
+  "private": true,
+  "description": "CanvasKit fallback for skottie-render (see skottie-render.mjs)",
+  "type": "module",
+  "dependencies": {
+    "canvaskit-wasm": "0.42.0"
+  }
+}

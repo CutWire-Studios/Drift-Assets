@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "id": "spotlight-ring",
+  "name": "Spotlight Ring",
+  "type": "lottie",
+  "category": "callouts",
+  "file": "spotlight-ring.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A ring that keeps pulsing around a subject to draw the eye to it; place it over whatever you want to spotlight.",
+  "tags": [
+    "spotlight",
+    "ring",
+    "circle",
+    "pulse",
+    "highlight",
+    "focus",
+    "loop"
+  ],
+  "width": 440,
+  "height": 440,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FFD21F"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "glow",
+      "name": "Glow",
+      "file": "spotlight-ring.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 440,
+      "height": 440,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFD21F"
+      },
+      "textArea": null,
+      "description": "Glowing ring that breathes and sends out soft ripples."
+    },
+    {
+      "id": "dashed",
+      "name": "Dashed",
+      "file": "spotlight-ring--dashed.json",
+      "thumbnail": "thumbnail--dashed.png",
+      "preview": "preview--dashed.webp",
+      "poster": "poster--dashed.png",
+      "width": 440,
+      "height": 440,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Slowly turning dashed ring with an inner ring and four ticks."
+    },
+    {
+      "id": "hand",
+      "name": "Hand-Drawn",
+      "file": "spotlight-ring--hand.json",
+      "thumbnail": "thumbnail--hand.png",
+      "preview": "preview--hand.webp",
+      "poster": "poster--hand.png",
+      "width": 440,
+      "height": 440,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF2D2D"
+      },
+      "textArea": null,
+      "description": "Boiling marker circle that pulses and echoes outwards."
+    }
+  ]
+}

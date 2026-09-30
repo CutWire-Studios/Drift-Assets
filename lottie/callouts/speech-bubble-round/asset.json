@@ -1,0 +1,105 @@
+{
+  "schema": 1,
+  "id": "speech-bubble-round",
+  "name": "Round Speech Bubble",
+  "type": "lottie",
+  "category": "callouts",
+  "file": "speech-bubble-round.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A rounded speech bubble with a tail at the bottom left that pops in; type your line inside it.",
+  "tags": [
+    "speech",
+    "bubble",
+    "talk",
+    "dialogue",
+    "comic",
+    "chat",
+    "callout"
+  ],
+  "width": 540,
+  "height": 400,
+  "fps": 30,
+  "duration": 1.2,
+  "playback": "intro-hold",
+  "slots": {
+    "background": "#FFFFFF"
+  },
+  "textArea": [
+    100,
+    94,
+    340,
+    156
+  ],
+  "variants": [
+    {
+      "id": "clean",
+      "name": "Clean",
+      "file": "speech-bubble-round.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 540,
+      "height": 400,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#FFFFFF"
+      },
+      "textArea": [
+        100,
+        94,
+        340,
+        156
+      ],
+      "description": "Flat white bubble with a soft shadow that squashes and stretches in from its tail."
+    },
+    {
+      "id": "bold",
+      "name": "Comic",
+      "file": "speech-bubble-round--bold.json",
+      "thumbnail": "thumbnail--bold.png",
+      "preview": "preview--bold.webp",
+      "poster": "poster--bold.png",
+      "width": 540,
+      "height": 400,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#FFFFFF",
+        "outline": "#141414",
+        "primary": "#FF2D2D"
+      },
+      "textArea": [
+        100,
+        94,
+        340,
+        156
+      ],
+      "description": "Comic-book bubble with a thick ink outline and a hard red shadow, springing in."
+    },
+    {
+      "id": "hand",
+      "name": "Hand-Drawn",
+      "file": "speech-bubble-round--hand.json",
+      "thumbnail": "thumbnail--hand.png",
+      "preview": "preview--hand.webp",
+      "poster": "poster--hand.png",
+      "width": 540,
+      "height": 400,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#FFFFFF",
+        "outline": "#141414"
+      },
+      "textArea": [
+        100,
+        94,
+        340,
+        156
+      ],
+      "description": "Marker outline drawn round the bubble while the white fill fades up."
+    }
+  ]
+}

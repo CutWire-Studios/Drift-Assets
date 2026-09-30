@@ -1,0 +1,185 @@
+{
+  "schema": 1,
+  "id": "camcorder-viewfinder",
+  "name": "Camcorder Viewfinder",
+  "type": "lottie",
+  "category": "broadcast",
+  "file": "camcorder-viewfinder.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Full-frame camera viewfinder overlay with a transparent centre: corner marks, blinking record dot, battery and a focus square that locks on. Text areas for REC, timecode and other readouts.",
+  "tags": [
+    "camcorder",
+    "viewfinder",
+    "camera",
+    "rec",
+    "recording",
+    "focus",
+    "overlay",
+    "vlog"
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "icon": "#FFFFFF",
+    "primary": "#FF2D2D",
+    "accent": "#3DFF7A"
+  },
+  "textArea": [
+    160,
+    98,
+    340,
+    56
+  ],
+  "textAreas": {
+    "rec": [
+      160,
+      98,
+      340,
+      56
+    ],
+    "timecode": [
+      100,
+      910,
+      460,
+      60
+    ],
+    "battery": [
+      1380,
+      98,
+      290,
+      56
+    ]
+  },
+  "variants": [
+    {
+      "id": "modern",
+      "name": "Modern",
+      "file": "camcorder-viewfinder.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "icon": "#FFFFFF",
+        "primary": "#FF2D2D",
+        "accent": "#3DFF7A"
+      },
+      "textArea": [
+        160,
+        98,
+        340,
+        56
+      ],
+      "textAreas": {
+        "rec": [
+          160,
+          98,
+          340,
+          56
+        ],
+        "timecode": [
+          100,
+          910,
+          460,
+          60
+        ],
+        "battery": [
+          1380,
+          98,
+          290,
+          56
+        ]
+      },
+      "description": "Thin corner marks, thirds grid, zoom slider and a focus square that locks green."
+    },
+    {
+      "id": "retro",
+      "name": "90s Camcorder",
+      "file": "camcorder-viewfinder--retro.json",
+      "thumbnail": "thumbnail--retro.png",
+      "preview": "preview--retro.webp",
+      "poster": "poster--retro.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "icon": "#FFFFFF",
+        "primary": "#FF2A2A"
+      },
+      "textArea": [
+        200,
+        116,
+        340,
+        70
+      ],
+      "textAreas": {
+        "rec": [
+          200,
+          116,
+          340,
+          70
+        ],
+        "timecode": [
+          110,
+          880,
+          520,
+          76
+        ],
+        "date": [
+          1290,
+          880,
+          520,
+          76
+        ]
+      },
+      "description": "Chunky shadowed marks, a blinking low battery, spinning tape reels, scanlines and jitter."
+    },
+    {
+      "id": "pro",
+      "name": "Cinema Monitor",
+      "file": "camcorder-viewfinder--pro.json",
+      "thumbnail": "thumbnail--pro.png",
+      "preview": "preview--pro.webp",
+      "poster": "poster--pro.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "icon": "#FFFFFF",
+        "primary": "#FF2D2D",
+        "accent": "#3DFF7A",
+        "background": "#000000"
+      },
+      "textArea": [
+        80,
+        12,
+        1700,
+        48
+      ],
+      "textAreas": {
+        "top": [
+          80,
+          12,
+          1700,
+          48
+        ],
+        "bottom": [
+          120,
+          1020,
+          1680,
+          48
+        ]
+      },
+      "description": "Cinema-camera monitor: red record border, info bars, 2.39 guides, audio meters and focus box."
+    }
+  ]
+}

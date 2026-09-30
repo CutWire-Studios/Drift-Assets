@@ -1,0 +1,107 @@
+{
+  "schema": 1,
+  "id": "on-air-light",
+  "name": "On Air Light",
+  "type": "lottie",
+  "category": "broadcast",
+  "file": "on-air-light.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Studio ON AIR lamp that flickers on and glows. Type ON AIR (or LIVE, RECORDING...) inside the lit face with the text tool.",
+  "tags": [
+    "on air",
+    "studio",
+    "live",
+    "radio",
+    "podcast",
+    "lamp",
+    "sign",
+    "recording"
+  ],
+  "width": 800,
+  "height": 380,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FF2B2B",
+    "outline": "#2A2B30"
+  },
+  "textArea": [
+    130,
+    120,
+    540,
+    140
+  ],
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Studio Box",
+      "file": "on-air-light.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 800,
+      "height": 380,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF2B2B",
+        "outline": "#2A2B30"
+      },
+      "textArea": [
+        130,
+        120,
+        540,
+        140
+      ],
+      "description": "Brushed-metal lamp box with screws and a red glass face that flickers on and hums."
+    },
+    {
+      "id": "neon",
+      "name": "Neon Sign",
+      "file": "on-air-light--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 800,
+      "height": 380,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF2E4D",
+        "background": "#120A10"
+      },
+      "textArea": [
+        150,
+        120,
+        500,
+        140
+      ],
+      "description": "Double neon tube on a dark acrylic plate that stutters on like a sign."
+    },
+    {
+      "id": "retro",
+      "name": "Vintage Lamp",
+      "file": "on-air-light--retro.json",
+      "thumbnail": "thumbnail--retro.png",
+      "preview": "preview--retro.webp",
+      "poster": "poster--retro.png",
+      "width": 800,
+      "height": 380,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF5A1F",
+        "secondary": "#6E1405"
+      },
+      "textArea": [
+        170,
+        120,
+        460,
+        120
+      ],
+      "description": "Stadium-shaped vintage lamp with chrome rim and grille on a bracket; the glass warms up slowly."
+    }
+  ]
+}

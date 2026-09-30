@@ -7,7 +7,7 @@
   "file": "like-thumb-pop.json",
   "thumbnail": "thumbnail.png",
   "license": "CC-BY-NC-SA-4.0",
-  "description": "Outlined thumbs-up that pops in, fills with colour and bounces with a particle burst.",
+  "description": "Thumbs-up like reaction that pops in and bounces with a particle burst.",
   "tags": [
     "like",
     "thumbs up",
@@ -24,5 +24,63 @@
     "outline": "#FFFFFF",
     "accent": "#9AD2FF"
   },
-  "textArea": null
+  "textArea": null,
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Outline Fill",
+      "file": "like-thumb-pop.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 440,
+      "height": 440,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#3EA6FF",
+        "outline": "#FFFFFF",
+        "accent": "#9AD2FF"
+      },
+      "textArea": null,
+      "description": "Outlined thumbs-up that pops in, fills with colour and bounces with a particle burst."
+    },
+    {
+      "id": "3d-pop",
+      "name": "3D Pop",
+      "file": "like-thumb-pop--3d-pop.json",
+      "thumbnail": "thumbnail--3d-pop.png",
+      "preview": "preview--3d-pop.webp",
+      "poster": "poster--3d-pop.png",
+      "width": 440,
+      "height": 440,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#3EA6FF",
+        "accent": "#9AD2FF"
+      },
+      "textArea": null,
+      "description": "Chunky layered 3D thumb with a highlight rim and depth that springs in and rocks on its wrist."
+    },
+    {
+      "id": "badge",
+      "name": "Round Badge",
+      "file": "like-thumb-pop--badge.json",
+      "thumbnail": "thumbnail--badge.png",
+      "preview": "preview--badge.webp",
+      "poster": "poster--badge.png",
+      "width": 440,
+      "height": 440,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#3EA6FF",
+        "icon": "#FFFFFF",
+        "accent": "#9AD2FF"
+      },
+      "textArea": null,
+      "description": "A round badge pops and a white thumb flicks up inside it while a ring pulses out."
+    }
+  ]
 }

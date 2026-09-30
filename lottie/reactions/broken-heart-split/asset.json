@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "id": "broken-heart-split",
+  "name": "Broken Heart Split",
+  "type": "lottie",
+  "category": "reactions",
+  "file": "broken-heart-split.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Heart that pops in and beats, then cracks down the middle and splits apart with falling shards, and holds; for heartbreak and disappointment.",
+  "tags": [
+    "broken heart",
+    "heartbreak",
+    "sad",
+    "breakup",
+    "heart",
+    "reaction"
+  ],
+  "width": 460,
+  "height": 440,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FF3B5C"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "glossy",
+      "name": "Glossy",
+      "file": "broken-heart-split.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 460,
+      "height": 440,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF3B5C"
+      },
+      "textArea": null,
+      "description": "Shaded glossy heart with highlights."
+    },
+    {
+      "id": "flat",
+      "name": "Flat Sticker",
+      "file": "broken-heart-split--flat.json",
+      "thumbnail": "thumbnail--flat.png",
+      "preview": "preview--flat.webp",
+      "poster": "poster--flat.png",
+      "width": 460,
+      "height": 440,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF3B5C",
+        "outline": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Flat colours with a thick white die-cut border."
+    },
+    {
+      "id": "outline",
+      "name": "Bold Outline",
+      "file": "broken-heart-split--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 460,
+      "height": 440,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF3B5C",
+        "outline": "#161616"
+      },
+      "textArea": null,
+      "description": "Cartoon line art with bold black outlines."
+    }
+  ]
+}

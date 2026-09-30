@@ -1,0 +1,148 @@
+{
+  "schema": 1,
+  "id": "lower-third-gradient-wave",
+  "name": "Gradient Wave Lower Third",
+  "type": "lottie",
+  "category": "lower-thirds",
+  "file": "lower-third-gradient-wave.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Lower-third bar whose top edge is a gently flowing wave, shaded with a soft gradient. Put your name in the bar and a subtitle below it.",
+  "tags": [
+    "lower third",
+    "wave",
+    "gradient",
+    "flowing",
+    "smooth",
+    "modern",
+    "water"
+  ],
+  "width": 1150,
+  "height": 250,
+  "fps": 30,
+  "duration": 5.0,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "primary": "#6C3BFF",
+    "accent": "#FF5FA2"
+  },
+  "textArea": [
+    100,
+    102,
+    860,
+    62
+  ],
+  "textAreas": {
+    "headline": [
+      100,
+      102,
+      860,
+      62
+    ],
+    "subtitle": [
+      100,
+      170,
+      760,
+      30
+    ]
+  },
+  "variants": [
+    {
+      "id": "wave",
+      "name": "Wave Bar",
+      "file": "lower-third-gradient-wave.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1150,
+      "height": 250,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#6C3BFF",
+        "accent": "#FF5FA2"
+      },
+      "textArea": [
+        100,
+        102,
+        860,
+        62
+      ],
+      "textAreas": {
+        "headline": [
+          100,
+          102,
+          860,
+          62
+        ],
+        "subtitle": [
+          100,
+          170,
+          760,
+          30
+        ]
+      },
+      "description": "Wavy-topped gradient bar wipes in from the left with an accent crest line riding above."
+    },
+    {
+      "id": "layered",
+      "name": "Layered Waves",
+      "file": "lower-third-gradient-wave--layered.json",
+      "thumbnail": "thumbnail--layered.png",
+      "preview": "preview--layered.webp",
+      "poster": "poster--layered.png",
+      "width": 1150,
+      "height": 260,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#0077B6",
+        "secondary": "#90E0EF"
+      },
+      "textArea": [
+        100,
+        122,
+        860,
+        60
+      ],
+      "textAreas": {
+        "headline": [
+          100,
+          122,
+          860,
+          60
+        ],
+        "subtitle": [
+          100,
+          186,
+          760,
+          30
+        ]
+      },
+      "description": "Two wave layers in different colours rise from the bottom and keep flowing."
+    },
+    {
+      "id": "ribbon",
+      "name": "Wave Ribbon",
+      "file": "lower-third-gradient-wave--ribbon.json",
+      "thumbnail": "thumbnail--ribbon.png",
+      "preview": "preview--ribbon.webp",
+      "poster": "poster--ribbon.png",
+      "width": 1100,
+      "height": 230,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FF7B00",
+        "secondary": "#FFD000"
+      },
+      "textArea": [
+        180,
+        84,
+        740,
+        70
+      ],
+      "description": "Centred single-line ribbon with waves on both edges, opening from the middle."
+    }
+  ]
+}

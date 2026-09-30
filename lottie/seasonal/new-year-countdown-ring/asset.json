@@ -1,0 +1,109 @@
+{
+  "schema": 1,
+  "id": "new-year-countdown-ring",
+  "name": "New Year Countdown Ring",
+  "type": "lottie",
+  "category": "seasonal",
+  "file": "new-year-countdown-ring.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A countdown ring that fills up and bursts into fireworks when it completes; loop it once per number. Put the countdown number in the text area inside the ring.",
+  "tags": [
+    "new year",
+    "countdown",
+    "fireworks",
+    "ring",
+    "timer",
+    "celebration",
+    "nye"
+  ],
+  "width": 640,
+  "height": 640,
+  "fps": 30,
+  "duration": 3.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#F5C451",
+    "secondary": "#FFF1C1",
+    "background": "#1B2340"
+  },
+  "textArea": [
+    180,
+    215,
+    280,
+    210
+  ],
+  "variants": [
+    {
+      "id": "gold",
+      "name": "Gold Clock",
+      "file": "new-year-countdown-ring.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 640,
+      "height": 640,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#F5C451",
+        "secondary": "#FFF1C1",
+        "background": "#1B2340"
+      },
+      "textArea": [
+        180,
+        215,
+        280,
+        210
+      ],
+      "description": "Elegant gold ring with clock ticks on a night disc and golden firework bursts."
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "file": "new-year-countdown-ring--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 640,
+      "height": 640,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#35E0FF",
+        "secondary": "#FF3FD1"
+      },
+      "textArea": [
+        180,
+        215,
+        280,
+        210
+      ],
+      "description": "Twin neon rings filling in opposite directions, with multicolour fireworks."
+    },
+    {
+      "id": "segments",
+      "name": "Segments",
+      "file": "new-year-countdown-ring--segments.json",
+      "thumbnail": "thumbnail--segments.png",
+      "preview": "preview--segments.webp",
+      "poster": "poster--segments.png",
+      "width": 640,
+      "height": 640,
+      "duration": 3.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFFFFF",
+        "secondary": "#FF5A7A",
+        "accent": "#FFC93C"
+      },
+      "textArea": [
+        180,
+        215,
+        280,
+        210
+      ],
+      "description": "Twelve segments light up one by one, then a confetti burst on completion."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "schema": 1,
+  "id": "sticky-note",
+  "name": "Sticky Note",
+  "type": "lottie",
+  "category": "callouts",
+  "file": "sticky-note.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A square sticky note that flaps onto the screen with a curled corner; write a short note on it.",
+  "tags": [
+    "sticky note",
+    "note",
+    "post-it",
+    "memo",
+    "reminder",
+    "paper",
+    "callout"
+  ],
+  "width": 400,
+  "height": 420,
+  "fps": 30,
+  "duration": 1.2,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FFE066"
+  },
+  "textArea": [
+    84,
+    124,
+    232,
+    190
+  ],
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Classic",
+      "file": "sticky-note.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 400,
+      "height": 420,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFE066"
+      },
+      "textArea": [
+        84,
+        124,
+        232,
+        190
+      ],
+      "description": "Yellow note hinged at its glue strip, swinging down flat onto the screen."
+    },
+    {
+      "id": "pinned",
+      "name": "Pinned",
+      "file": "sticky-note--pinned.json",
+      "thumbnail": "thumbnail--pinned.png",
+      "preview": "preview--pinned.webp",
+      "poster": "poster--pinned.png",
+      "width": 400,
+      "height": 420,
+      "duration": 1.4,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#7FD6FF",
+        "accent": "#FF2D2D"
+      },
+      "textArea": [
+        84,
+        124,
+        232,
+        190
+      ],
+      "description": "Blue note pinned up by a red push pin, swinging on it before it settles."
+    },
+    {
+      "id": "hand",
+      "name": "Doodle",
+      "file": "sticky-note--hand.json",
+      "thumbnail": "thumbnail--hand.png",
+      "preview": "preview--hand.webp",
+      "poster": "poster--hand.png",
+      "width": 400,
+      "height": 420,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF9EC4",
+        "outline": "#141414"
+      },
+      "textArea": [
+        84,
+        124,
+        232,
+        190
+      ],
+      "description": "Pink note with a marker outline that bounces in, with a doodled tape strip."
+    }
+  ]
+}

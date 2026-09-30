@@ -1,0 +1,122 @@
+{
+  "schema": 1,
+  "id": "controller-button-prompts",
+  "name": "Controller Button Prompts",
+  "type": "lottie",
+  "category": "gaming",
+  "file": "controller-button-prompts.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A row of four face-button prompts with triangle, circle, cross and square glyphs; each one is pressed in turn on a loop. Put the action label to the right.",
+  "tags": [
+    "controller",
+    "buttons",
+    "prompt",
+    "gamepad",
+    "tutorial",
+    "input",
+    "gaming",
+    "hud"
+  ],
+  "width": 800,
+  "height": 220,
+  "fps": 30,
+  "duration": 4.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#3DDBB5",
+    "secondary": "#FF5A6A",
+    "accent": "#6AA8FF",
+    "icon": "#FF7BD0",
+    "background": "#1B1E26",
+    "outline": "#FFFFFF"
+  },
+  "textArea": [
+    452,
+    78,
+    330,
+    64
+  ],
+  "variants": [
+    {
+      "id": "modern",
+      "name": "Modern",
+      "file": "controller-button-prompts.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 800,
+      "height": 220,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#3DDBB5",
+        "secondary": "#FF5A6A",
+        "accent": "#6AA8FF",
+        "icon": "#FF7BD0",
+        "background": "#1B1E26",
+        "outline": "#FFFFFF"
+      },
+      "textArea": [
+        452,
+        78,
+        330,
+        64
+      ],
+      "description": "Glossy dark keycaps with coloured glyphs that sink and glow when pressed."
+    },
+    {
+      "id": "pixel",
+      "name": "Pixel",
+      "file": "controller-button-prompts--pixel.json",
+      "thumbnail": "thumbnail--pixel.png",
+      "preview": "preview--pixel.webp",
+      "poster": "poster--pixel.png",
+      "width": 800,
+      "height": 220,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#39E5A0",
+        "secondary": "#FF4D5E",
+        "accent": "#4D8CFF",
+        "icon": "#FF6FD8",
+        "background": "#3A3150",
+        "outline": "#160E1E"
+      },
+      "textArea": [
+        452,
+        78,
+        330,
+        64
+      ],
+      "description": "8-bit round buttons with pixel glyphs that drop a pixel on press, with stepped ripples."
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "file": "controller-button-prompts--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 800,
+      "height": 220,
+      "duration": 4.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#2BFFC6",
+        "secondary": "#FF2B6A",
+        "accent": "#2BB8FF",
+        "icon": "#FF2BD6",
+        "outline": "#B9B3FF"
+      },
+      "textArea": [
+        452,
+        78,
+        330,
+        64
+      ],
+      "description": "Neon outline rings and glyphs that flood with colour when pressed."
+    }
+  ]
+}

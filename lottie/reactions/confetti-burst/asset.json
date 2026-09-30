@@ -7,7 +7,7 @@
   "file": "confetti-burst.json",
   "thumbnail": "thumbnail.png",
   "license": "CC-BY-NC-SA-4.0",
-  "description": "One-shot confetti cannon: rectangles, dots and strips burst upward, tumble over with gravity and flutter down while fading out; ends empty.",
+  "description": "One-shot confetti burst: pieces fly out, tumble with gravity and flutter down while fading; ends empty.",
   "tags": [
     "confetti",
     "party",
@@ -26,5 +26,65 @@
     "secondary": "#FFC93C",
     "accent": "#2EC4B6"
   },
-  "textArea": null
+  "textArea": null,
+  "variants": [
+    {
+      "id": "flat",
+      "name": "Flat Cannon",
+      "file": "confetti-burst.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 800,
+      "height": 700,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF4D6D",
+        "secondary": "#FFC93C",
+        "accent": "#2EC4B6"
+      },
+      "textArea": null,
+      "description": "One-shot confetti cannon: rectangles, dots and strips burst upward, tumble over with gravity and flutter down while fading out."
+    },
+    {
+      "id": "outline",
+      "name": "Cartoon Pop",
+      "file": "confetti-burst--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 800,
+      "height": 700,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF4D6D",
+        "secondary": "#FFC93C",
+        "accent": "#2EC4B6",
+        "outline": "#161616"
+      },
+      "textArea": null,
+      "description": "Outlined cartoon stars, squiggles and dots explode out from the middle and drift down."
+    },
+    {
+      "id": "glossy",
+      "name": "Glossy Twin Cannons",
+      "file": "confetti-burst--glossy.json",
+      "thumbnail": "thumbnail--glossy.png",
+      "preview": "preview--glossy.webp",
+      "poster": "poster--glossy.png",
+      "width": 800,
+      "height": 700,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF4D6D",
+        "secondary": "#FFC93C",
+        "accent": "#2EC4B6"
+      },
+      "textArea": null,
+      "description": "Shiny foil confetti fired from both bottom corners that crosses over and flutters down."
+    }
+  ]
 }

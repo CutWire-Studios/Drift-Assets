@@ -7,7 +7,7 @@
   "file": "lower-third-slant-sports.json",
   "thumbnail": "thumbnail.png",
   "license": "CC-BY-NC-SA-4.0",
-  "description": "Energetic sports lower third: slanted bars slam in with a staggered diagonal wipe and a glint.",
+  "description": "Energetic sports lower third with a name bar, a subtitle bar and an accent badge block for a number or logo.",
   "tags": [
     "lower third",
     "sports",
@@ -28,20 +28,20 @@
     "secondary": "#E4002B"
   },
   "textArea": [
-    217.0,
+    217,
     50,
     750,
     72
   ],
   "textAreas": {
     "name": [
-      217.0,
+      217,
       50,
       750,
       72
     ],
     "subtitle": [
-      190.0,
+      190,
       148,
       490,
       32
@@ -52,5 +52,139 @@
       84,
       90
     ]
-  }
+  },
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Slant Wipe",
+      "file": "lower-third-slant-sports.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1080,
+      "height": 220,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "accent": "#FFD100",
+        "primary": "#12161F",
+        "secondary": "#E4002B"
+      },
+      "textArea": [
+        217,
+        50,
+        750,
+        72
+      ],
+      "textAreas": {
+        "name": [
+          217,
+          50,
+          750,
+          72
+        ],
+        "subtitle": [
+          190,
+          148,
+          490,
+          32
+        ],
+        "badge": [
+          62,
+          66,
+          84,
+          90
+        ]
+      },
+      "description": "Slanted bars slam in with a staggered diagonal wipe and a glint."
+    },
+    {
+      "id": "chevron",
+      "name": "Chevron Rush",
+      "file": "lower-third-slant-sports--chevron.json",
+      "thumbnail": "thumbnail--chevron.png",
+      "preview": "preview--chevron.webp",
+      "poster": "poster--chevron.png",
+      "width": 1080,
+      "height": 220,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "accent": "#FFD100",
+        "primary": "#12161F",
+        "secondary": "#E4002B"
+      },
+      "textArea": [
+        222,
+        48,
+        710,
+        72
+      ],
+      "textAreas": {
+        "name": [
+          222,
+          48,
+          710,
+          72
+        ],
+        "subtitle": [
+          218,
+          148,
+          470,
+          36
+        ],
+        "badge": [
+          46,
+          64,
+          70,
+          96
+        ]
+      },
+      "description": "Arrow-tipped chevron blocks rush in from the left one after another, trailing ghost copies, and fly off to the right."
+    },
+    {
+      "id": "drop",
+      "name": "Stack Drop",
+      "file": "lower-third-slant-sports--drop.json",
+      "thumbnail": "thumbnail--drop.png",
+      "preview": "preview--drop.webp",
+      "poster": "poster--drop.png",
+      "width": 1080,
+      "height": 220,
+      "duration": 5.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "accent": "#FFD100",
+        "primary": "#12161F",
+        "secondary": "#E4002B"
+      },
+      "textArea": [
+        234,
+        44,
+        750,
+        72
+      ],
+      "textAreas": {
+        "name": [
+          234,
+          44,
+          750,
+          72
+        ],
+        "subtitle": [
+          204,
+          144,
+          510,
+          34
+        ],
+        "badge": [
+          70,
+          78,
+          60,
+          60
+        ]
+      },
+      "description": "Back-slanted bars drop in from above and land with a squash while a diamond badge spins in."
+    }
+  ]
 }

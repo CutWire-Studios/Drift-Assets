@@ -1,0 +1,161 @@
+{
+  "schema": 1,
+  "id": "cinema-letterbox-bars",
+  "name": "Cinema Letterbox Bars",
+  "type": "lottie",
+  "category": "broadcast",
+  "file": "cinema-letterbox-bars.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Full-frame letterbox bars that slide in to a widescreen 2.39:1 picture, hold (stretchable) and slide out. Optional title and caption text areas sit inside the bars.",
+  "tags": [
+    "letterbox",
+    "cinematic",
+    "widescreen",
+    "movie",
+    "bars",
+    "film",
+    "2.39",
+    "black bars"
+  ],
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 3.0,
+  "playback": "intro-hold-outro",
+  "slots": {
+    "background": "#000000"
+  },
+  "textArea": [
+    360,
+    972,
+    1200,
+    78
+  ],
+  "textAreas": {
+    "title": [
+      360,
+      30,
+      1200,
+      78
+    ],
+    "caption": [
+      360,
+      972,
+      1200,
+      78
+    ]
+  },
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Classic",
+      "file": "cinema-letterbox-bars.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 3.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "background": "#000000"
+      },
+      "textArea": [
+        360,
+        972,
+        1200,
+        78
+      ],
+      "textAreas": {
+        "title": [
+          360,
+          30,
+          1200,
+          78
+        ],
+        "caption": [
+          360,
+          972,
+          1200,
+          78
+        ]
+      },
+      "description": "Plain bars glide in smoothly from top and bottom, hold, then glide out."
+    },
+    {
+      "id": "accent",
+      "name": "Accent Line",
+      "file": "cinema-letterbox-bars--accent.json",
+      "thumbnail": "thumbnail--accent.png",
+      "preview": "preview--accent.webp",
+      "poster": "poster--accent.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 3.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "background": "#050505",
+        "accent": "#E3B04B"
+      },
+      "textArea": [
+        360,
+        972,
+        1200,
+        78
+      ],
+      "textAreas": {
+        "title": [
+          360,
+          30,
+          1200,
+          78
+        ],
+        "caption": [
+          360,
+          972,
+          1200,
+          78
+        ]
+      },
+      "description": "Bars snap in with a small overshoot; a thin gold line draws out from the centre along each edge."
+    },
+    {
+      "id": "film",
+      "name": "Film Strip",
+      "file": "cinema-letterbox-bars--film.json",
+      "thumbnail": "thumbnail--film.png",
+      "preview": "preview--film.webp",
+      "poster": "poster--film.png",
+      "width": 1920,
+      "height": 1080,
+      "duration": 3.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "background": "#0D0B09",
+        "outline": "#F2E6CF"
+      },
+      "textArea": [
+        360,
+        964,
+        1200,
+        58
+      ],
+      "textAreas": {
+        "title": [
+          360,
+          58,
+          1200,
+          58
+        ],
+        "caption": [
+          360,
+          964,
+          1200,
+          58
+        ]
+      },
+      "description": "Film-strip bars with sprocket holes running along the outer edges."
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "id": "loading-dots-typing",
+  "name": "Typing Dots",
+  "type": "lottie",
+  "category": "callouts",
+  "file": "loading-dots-typing.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A chat \"someone is typing\" indicator: three dots ripple inside a message bubble, looping seamlessly.",
+  "tags": [
+    "typing",
+    "loading",
+    "dots",
+    "chat",
+    "message",
+    "waiting",
+    "loop"
+  ],
+  "width": 300,
+  "height": 170,
+  "fps": 30,
+  "duration": 2.4,
+  "playback": "loop",
+  "slots": {
+    "primary": "#8E8E93",
+    "background": "#E9E9EB"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "bubble",
+      "name": "Chat Bubble",
+      "file": "loading-dots-typing.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 300,
+      "height": 170,
+      "duration": 2.4,
+      "playback": "loop",
+      "slots": {
+        "primary": "#8E8E93",
+        "background": "#E9E9EB"
+      },
+      "textArea": null,
+      "description": "Soft grey messenger bubble with dots rising and brightening in turn."
+    },
+    {
+      "id": "minimal",
+      "name": "Dots Only",
+      "file": "loading-dots-typing--minimal.json",
+      "thumbnail": "thumbnail--minimal.png",
+      "preview": "preview--minimal.webp",
+      "poster": "poster--minimal.png",
+      "width": 300,
+      "height": 170,
+      "duration": 2.4,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Just the three dots, no bubble, for putting on your own background."
+    },
+    {
+      "id": "bold",
+      "name": "Comic",
+      "file": "loading-dots-typing--bold.json",
+      "thumbnail": "thumbnail--bold.png",
+      "preview": "preview--bold.webp",
+      "poster": "poster--bold.png",
+      "width": 300,
+      "height": 170,
+      "duration": 2.4,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFD21F",
+        "outline": "#141414",
+        "background": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Squarer comic bubble with an ink outline and hard shadow, and outlined yellow dots."
+    }
+  ]
+}
