@@ -7,7 +7,7 @@
   "file": "follow-button-tiktok.json",
   "thumbnail": "thumbnail.png",
   "license": "CC-BY-NC-SA-4.0",
-  "description": "Black follow pill with a glitching TikTok logo; a pointer clicks the red plus, which spins into a check. Put your own \"Follow\" text inside the pill.",
+  "description": "TikTok follow button with the logo; a pointer clicks it. Put your own \"Follow\" text inside the button.",
   "tags": [
     "follow",
     "tiktok",
@@ -31,5 +31,72 @@
     86,
     294,
     88
+  ],
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Classic Pill",
+      "file": "follow-button-tiktok.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 700,
+      "height": 300,
+      "duration": 4.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#000000",
+        "accent": "#FE2C55",
+        "icon": "#FFFFFF"
+      },
+      "textArea": [
+        204,
+        86,
+        294,
+        88
+      ],
+      "description": "Black follow pill with a glitching TikTok logo; a pointer clicks the red plus, which spins into a check."
+    },
+    {
+      "id": "outline",
+      "name": "Outline",
+      "file": "follow-button-tiktok--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 680,
+      "height": 290,
+      "duration": 4.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "outline": "#FFFFFF",
+        "primary": "#FE2C55"
+      },
+      "textArea": [
+        210,
+        88,
+        398,
+        72
+      ],
+      "description": "The app icon springs in and a white outline draws on around the pill; the click floods it with the brand colour."
+    },
+    {
+      "id": "icon-pop",
+      "name": "Icon Pop",
+      "file": "follow-button-tiktok--icon-pop.json",
+      "thumbnail": "thumbnail--icon-pop.png",
+      "preview": "preview--icon-pop.webp",
+      "poster": "poster--icon-pop.png",
+      "width": 330,
+      "height": 330,
+      "duration": 4.0,
+      "playback": "intro-hold-outro",
+      "slots": {
+        "primary": "#FE2C55",
+        "secondary": "#2ECC71"
+      },
+      "textArea": null,
+      "description": "Just the app icon with a plus badge that flips to a check when clicked; no text area."
+    }
   ]
 }
