@@ -7,7 +7,7 @@
   "file": "stamp-check.json",
   "thumbnail": "thumbnail.png",
   "license": "CC-BY-NC-SA-4.0",
-  "description": "Green rubber-stamp check mark that slams down with a little bounce and ink texture.",
+  "description": "Green check mark that lands with a satisfying hit, for approvals, right answers and done items.",
   "tags": [
     "stamp",
     "check",
@@ -24,5 +24,59 @@
   "slots": {
     "primary": "#1FAE4B"
   },
-  "textArea": null
+  "textArea": null,
+  "variants": [
+    {
+      "id": "rubber",
+      "name": "Rubber Stamp",
+      "file": "stamp-check.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 500,
+      "height": 500,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#1FAE4B"
+      },
+      "textArea": null,
+      "description": "Green rubber-stamp check mark that slams down with a little bounce and ink texture."
+    },
+    {
+      "id": "badge",
+      "name": "Clean Badge",
+      "file": "stamp-check--badge.json",
+      "thumbnail": "thumbnail--badge.png",
+      "preview": "preview--badge.webp",
+      "poster": "poster--badge.png",
+      "width": 500,
+      "height": 500,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#1FAE4B",
+        "icon": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Flat disc pops in with a twist, a white check draws on and a ripple flicks out."
+    },
+    {
+      "id": "marker",
+      "name": "Marker Tick",
+      "file": "stamp-check--marker.json",
+      "thumbnail": "thumbnail--marker.png",
+      "preview": "preview--marker.webp",
+      "poster": "poster--marker.png",
+      "width": 500,
+      "height": 500,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#1FAE4B"
+      },
+      "textArea": null,
+      "description": "Teacher-style marker circle scribbled round, then a big tick swooshed through it."
+    }
+  ]
 }

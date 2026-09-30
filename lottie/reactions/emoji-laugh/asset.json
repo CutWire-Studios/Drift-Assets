@@ -26,5 +26,63 @@
     "primary": "#FFC83D",
     "accent": "#4FC3F7"
   },
-  "textArea": null
+  "textArea": null,
+  "variants": [
+    {
+      "id": "glossy",
+      "name": "Glossy",
+      "file": "emoji-laugh.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 600,
+      "height": 500,
+      "duration": 1.5,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFC83D",
+        "accent": "#4FC3F7"
+      },
+      "textArea": null,
+      "description": "Classic shaded emoji face with a soft highlight."
+    },
+    {
+      "id": "flat",
+      "name": "Flat Sticker",
+      "file": "emoji-laugh--flat.json",
+      "thumbnail": "thumbnail--flat.png",
+      "preview": "preview--flat.webp",
+      "poster": "poster--flat.png",
+      "width": 600,
+      "height": 500,
+      "duration": 1.5,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFCC3A",
+        "accent": "#4FC3F7",
+        "outline": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Flat colours with a thick white die-cut border and a soft drop shadow."
+    },
+    {
+      "id": "outline",
+      "name": "Bold Outline",
+      "file": "emoji-laugh--outline.json",
+      "thumbnail": "thumbnail--outline.png",
+      "preview": "preview--outline.webp",
+      "poster": "poster--outline.png",
+      "width": 600,
+      "height": 500,
+      "duration": 1.5,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FFD23F",
+        "accent": "#4FC3F7",
+        "outline": "#161616"
+      },
+      "textArea": null,
+      "description": "Cartoon line art with bold black outlines and a hard offset shadow."
+    }
+  ]
 }

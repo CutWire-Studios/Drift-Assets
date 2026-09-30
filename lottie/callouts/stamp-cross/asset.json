@@ -7,7 +7,7 @@
   "file": "stamp-cross.json",
   "thumbnail": "thumbnail.png",
   "license": "CC-BY-NC-SA-4.0",
-  "description": "Red rubber-stamp cross that slams down with a little bounce and ink texture.",
+  "description": "Red cross that lands with a hard hit, for rejections, wrong answers and things to avoid.",
   "tags": [
     "stamp",
     "cross",
@@ -24,5 +24,59 @@
   "slots": {
     "primary": "#FF2D2D"
   },
-  "textArea": null
+  "textArea": null,
+  "variants": [
+    {
+      "id": "rubber",
+      "name": "Rubber Stamp",
+      "file": "stamp-cross.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 500,
+      "height": 500,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF2D2D"
+      },
+      "textArea": null,
+      "description": "Red rubber-stamp cross that slams down with a little bounce and ink texture."
+    },
+    {
+      "id": "badge",
+      "name": "Clean Badge",
+      "file": "stamp-cross--badge.json",
+      "thumbnail": "thumbnail--badge.png",
+      "preview": "preview--badge.webp",
+      "poster": "poster--badge.png",
+      "width": 500,
+      "height": 500,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF2D2D",
+        "icon": "#FFFFFF"
+      },
+      "textArea": null,
+      "description": "Flat disc pops in with a twist, a white cross draws on stroke by stroke and a ripple flicks out."
+    },
+    {
+      "id": "marker",
+      "name": "Marker Cross",
+      "file": "stamp-cross--marker.json",
+      "thumbnail": "thumbnail--marker.png",
+      "preview": "preview--marker.webp",
+      "poster": "poster--marker.png",
+      "width": 500,
+      "height": 500,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF2D2D"
+      },
+      "textArea": null,
+      "description": "Marker circle scribbled round, then two quick crossing marker strokes."
+    }
+  ]
 }

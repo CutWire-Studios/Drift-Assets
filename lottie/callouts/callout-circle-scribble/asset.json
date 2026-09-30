@@ -7,7 +7,7 @@
   "file": "callout-circle-scribble.json",
   "thumbnail": "thumbnail.png",
   "license": "CC-BY-NC-SA-4.0",
-  "description": "Red marker circle scribbled around a subject, with the classic overshooting end.",
+  "description": "A circle drawn around a subject to single it out; place it over whatever you want viewers to look at.",
   "tags": [
     "circle",
     "scribble",
@@ -24,5 +24,58 @@
   "slots": {
     "primary": "#FF2D2D"
   },
-  "textArea": null
+  "textArea": null,
+  "variants": [
+    {
+      "id": "scribble",
+      "name": "Marker Scribble",
+      "file": "callout-circle-scribble.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 640,
+      "height": 440,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF2D2D"
+      },
+      "textArea": null,
+      "description": "Red marker circle scribbled around a subject, with the classic overshooting end."
+    },
+    {
+      "id": "clean",
+      "name": "Clean",
+      "file": "callout-circle-scribble--clean.json",
+      "thumbnail": "thumbnail--clean.png",
+      "preview": "preview--clean.webp",
+      "poster": "poster--clean.png",
+      "width": 640,
+      "height": 440,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF2D2D"
+      },
+      "textArea": null,
+      "description": "Crisp vector ellipse that draws out both ways from the top, with a faint tint and an echo ring."
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "file": "callout-circle-scribble--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 640,
+      "height": 440,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#2DE2FF"
+      },
+      "textArea": null,
+      "description": "Glowing neon ring that flickers on as it traces round."
+    }
+  ]
 }

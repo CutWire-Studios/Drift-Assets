@@ -7,7 +7,7 @@
   "file": "underline-scribble.json",
   "thumbnail": "thumbnail.png",
   "license": "CC-BY-NC-SA-4.0",
-  "description": "Quick hand-drawn double underline: a long marker stroke and a shorter return stroke.",
+  "description": "An underline that draws itself under a word or line of text for emphasis.",
   "tags": [
     "underline",
     "scribble",
@@ -24,5 +24,58 @@
   "slots": {
     "primary": "#FF2D2D"
   },
-  "textArea": null
+  "textArea": null,
+  "variants": [
+    {
+      "id": "scribble",
+      "name": "Marker Double",
+      "file": "underline-scribble.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 800,
+      "height": 160,
+      "duration": 1.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF2D2D"
+      },
+      "textArea": null,
+      "description": "Quick hand-drawn double underline: a long marker stroke and a shorter return stroke."
+    },
+    {
+      "id": "clean",
+      "name": "Clean",
+      "file": "underline-scribble--clean.json",
+      "thumbnail": "thumbnail--clean.png",
+      "preview": "preview--clean.webp",
+      "poster": "poster--clean.png",
+      "width": 800,
+      "height": 160,
+      "duration": 1.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF2D2D"
+      },
+      "textArea": null,
+      "description": "Crisp rounded line that shoots across with a little squash, with a shorter line underneath."
+    },
+    {
+      "id": "neon",
+      "name": "Neon Squiggle",
+      "file": "underline-scribble--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 800,
+      "height": 160,
+      "duration": 1.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFE14D"
+      },
+      "textArea": null,
+      "description": "Wavy neon line that flickers on as it draws across."
+    }
+  ]
 }

@@ -7,7 +7,7 @@
   "file": "highlight-marker-swipe.json",
   "thumbnail": "thumbnail.png",
   "license": "CC-BY-NC-SA-4.0",
-  "description": "Translucent yellow highlighter stroke swiped left to right behind a word or line.",
+  "description": "A highlight band swiped in behind a word or line of text to make it stand out.",
   "tags": [
     "highlight",
     "highlighter",
@@ -24,5 +24,59 @@
   "slots": {
     "primary": "#FFD60A"
   },
-  "textArea": null
+  "textArea": null,
+  "variants": [
+    {
+      "id": "marker",
+      "name": "Highlighter",
+      "file": "highlight-marker-swipe.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 800,
+      "height": 140,
+      "duration": 1.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFD60A"
+      },
+      "textArea": null,
+      "description": "Translucent yellow highlighter stroke swiped left to right behind a word or line."
+    },
+    {
+      "id": "clean",
+      "name": "Clean Bar",
+      "file": "highlight-marker-swipe--clean.json",
+      "thumbnail": "thumbnail--clean.png",
+      "preview": "preview--clean.webp",
+      "poster": "poster--clean.png",
+      "width": 800,
+      "height": 140,
+      "duration": 1.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFD60A"
+      },
+      "textArea": null,
+      "description": "Flat translucent bar with slanted ends that grows out from the left."
+    },
+    {
+      "id": "bold",
+      "name": "Comic Label",
+      "file": "highlight-marker-swipe--bold.json",
+      "thumbnail": "thumbnail--bold.png",
+      "preview": "preview--bold.webp",
+      "poster": "poster--bold.png",
+      "width": 800,
+      "height": 140,
+      "duration": 1.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFD60A",
+        "outline": "#141414"
+      },
+      "textArea": null,
+      "description": "Solid comic label block with an ink outline and hard shadow that slams in with a tilt."
+    }
+  ]
 }
