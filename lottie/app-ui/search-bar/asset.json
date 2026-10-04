@@ -1,0 +1,165 @@
+{
+  "schema": 1,
+  "id": "search-bar",
+  "name": "Search Bar",
+  "type": "lottie",
+  "category": "app-ui",
+  "file": "search-bar.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Search box UI with a blinking caret: Google-style pill, one with a suggestions dropdown, and a desktop Spotlight-style launcher. Type the query (and suggestions) in the text areas.",
+  "tags": [
+    "search",
+    "google",
+    "query",
+    "search bar",
+    "spotlight",
+    "typing",
+    "input",
+    "web",
+    "meme"
+  ],
+  "width": 1100,
+  "height": 150,
+  "fps": 30,
+  "duration": 3.0,
+  "playback": "intro-hold",
+  "slots": {
+    "background": "#FFFFFF",
+    "icon": "#5F6368",
+    "outline": "#DFE1E5",
+    "primary": "#4285F4"
+  },
+  "textArea": [
+    130,
+    40,
+    700,
+    70
+  ],
+  "textAreas": {
+    "query": [
+      130,
+      40,
+      700,
+      70
+    ]
+  },
+  "variants": [
+    {
+      "id": "pill",
+      "name": "Search Pill",
+      "file": "search-bar.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1100,
+      "height": 150,
+      "duration": 3.0,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#FFFFFF",
+        "icon": "#5F6368",
+        "outline": "#DFE1E5",
+        "primary": "#4285F4"
+      },
+      "textArea": [
+        130,
+        40,
+        700,
+        70
+      ],
+      "textAreas": {
+        "query": [
+          130,
+          40,
+          700,
+          70
+        ]
+      },
+      "description": "Rounded search pill with a magnifier, blinking caret, mic and lens icons."
+    },
+    {
+      "id": "suggestions",
+      "name": "With Suggestions",
+      "file": "search-bar--suggestions.json",
+      "thumbnail": "thumbnail--suggestions.png",
+      "preview": "preview--suggestions.webp",
+      "poster": "poster--suggestions.png",
+      "width": 1100,
+      "height": 560,
+      "duration": 3.0,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#FFFFFF",
+        "icon": "#5F6368",
+        "outline": "#DFE1E5",
+        "primary": "#4285F4"
+      },
+      "textArea": [
+        130,
+        40,
+        700,
+        70
+      ],
+      "textAreas": {
+        "query": [
+          130,
+          40,
+          700,
+          70
+        ],
+        "suggestion1": [
+          130,
+          158,
+          780,
+          64
+        ],
+        "suggestion2": [
+          130,
+          268,
+          780,
+          64
+        ],
+        "suggestion3": [
+          130,
+          378,
+          780,
+          64
+        ]
+      },
+      "description": "Search pill that drops a three-row suggestion list below it."
+    },
+    {
+      "id": "spotlight",
+      "name": "Desktop Spotlight",
+      "file": "search-bar--spotlight.json",
+      "thumbnail": "thumbnail--spotlight.png",
+      "preview": "preview--spotlight.webp",
+      "poster": "poster--spotlight.png",
+      "width": 1100,
+      "height": 190,
+      "duration": 3.0,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#ECECEC",
+        "icon": "#6E6E73",
+        "outline": "#C7C7CC"
+      },
+      "textArea": [
+        140,
+        52,
+        880,
+        86
+      ],
+      "textAreas": {
+        "query": [
+          140,
+          52,
+          880,
+          86
+        ]
+      },
+      "description": "Large desktop launcher search field with a magnifier and caret."
+    }
+  ]
+}

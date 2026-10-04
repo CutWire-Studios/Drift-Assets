@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "id": "mute-bell",
+  "name": "Mute Notifications",
+  "type": "lottie",
+  "category": "status-icons",
+  "file": "mute-bell.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Muted notification bell with a slash: a red Control Center-style button, or the bare crossed-out bell popping in.",
+  "tags": [
+    "mute",
+    "silent",
+    "bell",
+    "notifications off",
+    "ringer",
+    "toggle",
+    "control center"
+  ],
+  "width": 320,
+  "height": 320,
+  "fps": 30,
+  "duration": 2.5,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FF3B30",
+    "secondary": "#3A3A44",
+    "icon": "#FFFFFF"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "button",
+      "name": "Control Button",
+      "file": "mute-bell.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 320,
+      "height": 320,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF3B30",
+        "secondary": "#3A3A44",
+        "icon": "#FFFFFF"
+      },
+      "textArea": null
+    },
+    {
+      "id": "glyph",
+      "name": "Glyph Pop",
+      "file": "mute-bell--glyph.json",
+      "thumbnail": "thumbnail--glyph.png",
+      "preview": "preview--glyph.webp",
+      "poster": "poster--glyph.png",
+      "width": 320,
+      "height": 320,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "icon": "#FFFFFF",
+        "accent": "#FF3B30"
+      },
+      "textArea": null
+    }
+  ]
+}

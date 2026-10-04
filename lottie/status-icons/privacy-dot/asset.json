@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "id": "privacy-dot",
+  "name": "Mic & Camera Indicator",
+  "type": "lottie",
+  "category": "status-icons",
+  "file": "privacy-dot.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "The recording indicators phones show when the microphone or camera is in use: a pulsing dot (orange by default, recolour it green for camera), and Android-style capsule chips with a mic or camera glyph.",
+  "tags": [
+    "microphone",
+    "camera",
+    "privacy",
+    "recording",
+    "indicator",
+    "dot",
+    "orange dot",
+    "green dot",
+    "status bar"
+  ],
+  "width": 200,
+  "height": 200,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FF9F0A"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "dot",
+      "name": "Pulsing Dot",
+      "file": "privacy-dot.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 200,
+      "height": 200,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF9F0A"
+      },
+      "textArea": null
+    },
+    {
+      "id": "mic-chip",
+      "name": "Mic Chip",
+      "file": "privacy-dot--mic-chip.json",
+      "thumbnail": "thumbnail--mic-chip.png",
+      "preview": "preview--mic-chip.webp",
+      "poster": "poster--mic-chip.png",
+      "width": 300,
+      "height": 160,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF9F0A",
+        "icon": "#FFFFFF"
+      },
+      "textArea": null
+    },
+    {
+      "id": "camera-chip",
+      "name": "Camera Chip",
+      "file": "privacy-dot--camera-chip.json",
+      "thumbnail": "thumbnail--camera-chip.png",
+      "preview": "preview--camera-chip.webp",
+      "poster": "poster--camera-chip.png",
+      "width": 300,
+      "height": 160,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#34C759",
+        "icon": "#FFFFFF"
+      },
+      "textArea": null
+    }
+  ]
+}

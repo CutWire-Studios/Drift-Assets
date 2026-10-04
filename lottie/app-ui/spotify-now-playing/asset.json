@@ -1,0 +1,176 @@
+{
+  "schema": 1,
+  "id": "spotify-now-playing",
+  "name": "Music Player Now Playing",
+  "type": "lottie",
+  "category": "app-ui",
+  "file": "spotify-now-playing.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Spotify-style music player in dark mode: a full now-playing card, the mini player bar, and an equalizer sticker. Add the song title and artist in the text areas; album art is a placeholder tile.",
+  "tags": [
+    "spotify",
+    "music",
+    "now playing",
+    "player",
+    "song",
+    "audio",
+    "playlist",
+    "album",
+    "streaming"
+  ],
+  "width": 760,
+  "height": 1010,
+  "fps": 30,
+  "duration": 5.0,
+  "playback": "intro-hold",
+  "slots": {
+    "background": "#181818",
+    "primary": "#1DB954",
+    "secondary": "#3A3A3A",
+    "icon": "#FFFFFF",
+    "outline": "#5A5A5A"
+  },
+  "textArea": [
+    60,
+    676,
+    540,
+    52
+  ],
+  "textAreas": {
+    "title": [
+      60,
+      676,
+      540,
+      52
+    ],
+    "artist": [
+      60,
+      738,
+      540,
+      40
+    ]
+  },
+  "variants": [
+    {
+      "id": "card",
+      "name": "Player Card",
+      "file": "spotify-now-playing.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 760,
+      "height": 1010,
+      "duration": 5.0,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#181818",
+        "primary": "#1DB954",
+        "secondary": "#3A3A3A",
+        "icon": "#FFFFFF",
+        "outline": "#5A5A5A"
+      },
+      "textArea": [
+        60,
+        676,
+        540,
+        52
+      ],
+      "textAreas": {
+        "title": [
+          60,
+          676,
+          540,
+          52
+        ],
+        "artist": [
+          60,
+          738,
+          540,
+          40
+        ]
+      },
+      "description": "Full 'now playing' card: album art, title and artist, heart, a progress bar that fills with times, and transport controls."
+    },
+    {
+      "id": "mini",
+      "name": "Mini Player",
+      "file": "spotify-now-playing--mini.json",
+      "thumbnail": "thumbnail--mini.png",
+      "preview": "preview--mini.webp",
+      "poster": "poster--mini.png",
+      "width": 1060,
+      "height": 190,
+      "duration": 5.0,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#181818",
+        "primary": "#1DB954",
+        "secondary": "#3A3A3A",
+        "icon": "#FFFFFF",
+        "outline": "#5A5A5A"
+      },
+      "textArea": [
+        178,
+        40,
+        600,
+        46
+      ],
+      "textAreas": {
+        "title": [
+          178,
+          40,
+          600,
+          46
+        ],
+        "artist": [
+          178,
+          94,
+          600,
+          38
+        ]
+      },
+      "description": "The bar at the bottom of the app: small album art, title and artist, heart, pause and a thin progress line."
+    },
+    {
+      "id": "sticker",
+      "name": "Equalizer Sticker",
+      "file": "spotify-now-playing--sticker.json",
+      "thumbnail": "thumbnail--sticker.png",
+      "preview": "preview--sticker.webp",
+      "poster": "poster--sticker.png",
+      "width": 880,
+      "height": 220,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "background": "#181818",
+        "primary": "#1DB954",
+        "secondary": "#3A3A3A",
+        "icon": "#FFFFFF",
+        "outline": "#5A5A5A"
+      },
+      "textArea": [
+        226,
+        124,
+        620,
+        44
+      ],
+      "textAreas": {
+        "title": [
+          226,
+          124,
+          620,
+          44
+        ],
+        "artist": [
+          226,
+          170,
+          620,
+          36
+        ]
+      },
+      "description": "A compact 'Now Playing' pill with album art and dancing equalizer bars for music callouts."
+    }
+  ]
+}

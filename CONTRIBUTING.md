@@ -108,6 +108,11 @@ renders the thumbnail and writes `asset.json`.
 Rules (Drift plays Lottie through Skia's Skottie):
 
 - **No text layers and no baked-in words.** Users add text with Drift's text tool; leave room for it.
+  Exception: UI-replica assets (`app-ui`, `devices`, `status-icons`) may draw the app's own fixed chrome
+  words ("Message", "Subscribe", "9:41", "5G") as **outlined glyph paths** via `tools/lottie/text_paths.py`
+  (Inter, SIL OFL, in `tools/lottie/fonts/`), never as text layers. Content words (names, captions,
+  message bodies) stay with the user's text tool and are listed in `textAreas`. Screens, windows and
+  device frames are real cut-outs, so footage shows through.
 - **No expressions, no images, no fonts, no 3D layers.** Shapes only; everything keyframed.
 - **Tight canvas**: the canvas is the element's own bounds plus a little margin for overshoot,
   not a full 1920x1080 frame. Pick sizes that suit an element placed on a 1080p video

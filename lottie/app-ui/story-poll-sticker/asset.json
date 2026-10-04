@@ -1,0 +1,106 @@
+{
+  "schema": 1,
+  "id": "story-poll-sticker",
+  "name": "Story Poll Sticker",
+  "type": "lottie",
+  "category": "app-ui",
+  "file": "story-poll-sticker.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Story-style poll sticker: a white card with a question area and two answer pills; the winning pill fills with colour. Type the question and the two answers in the text areas.",
+  "tags": [
+    "poll",
+    "story",
+    "instagram",
+    "sticker",
+    "vote",
+    "question",
+    "yes no",
+    "social"
+  ],
+  "width": 760,
+  "height": 420,
+  "fps": 30,
+  "duration": 2.5,
+  "playback": "intro-hold",
+  "slots": {
+    "background": "#FFFFFF",
+    "icon": "#262626",
+    "primary": "#3897F0",
+    "secondary": "#EFEFEF",
+    "accent": "#FF3B6B"
+  },
+  "textArea": [
+    60,
+    56,
+    640,
+    120
+  ],
+  "textAreas": {
+    "question": [
+      60,
+      56,
+      640,
+      120
+    ],
+    "answer1": [
+      70,
+      260,
+      290,
+      50
+    ],
+    "answer2": [
+      420,
+      260,
+      290,
+      50
+    ]
+  },
+  "variants": [
+    {
+      "id": "poll",
+      "name": "Poll",
+      "file": "story-poll-sticker.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 760,
+      "height": 420,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#FFFFFF",
+        "icon": "#262626",
+        "primary": "#3897F0",
+        "secondary": "#EFEFEF",
+        "accent": "#FF3B6B"
+      },
+      "textArea": [
+        60,
+        56,
+        640,
+        120
+      ],
+      "textAreas": {
+        "question": [
+          60,
+          56,
+          640,
+          120
+        ],
+        "answer1": [
+          70,
+          260,
+          290,
+          50
+        ],
+        "answer2": [
+          420,
+          260,
+          290,
+          50
+        ]
+      }
+    }
+  ]
+}

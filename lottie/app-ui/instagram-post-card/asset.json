@@ -1,0 +1,172 @@
+{
+  "schema": 1,
+  "id": "instagram-post-card",
+  "name": "Instagram Post Card",
+  "type": "lottie",
+  "category": "app-ui",
+  "file": "instagram-post-card.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Instagram-style feed post with a real cut-out for your photo or video, a story-ring avatar, action icons and a double-tap heart that likes the post. Type the username, likes and caption in the text areas.",
+  "tags": [
+    "instagram",
+    "post",
+    "feed",
+    "social",
+    "like",
+    "photo",
+    "card",
+    "mockup",
+    "ig"
+  ],
+  "width": 900,
+  "height": 1470,
+  "fps": 30,
+  "duration": 3.5,
+  "playback": "intro-hold",
+  "slots": {
+    "background": "#FFFFFF",
+    "icon": "#262626",
+    "primary": "#ED4956",
+    "outline": "#8E8E8E",
+    "secondary": "#DBDBDB"
+  },
+  "textArea": [
+    24,
+    1212,
+    852,
+    130
+  ],
+  "textAreas": {
+    "username": [
+      140,
+      44,
+      440,
+      38
+    ],
+    "media": [
+      0,
+      150,
+      900,
+      900
+    ],
+    "likes": [
+      24,
+      1164,
+      500,
+      36
+    ],
+    "caption": [
+      24,
+      1212,
+      852,
+      130
+    ]
+  },
+  "variants": [
+    {
+      "id": "feed",
+      "name": "Feed Post",
+      "file": "instagram-post-card.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 900,
+      "height": 1470,
+      "duration": 3.5,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#FFFFFF",
+        "icon": "#262626",
+        "primary": "#ED4956",
+        "outline": "#8E8E8E",
+        "secondary": "#DBDBDB"
+      },
+      "textArea": [
+        24,
+        1212,
+        852,
+        130
+      ],
+      "textAreas": {
+        "username": [
+          140,
+          44,
+          440,
+          38
+        ],
+        "media": [
+          0,
+          150,
+          900,
+          900
+        ],
+        "likes": [
+          24,
+          1164,
+          500,
+          36
+        ],
+        "caption": [
+          24,
+          1212,
+          852,
+          130
+        ]
+      },
+      "description": "Square photo post: avatar with a story ring, username, the photo as a cut-out, action icons, likes and caption. A double-tap heart pops over the photo and the like fills red."
+    },
+    {
+      "id": "short",
+      "name": "Short Post",
+      "file": "instagram-post-card--short.json",
+      "thumbnail": "thumbnail--short.png",
+      "preview": "preview--short.webp",
+      "poster": "poster--short.png",
+      "width": 900,
+      "height": 1200,
+      "duration": 3.5,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#FFFFFF",
+        "icon": "#262626",
+        "primary": "#ED4956",
+        "outline": "#8E8E8E",
+        "secondary": "#DBDBDB"
+      },
+      "textArea": [
+        24,
+        952,
+        852,
+        100
+      ],
+      "textAreas": {
+        "username": [
+          140,
+          44,
+          440,
+          38
+        ],
+        "media": [
+          0,
+          150,
+          900,
+          640
+        ],
+        "likes": [
+          24,
+          904,
+          500,
+          36
+        ],
+        "caption": [
+          24,
+          952,
+          852,
+          100
+        ]
+      },
+      "description": "Shorter card with a less tall photo window for 16:9-ish footage."
+    }
+  ]
+}

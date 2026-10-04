@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "id": "alarm-clock",
+  "name": "Alarm Clock",
+  "type": "lottie",
+  "category": "status-icons",
+  "file": "alarm-clock.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Ringing alarm clock icon that shakes with ring waves around it, as a chunky twin-bell clock or a minimal outlined clock with alarm arcs.",
+  "tags": [
+    "alarm",
+    "clock",
+    "wake up",
+    "time",
+    "morning",
+    "ring",
+    "timer",
+    "reminder"
+  ],
+  "width": 300,
+  "height": 300,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "primary": "#FF3B30",
+    "secondary": "#2C2C34",
+    "icon": "#FFFFFF",
+    "accent": "#FFD60A"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Twin Bell",
+      "file": "alarm-clock.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 300,
+      "height": 300,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#FF3B30",
+        "secondary": "#2C2C34",
+        "icon": "#FFFFFF",
+        "accent": "#FFD60A"
+      },
+      "textArea": null
+    },
+    {
+      "id": "minimal",
+      "name": "Outline",
+      "file": "alarm-clock--minimal.json",
+      "thumbnail": "thumbnail--minimal.png",
+      "preview": "preview--minimal.webp",
+      "poster": "poster--minimal.png",
+      "width": 300,
+      "height": 300,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "icon": "#FFFFFF",
+        "accent": "#FF9F0A"
+      },
+      "textArea": null
+    }
+  ]
+}

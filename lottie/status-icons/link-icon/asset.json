@@ -1,0 +1,66 @@
+{
+  "schema": 1,
+  "id": "link-icon",
+  "name": "Link Icon",
+  "type": "lottie",
+  "category": "status-icons",
+  "file": "link-icon.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Chain-link icon for 'link in bio' and 'link in description' moments: two halves snap together with a ring pop, or a tilted chain spins in.",
+  "tags": [
+    "link",
+    "chain",
+    "url",
+    "bio",
+    "description",
+    "website",
+    "hyperlink",
+    "share"
+  ],
+  "width": 320,
+  "height": 320,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "intro-hold",
+  "slots": {
+    "icon": "#FFFFFF",
+    "accent": "#3D8BFF"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "snap",
+      "name": "Snap Together",
+      "file": "link-icon.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 320,
+      "height": 320,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "icon": "#FFFFFF",
+        "accent": "#3D8BFF"
+      },
+      "textArea": null
+    },
+    {
+      "id": "tilted",
+      "name": "Tilted Chain",
+      "file": "link-icon--tilted.json",
+      "thumbnail": "thumbnail--tilted.png",
+      "preview": "preview--tilted.webp",
+      "poster": "poster--tilted.png",
+      "width": 320,
+      "height": 320,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "icon": "#FFFFFF"
+      },
+      "textArea": null
+    }
+  ]
+}

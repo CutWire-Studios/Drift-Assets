@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "id": "message-ticks",
+  "name": "Message Ticks",
+  "type": "lottie",
+  "category": "status-icons",
+  "file": "message-ticks.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Chat delivery ticks as in WhatsApp: one tick for sent, two for delivered, and two that turn blue when read. Each draws on in sequence.",
+  "tags": [
+    "ticks",
+    "read receipt",
+    "delivered",
+    "sent",
+    "seen",
+    "whatsapp",
+    "chat",
+    "message status"
+  ],
+  "width": 260,
+  "height": 160,
+  "fps": 30,
+  "duration": 2.5,
+  "playback": "intro-hold",
+  "slots": {
+    "icon": "#8696A0",
+    "primary": "#53BDEB"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "sent",
+      "name": "Sent",
+      "file": "message-ticks.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 260,
+      "height": 160,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "icon": "#8696A0",
+        "primary": "#53BDEB"
+      },
+      "textArea": null
+    },
+    {
+      "id": "delivered",
+      "name": "Delivered",
+      "file": "message-ticks--delivered.json",
+      "thumbnail": "thumbnail--delivered.png",
+      "preview": "preview--delivered.webp",
+      "poster": "poster--delivered.png",
+      "width": 260,
+      "height": 160,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "icon": "#8696A0",
+        "primary": "#53BDEB"
+      },
+      "textArea": null
+    },
+    {
+      "id": "read",
+      "name": "Read",
+      "file": "message-ticks--read.json",
+      "thumbnail": "thumbnail--read.png",
+      "preview": "preview--read.webp",
+      "poster": "poster--read.png",
+      "width": 260,
+      "height": 160,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "icon": "#8696A0",
+        "primary": "#53BDEB"
+      },
+      "textArea": null
+    }
+  ]
+}

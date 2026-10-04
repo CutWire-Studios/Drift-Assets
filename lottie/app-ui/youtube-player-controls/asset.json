@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "id": "youtube-player-controls",
+  "name": "Video Player Controls",
+  "type": "lottie",
+  "category": "app-ui",
+  "file": "youtube-player-controls.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "YouTube-style video player controls drawn over your footage: a desktop control bar with a red progress bar, time, volume, captions, settings and fullscreen, or the mobile layout with big centred transport buttons.",
+  "tags": [
+    "youtube",
+    "video player",
+    "controls",
+    "progress bar",
+    "seek",
+    "play",
+    "ui",
+    "scrubber",
+    "overlay"
+  ],
+  "width": 1600,
+  "height": 900,
+  "fps": 30,
+  "duration": 5.0,
+  "playback": "intro-hold",
+  "slots": {
+    "icon": "#FFFFFF",
+    "primary": "#FF0000",
+    "outline": "#8A8A8A"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "desktop",
+      "name": "Desktop Bar",
+      "file": "youtube-player-controls.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1600,
+      "height": 900,
+      "duration": 5.0,
+      "playback": "intro-hold",
+      "slots": {
+        "icon": "#FFFFFF",
+        "primary": "#FF0000",
+        "outline": "#8A8A8A"
+      },
+      "textArea": null
+    },
+    {
+      "id": "mobile",
+      "name": "Mobile Controls",
+      "file": "youtube-player-controls--mobile.json",
+      "thumbnail": "thumbnail--mobile.png",
+      "preview": "preview--mobile.webp",
+      "poster": "poster--mobile.png",
+      "width": 1280,
+      "height": 720,
+      "duration": 5.0,
+      "playback": "intro-hold",
+      "slots": {
+        "icon": "#FFFFFF",
+        "primary": "#FF0000",
+        "outline": "#8A8A8A"
+      },
+      "textArea": null
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "id": "airplane-mode",
+  "name": "Airplane Mode",
+  "type": "lottie",
+  "category": "status-icons",
+  "file": "airplane-mode.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Airplane mode toggle: an orange Control Center-style button that switches on, or the bare plane glyph popping in.",
+  "tags": [
+    "airplane",
+    "flight",
+    "travel",
+    "offline",
+    "status bar",
+    "control center",
+    "toggle"
+  ],
+  "width": 320,
+  "height": 320,
+  "fps": 30,
+  "duration": 2.5,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FF9F0A",
+    "secondary": "#3A3A44",
+    "icon": "#FFFFFF"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "button",
+      "name": "Control Button",
+      "file": "airplane-mode.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 320,
+      "height": 320,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF9F0A",
+        "secondary": "#3A3A44",
+        "icon": "#FFFFFF"
+      },
+      "textArea": null
+    },
+    {
+      "id": "glyph",
+      "name": "Glyph Pop",
+      "file": "airplane-mode--glyph.json",
+      "thumbnail": "thumbnail--glyph.png",
+      "preview": "preview--glyph.webp",
+      "poster": "poster--glyph.png",
+      "width": 320,
+      "height": 320,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "icon": "#FFFFFF",
+        "accent": "#FF9F0A"
+      },
+      "textArea": null
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "schema": 1,
+  "id": "network-5g",
+  "name": "5G Network Badge",
+  "type": "lottie",
+  "category": "status-icons",
+  "file": "network-5g.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "5G mobile network indicator in three looks: iOS-style signal bars with the label, an outlined box and a filled pill. Pops in and holds; no text needed.",
+  "tags": [
+    "5g",
+    "network",
+    "mobile",
+    "signal",
+    "status bar",
+    "cellular",
+    "phone"
+  ],
+  "width": 209,
+  "height": 120,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "intro-hold",
+  "slots": {
+    "icon": "#FFFFFF"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "ios",
+      "name": "Bars + Label",
+      "file": "network-5g.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 209,
+      "height": 120,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "icon": "#FFFFFF"
+      },
+      "textArea": null
+    },
+    {
+      "id": "boxed",
+      "name": "Outlined Box",
+      "file": "network-5g--boxed.json",
+      "thumbnail": "thumbnail--boxed.png",
+      "preview": "preview--boxed.webp",
+      "poster": "poster--boxed.png",
+      "width": 195,
+      "height": 120,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "icon": "#FFFFFF"
+      },
+      "textArea": null
+    },
+    {
+      "id": "filled",
+      "name": "Filled Pill",
+      "file": "network-5g--filled.json",
+      "thumbnail": "thumbnail--filled.png",
+      "preview": "preview--filled.webp",
+      "poster": "poster--filled.png",
+      "width": 195,
+      "height": 120,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "icon": "#FFFFFF",
+        "primary": "#2F6BFF",
+        "background": "#FFFFFF"
+      },
+      "textArea": null
+    }
+  ]
+}

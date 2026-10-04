@@ -1,0 +1,179 @@
+{
+  "schema": 1,
+  "id": "iphone-frame",
+  "name": "iPhone Frame",
+  "type": "lottie",
+  "category": "devices",
+  "file": "iphone-frame.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "iPhone mockup that pops in with a real screen cut-out for your video: Dynamic Island, with status bar, landscape, notch and home-button models.",
+  "tags": [
+    "iphone",
+    "apple",
+    "ios",
+    "phone",
+    "mockup",
+    "frame",
+    "device",
+    "smartphone",
+    "dynamic island",
+    "screen recording"
+  ],
+  "width": 834,
+  "height": 1674,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#4B4B50",
+    "secondary": "#0A0A0C",
+    "icon": "#FFFFFF"
+  },
+  "textArea": null,
+  "textAreas": {
+    "screen": [
+      57,
+      57,
+      720,
+      1560
+    ]
+  },
+  "variants": [
+    {
+      "id": "island",
+      "name": "Dynamic Island",
+      "file": "iphone-frame.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 834,
+      "height": 1674,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#4B4B50",
+        "secondary": "#0A0A0C",
+        "icon": "#FFFFFF"
+      },
+      "textArea": null,
+      "textAreas": {
+        "screen": [
+          57,
+          57,
+          720,
+          1560
+        ]
+      },
+      "description": "Modern iPhone with a Dynamic Island, titanium rim and side buttons."
+    },
+    {
+      "id": "island-status",
+      "name": "Island + Status Bar",
+      "file": "iphone-frame--island-status.json",
+      "thumbnail": "thumbnail--island-status.png",
+      "preview": "preview--island-status.webp",
+      "poster": "poster--island-status.png",
+      "width": 834,
+      "height": 1674,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#4B4B50",
+        "secondary": "#0A0A0C",
+        "icon": "#FFFFFF"
+      },
+      "textArea": null,
+      "textAreas": {
+        "screen": [
+          57,
+          57,
+          720,
+          1560
+        ]
+      },
+      "description": "Dynamic Island iPhone with 9:41, signal, Wi-Fi, battery and the home indicator drawn on the screen."
+    },
+    {
+      "id": "island-landscape",
+      "name": "Island, Landscape",
+      "file": "iphone-frame--island-landscape.json",
+      "thumbnail": "thumbnail--island-landscape.png",
+      "preview": "preview--island-landscape.webp",
+      "poster": "poster--island-landscape.png",
+      "width": 1674,
+      "height": 834,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#4B4B50",
+        "secondary": "#0A0A0C",
+        "icon": "#FFFFFF"
+      },
+      "textArea": null,
+      "textAreas": {
+        "screen": [
+          57,
+          57,
+          1560,
+          720
+        ]
+      },
+      "description": "The Dynamic Island iPhone turned sideways for horizontal video."
+    },
+    {
+      "id": "notch",
+      "name": "Notch",
+      "file": "iphone-frame--notch.json",
+      "thumbnail": "thumbnail--notch.png",
+      "preview": "preview--notch.webp",
+      "poster": "poster--notch.png",
+      "width": 834,
+      "height": 1674,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#B8B8BE",
+        "secondary": "#0A0A0C",
+        "icon": "#FFFFFF"
+      },
+      "textArea": null,
+      "textAreas": {
+        "screen": [
+          57,
+          57,
+          720,
+          1560
+        ]
+      },
+      "description": "iPhone X-to-14 style with a notch and a silver rim."
+    },
+    {
+      "id": "home-button",
+      "name": "Home Button",
+      "file": "iphone-frame--home-button.json",
+      "thumbnail": "thumbnail--home-button.png",
+      "preview": "preview--home-button.webp",
+      "poster": "poster--home-button.png",
+      "width": 834,
+      "height": 1636,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#D9D9DE",
+        "secondary": "#0A0A0C",
+        "icon": "#FFFFFF"
+      },
+      "textArea": null,
+      "textAreas": {
+        "screen": [
+          77,
+          213,
+          680,
+          1210
+        ]
+      },
+      "description": "Classic iPhone with a home button, speaker slot and front camera."
+    }
+  ]
+}

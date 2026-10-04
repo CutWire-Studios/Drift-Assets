@@ -1,0 +1,154 @@
+{
+  "schema": 1,
+  "id": "youtube-comment-card",
+  "name": "Video Comment Card",
+  "type": "lottie",
+  "category": "app-ui",
+  "file": "youtube-comment-card.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Comment card in the style of YouTube's dark mode: avatar, @username, time and comment text areas, a like that lights up, dislike and Reply. Great for reading out viewer comments.",
+  "tags": [
+    "youtube",
+    "comment",
+    "comments",
+    "reply",
+    "social",
+    "like",
+    "card",
+    "viewer",
+    "reaction"
+  ],
+  "width": 1000,
+  "height": 420,
+  "fps": 30,
+  "duration": 2.5,
+  "playback": "intro-hold",
+  "slots": {
+    "background": "#0F0F0F",
+    "icon": "#F1F1F1",
+    "outline": "#AAAAAA",
+    "secondary": "#3A3A3A",
+    "primary": "#FF0000"
+  },
+  "textArea": [
+    130,
+    96,
+    810,
+    210
+  ],
+  "textAreas": {
+    "username": [
+      130,
+      50,
+      500,
+      36
+    ],
+    "time": [
+      640,
+      50,
+      200,
+      36
+    ],
+    "comment": [
+      130,
+      96,
+      810,
+      210
+    ]
+  },
+  "variants": [
+    {
+      "id": "comment",
+      "name": "Comment",
+      "file": "youtube-comment-card.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1000,
+      "height": 420,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#0F0F0F",
+        "icon": "#F1F1F1",
+        "outline": "#AAAAAA",
+        "secondary": "#3A3A3A",
+        "primary": "#FF0000"
+      },
+      "textArea": [
+        130,
+        96,
+        810,
+        210
+      ],
+      "textAreas": {
+        "username": [
+          130,
+          50,
+          500,
+          36
+        ],
+        "time": [
+          640,
+          50,
+          200,
+          36
+        ],
+        "comment": [
+          130,
+          96,
+          810,
+          210
+        ]
+      },
+      "description": "Dark-mode comment with avatar, @name, time, comment text, like / dislike and Reply; the like lights up."
+    },
+    {
+      "id": "hearted",
+      "name": "Hearted by Creator",
+      "file": "youtube-comment-card--hearted.json",
+      "thumbnail": "thumbnail--hearted.png",
+      "preview": "preview--hearted.webp",
+      "poster": "poster--hearted.png",
+      "width": 1000,
+      "height": 470,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#0F0F0F",
+        "icon": "#F1F1F1",
+        "outline": "#AAAAAA",
+        "secondary": "#3A3A3A",
+        "primary": "#FF0000"
+      },
+      "textArea": [
+        130,
+        146,
+        810,
+        210
+      ],
+      "textAreas": {
+        "username": [
+          130,
+          100,
+          500,
+          36
+        ],
+        "time": [
+          640,
+          100,
+          200,
+          36
+        ],
+        "comment": [
+          130,
+          146,
+          810,
+          210
+        ]
+      },
+      "description": "Same comment with the 'Hearted by creator' row and a red heart badge on the avatar."
+    }
+  ]
+}

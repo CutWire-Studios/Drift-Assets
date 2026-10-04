@@ -1,0 +1,104 @@
+{
+  "schema": 1,
+  "id": "notification-badge",
+  "name": "Notification Badge",
+  "type": "lottie",
+  "category": "status-icons",
+  "file": "notification-badge.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Red unread-count badge that pops in: a round bubble, a wide pill for big counts, and one stuck to a wiggling bell. Type the number in the text area.",
+  "tags": [
+    "notification",
+    "badge",
+    "unread",
+    "count",
+    "alert",
+    "red dot",
+    "bell",
+    "inbox"
+  ],
+  "width": 200,
+  "height": 200,
+  "fps": 30,
+  "duration": 2.5,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FF3B30",
+    "icon": "#FFFFFF"
+  },
+  "textArea": [
+    66,
+    64,
+    68,
+    72
+  ],
+  "variants": [
+    {
+      "id": "bubble",
+      "name": "Bubble",
+      "file": "notification-badge.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 200,
+      "height": 200,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF3B30",
+        "icon": "#FFFFFF"
+      },
+      "textArea": [
+        66,
+        64,
+        68,
+        72
+      ]
+    },
+    {
+      "id": "pill",
+      "name": "Pill",
+      "file": "notification-badge--pill.json",
+      "thumbnail": "thumbnail--pill.png",
+      "preview": "preview--pill.webp",
+      "poster": "poster--pill.png",
+      "width": 240,
+      "height": 200,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF3B30",
+        "icon": "#FFFFFF"
+      },
+      "textArea": [
+        49,
+        69,
+        142,
+        62
+      ]
+    },
+    {
+      "id": "bell",
+      "name": "On a Bell",
+      "file": "notification-badge--bell.json",
+      "thumbnail": "thumbnail--bell.png",
+      "preview": "preview--bell.webp",
+      "poster": "poster--bell.png",
+      "width": 300,
+      "height": 300,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF3B30",
+        "icon": "#FFFFFF"
+      },
+      "textArea": [
+        176,
+        52,
+        72,
+        60
+      ]
+    }
+  ]
+}

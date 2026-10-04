@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "id": "story-question-sticker",
+  "name": "Story Question Sticker",
+  "type": "lottie",
+  "category": "app-ui",
+  "file": "story-question-sticker.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Story-style 'ask me a question' box: a coloured header for your prompt above a white card with a 'Type something...' field. Put your prompt in the text area.",
+  "tags": [
+    "question",
+    "ask me",
+    "story",
+    "instagram",
+    "sticker",
+    "q&a",
+    "social",
+    "prompt"
+  ],
+  "width": 760,
+  "height": 400,
+  "fps": 30,
+  "duration": 2.5,
+  "playback": "intro-hold",
+  "slots": {
+    "background": "#FFFFFF",
+    "icon": "#262626",
+    "primary": "#3897F0",
+    "secondary": "#EFEFEF",
+    "accent": "#C13584"
+  },
+  "textArea": [
+    60,
+    44,
+    640,
+    110
+  ],
+  "textAreas": {
+    "prompt": [
+      60,
+      44,
+      640,
+      110
+    ],
+    "answer": [
+      80,
+      262,
+      600,
+      76
+    ]
+  },
+  "variants": [
+    {
+      "id": "question",
+      "name": "Question Box",
+      "file": "story-question-sticker.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 760,
+      "height": 400,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#FFFFFF",
+        "icon": "#262626",
+        "primary": "#3897F0",
+        "secondary": "#EFEFEF",
+        "accent": "#C13584"
+      },
+      "textArea": [
+        60,
+        44,
+        640,
+        110
+      ],
+      "textAreas": {
+        "prompt": [
+          60,
+          44,
+          640,
+          110
+        ],
+        "answer": [
+          80,
+          262,
+          600,
+          76
+        ]
+      }
+    }
+  ]
+}

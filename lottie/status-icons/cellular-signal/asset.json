@@ -1,0 +1,80 @@
+{
+  "schema": 1,
+  "id": "cellular-signal",
+  "name": "Cellular Signal Bars",
+  "type": "lottie",
+  "category": "status-icons",
+  "file": "cellular-signal.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Phone reception indicator: four rising bars that pop up, the older five-dot style, or a looping searching sweep.",
+  "tags": [
+    "signal",
+    "cellular",
+    "reception",
+    "bars",
+    "dots",
+    "status bar",
+    "phone",
+    "network"
+  ],
+  "width": 240,
+  "height": 150,
+  "fps": 30,
+  "duration": 2.5,
+  "playback": "intro-hold",
+  "slots": {
+    "icon": "#FFFFFF"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "bars",
+      "name": "Rising Bars",
+      "file": "cellular-signal.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 240,
+      "height": 150,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "icon": "#FFFFFF"
+      },
+      "textArea": null
+    },
+    {
+      "id": "dots",
+      "name": "Dots",
+      "file": "cellular-signal--dots.json",
+      "thumbnail": "thumbnail--dots.png",
+      "preview": "preview--dots.webp",
+      "poster": "poster--dots.png",
+      "width": 240,
+      "height": 150,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "icon": "#FFFFFF"
+      },
+      "textArea": null
+    },
+    {
+      "id": "searching",
+      "name": "Searching",
+      "file": "cellular-signal--searching.json",
+      "thumbnail": "thumbnail--searching.png",
+      "preview": "preview--searching.webp",
+      "poster": "poster--searching.png",
+      "width": 240,
+      "height": 150,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "icon": "#FFFFFF"
+      },
+      "textArea": null
+    }
+  ]
+}

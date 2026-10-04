@@ -1,0 +1,95 @@
+{
+  "schema": 1,
+  "id": "messenger-chat-window",
+  "name": "Messenger Chat Window",
+  "type": "lottie",
+  "category": "app-ui",
+  "file": "messenger-chat-window.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Empty Messenger conversation screen: header with avatar, 'Active now' dot, call / video / info buttons and the message bar with a Like button. Put the name in the name area and stack the Messenger bubbles in the chat area.",
+  "tags": [
+    "messenger",
+    "facebook",
+    "chat",
+    "messaging",
+    "conversation",
+    "phone screen",
+    "app",
+    "texting",
+    "social"
+  ],
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 1.5,
+  "playback": "intro-hold",
+  "slots": {
+    "background": "#FFFFFF",
+    "secondary": "#F0F2F5",
+    "primary": "#0084FF",
+    "icon": "#000000",
+    "outline": "#65676B"
+  },
+  "textArea": [
+    240,
+    136,
+    420,
+    44
+  ],
+  "textAreas": {
+    "name": [
+      240,
+      136,
+      420,
+      44
+    ],
+    "chat": [
+      0,
+      280,
+      1080,
+      1440
+    ]
+  },
+  "variants": [
+    {
+      "id": "phone",
+      "name": "Phone Screen",
+      "file": "messenger-chat-window.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1080,
+      "height": 1920,
+      "duration": 1.5,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#FFFFFF",
+        "secondary": "#F0F2F5",
+        "primary": "#0084FF",
+        "icon": "#000000",
+        "outline": "#65676B"
+      },
+      "textArea": [
+        240,
+        136,
+        420,
+        44
+      ],
+      "textAreas": {
+        "name": [
+          240,
+          136,
+          420,
+          44
+        ],
+        "chat": [
+          0,
+          280,
+          1080,
+          1440
+        ]
+      }
+    }
+  ]
+}

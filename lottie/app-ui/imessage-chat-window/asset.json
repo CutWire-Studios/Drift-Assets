@@ -1,0 +1,95 @@
+{
+  "schema": 1,
+  "id": "imessage-chat-window",
+  "name": "iMessage Chat Window",
+  "type": "lottie",
+  "category": "app-ui",
+  "file": "imessage-chat-window.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Empty iMessage conversation screen: grey header with the centred contact avatar, FaceTime button, and the iMessage input bar. Put the name in the name area and stack the iMessage bubbles in the chat area.",
+  "tags": [
+    "imessage",
+    "ios",
+    "chat",
+    "messaging",
+    "conversation",
+    "phone screen",
+    "app",
+    "texting",
+    "apple"
+  ],
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 1.5,
+  "playback": "intro-hold",
+  "slots": {
+    "background": "#FFFFFF",
+    "secondary": "#F6F6F6",
+    "primary": "#0B84FE",
+    "icon": "#000000",
+    "outline": "#8E8E93"
+  },
+  "textArea": [
+    400,
+    234,
+    280,
+    48
+  ],
+  "textAreas": {
+    "name": [
+      400,
+      234,
+      280,
+      48
+    ],
+    "chat": [
+      0,
+      320,
+      1080,
+      1380
+    ]
+  },
+  "variants": [
+    {
+      "id": "phone",
+      "name": "Phone Screen",
+      "file": "imessage-chat-window.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1080,
+      "height": 1920,
+      "duration": 1.5,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#FFFFFF",
+        "secondary": "#F6F6F6",
+        "primary": "#0B84FE",
+        "icon": "#000000",
+        "outline": "#8E8E93"
+      },
+      "textArea": [
+        400,
+        234,
+        280,
+        48
+      ],
+      "textAreas": {
+        "name": [
+          400,
+          234,
+          280,
+          48
+        ],
+        "chat": [
+          0,
+          320,
+          1080,
+          1380
+        ]
+      }
+    }
+  ]
+}

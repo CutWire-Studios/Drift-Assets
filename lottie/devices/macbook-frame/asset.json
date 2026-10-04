@@ -1,0 +1,120 @@
+{
+  "schema": 1,
+  "id": "macbook-frame",
+  "name": "MacBook Frame",
+  "type": "lottie",
+  "category": "devices",
+  "file": "macbook-frame.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "MacBook laptop mockup (front view) with a real screen cut-out for your video: Pro, Air and a classic webcam-bezel model.",
+  "tags": [
+    "macbook",
+    "laptop",
+    "mac",
+    "apple",
+    "notebook",
+    "mockup",
+    "frame",
+    "device",
+    "screen recording"
+  ],
+  "width": 1696,
+  "height": 1078,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#5A5B60",
+    "secondary": "#0A0A0C"
+  },
+  "textArea": null,
+  "textAreas": {
+    "screen": [
+      128,
+      74,
+      1440,
+      900
+    ]
+  },
+  "variants": [
+    {
+      "id": "pro",
+      "name": "MacBook Pro",
+      "file": "macbook-frame.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1696,
+      "height": 1078,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#5A5B60",
+        "secondary": "#0A0A0C"
+      },
+      "textArea": null,
+      "textAreas": {
+        "screen": [
+          128,
+          74,
+          1440,
+          900
+        ]
+      },
+      "description": "Space-grey MacBook Pro with a notch and thin bezels."
+    },
+    {
+      "id": "air",
+      "name": "MacBook Air",
+      "file": "macbook-frame--air.json",
+      "thumbnail": "thumbnail--air.png",
+      "preview": "preview--air.webp",
+      "poster": "poster--air.png",
+      "width": 1700,
+      "height": 1082,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#CDCFD3",
+        "secondary": "#0A0A0C"
+      },
+      "textArea": null,
+      "textAreas": {
+        "screen": [
+          130,
+          76,
+          1440,
+          900
+        ]
+      },
+      "description": "Silver MacBook Air with a notch."
+    },
+    {
+      "id": "classic",
+      "name": "Classic Webcam",
+      "file": "macbook-frame--classic.json",
+      "thumbnail": "thumbnail--classic.png",
+      "preview": "preview--classic.webp",
+      "poster": "poster--classic.png",
+      "width": 1724,
+      "height": 1104,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#C9CACE",
+        "secondary": "#0A0A0C"
+      },
+      "textArea": null,
+      "textAreas": {
+        "screen": [
+          142,
+          86,
+          1440,
+          900
+        ]
+      },
+      "description": "Older MacBook with thick bezels and a webcam dot."
+    }
+  ]
+}

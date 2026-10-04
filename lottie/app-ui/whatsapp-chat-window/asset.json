@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "id": "whatsapp-chat-window",
+  "name": "WhatsApp Chat Window",
+  "type": "lottie",
+  "category": "app-ui",
+  "file": "whatsapp-chat-window.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Empty WhatsApp conversation screen: green header with avatar, 'online', call buttons, the doodle wallpaper and the message bar. Put the contact name in the name area and stack the WhatsApp bubbles in the chat area.",
+  "tags": [
+    "whatsapp",
+    "chat",
+    "messaging",
+    "conversation",
+    "phone screen",
+    "app",
+    "texting",
+    "social"
+  ],
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 1.5,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#008069",
+    "background": "#EFE7DE",
+    "secondary": "#FFFFFF",
+    "icon": "#FFFFFF",
+    "outline": "#667781",
+    "accent": "#00A884"
+  },
+  "textArea": [
+    250,
+    132,
+    420,
+    44
+  ],
+  "textAreas": {
+    "name": [
+      250,
+      132,
+      420,
+      44
+    ],
+    "chat": [
+      24,
+      250,
+      1032,
+      1480
+    ]
+  },
+  "variants": [
+    {
+      "id": "phone",
+      "name": "Phone Screen",
+      "file": "whatsapp-chat-window.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1080,
+      "height": 1920,
+      "duration": 1.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#008069",
+        "background": "#EFE7DE",
+        "secondary": "#FFFFFF",
+        "icon": "#FFFFFF",
+        "outline": "#667781",
+        "accent": "#00A884"
+      },
+      "textArea": [
+        250,
+        132,
+        420,
+        44
+      ],
+      "textAreas": {
+        "name": [
+          250,
+          132,
+          420,
+          44
+        ],
+        "chat": [
+          24,
+          250,
+          1032,
+          1480
+        ]
+      }
+    }
+  ]
+}

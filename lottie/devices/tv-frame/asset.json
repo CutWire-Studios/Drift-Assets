@@ -1,0 +1,97 @@
+{
+  "schema": 1,
+  "id": "tv-frame",
+  "name": "TV Frame",
+  "type": "lottie",
+  "category": "devices",
+  "file": "tv-frame.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Television mockup with a real screen cut-out for your video: a modern flat TV and a retro CRT with antenna and knobs.",
+  "tags": [
+    "tv",
+    "television",
+    "crt",
+    "retro",
+    "screen",
+    "mockup",
+    "frame",
+    "device",
+    "broadcast",
+    "vintage"
+  ],
+  "width": 1704,
+  "height": 1082,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#17171B",
+    "secondary": "#2A2A30"
+  },
+  "textArea": null,
+  "textAreas": {
+    "screen": [
+      52,
+      52,
+      1600,
+      900
+    ]
+  },
+  "variants": [
+    {
+      "id": "flat",
+      "name": "Flat TV",
+      "file": "tv-frame.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1704,
+      "height": 1082,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#17171B",
+        "secondary": "#2A2A30"
+      },
+      "textArea": null,
+      "textAreas": {
+        "screen": [
+          52,
+          52,
+          1600,
+          900
+        ]
+      },
+      "description": "Modern flat-screen TV with a thin bezel and two feet."
+    },
+    {
+      "id": "retro-crt",
+      "name": "Retro CRT",
+      "file": "tv-frame--retro-crt.json",
+      "thumbnail": "thumbnail--retro-crt.png",
+      "preview": "preview--retro-crt.webp",
+      "poster": "poster--retro-crt.png",
+      "width": 1620,
+      "height": 1180,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#7A4B2A",
+        "secondary": "#1B1B1F",
+        "accent": "#C9B78F",
+        "icon": "#2A2A2E"
+      },
+      "textArea": null,
+      "textAreas": {
+        "screen": [
+          110,
+          240,
+          1080,
+          780
+        ]
+      },
+      "description": "Wood-grain CRT television with rabbit-ear antenna, knobs and a rounded screen."
+    }
+  ]
+}

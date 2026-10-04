@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "id": "verified-badge",
+  "name": "Verified Badge",
+  "type": "lottie",
+  "category": "status-icons",
+  "file": "verified-badge.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Verified checkmark badge that spins in and draws its tick: a scalloped seal (X / Instagram style), a round badge, and a gold seal.",
+  "tags": [
+    "verified",
+    "checkmark",
+    "badge",
+    "blue tick",
+    "official",
+    "social",
+    "creator",
+    "seal"
+  ],
+  "width": 300,
+  "height": 300,
+  "fps": 30,
+  "duration": 2.5,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#1D9BF0",
+    "icon": "#FFFFFF",
+    "accent": "#FFD60A"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "scalloped",
+      "name": "Scalloped Seal",
+      "file": "verified-badge.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 300,
+      "height": 300,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#1D9BF0",
+        "icon": "#FFFFFF",
+        "accent": "#FFD60A"
+      },
+      "textArea": null
+    },
+    {
+      "id": "round",
+      "name": "Round",
+      "file": "verified-badge--round.json",
+      "thumbnail": "thumbnail--round.png",
+      "preview": "preview--round.webp",
+      "poster": "poster--round.png",
+      "width": 300,
+      "height": 300,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#1D9BF0",
+        "icon": "#FFFFFF",
+        "accent": "#FFD60A"
+      },
+      "textArea": null
+    },
+    {
+      "id": "gold",
+      "name": "Gold Seal",
+      "file": "verified-badge--gold.json",
+      "thumbnail": "thumbnail--gold.png",
+      "preview": "preview--gold.webp",
+      "poster": "poster--gold.png",
+      "width": 300,
+      "height": 300,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#E8B923",
+        "icon": "#FFFFFF",
+        "accent": "#FFD60A"
+      },
+      "textArea": null
+    }
+  ]
+}

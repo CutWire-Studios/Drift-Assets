@@ -1,0 +1,154 @@
+{
+  "schema": 1,
+  "id": "apple-notes",
+  "name": "Notes App",
+  "type": "lottie",
+  "category": "app-ui",
+  "file": "apple-notes.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Apple Notes-style page with a back button, share and more icons, the formatting toolbar and either a blinking cursor or a checklist that ticks off. Type the title and body in the text areas.",
+  "tags": [
+    "notes",
+    "apple notes",
+    "checklist",
+    "to do",
+    "list",
+    "ios",
+    "app",
+    "text",
+    "memo"
+  ],
+  "width": 900,
+  "height": 1240,
+  "fps": 30,
+  "duration": 4.0,
+  "playback": "intro-hold",
+  "slots": {
+    "background": "#FFFFFF",
+    "secondary": "#F7F7F7",
+    "icon": "#1C1C1E",
+    "primary": "#E4A400",
+    "outline": "#8E8E93"
+  },
+  "textArea": [
+    70,
+    150,
+    760,
+    80
+  ],
+  "textAreas": {
+    "title": [
+      70,
+      150,
+      760,
+      80
+    ],
+    "body": [
+      70,
+      260,
+      760,
+      880
+    ]
+  },
+  "variants": [
+    {
+      "id": "note",
+      "name": "Blank Note",
+      "file": "apple-notes.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 900,
+      "height": 1240,
+      "duration": 4.0,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#FFFFFF",
+        "secondary": "#F7F7F7",
+        "icon": "#1C1C1E",
+        "primary": "#E4A400",
+        "outline": "#8E8E93"
+      },
+      "textArea": [
+        70,
+        150,
+        760,
+        80
+      ],
+      "textAreas": {
+        "title": [
+          70,
+          150,
+          760,
+          80
+        ],
+        "body": [
+          70,
+          260,
+          760,
+          880
+        ]
+      },
+      "description": "Blank note page with a blinking yellow cursor and the Notes toolbar."
+    },
+    {
+      "id": "checklist",
+      "name": "Checklist",
+      "file": "apple-notes--checklist.json",
+      "thumbnail": "thumbnail--checklist.png",
+      "preview": "preview--checklist.webp",
+      "poster": "poster--checklist.png",
+      "width": 900,
+      "height": 1240,
+      "duration": 4.0,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#FFFFFF",
+        "secondary": "#F7F7F7",
+        "icon": "#1C1C1E",
+        "primary": "#E4A400",
+        "outline": "#8E8E93"
+      },
+      "textArea": [
+        70,
+        150,
+        760,
+        80
+      ],
+      "textAreas": {
+        "title": [
+          70,
+          150,
+          760,
+          80
+        ],
+        "item1": [
+          140,
+          336,
+          690,
+          52
+        ],
+        "item2": [
+          140,
+          456,
+          690,
+          52
+        ],
+        "item3": [
+          140,
+          576,
+          690,
+          52
+        ],
+        "item4": [
+          140,
+          696,
+          690,
+          52
+        ]
+      },
+      "description": "Checklist note: four yellow circles tick off one after another."
+    }
+  ]
+}

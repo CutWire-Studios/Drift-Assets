@@ -1,0 +1,87 @@
+{
+  "schema": 1,
+  "id": "battery-ios",
+  "name": "iOS Battery",
+  "type": "lottie",
+  "category": "status-icons",
+  "file": "battery-ios.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "iPhone-style battery indicator: it drains with a counting percentage and turns red at 20%, charges up with a green bolt, or pulses at low charge. The percentage is part of the animation.",
+  "tags": [
+    "battery",
+    "ios",
+    "iphone",
+    "charge",
+    "low battery",
+    "status bar",
+    "percent",
+    "power"
+  ],
+  "width": 360,
+  "height": 120,
+  "fps": 30,
+  "duration": 4.0,
+  "playback": "intro-hold",
+  "slots": {
+    "icon": "#FFFFFF",
+    "primary": "#FF453A",
+    "accent": "#30D158"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "drain",
+      "name": "Draining",
+      "file": "battery-ios.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 360,
+      "height": 120,
+      "duration": 4.0,
+      "playback": "intro-hold",
+      "slots": {
+        "icon": "#FFFFFF",
+        "primary": "#FF453A",
+        "accent": "#30D158"
+      },
+      "textArea": null
+    },
+    {
+      "id": "charge",
+      "name": "Charging",
+      "file": "battery-ios--charge.json",
+      "thumbnail": "thumbnail--charge.png",
+      "preview": "preview--charge.webp",
+      "poster": "poster--charge.png",
+      "width": 360,
+      "height": 120,
+      "duration": 3.0,
+      "playback": "intro-hold",
+      "slots": {
+        "icon": "#FFFFFF",
+        "primary": "#FF453A",
+        "accent": "#30D158"
+      },
+      "textArea": null
+    },
+    {
+      "id": "low",
+      "name": "Low Battery",
+      "file": "battery-ios--low.json",
+      "thumbnail": "thumbnail--low.png",
+      "preview": "preview--low.webp",
+      "poster": "poster--low.png",
+      "width": 360,
+      "height": 120,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "icon": "#FFFFFF",
+        "primary": "#FF453A"
+      },
+      "textArea": null
+    }
+  ]
+}
