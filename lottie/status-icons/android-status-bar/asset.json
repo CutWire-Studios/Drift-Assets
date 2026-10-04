@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "id": "android-status-bar",
+  "name": "Android Status Bar",
+  "type": "lottie",
+  "category": "status-icons",
+  "file": "android-status-bar.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Android status bar with time, notification dots, Wi-Fi, signal and battery. 'Pixel' uses the slanted signal triangle; 'Galaxy' shows signal bars and a battery percentage. Slides in from the top.",
+  "tags": [
+    "status bar",
+    "android",
+    "pixel",
+    "samsung",
+    "galaxy",
+    "battery",
+    "wifi",
+    "phone",
+    "screen recording"
+  ],
+  "width": 1080,
+  "height": 100,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "intro-hold",
+  "slots": {
+    "icon": "#FFFFFF"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "pixel",
+      "name": "Pixel",
+      "file": "android-status-bar.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1080,
+      "height": 100,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "icon": "#FFFFFF"
+      },
+      "textArea": null
+    },
+    {
+      "id": "galaxy",
+      "name": "Galaxy",
+      "file": "android-status-bar--galaxy.json",
+      "thumbnail": "thumbnail--galaxy.png",
+      "preview": "preview--galaxy.webp",
+      "poster": "poster--galaxy.png",
+      "width": 1080,
+      "height": 100,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "icon": "#FFFFFF"
+      },
+      "textArea": null
+    }
+  ]
+}

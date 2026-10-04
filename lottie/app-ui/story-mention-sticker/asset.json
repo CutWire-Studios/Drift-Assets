@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "id": "story-mention-sticker",
+  "name": "Story Mention Sticker",
+  "type": "lottie",
+  "category": "app-ui",
+  "file": "story-mention-sticker.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Story @mention sticker: a rounded pill with a big @ sign, in white or solid colour. Type the username in the text area.",
+  "tags": [
+    "mention",
+    "story",
+    "instagram",
+    "sticker",
+    "tag",
+    "username",
+    "at sign",
+    "social"
+  ],
+  "width": 560,
+  "height": 190,
+  "fps": 30,
+  "duration": 2.5,
+  "playback": "intro-hold",
+  "slots": {
+    "background": "#FFFFFF",
+    "icon": "#262626",
+    "primary": "#3897F0",
+    "secondary": "#EFEFEF",
+    "accent": "#C13584"
+  },
+  "textArea": [
+    120,
+    62,
+    400,
+    66
+  ],
+  "variants": [
+    {
+      "id": "white",
+      "name": "White Pill",
+      "file": "story-mention-sticker.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 560,
+      "height": 190,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#FFFFFF",
+        "icon": "#262626",
+        "primary": "#3897F0",
+        "secondary": "#EFEFEF",
+        "accent": "#C13584"
+      },
+      "textArea": [
+        120,
+        62,
+        400,
+        66
+      ]
+    },
+    {
+      "id": "solid",
+      "name": "Solid Pill",
+      "file": "story-mention-sticker--solid.json",
+      "thumbnail": "thumbnail--solid.png",
+      "preview": "preview--solid.webp",
+      "poster": "poster--solid.png",
+      "width": 560,
+      "height": 190,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#FFFFFF",
+        "icon": "#262626",
+        "primary": "#3897F0",
+        "secondary": "#EFEFEF",
+        "accent": "#C13584"
+      },
+      "textArea": [
+        120,
+        62,
+        400,
+        66
+      ]
+    }
+  ]
+}

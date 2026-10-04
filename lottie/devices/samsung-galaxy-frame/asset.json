@@ -1,0 +1,124 @@
+{
+  "schema": 1,
+  "id": "samsung-galaxy-frame",
+  "name": "Samsung Galaxy Frame",
+  "type": "lottie",
+  "category": "devices",
+  "file": "samsung-galaxy-frame.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Samsung Galaxy phone mockup with a punch-hole camera and a real screen cut-out for your video, in S, Ultra and landscape versions.",
+  "tags": [
+    "samsung",
+    "galaxy",
+    "android",
+    "phone",
+    "mockup",
+    "frame",
+    "device",
+    "smartphone",
+    "screen recording"
+  ],
+  "width": 824,
+  "height": 1664,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#2B2D33",
+    "secondary": "#0A0A0C",
+    "icon": "#FFFFFF"
+  },
+  "textArea": null,
+  "textAreas": {
+    "screen": [
+      52,
+      52,
+      720,
+      1560
+    ]
+  },
+  "variants": [
+    {
+      "id": "s-series",
+      "name": "S Series",
+      "file": "samsung-galaxy-frame.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 824,
+      "height": 1664,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#2B2D33",
+        "secondary": "#0A0A0C",
+        "icon": "#FFFFFF"
+      },
+      "textArea": null,
+      "textAreas": {
+        "screen": [
+          52,
+          52,
+          720,
+          1560
+        ]
+      },
+      "description": "Galaxy S: flat display with soft corners and a centred punch-hole camera."
+    },
+    {
+      "id": "ultra",
+      "name": "Ultra",
+      "file": "samsung-galaxy-frame--ultra.json",
+      "thumbnail": "thumbnail--ultra.png",
+      "preview": "preview--ultra.webp",
+      "poster": "poster--ultra.png",
+      "width": 822,
+      "height": 1662,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#8C8F96",
+        "secondary": "#0A0A0C",
+        "icon": "#FFFFFF"
+      },
+      "textArea": null,
+      "textAreas": {
+        "screen": [
+          51,
+          51,
+          720,
+          1560
+        ]
+      },
+      "description": "Galaxy Ultra: squarer corners, slim bezels and a titanium-grey rim."
+    },
+    {
+      "id": "landscape",
+      "name": "Landscape",
+      "file": "samsung-galaxy-frame--landscape.json",
+      "thumbnail": "thumbnail--landscape.png",
+      "preview": "preview--landscape.webp",
+      "poster": "poster--landscape.png",
+      "width": 1664,
+      "height": 824,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#2B2D33",
+        "secondary": "#0A0A0C",
+        "icon": "#FFFFFF"
+      },
+      "textArea": null,
+      "textAreas": {
+        "screen": [
+          52,
+          52,
+          1560,
+          720
+        ]
+      },
+      "description": "The Galaxy S turned sideways for horizontal video."
+    }
+  ]
+}

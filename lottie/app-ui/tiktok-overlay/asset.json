@@ -1,0 +1,153 @@
+{
+  "schema": 1,
+  "id": "tiktok-overlay",
+  "name": "TikTok Video Overlay",
+  "type": "lottie",
+  "category": "app-ui",
+  "file": "tiktok-overlay.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Short-video app overlay for 9:16 clips: Following / For You tabs, the right-hand rail (follow, like, comment, save, share) with a heart that pops red and a spinning sound disc, plus a progress line. Add username, caption and sound name in the text areas.",
+  "tags": [
+    "tiktok",
+    "short video",
+    "reels",
+    "overlay",
+    "social",
+    "like",
+    "ui",
+    "vertical",
+    "for you"
+  ],
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 5.0,
+  "playback": "intro-hold",
+  "slots": {
+    "icon": "#FFFFFF",
+    "primary": "#FE2C55",
+    "secondary": "#6A6A70",
+    "outline": "#25F4EE"
+  },
+  "textArea": [
+    36,
+    1566,
+    780,
+    110
+  ],
+  "textAreas": {
+    "likes": [
+      906,
+      1014,
+      140,
+      34
+    ],
+    "comments": [
+      906,
+      1164,
+      140,
+      34
+    ],
+    "saves": [
+      906,
+      1314,
+      140,
+      34
+    ],
+    "shares": [
+      906,
+      1464,
+      140,
+      34
+    ],
+    "username": [
+      36,
+      1504,
+      560,
+      44
+    ],
+    "caption": [
+      36,
+      1566,
+      780,
+      110
+    ],
+    "sound": [
+      108,
+      1736,
+      600,
+      44
+    ]
+  },
+  "variants": [
+    {
+      "id": "for-you",
+      "name": "For You Feed",
+      "file": "tiktok-overlay.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1080,
+      "height": 1920,
+      "duration": 5.0,
+      "playback": "intro-hold",
+      "slots": {
+        "icon": "#FFFFFF",
+        "primary": "#FE2C55",
+        "secondary": "#6A6A70",
+        "outline": "#25F4EE"
+      },
+      "textArea": [
+        36,
+        1566,
+        780,
+        110
+      ],
+      "textAreas": {
+        "likes": [
+          906,
+          1014,
+          140,
+          34
+        ],
+        "comments": [
+          906,
+          1164,
+          140,
+          34
+        ],
+        "saves": [
+          906,
+          1314,
+          140,
+          34
+        ],
+        "shares": [
+          906,
+          1464,
+          140,
+          34
+        ],
+        "username": [
+          36,
+          1504,
+          560,
+          44
+        ],
+        "caption": [
+          36,
+          1566,
+          780,
+          110
+        ],
+        "sound": [
+          108,
+          1736,
+          600,
+          44
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "id": "cursor-click",
+  "name": "Cursor Click",
+  "type": "lottie",
+  "category": "app-ui",
+  "file": "cursor-click.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "A mouse pointer glides to a spot and clicks, with a ripple at the click point: arrow cursor or pointing-hand cursor. Drop it over a screen recording to show where to click.",
+  "tags": [
+    "cursor",
+    "mouse",
+    "click",
+    "pointer",
+    "tutorial",
+    "screen recording",
+    "hand",
+    "tap",
+    "ui"
+  ],
+  "width": 360,
+  "height": 360,
+  "fps": 30,
+  "duration": 2.5,
+  "playback": "intro-hold",
+  "slots": {
+    "icon": "#FFFFFF",
+    "accent": "#3D8BFF",
+    "outline": "#111111"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "arrow",
+      "name": "Arrow",
+      "file": "cursor-click.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 360,
+      "height": 360,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "icon": "#FFFFFF",
+        "accent": "#3D8BFF",
+        "outline": "#111111"
+      },
+      "textArea": null
+    },
+    {
+      "id": "hand",
+      "name": "Hand",
+      "file": "cursor-click--hand.json",
+      "thumbnail": "thumbnail--hand.png",
+      "preview": "preview--hand.webp",
+      "poster": "poster--hand.png",
+      "width": 360,
+      "height": 360,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "icon": "#FFFFFF",
+        "accent": "#3D8BFF",
+        "outline": "#111111"
+      },
+      "textArea": null
+    }
+  ]
+}

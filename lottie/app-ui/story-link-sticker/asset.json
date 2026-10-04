@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "id": "story-link-sticker",
+  "name": "Story Link Sticker",
+  "type": "lottie",
+  "category": "app-ui",
+  "file": "story-link-sticker.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Story link sticker: a white pill with a chain icon and the word LINK, or a solid blue pill with the chain; the pill pops in with a rotation and a gentle pulse. Type the link text in the text area.",
+  "tags": [
+    "link",
+    "story",
+    "instagram",
+    "sticker",
+    "swipe up",
+    "url",
+    "bio",
+    "social"
+  ],
+  "width": 560,
+  "height": 190,
+  "fps": 30,
+  "duration": 2.5,
+  "playback": "intro-hold",
+  "slots": {
+    "background": "#FFFFFF",
+    "icon": "#262626",
+    "primary": "#3897F0",
+    "secondary": "#EFEFEF",
+    "accent": "#3897F0"
+  },
+  "textArea": [
+    300,
+    62,
+    220,
+    66
+  ],
+  "variants": [
+    {
+      "id": "classic",
+      "name": "White Pill",
+      "file": "story-link-sticker.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 560,
+      "height": 190,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#FFFFFF",
+        "icon": "#262626",
+        "primary": "#3897F0",
+        "secondary": "#EFEFEF",
+        "accent": "#3897F0"
+      },
+      "textArea": [
+        300,
+        62,
+        220,
+        66
+      ]
+    },
+    {
+      "id": "solid",
+      "name": "Blue Pill",
+      "file": "story-link-sticker--solid.json",
+      "thumbnail": "thumbnail--solid.png",
+      "preview": "preview--solid.webp",
+      "poster": "poster--solid.png",
+      "width": 560,
+      "height": 190,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#FFFFFF",
+        "icon": "#262626",
+        "primary": "#3897F0",
+        "secondary": "#EFEFEF",
+        "accent": "#3897F0"
+      },
+      "textArea": [
+        170,
+        62,
+        330,
+        66
+      ]
+    }
+  ]
+}

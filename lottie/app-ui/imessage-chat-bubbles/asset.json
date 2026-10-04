@@ -1,0 +1,127 @@
+{
+  "schema": 1,
+  "id": "imessage-chat-bubbles",
+  "name": "iMessage Chat Bubbles",
+  "type": "lottie",
+  "category": "app-ui",
+  "file": "imessage-chat-bubbles.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "iMessage bubbles: blue sent and grey received with the curved tail, in one- and two-line sizes. They pop from their tail; type the message in the text area.",
+  "tags": [
+    "imessage",
+    "ios",
+    "chat",
+    "message",
+    "bubble",
+    "text",
+    "conversation",
+    "texting",
+    "apple"
+  ],
+  "width": 720,
+  "height": 152,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#0B84FE",
+    "secondary": "#E9E9EB"
+  },
+  "textArea": [
+    120,
+    44,
+    540,
+    64
+  ],
+  "variants": [
+    {
+      "id": "sent",
+      "name": "Sent",
+      "file": "imessage-chat-bubbles.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 720,
+      "height": 152,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#0B84FE",
+        "secondary": "#E9E9EB"
+      },
+      "textArea": [
+        120,
+        44,
+        540,
+        64
+      ]
+    },
+    {
+      "id": "received",
+      "name": "Received",
+      "file": "imessage-chat-bubbles--received.json",
+      "thumbnail": "thumbnail--received.png",
+      "preview": "preview--received.webp",
+      "poster": "poster--received.png",
+      "width": 720,
+      "height": 152,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#0B84FE",
+        "secondary": "#E9E9EB"
+      },
+      "textArea": [
+        60,
+        44,
+        540,
+        64
+      ]
+    },
+    {
+      "id": "sent-long",
+      "name": "Sent, Two Lines",
+      "file": "imessage-chat-bubbles--sent-long.json",
+      "thumbnail": "thumbnail--sent-long.png",
+      "preview": "preview--sent-long.webp",
+      "poster": "poster--sent-long.png",
+      "width": 720,
+      "height": 220,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#0B84FE",
+        "secondary": "#E9E9EB"
+      },
+      "textArea": [
+        120,
+        44,
+        540,
+        132
+      ]
+    },
+    {
+      "id": "received-long",
+      "name": "Received, Two Lines",
+      "file": "imessage-chat-bubbles--received-long.json",
+      "thumbnail": "thumbnail--received-long.png",
+      "preview": "preview--received-long.webp",
+      "poster": "poster--received-long.png",
+      "width": 720,
+      "height": 220,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#0B84FE",
+        "secondary": "#E9E9EB"
+      },
+      "textArea": [
+        60,
+        44,
+        540,
+        132
+      ]
+    }
+  ]
+}

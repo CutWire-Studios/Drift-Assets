@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "id": "whatsapp-voice-message",
+  "name": "WhatsApp Voice Message",
+  "type": "lottie",
+  "category": "app-ui",
+  "file": "whatsapp-voice-message.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "WhatsApp voice-note bubble with a play button, a waveform that fills as it plays, a sliding scrubber and the speaker's avatar. Plays once and holds.",
+  "tags": [
+    "whatsapp",
+    "voice message",
+    "audio",
+    "voice note",
+    "chat",
+    "waveform",
+    "message",
+    "podcast"
+  ],
+  "width": 700,
+  "height": 150,
+  "fps": 30,
+  "duration": 4.0,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#D9FDD3",
+    "icon": "#667781",
+    "accent": "#25D366"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "sent",
+      "name": "Sent",
+      "file": "whatsapp-voice-message.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 700,
+      "height": 150,
+      "duration": 4.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#D9FDD3",
+        "icon": "#667781",
+        "accent": "#25D366"
+      },
+      "textArea": null
+    },
+    {
+      "id": "received",
+      "name": "Received",
+      "file": "whatsapp-voice-message--received.json",
+      "thumbnail": "thumbnail--received.png",
+      "preview": "preview--received.webp",
+      "poster": "poster--received.png",
+      "width": 700,
+      "height": 150,
+      "duration": 4.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FFFFFF",
+        "icon": "#667781",
+        "accent": "#25D366"
+      },
+      "textArea": null
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "schema": 1,
+  "id": "notification-banner",
+  "name": "Notification Banner",
+  "type": "lottie",
+  "category": "app-ui",
+  "file": "notification-banner.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Push-notification banners that slide in: iPhone, Android and macOS styles with an app-icon tile. Type the title and message in the text areas.",
+  "tags": [
+    "notification",
+    "push",
+    "banner",
+    "alert",
+    "ios",
+    "android",
+    "macos",
+    "message",
+    "toast"
+  ],
+  "width": 1000,
+  "height": 230,
+  "fps": 30,
+  "duration": 3.5,
+  "playback": "intro-hold",
+  "slots": {
+    "background": "#2C2C2E",
+    "icon": "#FFFFFF",
+    "primary": "#34C759",
+    "outline": "#A0A0A8"
+  },
+  "textArea": [
+    156,
+    88,
+    800,
+    100
+  ],
+  "textAreas": {
+    "title": [
+      156,
+      36,
+      600,
+      44
+    ],
+    "message": [
+      156,
+      88,
+      800,
+      100
+    ]
+  },
+  "variants": [
+    {
+      "id": "ios",
+      "name": "iPhone Banner",
+      "file": "notification-banner.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1000,
+      "height": 230,
+      "duration": 3.5,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#2C2C2E",
+        "icon": "#FFFFFF",
+        "primary": "#34C759",
+        "outline": "#A0A0A8"
+      },
+      "textArea": [
+        156,
+        88,
+        800,
+        100
+      ],
+      "textAreas": {
+        "title": [
+          156,
+          36,
+          600,
+          44
+        ],
+        "message": [
+          156,
+          88,
+          800,
+          100
+        ]
+      },
+      "description": "Rounded dark push-notification banner drops from the top with an app icon, 'now' and title / message areas."
+    },
+    {
+      "id": "android",
+      "name": "Android Card",
+      "file": "notification-banner--android.json",
+      "thumbnail": "thumbnail--android.png",
+      "preview": "preview--android.webp",
+      "poster": "poster--android.png",
+      "width": 1000,
+      "height": 260,
+      "duration": 3.5,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#F2F2F7",
+        "icon": "#1B1B1F",
+        "primary": "#1A73E8",
+        "outline": "#5F6368"
+      },
+      "textArea": [
+        50,
+        134,
+        740,
+        90
+      ],
+      "textAreas": {
+        "title": [
+          50,
+          84,
+          740,
+          44
+        ],
+        "message": [
+          50,
+          134,
+          740,
+          90
+        ]
+      },
+      "description": "Material-style notification card with app glyph, 'now', avatar and text areas."
+    },
+    {
+      "id": "macos",
+      "name": "macOS Banner",
+      "file": "notification-banner--macos.json",
+      "thumbnail": "thumbnail--macos.png",
+      "preview": "preview--macos.webp",
+      "poster": "poster--macos.png",
+      "width": 760,
+      "height": 190,
+      "duration": 3.5,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#F3F3F3",
+        "icon": "#1D1D1F",
+        "primary": "#34C759",
+        "outline": "#6E6E73"
+      },
+      "textArea": [
+        136,
+        78,
+        590,
+        84
+      ],
+      "textAreas": {
+        "title": [
+          136,
+          32,
+          480,
+          38
+        ],
+        "message": [
+          136,
+          78,
+          590,
+          84
+        ]
+      },
+      "description": "macOS notification banner sliding in from the right."
+    }
+  ]
+}

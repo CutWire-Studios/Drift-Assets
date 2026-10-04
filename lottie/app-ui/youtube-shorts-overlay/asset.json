@@ -1,0 +1,114 @@
+{
+  "schema": 1,
+  "id": "youtube-shorts-overlay",
+  "name": "YouTube Shorts Overlay",
+  "type": "lottie",
+  "category": "app-ui",
+  "file": "youtube-shorts-overlay.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Vertical-video player overlay in the style of YouTube Shorts: right rail (like, dislike, comment, share, remix), channel avatar with a white Subscribe pill, caption area and a red progress line.",
+  "tags": [
+    "youtube shorts",
+    "shorts",
+    "overlay",
+    "subscribe",
+    "vertical",
+    "social",
+    "ui",
+    "like"
+  ],
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 5.0,
+  "playback": "intro-hold",
+  "slots": {
+    "icon": "#FFFFFF",
+    "primary": "#FF0000",
+    "secondary": "#6A6A70"
+  },
+  "textArea": [
+    36,
+    1782,
+    780,
+    110
+  ],
+  "textAreas": {
+    "channel": [
+      156,
+      1696,
+      100,
+      36
+    ],
+    "caption": [
+      36,
+      1782,
+      780,
+      110
+    ],
+    "likes": [
+      910,
+      856,
+      140,
+      34
+    ],
+    "comments": [
+      910,
+      1176,
+      140,
+      34
+    ]
+  },
+  "variants": [
+    {
+      "id": "shorts",
+      "name": "Shorts Feed",
+      "file": "youtube-shorts-overlay.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1080,
+      "height": 1920,
+      "duration": 5.0,
+      "playback": "intro-hold",
+      "slots": {
+        "icon": "#FFFFFF",
+        "primary": "#FF0000",
+        "secondary": "#6A6A70"
+      },
+      "textArea": [
+        36,
+        1782,
+        780,
+        110
+      ],
+      "textAreas": {
+        "channel": [
+          156,
+          1696,
+          100,
+          36
+        ],
+        "caption": [
+          36,
+          1782,
+          780,
+          110
+        ],
+        "likes": [
+          910,
+          856,
+          140,
+          34
+        ],
+        "comments": [
+          910,
+          1176,
+          140,
+          34
+        ]
+      }
+    }
+  ]
+}

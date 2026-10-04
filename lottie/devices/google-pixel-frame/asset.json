@@ -1,0 +1,124 @@
+{
+  "schema": 1,
+  "id": "google-pixel-frame",
+  "name": "Google Pixel Frame",
+  "type": "lottie",
+  "category": "devices",
+  "file": "google-pixel-frame.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Google Pixel phone mockup with a centred camera hole and a real screen cut-out for your video, in Pixel, Pixel Pro and landscape versions.",
+  "tags": [
+    "pixel",
+    "google",
+    "android",
+    "phone",
+    "mockup",
+    "frame",
+    "device",
+    "smartphone",
+    "screen recording"
+  ],
+  "width": 840,
+  "height": 1680,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#9CA3AA",
+    "secondary": "#0A0A0C",
+    "icon": "#FFFFFF"
+  },
+  "textArea": null,
+  "textAreas": {
+    "screen": [
+      60,
+      60,
+      720,
+      1560
+    ]
+  },
+  "variants": [
+    {
+      "id": "pixel",
+      "name": "Pixel",
+      "file": "google-pixel-frame.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 840,
+      "height": 1680,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#9CA3AA",
+        "secondary": "#0A0A0C",
+        "icon": "#FFFFFF"
+      },
+      "textArea": null,
+      "textAreas": {
+        "screen": [
+          60,
+          60,
+          720,
+          1560
+        ]
+      },
+      "description": "Pixel: rounded display, even bezels and a centred camera hole with an aluminium rim."
+    },
+    {
+      "id": "pixel-pro",
+      "name": "Pixel Pro",
+      "file": "google-pixel-frame--pixel-pro.json",
+      "thumbnail": "thumbnail--pixel-pro.png",
+      "preview": "preview--pixel-pro.webp",
+      "poster": "poster--pixel-pro.png",
+      "width": 830,
+      "height": 1710,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#D9D4C8",
+        "secondary": "#0A0A0C",
+        "icon": "#FFFFFF"
+      },
+      "textArea": null,
+      "textAreas": {
+        "screen": [
+          55,
+          55,
+          720,
+          1600
+        ]
+      },
+      "description": "Pixel Pro: taller display, thinner bezels and a champagne rim."
+    },
+    {
+      "id": "landscape",
+      "name": "Landscape",
+      "file": "google-pixel-frame--landscape.json",
+      "thumbnail": "thumbnail--landscape.png",
+      "preview": "preview--landscape.webp",
+      "poster": "poster--landscape.png",
+      "width": 1680,
+      "height": 840,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#9CA3AA",
+        "secondary": "#0A0A0C",
+        "icon": "#FFFFFF"
+      },
+      "textArea": null,
+      "textAreas": {
+        "screen": [
+          60,
+          60,
+          1560,
+          720
+        ]
+      },
+      "description": "The Pixel turned sideways for horizontal video."
+    }
+  ]
+}

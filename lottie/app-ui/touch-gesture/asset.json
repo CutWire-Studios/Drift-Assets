@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "id": "touch-gesture",
+  "name": "Touch Gestures",
+  "type": "lottie",
+  "category": "app-ui",
+  "file": "touch-gesture.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Finger-touch indicators for phone tutorials: a tap with a ripple, a double tap, a swipe up with a trail and a long press that fills a progress ring.",
+  "tags": [
+    "tap",
+    "touch",
+    "swipe",
+    "gesture",
+    "finger",
+    "mobile",
+    "tutorial",
+    "long press",
+    "screen recording"
+  ],
+  "width": 300,
+  "height": 520,
+  "fps": 30,
+  "duration": 2.5,
+  "playback": "intro-hold",
+  "slots": {
+    "icon": "#FFFFFF",
+    "accent": "#3D8BFF"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "tap",
+      "name": "Tap",
+      "file": "touch-gesture.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 300,
+      "height": 520,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "icon": "#FFFFFF",
+        "accent": "#3D8BFF"
+      },
+      "textArea": null
+    },
+    {
+      "id": "double-tap",
+      "name": "Double Tap",
+      "file": "touch-gesture--double-tap.json",
+      "thumbnail": "thumbnail--double-tap.png",
+      "preview": "preview--double-tap.webp",
+      "poster": "poster--double-tap.png",
+      "width": 300,
+      "height": 520,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "icon": "#FFFFFF",
+        "accent": "#3D8BFF"
+      },
+      "textArea": null
+    },
+    {
+      "id": "swipe-up",
+      "name": "Swipe Up",
+      "file": "touch-gesture--swipe-up.json",
+      "thumbnail": "thumbnail--swipe-up.png",
+      "preview": "preview--swipe-up.webp",
+      "poster": "poster--swipe-up.png",
+      "width": 300,
+      "height": 520,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "icon": "#FFFFFF",
+        "accent": "#3D8BFF"
+      },
+      "textArea": null
+    },
+    {
+      "id": "long-press",
+      "name": "Long Press",
+      "file": "touch-gesture--long-press.json",
+      "thumbnail": "thumbnail--long-press.png",
+      "preview": "preview--long-press.webp",
+      "poster": "poster--long-press.png",
+      "width": 300,
+      "height": 520,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "icon": "#FFFFFF",
+        "accent": "#3D8BFF"
+      },
+      "textArea": null
+    }
+  ]
+}

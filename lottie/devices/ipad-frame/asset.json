@@ -1,0 +1,122 @@
+{
+  "schema": 1,
+  "id": "ipad-frame",
+  "name": "iPad Frame",
+  "type": "lottie",
+  "category": "devices",
+  "file": "ipad-frame.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "iPad mockup with a real screen cut-out for your video: modern iPad Pro in landscape or portrait, and the classic home-button iPad.",
+  "tags": [
+    "ipad",
+    "tablet",
+    "apple",
+    "mockup",
+    "frame",
+    "device",
+    "screen recording"
+  ],
+  "width": 1310,
+  "height": 950,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#AEB1B8",
+    "secondary": "#0A0A0C",
+    "icon": "#FFFFFF"
+  },
+  "textArea": null,
+  "textAreas": {
+    "screen": [
+      65,
+      65,
+      1180,
+      820
+    ]
+  },
+  "variants": [
+    {
+      "id": "pro",
+      "name": "iPad Pro",
+      "file": "ipad-frame.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1310,
+      "height": 950,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#AEB1B8",
+        "secondary": "#0A0A0C",
+        "icon": "#FFFFFF"
+      },
+      "textArea": null,
+      "textAreas": {
+        "screen": [
+          65,
+          65,
+          1180,
+          820
+        ]
+      },
+      "description": "iPad Pro with even slim bezels, shown landscape for horizontal video."
+    },
+    {
+      "id": "pro-portrait",
+      "name": "iPad Pro, Portrait",
+      "file": "ipad-frame--pro-portrait.json",
+      "thumbnail": "thumbnail--pro-portrait.png",
+      "preview": "preview--pro-portrait.webp",
+      "poster": "poster--pro-portrait.png",
+      "width": 950,
+      "height": 1310,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#AEB1B8",
+        "secondary": "#0A0A0C",
+        "icon": "#FFFFFF"
+      },
+      "textArea": null,
+      "textAreas": {
+        "screen": [
+          65,
+          65,
+          820,
+          1180
+        ]
+      },
+      "description": "iPad Pro standing upright."
+    },
+    {
+      "id": "classic",
+      "name": "Home Button",
+      "file": "ipad-frame--classic.json",
+      "thumbnail": "thumbnail--classic.png",
+      "preview": "preview--classic.webp",
+      "poster": "poster--classic.png",
+      "width": 1374,
+      "height": 922,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#D9D9DE",
+        "secondary": "#0A0A0C",
+        "icon": "#FFFFFF"
+      },
+      "textArea": null,
+      "textAreas": {
+        "screen": [
+          172,
+          76,
+          1030,
+          770
+        ]
+      },
+      "description": "Classic iPad with a home button, landscape."
+    }
+  ]
+}

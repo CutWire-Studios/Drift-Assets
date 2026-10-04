@@ -1,0 +1,132 @@
+{
+  "schema": 1,
+  "id": "messenger-chat-bubbles",
+  "name": "Messenger Chat Bubbles",
+  "type": "lottie",
+  "category": "app-ui",
+  "file": "messenger-chat-bubbles.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Messenger bubbles: blue sent and grey received (with a small avatar) in one- and two-line sizes. They pop in; type the message in the text area.",
+  "tags": [
+    "messenger",
+    "facebook",
+    "chat",
+    "message",
+    "bubble",
+    "text",
+    "conversation",
+    "texting",
+    "social"
+  ],
+  "width": 800,
+  "height": 152,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#0084FF",
+    "secondary": "#E4E6EB",
+    "icon": "#FFFFFF"
+  },
+  "textArea": [
+    200,
+    44,
+    540,
+    64
+  ],
+  "variants": [
+    {
+      "id": "sent",
+      "name": "Sent",
+      "file": "messenger-chat-bubbles.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 800,
+      "height": 152,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#0084FF",
+        "secondary": "#E4E6EB",
+        "icon": "#FFFFFF"
+      },
+      "textArea": [
+        200,
+        44,
+        540,
+        64
+      ]
+    },
+    {
+      "id": "received",
+      "name": "Received",
+      "file": "messenger-chat-bubbles--received.json",
+      "thumbnail": "thumbnail--received.png",
+      "preview": "preview--received.webp",
+      "poster": "poster--received.png",
+      "width": 800,
+      "height": 152,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#0084FF",
+        "secondary": "#E4E6EB",
+        "icon": "#FFFFFF"
+      },
+      "textArea": [
+        126,
+        44,
+        540,
+        64
+      ]
+    },
+    {
+      "id": "sent-long",
+      "name": "Sent, Two Lines",
+      "file": "messenger-chat-bubbles--sent-long.json",
+      "thumbnail": "thumbnail--sent-long.png",
+      "preview": "preview--sent-long.webp",
+      "poster": "poster--sent-long.png",
+      "width": 800,
+      "height": 220,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#0084FF",
+        "secondary": "#E4E6EB",
+        "icon": "#FFFFFF"
+      },
+      "textArea": [
+        200,
+        44,
+        540,
+        132
+      ]
+    },
+    {
+      "id": "received-long",
+      "name": "Received, Two Lines",
+      "file": "messenger-chat-bubbles--received-long.json",
+      "thumbnail": "thumbnail--received-long.png",
+      "preview": "preview--received-long.webp",
+      "poster": "poster--received-long.png",
+      "width": 800,
+      "height": 220,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#0084FF",
+        "secondary": "#E4E6EB",
+        "icon": "#FFFFFF"
+      },
+      "textArea": [
+        126,
+        44,
+        540,
+        132
+      ]
+    }
+  ]
+}

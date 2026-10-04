@@ -1,0 +1,124 @@
+{
+  "schema": 1,
+  "id": "monitor-frame",
+  "name": "Desktop Monitor Frame",
+  "type": "lottie",
+  "category": "devices",
+  "file": "monitor-frame.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Desktop monitor mockup with a real screen cut-out for your video: a slim-bezel studio display, an all-in-one desktop with a chin, and a borderless gaming monitor.",
+  "tags": [
+    "monitor",
+    "display",
+    "desktop",
+    "imac",
+    "pc",
+    "mockup",
+    "frame",
+    "device",
+    "screen recording"
+  ],
+  "width": 1804,
+  "height": 1284,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#C9CBD0",
+    "secondary": "#0A0A0C",
+    "accent": "#8E9096"
+  },
+  "textArea": null,
+  "textAreas": {
+    "screen": [
+      102,
+      62,
+      1600,
+      900
+    ]
+  },
+  "variants": [
+    {
+      "id": "studio",
+      "name": "Studio Display",
+      "file": "monitor-frame.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1804,
+      "height": 1284,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#C9CBD0",
+        "secondary": "#0A0A0C",
+        "accent": "#8E9096"
+      },
+      "textArea": null,
+      "textAreas": {
+        "screen": [
+          102,
+          62,
+          1600,
+          900
+        ]
+      },
+      "description": "Slim-bezel desktop display on an aluminium stand."
+    },
+    {
+      "id": "imac",
+      "name": "All-in-One",
+      "file": "monitor-frame--imac.json",
+      "thumbnail": "thumbnail--imac.png",
+      "preview": "preview--imac.webp",
+      "poster": "poster--imac.png",
+      "width": 1808,
+      "height": 1384,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#E8E8EC",
+        "secondary": "#0A0A0C",
+        "accent": "#2F6BFF"
+      },
+      "textArea": null,
+      "textAreas": {
+        "screen": [
+          104,
+          64,
+          1600,
+          900
+        ]
+      },
+      "description": "All-in-one desktop with a thick chin and a stand."
+    },
+    {
+      "id": "gaming",
+      "name": "Gaming Monitor",
+      "file": "monitor-frame--gaming.json",
+      "thumbnail": "thumbnail--gaming.png",
+      "preview": "preview--gaming.webp",
+      "poster": "poster--gaming.png",
+      "width": 1792,
+      "height": 1272,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#1A1A1F",
+        "secondary": "#0A0A0C",
+        "accent": "#8E9096"
+      },
+      "textArea": null,
+      "textAreas": {
+        "screen": [
+          96,
+          56,
+          1600,
+          900
+        ]
+      },
+      "description": "Near-borderless dark monitor on a wide V-stand."
+    }
+  ]
+}

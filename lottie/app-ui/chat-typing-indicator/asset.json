@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "id": "chat-typing-indicator",
+  "name": "Typing Indicator",
+  "type": "lottie",
+  "category": "app-ui",
+  "file": "chat-typing-indicator.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "The 'someone is typing' animation: three bouncing dots in an iMessage or WhatsApp bubble, Messenger's dots with an avatar, or WhatsApp's green 'typing' label with animated dots. Loops.",
+  "tags": [
+    "typing",
+    "typing indicator",
+    "dots",
+    "chat",
+    "imessage",
+    "whatsapp",
+    "messenger",
+    "texting",
+    "loading"
+  ],
+  "width": 300,
+  "height": 160,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "loop",
+  "slots": {
+    "secondary": "#E9E9EB",
+    "icon": "#8E8E93"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "imessage",
+      "name": "iMessage",
+      "file": "chat-typing-indicator.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 300,
+      "height": 160,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "secondary": "#E9E9EB",
+        "icon": "#8E8E93"
+      },
+      "textArea": null
+    },
+    {
+      "id": "messenger",
+      "name": "Messenger",
+      "file": "chat-typing-indicator--messenger.json",
+      "thumbnail": "thumbnail--messenger.png",
+      "preview": "preview--messenger.webp",
+      "poster": "poster--messenger.png",
+      "width": 340,
+      "height": 160,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "secondary": "#E4E6EB",
+        "primary": "#0084FF",
+        "icon": "#65676B"
+      },
+      "textArea": null
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp Bubble",
+      "file": "chat-typing-indicator--whatsapp.json",
+      "thumbnail": "thumbnail--whatsapp.png",
+      "preview": "preview--whatsapp.webp",
+      "poster": "poster--whatsapp.png",
+      "width": 300,
+      "height": 160,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "secondary": "#FFFFFF",
+        "icon": "#8696A0"
+      },
+      "textArea": null
+    },
+    {
+      "id": "whatsapp-label",
+      "name": "WhatsApp Label",
+      "file": "chat-typing-indicator--whatsapp-label.json",
+      "thumbnail": "thumbnail--whatsapp-label.png",
+      "preview": "preview--whatsapp-label.webp",
+      "poster": "poster--whatsapp-label.png",
+      "width": 340,
+      "height": 120,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "primary": "#25D366"
+      },
+      "textArea": null
+    }
+  ]
+}

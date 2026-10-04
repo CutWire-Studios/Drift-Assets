@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "id": "wifi-signal",
+  "name": "Wi-Fi Signal",
+  "type": "lottie",
+  "category": "status-icons",
+  "file": "wifi-signal.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Wi-Fi signal icon: arcs light up one by one and hold, in a flat iOS-style cut, with rounded Android strokes, or a looping 'searching' sweep.",
+  "tags": [
+    "wifi",
+    "wi-fi",
+    "signal",
+    "internet",
+    "connection",
+    "status bar",
+    "network"
+  ],
+  "width": 220,
+  "height": 190,
+  "fps": 30,
+  "duration": 2.5,
+  "playback": "intro-hold",
+  "slots": {
+    "icon": "#FFFFFF"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "ios",
+      "name": "iOS Fan",
+      "file": "wifi-signal.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 220,
+      "height": 190,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "icon": "#FFFFFF"
+      },
+      "textArea": null
+    },
+    {
+      "id": "rounded",
+      "name": "Rounded",
+      "file": "wifi-signal--rounded.json",
+      "thumbnail": "thumbnail--rounded.png",
+      "preview": "preview--rounded.webp",
+      "poster": "poster--rounded.png",
+      "width": 220,
+      "height": 190,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "icon": "#FFFFFF"
+      },
+      "textArea": null
+    },
+    {
+      "id": "searching",
+      "name": "Searching",
+      "file": "wifi-signal--searching.json",
+      "thumbnail": "thumbnail--searching.png",
+      "preview": "preview--searching.webp",
+      "poster": "poster--searching.png",
+      "width": 220,
+      "height": 190,
+      "duration": 2.0,
+      "playback": "loop",
+      "slots": {
+        "icon": "#FFFFFF"
+      },
+      "textArea": null
+    }
+  ]
+}

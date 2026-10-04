@@ -1,0 +1,78 @@
+{
+  "schema": 1,
+  "id": "screen-recording-pill",
+  "name": "Screen Recording Pill",
+  "type": "lottie",
+  "category": "status-icons",
+  "file": "screen-recording-pill.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "The red 'screen recording' pill from the iPhone status bar with a blinking dot, and the dark Android recording chip with its own label.",
+  "tags": [
+    "screen recording",
+    "rec",
+    "recording",
+    "ios",
+    "android",
+    "status bar",
+    "tutorial",
+    "pill"
+  ],
+  "width": 330,
+  "height": 130,
+  "fps": 30,
+  "duration": 2.5,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FF3B30",
+    "icon": "#FFFFFF"
+  },
+  "textArea": [
+    92,
+    44,
+    110,
+    42
+  ],
+  "variants": [
+    {
+      "id": "ios",
+      "name": "iPhone Pill",
+      "file": "screen-recording-pill.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 330,
+      "height": 130,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF3B30",
+        "icon": "#FFFFFF"
+      },
+      "textArea": [
+        92,
+        44,
+        110,
+        42
+      ]
+    },
+    {
+      "id": "android",
+      "name": "Android Chip",
+      "file": "screen-recording-pill--android.json",
+      "thumbnail": "thumbnail--android.png",
+      "preview": "preview--android.webp",
+      "poster": "poster--android.png",
+      "width": 440,
+      "height": 130,
+      "duration": 2.5,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#202124",
+        "primary": "#FF3B30",
+        "icon": "#FFFFFF"
+      },
+      "textArea": null
+    }
+  ]
+}

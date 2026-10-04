@@ -1,0 +1,136 @@
+{
+  "schema": 1,
+  "id": "whatsapp-chat-bubbles",
+  "name": "WhatsApp Chat Bubbles",
+  "type": "lottie",
+  "category": "app-ui",
+  "file": "whatsapp-chat-bubbles.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "WhatsApp message bubbles: green sent bubbles with blue read ticks and white received bubbles with the little tail, in one- and two-line sizes. They pop from their tail; type the message in the text area.",
+  "tags": [
+    "whatsapp",
+    "chat",
+    "message",
+    "bubble",
+    "text",
+    "conversation",
+    "texting",
+    "social"
+  ],
+  "width": 720,
+  "height": 152,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#D9FDD3",
+    "secondary": "#FFFFFF",
+    "icon": "#667781",
+    "accent": "#53BDEB"
+  },
+  "textArea": [
+    112,
+    42,
+    556,
+    42
+  ],
+  "variants": [
+    {
+      "id": "sent",
+      "name": "Sent",
+      "file": "whatsapp-chat-bubbles.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 720,
+      "height": 152,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#D9FDD3",
+        "secondary": "#FFFFFF",
+        "icon": "#667781",
+        "accent": "#53BDEB"
+      },
+      "textArea": [
+        112,
+        42,
+        556,
+        42
+      ]
+    },
+    {
+      "id": "received",
+      "name": "Received",
+      "file": "whatsapp-chat-bubbles--received.json",
+      "thumbnail": "thumbnail--received.png",
+      "preview": "preview--received.webp",
+      "poster": "poster--received.png",
+      "width": 720,
+      "height": 152,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#D9FDD3",
+        "secondary": "#FFFFFF",
+        "icon": "#667781",
+        "accent": "#53BDEB"
+      },
+      "textArea": [
+        52,
+        42,
+        556,
+        42
+      ]
+    },
+    {
+      "id": "sent-long",
+      "name": "Sent, Two Lines",
+      "file": "whatsapp-chat-bubbles--sent-long.json",
+      "thumbnail": "thumbnail--sent-long.png",
+      "preview": "preview--sent-long.webp",
+      "poster": "poster--sent-long.png",
+      "width": 720,
+      "height": 220,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#D9FDD3",
+        "secondary": "#FFFFFF",
+        "icon": "#667781",
+        "accent": "#53BDEB"
+      },
+      "textArea": [
+        112,
+        42,
+        556,
+        110
+      ]
+    },
+    {
+      "id": "received-long",
+      "name": "Received, Two Lines",
+      "file": "whatsapp-chat-bubbles--received-long.json",
+      "thumbnail": "thumbnail--received-long.png",
+      "preview": "preview--received-long.webp",
+      "poster": "poster--received-long.png",
+      "width": 720,
+      "height": 220,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#D9FDD3",
+        "secondary": "#FFFFFF",
+        "icon": "#667781",
+        "accent": "#53BDEB"
+      },
+      "textArea": [
+        52,
+        42,
+        556,
+        110
+      ]
+    }
+  ]
+}

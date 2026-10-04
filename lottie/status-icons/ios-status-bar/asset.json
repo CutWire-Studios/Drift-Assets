@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "id": "ios-status-bar",
+  "name": "iPhone Status Bar",
+  "type": "lottie",
+  "category": "status-icons",
+  "file": "ios-status-bar.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "iPhone status bar with time, signal bars, Wi-Fi and battery. 'Modern' is the notch/Dynamic Island layout (time left, icons right); 'Classic' is the home-button layout with carrier, centred time and battery percentage. Slides in from the top; place it over a phone screen recording.",
+  "tags": [
+    "status bar",
+    "iphone",
+    "ios",
+    "battery",
+    "wifi",
+    "time",
+    "9:41",
+    "phone",
+    "screen recording"
+  ],
+  "width": 1080,
+  "height": 120,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "intro-hold",
+  "slots": {
+    "icon": "#FFFFFF"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "modern",
+      "name": "Notch / Island",
+      "file": "ios-status-bar.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1080,
+      "height": 120,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "icon": "#FFFFFF"
+      },
+      "textArea": null
+    },
+    {
+      "id": "classic",
+      "name": "Home Button",
+      "file": "ios-status-bar--classic.json",
+      "thumbnail": "thumbnail--classic.png",
+      "preview": "preview--classic.webp",
+      "poster": "poster--classic.png",
+      "width": 1080,
+      "height": 120,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "icon": "#FFFFFF"
+      },
+      "textArea": null
+    }
+  ]
+}

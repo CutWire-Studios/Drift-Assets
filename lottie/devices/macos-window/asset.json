@@ -1,0 +1,175 @@
+{
+  "schema": 1,
+  "id": "macos-window",
+  "name": "macOS Window",
+  "type": "lottie",
+  "category": "devices",
+  "file": "macos-window.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "macOS window frame with traffic-light buttons that pops in. The window body is a real cut-out so your screen recording or footage shows through; Terminal has a solid body.",
+  "tags": [
+    "macos",
+    "mac",
+    "window",
+    "desktop",
+    "finder",
+    "safari",
+    "terminal",
+    "frame",
+    "screen recording",
+    "mockup"
+  ],
+  "width": 1720,
+  "height": 1080,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "intro-hold",
+  "slots": {
+    "background": "#ECECEC",
+    "icon": "#5A5A5F",
+    "secondary": "#FFFFFF",
+    "outline": "#C8C8CC"
+  },
+  "textArea": [
+    660,
+    48,
+    400,
+    40
+  ],
+  "textAreas": {
+    "title": [
+      660,
+      48,
+      400,
+      40
+    ],
+    "screen": [
+      60,
+      96,
+      1600,
+      904
+    ]
+  },
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Finder Style",
+      "file": "macos-window.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1720,
+      "height": 1080,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#ECECEC",
+        "icon": "#5A5A5F",
+        "secondary": "#FFFFFF",
+        "outline": "#C8C8CC"
+      },
+      "textArea": [
+        660,
+        48,
+        400,
+        40
+      ],
+      "textAreas": {
+        "title": [
+          660,
+          48,
+          400,
+          40
+        ],
+        "screen": [
+          60,
+          96,
+          1600,
+          904
+        ]
+      },
+      "description": "Light titlebar with traffic lights and a transparent window body for your footage; type a title in the title area."
+    },
+    {
+      "id": "safari",
+      "name": "Safari Toolbar",
+      "file": "macos-window--safari.json",
+      "thumbnail": "thumbnail--safari.png",
+      "preview": "preview--safari.webp",
+      "poster": "poster--safari.png",
+      "width": 1720,
+      "height": 1080,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#ECECEC",
+        "icon": "#5A5A5F",
+        "secondary": "#FFFFFF",
+        "outline": "#C8C8CC"
+      },
+      "textArea": [
+        452,
+        62,
+        816,
+        32
+      ],
+      "textAreas": {
+        "address": [
+          452,
+          62,
+          816,
+          32
+        ],
+        "screen": [
+          60,
+          116,
+          1600,
+          884
+        ]
+      },
+      "description": "Toolbar with navigation arrows, a centred address pill with lock and reload, share and tab buttons; footage shows through the body."
+    },
+    {
+      "id": "terminal",
+      "name": "Terminal",
+      "file": "macos-window--terminal.json",
+      "thumbnail": "thumbnail--terminal.png",
+      "preview": "preview--terminal.webp",
+      "poster": "poster--terminal.png",
+      "width": 1720,
+      "height": 1080,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#2B2B2E",
+        "icon": "#C9C9CE",
+        "secondary": "#FFFFFF",
+        "outline": "#C8C8CC",
+        "primary": "#0B0B0D",
+        "accent": "#7EE787"
+      },
+      "textArea": [
+        620,
+        48,
+        480,
+        40
+      ],
+      "textAreas": {
+        "title": [
+          620,
+          48,
+          480,
+          40
+        ],
+        "screen": [
+          60,
+          96,
+          1600,
+          904
+        ]
+      },
+      "description": "Dark Terminal window with a blinking prompt cursor; the body is solid, type commands in the screen text area."
+    }
+  ]
+}

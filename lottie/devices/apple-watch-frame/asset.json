@@ -1,0 +1,95 @@
+{
+  "schema": 1,
+  "id": "apple-watch-frame",
+  "name": "Smartwatch Frame",
+  "type": "lottie",
+  "category": "devices",
+  "file": "apple-watch-frame.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Smartwatch mockup with a real screen cut-out for a watch-face recording, with or without the strap.",
+  "tags": [
+    "apple watch",
+    "smartwatch",
+    "wearable",
+    "watch",
+    "mockup",
+    "frame",
+    "device"
+  ],
+  "width": 546,
+  "height": 604,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#C5C7CC",
+    "secondary": "#050506",
+    "accent": "#2E2E33"
+  },
+  "textArea": null,
+  "textAreas": {
+    "screen": [
+      63,
+      60,
+      396,
+      484
+    ]
+  },
+  "variants": [
+    {
+      "id": "case",
+      "name": "Case Only",
+      "file": "apple-watch-frame.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 546,
+      "height": 604,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#C5C7CC",
+        "secondary": "#050506",
+        "accent": "#2E2E33"
+      },
+      "textArea": null,
+      "textAreas": {
+        "screen": [
+          63,
+          60,
+          396,
+          484
+        ]
+      },
+      "description": "Watch case with a digital crown and side button."
+    },
+    {
+      "id": "strap",
+      "name": "With Strap",
+      "file": "apple-watch-frame--strap.json",
+      "thumbnail": "thumbnail--strap.png",
+      "preview": "preview--strap.webp",
+      "poster": "poster--strap.png",
+      "width": 546,
+      "height": 1204,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#C5C7CC",
+        "secondary": "#050506",
+        "accent": "#2E2E33"
+      },
+      "textArea": null,
+      "textAreas": {
+        "screen": [
+          63,
+          360,
+          396,
+          484
+        ]
+      },
+      "description": "Watch with a strap above and below."
+    }
+  ]
+}

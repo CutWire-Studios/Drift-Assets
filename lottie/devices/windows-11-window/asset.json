@@ -1,0 +1,183 @@
+{
+  "schema": 1,
+  "id": "windows-11-window",
+  "name": "Windows 11 Window",
+  "type": "lottie",
+  "category": "devices",
+  "file": "windows-11-window.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Windows 11 window frame with Mica-style title bar and caption buttons that pops in. The body is a real cut-out for your screen recording or footage.",
+  "tags": [
+    "windows",
+    "windows 11",
+    "window",
+    "desktop",
+    "explorer",
+    "edge",
+    "frame",
+    "screen recording",
+    "mockup",
+    "pc"
+  ],
+  "width": 1720,
+  "height": 1080,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "intro-hold",
+  "slots": {
+    "background": "#F3F3F3",
+    "icon": "#1B1B1B",
+    "primary": "#0067C0",
+    "secondary": "#FFFFFF",
+    "outline": "#DADADA"
+  },
+  "textArea": [
+    130,
+    48,
+    520,
+    32
+  ],
+  "textAreas": {
+    "title": [
+      130,
+      48,
+      520,
+      32
+    ],
+    "screen": [
+      60,
+      88,
+      1600,
+      912
+    ]
+  },
+  "variants": [
+    {
+      "id": "classic",
+      "name": "Windows Title Bar",
+      "file": "windows-11-window.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1720,
+      "height": 1080,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#F3F3F3",
+        "icon": "#1B1B1B",
+        "primary": "#0067C0",
+        "secondary": "#FFFFFF",
+        "outline": "#DADADA"
+      },
+      "textArea": [
+        130,
+        48,
+        520,
+        32
+      ],
+      "textAreas": {
+        "title": [
+          130,
+          48,
+          520,
+          32
+        ],
+        "screen": [
+          60,
+          88,
+          1600,
+          912
+        ]
+      },
+      "description": "Windows 11 title bar with app icon, title area and minimise / maximise / close buttons; transparent body."
+    },
+    {
+      "id": "explorer",
+      "name": "File Explorer",
+      "file": "windows-11-window--explorer.json",
+      "thumbnail": "thumbnail--explorer.png",
+      "preview": "preview--explorer.webp",
+      "poster": "poster--explorer.png",
+      "width": 1720,
+      "height": 1080,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#F3F3F3",
+        "icon": "#1B1B1B",
+        "primary": "#0067C0",
+        "secondary": "#FFFFFF",
+        "outline": "#DADADA"
+      },
+      "textArea": [
+        244,
+        113,
+        802,
+        30
+      ],
+      "textAreas": {
+        "address": [
+          244,
+          113,
+          802,
+          30
+        ],
+        "search": [
+          1194,
+          113,
+          380,
+          30
+        ],
+        "screen": [
+          60,
+          168,
+          1600,
+          832
+        ]
+      },
+      "description": "File Explorer style window: a tab, back / forward / up arrows, address bar and search box."
+    },
+    {
+      "id": "browser",
+      "name": "Browser",
+      "file": "windows-11-window--browser.json",
+      "thumbnail": "thumbnail--browser.png",
+      "preview": "preview--browser.webp",
+      "poster": "poster--browser.png",
+      "width": 1720,
+      "height": 1080,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#F3F3F3",
+        "icon": "#1B1B1B",
+        "primary": "#0067C0",
+        "secondary": "#FFFFFF",
+        "outline": "#DADADA"
+      },
+      "textArea": [
+        296,
+        103,
+        1140,
+        30
+      ],
+      "textAreas": {
+        "address": [
+          296,
+          103,
+          1140,
+          30
+        ],
+        "screen": [
+          60,
+          152,
+          1600,
+          848
+        ]
+      },
+      "description": "Edge-style browser window with a tab, navigation buttons and a rounded address bar."
+    }
+  ]
+}

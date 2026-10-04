@@ -1,0 +1,181 @@
+{
+  "schema": 1,
+  "id": "x-post-card",
+  "name": "X Post Card",
+  "type": "lottie",
+  "category": "app-ui",
+  "file": "x-post-card.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Dark-mode X (Twitter) post card: avatar, name, handle, post text, optional media window and the action row, with an animated like. Type the name, handle and post text in the text areas.",
+  "tags": [
+    "twitter",
+    "x",
+    "tweet",
+    "post",
+    "social",
+    "like",
+    "card",
+    "mockup",
+    "thread"
+  ],
+  "width": 920,
+  "height": 820,
+  "fps": 30,
+  "duration": 3.5,
+  "playback": "intro-hold",
+  "slots": {
+    "background": "#000000",
+    "icon": "#E7E9EA",
+    "outline": "#71767B",
+    "primary": "#1D9BF0",
+    "accent": "#F91880",
+    "secondary": "#2F3336"
+  },
+  "textArea": [
+    32,
+    190,
+    856,
+    280
+  ],
+  "textAreas": {
+    "name": [
+      150,
+      38,
+      400,
+      40
+    ],
+    "handle": [
+      150,
+      84,
+      400,
+      34
+    ],
+    "text": [
+      32,
+      190,
+      856,
+      280
+    ],
+    "time": [
+      32,
+      590,
+      520,
+      36
+    ]
+  },
+  "variants": [
+    {
+      "id": "text",
+      "name": "Text Post",
+      "file": "x-post-card.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 920,
+      "height": 820,
+      "duration": 3.5,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#000000",
+        "icon": "#E7E9EA",
+        "outline": "#71767B",
+        "primary": "#1D9BF0",
+        "accent": "#F91880",
+        "secondary": "#2F3336"
+      },
+      "textArea": [
+        32,
+        190,
+        856,
+        280
+      ],
+      "textAreas": {
+        "name": [
+          150,
+          38,
+          400,
+          40
+        ],
+        "handle": [
+          150,
+          84,
+          400,
+          34
+        ],
+        "text": [
+          32,
+          190,
+          856,
+          280
+        ],
+        "time": [
+          32,
+          590,
+          520,
+          36
+        ]
+      },
+      "description": "Post with avatar, name and handle, a big text area, timestamp and the reply / repost / like / views / share row. The like turns pink."
+    },
+    {
+      "id": "media",
+      "name": "Post With Media",
+      "file": "x-post-card--media.json",
+      "thumbnail": "thumbnail--media.png",
+      "preview": "preview--media.webp",
+      "poster": "poster--media.png",
+      "width": 920,
+      "height": 1330,
+      "duration": 3.5,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#000000",
+        "icon": "#E7E9EA",
+        "outline": "#71767B",
+        "primary": "#1D9BF0",
+        "accent": "#F91880",
+        "secondary": "#2F3336"
+      },
+      "textArea": [
+        32,
+        190,
+        856,
+        280
+      ],
+      "textAreas": {
+        "name": [
+          150,
+          38,
+          400,
+          40
+        ],
+        "handle": [
+          150,
+          84,
+          400,
+          34
+        ],
+        "text": [
+          32,
+          190,
+          856,
+          280
+        ],
+        "time": [
+          32,
+          1100,
+          520,
+          36
+        ],
+        "media": [
+          32,
+          498,
+          856,
+          480
+        ]
+      },
+      "description": "Same post with a rounded cut-out under the text for an image or video clip."
+    }
+  ]
+}

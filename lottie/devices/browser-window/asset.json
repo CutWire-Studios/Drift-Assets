@@ -1,0 +1,149 @@
+{
+  "schema": 1,
+  "id": "browser-window",
+  "name": "Browser Window",
+  "type": "lottie",
+  "category": "devices",
+  "file": "browser-window.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Web browser window with a tab strip and address bar, or a minimal address-bar toolbar. Pops in with a transparent body so a website recording shows through; type the URL in the address text area.",
+  "tags": [
+    "browser",
+    "chrome",
+    "website",
+    "url",
+    "address bar",
+    "tabs",
+    "web",
+    "window",
+    "frame",
+    "screen recording"
+  ],
+  "width": 1720,
+  "height": 1080,
+  "fps": 30,
+  "duration": 2.0,
+  "playback": "intro-hold",
+  "slots": {
+    "background": "#DEE1E6",
+    "secondary": "#FFFFFF",
+    "icon": "#5F6368",
+    "primary": "#1A73E8",
+    "outline": "#C4C7CC"
+  },
+  "textArea": [
+    294,
+    112,
+    1142,
+    32
+  ],
+  "textAreas": {
+    "tab": [
+      256,
+      56,
+      150,
+      34
+    ],
+    "address": [
+      294,
+      112,
+      1142,
+      32
+    ],
+    "screen": [
+      60,
+      160,
+      1600,
+      840
+    ]
+  },
+  "variants": [
+    {
+      "id": "tabs",
+      "name": "Tabbed Browser",
+      "file": "browser-window.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 1720,
+      "height": 1080,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#DEE1E6",
+        "secondary": "#FFFFFF",
+        "icon": "#5F6368",
+        "primary": "#1A73E8",
+        "outline": "#C4C7CC"
+      },
+      "textArea": [
+        294,
+        112,
+        1142,
+        32
+      ],
+      "textAreas": {
+        "tab": [
+          256,
+          56,
+          150,
+          34
+        ],
+        "address": [
+          294,
+          112,
+          1142,
+          32
+        ],
+        "screen": [
+          60,
+          160,
+          1600,
+          840
+        ]
+      },
+      "description": "Chrome-style window with a tab strip, back / forward / reload, address pill, bookmark star and profile button."
+    },
+    {
+      "id": "minimal",
+      "name": "Minimal Address Bar",
+      "file": "browser-window--minimal.json",
+      "thumbnail": "thumbnail--minimal.png",
+      "preview": "preview--minimal.webp",
+      "poster": "poster--minimal.png",
+      "width": 1720,
+      "height": 1080,
+      "duration": 2.0,
+      "playback": "intro-hold",
+      "slots": {
+        "background": "#DEE1E6",
+        "secondary": "#FFFFFF",
+        "icon": "#5F6368",
+        "primary": "#1A73E8",
+        "outline": "#C4C7CC"
+      },
+      "textArea": [
+        602,
+        62,
+        516,
+        32
+      ],
+      "textAreas": {
+        "address": [
+          602,
+          62,
+          516,
+          32
+        ],
+        "screen": [
+          60,
+          116,
+          1600,
+          884
+        ]
+      },
+      "description": "Compact browser toolbar with traffic lights and a centred rounded address bar."
+    }
+  ]
+}
