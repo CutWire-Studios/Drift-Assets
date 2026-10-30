@@ -6,7 +6,7 @@
   "category": "app-ui",
   "file": "imessage-chat-window.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Empty iMessage conversation screen: grey header with the centred contact avatar, FaceTime button, and the iMessage input bar. Put the name in the name area and stack the iMessage bubbles in the chat area.",
   "tags": [
     "imessage",

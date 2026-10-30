@@ -6,7 +6,7 @@
   "category": "status-icons",
   "file": "message-ticks.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Chat delivery ticks as in WhatsApp: one tick for sent, two for delivered, and two that turn blue when read. Each draws on in sequence.",
   "tags": [
     "ticks",

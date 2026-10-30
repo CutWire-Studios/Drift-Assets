@@ -6,7 +6,7 @@
   "category": "memes",
   "file": "npc-glitch.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Full-frame glitch overlay for \"NPC moment\" edits: RGB-split outlines, scanlines and glitch slices that jolt in bursts on a seamless loop. The middle stays clear for your subject.",
   "tags": [
     "npc",

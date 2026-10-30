@@ -6,7 +6,7 @@
   "category": "gaming",
   "file": "minimap-ping.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Circular minimap with a radar sweep that lights up blips as it passes and a ping marker rippling on the map, on a loop.",
   "tags": [
     "minimap",

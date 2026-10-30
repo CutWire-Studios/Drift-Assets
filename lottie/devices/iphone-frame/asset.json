@@ -6,7 +6,7 @@
   "category": "devices",
   "file": "iphone-frame.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "iPhone mockup that pops in with a real screen cut-out for your video: Dynamic Island, with status bar, landscape, notch and home-button models.",
   "tags": [
     "iphone",

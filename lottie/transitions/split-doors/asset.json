@@ -6,7 +6,7 @@
   "category": "transitions",
   "file": "split-doors.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Door transition: panels slide in from the edges and meet in the middle to cover the shot, hold for the cut, then slide open onto the next clip.",
   "tags": [
     "doors",

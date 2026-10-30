@@ -6,7 +6,7 @@
   "category": "lower-thirds",
   "file": "lower-third-double-line.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Minimal lower third: two parallel lines draw on above and below your text. Put a name on the first row and a subtitle on the second.",
   "tags": [
     "lower third",

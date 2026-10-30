@@ -6,7 +6,7 @@
   "category": "seasonal",
   "file": "new-year-countdown-ring.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "A countdown ring that fills up and bursts into fireworks when it completes; loop it once per number. Put the countdown number in the text area inside the ring.",
   "tags": [
     "new year",

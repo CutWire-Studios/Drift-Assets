@@ -6,7 +6,7 @@
   "category": "broadcast",
   "file": "poll-bars.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Three-option poll whose bars fill to their results, the leader highlighted. Each option has its own text areas for the answer (option1-3) and its percentage (value1-3).",
   "tags": [
     "poll",

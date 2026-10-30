@@ -6,7 +6,7 @@
   "category": "call-to-action",
   "file": "follow-button-substack.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Substack app icon with a subscribe button; a pointer clicks it. Put your own \"Subscribe\" text inside the button.",
   "tags": [
     "substack",

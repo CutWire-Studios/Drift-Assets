@@ -6,7 +6,7 @@
   "category": "transitions",
   "file": "brush-reveal.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Paint brush transition: a thick brush stroke paints over the shot, holds on solid paint for the cut, then is wiped away to reveal the next clip.",
   "tags": [
     "brush",

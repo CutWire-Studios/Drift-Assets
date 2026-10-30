@@ -6,7 +6,7 @@
   "category": "call-to-action",
   "file": "comment-bubble-pop.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Chat bubble pops in beside an avatar placeholder, shows bouncing typing dots, then opens up into a wide comment box. Type your comment inside the bubble.",
   "tags": [
     "comment",

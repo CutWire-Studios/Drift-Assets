@@ -6,7 +6,7 @@
   "category": "status-icons",
   "file": "ios-status-bar.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "iPhone status bar with time, signal bars, Wi-Fi and battery. 'Modern' is the notch/Dynamic Island layout (time left, icons right); 'Classic' is the home-button layout with carrier, centred time and battery percentage. Slides in from the top; place it over a phone screen recording.",
   "tags": [
     "status bar",

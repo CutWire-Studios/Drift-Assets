@@ -6,7 +6,7 @@
   "category": "app-ui",
   "file": "touch-gesture.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Finger-touch indicators for phone tutorials: a tap with a ripple, a double tap, a swipe up with a trail and a long press that fills a progress ring.",
   "tags": [
     "tap",

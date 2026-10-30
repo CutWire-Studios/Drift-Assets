@@ -6,7 +6,7 @@
   "category": "gaming",
   "file": "streak-flame.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "A flickering flame grows with each hit while a streak bar ignites segment by segment. Put the streak count to the right of the bar.",
   "tags": [
     "streak",

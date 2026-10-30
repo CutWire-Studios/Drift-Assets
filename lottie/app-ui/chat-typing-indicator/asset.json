@@ -6,7 +6,7 @@
   "category": "app-ui",
   "file": "chat-typing-indicator.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "The 'someone is typing' animation: three bouncing dots in an iMessage or WhatsApp bubble, Messenger's dots with an avatar, or WhatsApp's green 'typing' label with animated dots. Loops.",
   "tags": [
     "typing",

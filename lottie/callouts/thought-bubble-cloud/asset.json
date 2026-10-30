@@ -6,7 +6,7 @@
   "category": "callouts",
   "file": "thought-bubble-cloud.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "A fluffy thought cloud whose trail of dots pops in one by one before the cloud; type the thought inside it.",
   "tags": [
     "thought",

@@ -6,7 +6,7 @@
   "category": "gaming",
   "file": "achievement-toast.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Console-style achievement-unlocked toast: a trophy medallion pops in, a dark pill slides out from behind it and a glint sweeps across. Room for a title and a description in the pill.",
   "tags": [
     "achievement",

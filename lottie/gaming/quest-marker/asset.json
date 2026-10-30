@@ -6,7 +6,7 @@
   "category": "gaming",
   "file": "quest-marker.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Floating RPG quest marker built from shapes: it bobs over a soft shadow with twinkles, on a loop. Place it above a character or spot in your footage.",
   "tags": [
     "quest",

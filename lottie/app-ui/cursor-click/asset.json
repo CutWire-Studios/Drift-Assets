@@ -6,7 +6,7 @@
   "category": "app-ui",
   "file": "cursor-click.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "A mouse pointer glides to a spot and clicks, with a ripple at the click point: arrow cursor or pointing-hand cursor. Drop it over a screen recording to show where to click.",
   "tags": [
     "cursor",

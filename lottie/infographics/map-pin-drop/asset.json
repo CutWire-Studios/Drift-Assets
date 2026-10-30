@@ -6,7 +6,7 @@
   "category": "infographics",
   "file": "map-pin-drop.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "A location pin drops onto an abstract map tile with a squash and ripple, then a label chip pops under the map. Put the place name in the 'label' area.",
   "tags": [
     "map",

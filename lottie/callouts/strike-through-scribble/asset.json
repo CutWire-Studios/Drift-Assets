@@ -6,7 +6,7 @@
   "category": "callouts",
   "file": "strike-through-scribble.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Crosses something out: lay it over a word or line of text, which sits in the text area behind it.",
   "tags": [
     "strike-through",

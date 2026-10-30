@@ -6,7 +6,7 @@
   "category": "infographics",
   "file": "battery-level.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "A battery that fills segment by segment. Put the percentage in the 'value' area beside it and a caption in 'label'.",
   "tags": [
     "battery",

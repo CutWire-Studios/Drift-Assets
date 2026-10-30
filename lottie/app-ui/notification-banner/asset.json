@@ -6,7 +6,7 @@
   "category": "app-ui",
   "file": "notification-banner.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Push-notification banners that slide in: iPhone, Android and macOS styles with an app-icon tile. Type the title and message in the text areas.",
   "tags": [
     "notification",

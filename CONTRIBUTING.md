@@ -139,7 +139,7 @@ Rules (Drift plays Lottie through Skia's Skottie):
 {
   "schema": 1, "id": "like-thumb-pop", "name": "Like Thumb Pop", "type": "lottie",
   "category": "call-to-action", "file": "like-thumb-pop.json", "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0", "description": "...", "tags": ["like", "youtube"],
+  "license": "CC0-1.0", "description": "...", "tags": ["like", "youtube"],
   "width": 400, "height": 400, "fps": 30, "duration": 2.0,
   "playback": "intro-hold", "slots": {"primary": "#FF0000", "icon": "#FFFFFF"},
   "textArea": null

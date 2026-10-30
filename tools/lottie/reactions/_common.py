@@ -53,7 +53,7 @@ def build(comp, category, aid, name, description, tags, playback, thumb_t, bg=No
     subprocess.run(cmd, check=True)
     meta = {
         "schema": 1, "id": aid, "name": name, "type": "lottie", "category": category,
-        "file": f"{aid}.json", "thumbnail": "thumbnail.png", "license": "CC-BY-NC-SA-4.0",
+        "file": f"{aid}.json", "thumbnail": "thumbnail.png", "license": "CC0-1.0",
         "description": description, "tags": tags, "width": comp.w, "height": comp.h,
         "fps": comp.fps, "duration": round(comp.frames / comp.fps, 3), "playback": playback,
         "slots": {k: _hex(v["p"]["k"]) for k, v in comp.slots.items()}, "textArea": text_area,

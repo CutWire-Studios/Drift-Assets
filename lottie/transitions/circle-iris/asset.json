@@ -6,7 +6,7 @@
   "category": "transitions",
   "file": "circle-iris.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Round iris transition: a circle closes over the shot, holds on a solid frame for the cut, then opens onto the next clip.",
   "tags": [
     "iris",

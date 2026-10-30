@@ -147,7 +147,7 @@ def build(comp, asset_id, name, description, tags, playback, text_area=None, thu
     subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL)
     meta = {
         "schema": 1, "id": asset_id, "name": name, "type": "lottie", "category": CATEGORY,
-        "file": f"{asset_id}.json", "thumbnail": "thumbnail.png", "license": "CC-BY-NC-SA-4.0",
+        "file": f"{asset_id}.json", "thumbnail": "thumbnail.png", "license": "CC0-1.0",
         "description": description, "tags": tags, "width": comp.w, "height": comp.h, "fps": comp.fps,
         "duration": round(comp.frames / comp.fps, 3), "playback": playback,
         "slots": {k: _hex(v["p"]["k"]) for k, v in comp.slots.items()},

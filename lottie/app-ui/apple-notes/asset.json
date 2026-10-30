@@ -6,7 +6,7 @@
   "category": "app-ui",
   "file": "apple-notes.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Apple Notes-style page with a back button, share and more icons, the formatting toolbar and either a blinking cursor or a checklist that ticks off. Type the title and body in the text areas.",
   "tags": [
     "notes",

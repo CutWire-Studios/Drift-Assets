@@ -6,7 +6,7 @@
   "category": "call-to-action",
   "file": "qr-scan-frame.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Scanner corner brackets with a laser line sweeping over an empty 300x300 px square (centred at 220,210) where you place your own QR code image, plus a label pill below for \"Scan me\"; seamless loop.",
   "tags": [
     "qr code",

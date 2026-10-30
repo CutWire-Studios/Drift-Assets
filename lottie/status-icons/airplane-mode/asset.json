@@ -6,7 +6,7 @@
   "category": "status-icons",
   "file": "airplane-mode.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Airplane mode toggle: an orange Control Center-style button that switches on, or the bare plane glyph popping in.",
   "tags": [
     "airplane",

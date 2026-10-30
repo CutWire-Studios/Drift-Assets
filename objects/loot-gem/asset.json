@@ -5,7 +5,7 @@
   "type": "object",
   "file": "loot-gem.glb",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Faceted purple epic-rarity crystal with a glowing core inside a translucent shell, spinning and floating like a loot drop.",
   "tags": [
     "gem",

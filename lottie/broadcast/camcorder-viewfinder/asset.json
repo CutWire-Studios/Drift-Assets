@@ -6,7 +6,7 @@
   "category": "broadcast",
   "file": "camcorder-viewfinder.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Full-frame camera viewfinder overlay with a transparent centre: corner marks, blinking record dot, battery and a focus square that locks on. Text areas for REC, timecode and other readouts.",
   "tags": [
     "camcorder",

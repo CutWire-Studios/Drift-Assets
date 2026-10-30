@@ -6,7 +6,7 @@
   "category": "broadcast",
   "file": "security-cam-frame.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "CCTV surveillance overlay with a transparent centre: corner brackets, blinking record dot, scanlines and flickering static. Add a camera name and timestamp in the text areas.",
   "tags": [
     "cctv",

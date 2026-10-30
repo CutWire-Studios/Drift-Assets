@@ -6,7 +6,7 @@
   "category": "status-icons",
   "file": "screen-recording-pill.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "The red 'screen recording' pill from the iPhone status bar with a blinking dot, and the dark Android recording chip with its own label.",
   "tags": [
     "screen recording",

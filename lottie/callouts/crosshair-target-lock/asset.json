@@ -6,7 +6,7 @@
   "category": "callouts",
   "file": "crosshair-target-lock.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Target brackets that swing in and lock onto a point, with a flash on lock; centre it on the thing you are targeting.",
   "tags": [
     "crosshair",

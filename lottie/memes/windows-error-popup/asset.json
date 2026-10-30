@@ -6,7 +6,7 @@
   "category": "memes",
   "file": "windows-error-popup.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Retro late-90s desktop error dialog with a gradient title bar, red error icon and an OK button that pops in with a small bounce. Put your message beside the icon.",
   "tags": [
     "error",

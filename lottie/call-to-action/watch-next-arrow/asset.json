@@ -6,7 +6,7 @@
   "category": "call-to-action",
   "file": "watch-next-arrow.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Arrow that springs in and nudges towards a video card sliding in from the right; the card has a thumbnail placeholder and room for a title. Type \"Watch next\" or the video title in the card.",
   "tags": [
     "watch next",

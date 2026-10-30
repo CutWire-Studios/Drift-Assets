@@ -6,7 +6,7 @@
   "category": "app-ui",
   "file": "search-bar.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Search box UI with a blinking caret: Google-style pill, one with a suggestions dropdown, and a desktop Spotlight-style launcher. Type the query (and suggestions) in the text areas.",
   "tags": [
     "search",

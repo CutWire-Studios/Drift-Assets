@@ -6,7 +6,7 @@
   "category": "broadcast",
   "file": "tv-static-card.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Full-screen old-TV card: analogue snow, a colour-bar test pattern or a blue no-signal screen, with CRT scanlines. Use as a cutaway or to fake a lost signal; the test card has a text area in its ID box.",
   "tags": [
     "tv static",

@@ -6,7 +6,7 @@
   "category": "callouts",
   "file": "arrow-zigzag.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "A zigzag arrow that zaps across in quick switchbacks and ends pointing up and to the right.",
   "tags": [
     "arrow",

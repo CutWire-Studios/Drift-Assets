@@ -6,7 +6,7 @@
   "category": "status-icons",
   "file": "bluetooth-icon.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Bluetooth rune that switches on: a Control Center-style button that turns blue, or the bare glyph popping in with a ring.",
   "tags": [
     "bluetooth",

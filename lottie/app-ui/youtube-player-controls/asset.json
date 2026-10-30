@@ -6,7 +6,7 @@
   "category": "app-ui",
   "file": "youtube-player-controls.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "YouTube-style video player controls drawn over your footage: a desktop control bar with a red progress bar, time, volume, captions, settings and fullscreen, or the mobile layout with big centred transport buttons.",
   "tags": [
     "youtube",

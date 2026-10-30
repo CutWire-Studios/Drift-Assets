@@ -6,7 +6,7 @@
   "category": "gaming",
   "file": "respawn-ring.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Circular respawn timer: the ring counts down around a centre badge, pulses each second and bursts when it runs out. Put the countdown or label in the centre. One-shot that ends empty.",
   "tags": [
     "respawn",

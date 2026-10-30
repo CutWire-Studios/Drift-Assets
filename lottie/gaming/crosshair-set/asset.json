@@ -6,7 +6,7 @@
   "category": "gaming",
   "file": "crosshair-set.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "FPS crosshair that blooms outward on a shot, kicks with recoil and flashes red hit ticks, then settles, on a loop. Each variant is a different reticle style.",
   "tags": [
     "crosshair",

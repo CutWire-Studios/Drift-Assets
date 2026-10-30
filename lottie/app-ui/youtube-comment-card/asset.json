@@ -6,7 +6,7 @@
   "category": "app-ui",
   "file": "youtube-comment-card.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Comment card in the style of YouTube's dark mode: avatar, @username, time and comment text areas, a like that lights up, dislike and Reply. Great for reading out viewer comments.",
   "tags": [
     "youtube",

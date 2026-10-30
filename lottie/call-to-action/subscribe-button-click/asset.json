@@ -6,7 +6,7 @@
   "category": "call-to-action",
   "file": "subscribe-button-click.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Red subscribe button that pops in, gets clicked by a mouse pointer and turns grey. Put your own \"Subscribe\" text inside the button.",
   "tags": [
     "subscribe",

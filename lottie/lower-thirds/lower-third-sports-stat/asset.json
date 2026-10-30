@@ -6,7 +6,7 @@
   "category": "lower-thirds",
   "file": "lower-third-sports-stat.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Angled sports lower third with a player name bar, a team subtitle strip and a stat box on the right. Put the player in the headline, the team in the subtitle and a number in the stat box.",
   "tags": [
     "lower third",

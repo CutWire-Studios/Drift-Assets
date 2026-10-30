@@ -6,7 +6,7 @@
   "category": "infographics",
   "file": "thermometer.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "A thermometer whose column rises to about 70% against a tick scale. Put the reading in the 'value' area beside the top of the column and a caption in 'label' underneath.",
   "tags": [
     "thermometer",

@@ -6,7 +6,7 @@
   "category": "callouts",
   "file": "callout-arrow-handdrawn.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Curved arrow that sweeps up and to the right as it draws on; point it at whatever you want viewers to notice.",
   "tags": [
     "arrow",

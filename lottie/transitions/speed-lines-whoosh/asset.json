@@ -6,7 +6,7 @@
   "category": "transitions",
   "file": "speed-lines-whoosh.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Speed-line transition: streaks rush across to cover the shot, hold for the cut, then whoosh away to reveal the next clip.",
   "tags": [
     "speed",

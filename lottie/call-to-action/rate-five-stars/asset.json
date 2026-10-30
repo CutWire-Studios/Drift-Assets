@@ -6,7 +6,7 @@
   "category": "call-to-action",
   "file": "rate-five-stars.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Five stars pop in empty, then fill with gold one by one; the last one bursts. Type a rating prompt or review line underneath.",
   "tags": [
     "rating",

@@ -6,7 +6,7 @@
   "category": "broadcast",
   "file": "chat-bubble-stream.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Live chat messages that pop in at the bottom and push the earlier ones up, then hold. Every bubble has its own text areas (name1-4 and message1-4, oldest first).",
   "tags": [
     "chat",

@@ -6,7 +6,7 @@
   "category": "status-icons",
   "file": "verified-badge.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Verified checkmark badge that spins in and draws its tick: a scalloped seal (X / Instagram style), a round badge, and a gold seal.",
   "tags": [
     "verified",

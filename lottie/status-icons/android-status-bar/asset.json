@@ -6,7 +6,7 @@
   "category": "status-icons",
   "file": "android-status-bar.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Android status bar with time, notification dots, Wi-Fi, signal and battery. 'Pixel' uses the slanted signal triangle; 'Galaxy' shows signal bars and a battery percentage. Slides in from the top.",
   "tags": [
     "status bar",

@@ -6,7 +6,7 @@
   "category": "status-icons",
   "file": "do-not-disturb.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Do Not Disturb / focus mode toggle: a purple crescent-moon button that switches on, or the bare moon glyph popping in.",
   "tags": [
     "moon",

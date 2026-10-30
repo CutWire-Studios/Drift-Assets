@@ -5,7 +5,7 @@
   "type": "face-prop",
   "model": "pixel-deal-with-it-glasses.glb",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "8-bit 'deal with it' meme sunglasses built from black voxel blocks with white highlight pixels.",
   "tags": [
     "glasses",

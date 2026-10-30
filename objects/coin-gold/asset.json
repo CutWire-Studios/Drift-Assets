@@ -5,7 +5,7 @@
   "type": "object",
   "file": "coin-gold.glb",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Thick gold coin with a raised rim, embossed stars on both faces and a reeded edge, spinning fast.",
   "tags": [
     "coin",

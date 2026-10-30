@@ -6,7 +6,7 @@
   "category": "gaming",
   "file": "kill-feed-skulls.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Shooter-style kill feed: three rows slide in, each with a weapon icon and a skull (the middle one a headshot). Put the player names left and right of the icons in each row.",
   "tags": [
     "kill feed",

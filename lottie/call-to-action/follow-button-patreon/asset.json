@@ -6,7 +6,7 @@
   "category": "call-to-action",
   "file": "follow-button-patreon.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Patreon app icon with a join button; a pointer clicks it. Put your own \"Join\" text inside the button.",
   "tags": [
     "patreon",

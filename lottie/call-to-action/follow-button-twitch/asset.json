@@ -6,7 +6,7 @@
   "category": "call-to-action",
   "file": "follow-button-twitch.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Twitch follow button with the glitch logo; a pointer clicks it. Put your own \"Follow\" text inside the button.",
   "tags": [
     "follow",

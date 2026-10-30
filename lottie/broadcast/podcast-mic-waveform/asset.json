@@ -6,7 +6,7 @@
   "category": "broadcast",
   "file": "podcast-mic-waveform.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Podcast microphone with a live, looping voice waveform, for audiograms, podcast clips and radio segments.",
   "tags": [
     "podcast",

@@ -6,7 +6,7 @@
   "category": "broadcast",
   "file": "game-show-answer-lozenge.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Quiz-show answer bar with hexagon ends, metallic border and connector lines. Animates in, lights up orange when selected, then flashes green for the correct answer.",
   "tags": [
     "quiz",

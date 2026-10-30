@@ -6,7 +6,7 @@
   "category": "gaming",
   "file": "pixel-hearts-lives.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Three pixel-art hearts; the last one shakes, flashes and shatters, leaving an empty heart (losing a life).",
   "tags": [
     "hearts",

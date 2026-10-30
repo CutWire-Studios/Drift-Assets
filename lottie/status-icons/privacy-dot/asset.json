@@ -6,7 +6,7 @@
   "category": "status-icons",
   "file": "privacy-dot.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "The recording indicators phones show when the microphone or camera is in use: a pulsing dot (orange by default, recolour it green for camera), and Android-style capsule chips with a mic or camera glyph.",
   "tags": [
     "microphone",

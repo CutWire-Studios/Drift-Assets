@@ -6,7 +6,7 @@
   "category": "broadcast",
   "file": "vhs-hud.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Retro VHS on-screen display: RGB-split play triangle, drifting scanlines and a rolling tracking band. Add PLAY next to the triangle and a timestamp bottom-left.",
   "tags": [
     "vhs",

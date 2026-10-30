@@ -6,7 +6,7 @@
   "category": "lower-thirds",
   "file": "lower-third-podcast-guest.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Podcast name bar with a microphone badge and a live audio waveform. Put the guest's name on the first row and their show or role on the second.",
   "tags": [
     "lower third",

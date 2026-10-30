@@ -6,7 +6,7 @@
   "category": "infographics",
   "file": "versus-comparison-bars.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Head-to-head comparison: two sets of bars grow outward from a centre column across three rows. Put the two names in 'nameA'/'nameB', the row topics in 'label1'-'label3' and the numbers in 'valueA1'-'valueA3' and 'valueB1'-'valueB3'.",
   "tags": [
     "versus",

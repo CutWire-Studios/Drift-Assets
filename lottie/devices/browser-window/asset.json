@@ -6,7 +6,7 @@
   "category": "devices",
   "file": "browser-window.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Web browser window with a tab strip and address bar, or a minimal address-bar toolbar. Pops in with a transparent body so a website recording shows through; type the URL in the address text area.",
   "tags": [
     "browser",

@@ -6,7 +6,7 @@
   "category": "infographics",
   "file": "todo-list-progress.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "A four-item checklist whose rows tick off one by one while a progress bar at the top steps up to 75%. Put the list name in 'title', the percentage in 'value' and each task in 'item1'-'item4'.",
   "tags": [
     "todo",

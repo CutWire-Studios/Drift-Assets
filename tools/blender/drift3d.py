@@ -22,7 +22,7 @@ import bmesh
 from mathutils import Vector
 
 REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-LICENSE = "CC-BY-NC-SA-4.0"
+LICENSE = "CC0-1.0"
 THUMB_SIZE = 512
 THUMB_BG = (0x1c / 255, 0x1c / 255, 0x22 / 255)
 

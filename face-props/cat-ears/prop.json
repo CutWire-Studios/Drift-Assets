@@ -5,7 +5,7 @@
   "type": "face-prop",
   "model": "cat-ears.glb",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Cat ears with pink inners on a thin headband.",
   "tags": [
     "cat",

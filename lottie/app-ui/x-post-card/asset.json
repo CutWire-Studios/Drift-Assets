@@ -6,7 +6,7 @@
   "category": "app-ui",
   "file": "x-post-card.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Dark-mode X (Twitter) post card: avatar, name, handle, post text, optional media window and the action row, with an animated like. Type the name, handle and post text in the text areas.",
   "tags": [
     "twitter",

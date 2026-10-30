@@ -6,7 +6,7 @@
   "category": "infographics",
   "file": "line-chart-draw.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "A line chart that draws itself across a grid with points popping in and the area filling beneath. Put the chart title in 'title', the highlight number in 'value' and the axis labels in 'label1'-'label6'.",
   "tags": [
     "line",

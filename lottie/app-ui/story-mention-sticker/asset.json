@@ -6,7 +6,7 @@
   "category": "app-ui",
   "file": "story-mention-sticker.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Story @mention sticker: a rounded pill with a big @ sign, in white or solid colour. Type the username in the text area.",
   "tags": [
     "mention",

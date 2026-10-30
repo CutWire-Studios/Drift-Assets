@@ -6,7 +6,7 @@
   "category": "callouts",
   "file": "number-badge-circle.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Round step badge for numbered lists and tutorials; type the step number in the middle.",
   "tags": [
     "number",

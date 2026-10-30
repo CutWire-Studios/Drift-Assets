@@ -6,7 +6,7 @@
   "category": "call-to-action",
   "file": "like-thumb-pop.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Thumbs-up like reaction that pops in and bounces with a particle burst.",
   "tags": [
     "like",

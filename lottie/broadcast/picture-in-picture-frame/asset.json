@@ -6,7 +6,7 @@
   "category": "broadcast",
   "file": "picture-in-picture-frame.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Picture-in-picture window frame with a transparent inside that pops out from its corner, holds (stretchable) and tucks away. Place your second video inside and a name in the label.",
   "tags": [
     "picture in picture",

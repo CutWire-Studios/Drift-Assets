@@ -6,7 +6,7 @@
   "category": "call-to-action",
   "file": "end-screen-subscribe-grid.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "End-screen layout: a round channel-avatar placeholder with a subscribe pill and two 16:9 video-card placeholders that draw in. Drop your videos over the cards and type into the named text areas (subscribe, video1, video2 titles).",
   "tags": [
     "end screen",

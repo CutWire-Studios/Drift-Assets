@@ -6,7 +6,7 @@
   "category": "callouts",
   "file": "highlight-marker-swipe.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "A highlight band swiped in behind a word or line of text to make it stand out.",
   "tags": [
     "highlight",

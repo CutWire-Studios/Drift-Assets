@@ -6,7 +6,7 @@
   "category": "call-to-action",
   "file": "notifications-toggle-on.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Settings-style card with a bell and a switch; a tap flips the switch on and the bell rings. Type \"Turn on notifications\" between the bell and the switch.",
   "tags": [
     "notifications",

@@ -6,7 +6,7 @@
   "category": "broadcast",
   "file": "audio-visualizer-bars.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Looping music equalizer bars for podcasts, music clips and audiograms. The circular variant leaves room in the centre for a name or logo.",
   "tags": [
     "equalizer",

@@ -6,7 +6,7 @@
   "category": "broadcast",
   "file": "phone-story-frame.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Full-screen vertical story overlay: animated progress segments, an avatar circle and a reply bar around a transparent centre. Add the account name next to the avatar and a reply prompt in the bar.",
   "tags": [
     "story",

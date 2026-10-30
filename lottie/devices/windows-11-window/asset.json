@@ -6,7 +6,7 @@
   "category": "devices",
   "file": "windows-11-window.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Windows 11 window frame with Mica-style title bar and caption buttons that pops in. The body is a real cut-out for your screen recording or footage.",
   "tags": [
     "windows",

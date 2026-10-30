@@ -6,7 +6,7 @@
   "category": "gaming",
   "file": "coin-counter-burst.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "A burst of coins arcs through the air and flies into a counter badge, which pulses as each one lands. Put the count inside the counter.",
   "tags": [
     "coins",

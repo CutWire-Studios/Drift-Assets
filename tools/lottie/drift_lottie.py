@@ -40,7 +40,7 @@ from lottie_kit import Comp  # noqa: E402
 REPO = os.path.abspath(os.path.join(HERE, "..", ".."))
 RENDER = os.environ.get("DRIFT_SKOTTIE") or os.path.join(REPO, "tools", "skottie-render", "build", "skottie-render")
 STAGE = os.path.join(REPO, ".preview-frames")
-LICENSE = "CC-BY-NC-SA-4.0"
+LICENSE = "CC0-1.0"
 PLAYBACKS = ("loop", "intro-hold", "intro-hold-outro")
 SLOT_IDS = ("primary", "secondary", "accent", "background", "icon", "outline")
 PREVIEW_HEIGHT = 180

@@ -6,7 +6,7 @@
   "category": "app-ui",
   "file": "spotify-now-playing.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Spotify-style music player in dark mode: a full now-playing card, the mini player bar, and an equalizer sticker. Add the song title and artist in the text areas; album art is a placeholder tile.",
   "tags": [
     "spotify",

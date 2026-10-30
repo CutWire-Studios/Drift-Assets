@@ -6,7 +6,7 @@
   "category": "infographics",
   "file": "progress-bar.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "A progress bar that fills to about 70% with a glinting leading edge. Put the label in the 'label' area and the percentage in the 'value' area above the bar.",
   "tags": [
     "progress",

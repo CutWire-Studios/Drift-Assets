@@ -6,7 +6,7 @@
   "category": "broadcast",
   "file": "video-call-grid-frame.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Full-frame 2x2 video-call overlay with transparent tiles: name tags with mic icons and a speaking ring that moves from tile to tile. Put four clips under the tiles and the names in name1-4.",
   "tags": [
     "video call",

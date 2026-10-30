@@ -6,7 +6,7 @@
   "category": "infographics",
   "file": "timeline-dots.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Horizontal timeline whose line draws across and four milestone dots pop in sequence. Put the dates in 'date1'-'date4' above the dots and the milestone names in 'label1'-'label4' below.",
   "tags": [
     "timeline",

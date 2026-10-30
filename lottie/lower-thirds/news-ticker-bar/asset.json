@@ -6,7 +6,7 @@
   "category": "lower-thirds",
   "file": "news-ticker-bar.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Full-width news ticker bar with a red tag block and a pulsing live indicator; add scrolling text on top. Seamless loop.",
   "tags": [
     "news",

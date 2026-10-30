@@ -6,7 +6,7 @@
   "category": "infographics",
   "file": "star-rating.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Five rating stars that pop in one by one, the last one half filled for a 4.5 score. Put the score in the 'value' area to the right.",
   "tags": [
     "rating",

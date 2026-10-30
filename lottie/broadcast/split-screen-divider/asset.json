@@ -6,7 +6,7 @@
   "category": "broadcast",
   "file": "split-screen-divider.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Full-frame split-screen overlay: an animated divider between two halves with a centre badge ready for VS or OR. It animates in, holds (stretchable) and animates out.",
   "tags": [
     "split screen",

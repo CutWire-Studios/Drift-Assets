@@ -6,7 +6,7 @@
   "category": "callouts",
   "file": "warning-triangle-pulse.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "A warning triangle with an exclamation mark that keeps pulsing to grab attention; loops seamlessly.",
   "tags": [
     "warning",

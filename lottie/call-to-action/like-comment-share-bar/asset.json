@@ -6,7 +6,7 @@
   "category": "call-to-action",
   "file": "like-comment-share-bar.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Short-video style sidebar: like, comment and share icons pop in one by one, then the like is tapped and fills red with a burst. Type your counts under each icon.",
   "tags": [
     "like",

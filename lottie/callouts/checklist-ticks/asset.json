@@ -6,7 +6,7 @@
   "category": "callouts",
   "file": "checklist-ticks.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Three checklist rows whose boxes get ticked one after another; type an item next to each box.",
   "tags": [
     "checklist",

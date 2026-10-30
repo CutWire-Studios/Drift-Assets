@@ -6,7 +6,7 @@
   "category": "app-ui",
   "file": "youtube-shorts-overlay.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Vertical-video player overlay in the style of YouTube Shorts: right rail (like, dislike, comment, share, remix), channel avatar with a white Subscribe pill, caption area and a red progress line.",
   "tags": [
     "youtube shorts",

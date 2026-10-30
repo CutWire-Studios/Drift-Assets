@@ -6,7 +6,7 @@
   "category": "app-ui",
   "file": "whatsapp-chat-bubbles.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "WhatsApp message bubbles: green sent bubbles with blue read ticks and white received bubbles with the little tail, in one- and two-line sizes. They pop from their tail; type the message in the text area.",
   "tags": [
     "whatsapp",

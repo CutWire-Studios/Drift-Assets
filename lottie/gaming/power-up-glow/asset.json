@@ -6,7 +6,7 @@
   "category": "gaming",
   "file": "power-up-glow.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "A glowing power-up orb hovers, gets absorbed in a flash and sends rings of energy rising up, like a character powering up. One-shot that ends empty.",
   "tags": [
     "power up",

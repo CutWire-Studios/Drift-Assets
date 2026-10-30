@@ -6,7 +6,7 @@
   "category": "status-icons",
   "file": "notification-badge.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Red unread-count badge that pops in: a round bubble, a wide pill for big counts, and one stuck to a wiggling bell. Type the number in the text area.",
   "tags": [
     "notification",

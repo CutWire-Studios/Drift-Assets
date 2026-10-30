@@ -6,7 +6,7 @@
   "category": "transitions",
   "file": "liquid-blob.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Gooey liquid transition: a wobbling blob swells over the shot, holds for the cut, then opens up onto the next clip.",
   "tags": [
     "liquid",

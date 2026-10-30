@@ -6,7 +6,7 @@
   "category": "gaming",
   "file": "controller-button-prompts.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "A row of four face-button prompts with triangle, circle, cross and square glyphs; each one is pressed in turn on a loop. Put the action label to the right.",
   "tags": [
     "controller",

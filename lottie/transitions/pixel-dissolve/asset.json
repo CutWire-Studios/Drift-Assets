@@ -6,7 +6,7 @@
   "category": "transitions",
   "file": "pixel-dissolve.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Pixel transition: square pixels fill in to cover the shot, hold for the cut, then dissolve away to reveal the next clip.",
   "tags": [
     "pixel",

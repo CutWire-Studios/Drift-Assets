@@ -6,7 +6,7 @@
   "category": "status-icons",
   "file": "wifi-signal.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Wi-Fi signal icon: arcs light up one by one and hold, in a flat iOS-style cut, with rounded Android strokes, or a looping 'searching' sweep.",
   "tags": [
     "wifi",

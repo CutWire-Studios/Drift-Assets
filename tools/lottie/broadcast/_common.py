@@ -35,7 +35,7 @@ def finish(comp, category, asset_id, name, description, tags, playback, text_are
     subprocess.run(cmd, check=True)
     meta = {
         "schema": 1, "id": asset_id, "name": name, "type": "lottie", "category": category,
-        "file": js.name, "thumbnail": "thumbnail.png", "license": "CC-BY-NC-SA-4.0",
+        "file": js.name, "thumbnail": "thumbnail.png", "license": "CC0-1.0",
         "description": description, "tags": tags, "width": comp.w, "height": comp.h,
         "fps": comp.fps, "duration": round(comp.frames / comp.fps, 3), "playback": playback,
         "slots": {k: _hex(v["p"]["k"]) for k, v in comp.slots.items()},

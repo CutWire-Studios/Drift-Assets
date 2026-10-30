@@ -6,7 +6,7 @@
   "category": "broadcast",
   "file": "cinema-letterbox-bars.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Full-frame letterbox bars that slide in to a widescreen 2.39:1 picture, hold (stretchable) and slide out. Optional title and caption text areas sit inside the bars.",
   "tags": [
     "letterbox",

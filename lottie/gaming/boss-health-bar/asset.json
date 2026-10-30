@@ -6,7 +6,7 @@
   "category": "gaming",
   "file": "boss-health-bar.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Wide boss health bar that draws in, fills up and then drains in three chunks with a white flash and a delayed damage trail. Put the boss name above the bar.",
   "tags": [
     "boss",

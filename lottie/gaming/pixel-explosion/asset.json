@@ -6,7 +6,7 @@
   "category": "gaming",
   "file": "pixel-explosion.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Pixel-art explosion burst that plays out sprite by sprite and ends empty. Drop it on a hit, a kill or a jump cut.",
   "tags": [
     "explosion",

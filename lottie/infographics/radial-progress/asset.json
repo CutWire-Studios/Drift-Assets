@@ -6,7 +6,7 @@
   "category": "infographics",
   "file": "radial-progress.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "A progress ring that sweeps to about 70%. Put the percentage in the 'value' area in the centre and a short caption in the 'label' area under it.",
   "tags": [
     "progress",

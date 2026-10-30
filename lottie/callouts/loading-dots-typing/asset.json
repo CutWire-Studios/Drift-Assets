@@ -6,7 +6,7 @@
   "category": "callouts",
   "file": "loading-dots-typing.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "A chat \"someone is typing\" indicator: three dots ripple inside a message bubble, looping seamlessly.",
   "tags": [
     "typing",

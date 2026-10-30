@@ -6,7 +6,7 @@
   "category": "lower-thirds",
   "file": "lower-third-terminal-bracket.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Code-style lower third with brackets, a prompt chevron and a blinking cursor block. Type your name on the first row and a handle or topic on the second.",
   "tags": [
     "lower third",

@@ -6,7 +6,7 @@
   "category": "status-icons",
   "file": "mute-bell.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Muted notification bell with a slash: a red Control Center-style button, or the bare crossed-out bell popping in.",
   "tags": [
     "mute",

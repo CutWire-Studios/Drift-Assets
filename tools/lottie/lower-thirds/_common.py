@@ -62,7 +62,7 @@ def build(comp, aid, name, description, tags, text_areas, thumb_t=0.5, bg=None,
     areas = list(text_areas.values())
     meta = {
         "schema": 1, "id": aid, "name": name, "type": "lottie", "category": CATEGORY,
-        "file": f"{aid}.json", "thumbnail": "thumbnail.png", "license": "CC-BY-NC-SA-4.0",
+        "file": f"{aid}.json", "thumbnail": "thumbnail.png", "license": "CC0-1.0",
         "description": description, "tags": tags,
         "width": comp.w, "height": comp.h, "fps": comp.fps, "duration": comp.frames / comp.fps,
         "playback": playback,

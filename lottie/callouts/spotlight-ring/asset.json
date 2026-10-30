@@ -6,7 +6,7 @@
   "category": "callouts",
   "file": "spotlight-ring.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "A ring that keeps pulsing around a subject to draw the eye to it; place it over whatever you want to spotlight.",
   "tags": [
     "spotlight",

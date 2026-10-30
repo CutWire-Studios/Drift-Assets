@@ -6,7 +6,7 @@
   "category": "infographics",
   "file": "bar-chart-grow.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Five-bar chart whose bars grow from the baseline with a staggered overshoot. Put the category names in 'label1'-'label5' under the bars and the numbers in 'value1'-'value5' above them.",
   "tags": [
     "bar",

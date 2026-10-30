@@ -6,7 +6,7 @@
   "category": "gaming",
   "file": "loading-spinner-game.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Stylised game loading spinner on a loop, with room for a \"Loading\" label underneath.",
   "tags": [
     "loading",

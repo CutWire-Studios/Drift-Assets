@@ -6,7 +6,7 @@
   "category": "transitions",
   "file": "film-burn-shapes.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Film burn transition: burn holes with glowing edges spread over the shot, hold on the scorched frame for the cut, then burn through to reveal the next clip.",
   "tags": [
     "film",

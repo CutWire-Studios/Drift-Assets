@@ -6,7 +6,7 @@
   "category": "broadcast",
   "file": "on-air-light.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Studio ON AIR lamp that flickers on and glows. Type ON AIR (or LIVE, RECORDING...) inside the lit face with the text tool.",
   "tags": [
     "on air",

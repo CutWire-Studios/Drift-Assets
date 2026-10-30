@@ -6,7 +6,7 @@
   "category": "infographics",
   "file": "volume-meter.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "A looping audio level meter that bounces to an imaginary beat. Put a caption such as the track or speaker name in the 'label' area.",
   "tags": [
     "volume",

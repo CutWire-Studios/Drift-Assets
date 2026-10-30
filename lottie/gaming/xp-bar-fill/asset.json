@@ -6,7 +6,7 @@
   "category": "gaming",
   "file": "xp-bar-fill.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Experience bar that fills up with a sparkle riding its leading edge, flashes on level-up and starts the next level. Put the level number in the badge and a label above the bar.",
   "tags": [
     "xp",

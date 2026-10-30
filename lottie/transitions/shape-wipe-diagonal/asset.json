@@ -6,7 +6,7 @@
   "category": "transitions",
   "file": "shape-wipe-diagonal.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Full-frame diagonal wipe: a tilted slab slides across to cover the shot, holds for the cut and slides off to reveal the next clip.",
   "tags": [
     "wipe",

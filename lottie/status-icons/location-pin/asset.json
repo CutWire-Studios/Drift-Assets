@@ -6,7 +6,7 @@
   "category": "status-icons",
   "file": "location-pin.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Map location marker: a pin that drops in, squashes and ripples, or the blue 'you are here' dot with a pulsing accuracy circle.",
   "tags": [
     "location",

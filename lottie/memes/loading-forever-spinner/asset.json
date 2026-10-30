@@ -6,7 +6,7 @@
   "category": "memes",
   "file": "loading-forever-spinner.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "A buffering spinner that loops forever and never finishes loading. Drop it over a frozen moment for the eternal-buffering joke.",
   "tags": [
     "loading",

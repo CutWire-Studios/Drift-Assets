@@ -6,7 +6,7 @@
   "category": "app-ui",
   "file": "story-poll-sticker.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Story-style poll sticker: a white card with a question area and two answer pills; the winning pill fills with colour. Type the question and the two answers in the text areas.",
   "tags": [
     "poll",

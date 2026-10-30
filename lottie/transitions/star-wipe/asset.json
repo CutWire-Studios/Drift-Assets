@@ -6,7 +6,7 @@
   "category": "transitions",
   "file": "star-wipe.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Star-shaped iris transition: a spinning star zooms in to cover the shot, holds for the cut, then opens onto the next clip.",
   "tags": [
     "star",

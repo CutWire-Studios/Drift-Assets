@@ -6,7 +6,7 @@
   "category": "call-to-action",
   "file": "subscribe-bell-combo.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Like, subscribe and bell in a row: a pointer taps the thumb (fills blue), the subscribe pill (turns grey) and the bell (rings). Put your own \"Subscribe\" text inside the pill.",
   "tags": [
     "subscribe",

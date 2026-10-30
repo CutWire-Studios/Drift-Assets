@@ -6,7 +6,7 @@
   "category": "status-icons",
   "file": "battery-ios.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "iPhone-style battery indicator: it drains with a counting percentage and turns red at 20%, charges up with a green bolt, or pulses at low charge. The percentage is part of the animation.",
   "tags": [
     "battery",

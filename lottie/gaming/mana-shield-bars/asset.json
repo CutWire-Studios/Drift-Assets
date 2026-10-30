@@ -6,7 +6,7 @@
   "category": "gaming",
   "file": "mana-shield-bars.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Stacked shield and mana bars on a loop: the shield takes a hit and recharges while mana is spent and regenerates. Put the values to the right of each bar.",
   "tags": [
     "mana",

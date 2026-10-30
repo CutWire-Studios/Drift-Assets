@@ -6,7 +6,7 @@
   "category": "infographics",
   "file": "clock-tick.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Looping analog clock with a moving hand. Put a caption such as a time, deadline or duration in the 'label' area under the clock.",
   "tags": [
     "clock",

@@ -6,7 +6,7 @@
   "category": "app-ui",
   "file": "story-link-sticker.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Story link sticker: a white pill with a chain icon and the word LINK, or a solid blue pill with the chain; the pill pops in with a rotation and a gentle pulse. Type the link text in the text area.",
   "tags": [
     "link",

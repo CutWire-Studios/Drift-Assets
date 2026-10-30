@@ -6,7 +6,7 @@
   "category": "devices",
   "file": "macos-window.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "macOS window frame with traffic-light buttons that pops in. The window body is a real cut-out so your screen recording or footage shows through; Terminal has a solid body.",
   "tags": [
     "macos",

@@ -186,9 +186,11 @@ Every asset sits in its own folder with a 512x512 `thumbnail.png` and a metadata
 
 ## License
 
-The assets and scripts in this repository are licensed under
-[CC BY-NC-SA 4.0](LICENSE). Give credit ("Drift Assets"), don't use them commercially, and share
-adaptations under the same license.
+The assets and scripts in this repository are dedicated to the public domain under
+[CC0 1.0](LICENSE). Use them for anything, including commercial work, without attribution.
+
+The Inter font files in `tools/lottie/fonts/` keep their own license (SIL OFL, see
+`Inter-OFL.txt`).
 
 **Trademarks:** some assets show third-party logos (YouTube, TikTok, Instagram, X, Twitch). The
 logos remain trademarks of their owners and are **not** covered by the CC license. Use them only in

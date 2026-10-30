@@ -6,7 +6,7 @@
   "category": "broadcast",
   "file": "scoreboard-bug.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Sports score bug with two team colour chips, empty team-name, score and clock boxes. Text area covers the whole bar; place names, scores and clock inside their boxes.",
   "tags": [
     "scoreboard",

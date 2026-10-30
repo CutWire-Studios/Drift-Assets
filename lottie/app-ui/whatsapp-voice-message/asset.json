@@ -6,7 +6,7 @@
   "category": "app-ui",
   "file": "whatsapp-voice-message.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "WhatsApp voice-note bubble with a play button, a waveform that fills as it plays, a sliding scrubber and the speaker's avatar. Plays once and holds.",
   "tags": [
     "whatsapp",

@@ -6,7 +6,7 @@
   "category": "transitions",
   "file": "bubble-pop.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Bubble transition: round bubbles pop in to fill the shot, hold for the cut, then burst away to reveal the next clip.",
   "tags": [
     "bubbles",

@@ -6,7 +6,7 @@
   "category": "app-ui",
   "file": "messenger-chat-window.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Empty Messenger conversation screen: header with avatar, 'Active now' dot, call / video / info buttons and the message bar with a Like button. Put the name in the name area and stack the Messenger bubbles in the chat area.",
   "tags": [
     "messenger",

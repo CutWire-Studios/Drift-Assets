@@ -6,7 +6,7 @@
   "category": "infographics",
   "file": "calendar-flip.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "A desk calendar whose pages flip over to land on a new date. Put the month in the 'month' area on the header and the day or date in the big 'day' area on the page.",
   "tags": [
     "calendar",

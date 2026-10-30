@@ -6,7 +6,7 @@
   "category": "gaming",
   "file": "combo-meter.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Combo gauge that pumps up with every hit and bursts when it maxes out. Put the combo multiplier in the text area.",
   "tags": [
     "combo",

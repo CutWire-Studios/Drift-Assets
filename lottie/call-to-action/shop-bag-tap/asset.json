@@ -6,7 +6,7 @@
   "category": "call-to-action",
   "file": "shop-bag-tap.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Shopping bag icon that a pointer taps; a cart badge pops onto its corner. Type \"Shop now\" in the pill and a count in the badge (the \"count\" text area).",
   "tags": [
     "shop",

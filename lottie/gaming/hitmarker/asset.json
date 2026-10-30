@@ -6,7 +6,7 @@
   "category": "gaming",
   "file": "hitmarker.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "FPS-style hitmarker: four white diagonal ticks snap in with a scale punch and fade out. One-shot (0.4 s) that ends empty; stack copies on each hit.",
   "tags": [
     "hitmarker",

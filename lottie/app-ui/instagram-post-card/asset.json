@@ -6,7 +6,7 @@
   "category": "app-ui",
   "file": "instagram-post-card.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Instagram-style feed post with a real cut-out for your photo or video, a story-ring avatar, action icons and a double-tap heart that likes the post. Type the username, likes and caption in the text areas.",
   "tags": [
     "instagram",

@@ -6,7 +6,7 @@
   "category": "broadcast",
   "file": "rec-camera-frame.json",
   "thumbnail": "thumbnail.png",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "CC0-1.0",
   "description": "Camcorder viewfinder overlay: corner brackets, blinking red REC dot, battery and crosshair. Add REC next to the dot with the text tool.",
   "tags": [
     "rec",
